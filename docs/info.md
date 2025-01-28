@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-The device will amplify the difference of inputs
+The device will amplify the difference of the inputs
 
 ## How to test
 
