@@ -22,7 +22,7 @@ module tt_um_DalinEM_diff_amp (
 
 
 
-diff_final_v0(.vcc(VDPWR),.vss(VGND),.vout(ua[1]),.vin+(ua[2]),.vin-(ua[3]),.vb(ua[4]))
+diff_final_v0(.vcc(VDPWR),.vss(VGND),.vout(ua[0]),.vin+(ua[1]),.vin-(ua[2]),.vb(ua[3]))
     
     assign uo_out[0] = VGND;
     assign uo_out[1] = VGND;
