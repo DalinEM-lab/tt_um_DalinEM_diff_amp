@@ -1,4 +1,4 @@
-timestamp 1738038898
+timestamp 1738107480
 version 8.3
 tech sky130A
 style ngspice()
@@ -112,62 +112,62 @@ equiv "VGND" "uio_oe[0]"
 node "VDPWR" 6 20852.7 31400 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 412567 2866 318002 2394 17818800 89894 0 0 0 0
 node "ua[0]" 3 2619.12 30362 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 126980 2362 55360 1012 60480 1032 941400 10820 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "VGND" "ua[5]" 16.6372
-cap "VGND" "ua[7]" 16.6372
-cap "uio_in[7]" "uio_in[6]" 31.0231
-cap "uio_in[0]" "ui_in[7]" 31.0231
-cap "uio_in[1]" "uio_in[2]" 31.0231
-cap "VGND" "ua[3]" 770.639
+cap "ua[7]" "VGND" 16.6372
+cap "VGND" "ua[4]" 4.67684
+cap "ui_in[7]" "ui_in[6]" 31.0231
 cap "clk" "ena" 31.0231
 cap "ui_in[3]" "ui_in[2]" 31.0231
-cap "ui_in[2]" "ui_in[1]" 31.0231
-cap "uio_in[6]" "uio_in[5]" 31.0231
-cap "ui_in[6]" "ui_in[5]" 31.0231
-cap "ui_in[6]" "ui_in[7]" 31.0231
-cap "ui_in[4]" "ui_in[3]" 31.0231
-cap "ua[3]" "ua[2]" 60.5475
-cap "uio_in[2]" "uio_in[3]" 31.0231
-cap "ua[0]" "VDPWR" 438.616
-cap "ui_in[4]" "ui_in[5]" 31.0231
-cap "VGND" "ua[6]" 16.6372
-cap "uio_in[4]" "uio_in[3]" 31.0231
+cap "uio_in[3]" "uio_in[4]" 31.0231
 cap "ui_in[0]" "rst_n" 31.0231
+cap "VDPWR" "ua[0]" 438.616
+cap "uio_in[6]" "uio_in[5]" 31.0231
 cap "ui_in[0]" "ui_in[1]" 31.0231
-cap "uio_in[1]" "uio_in[0]" 31.0231
-cap "uio_in[4]" "uio_in[5]" 31.0231
-cap "rst_n" "clk" 31.0231
+cap "ua[6]" "VGND" 16.6372
+cap "ui_in[5]" "ui_in[4]" 31.0231
 cap "VGND" "uio_in[7]" 31.0231
-cap "VGND" "ua[4]" 4.67684
+cap "ui_in[5]" "ui_in[6]" 31.0231
+cap "ua[3]" "ua[2]" 60.5475
+cap "uio_in[2]" "uio_in[1]" 31.0231
+cap "uio_in[2]" "uio_in[3]" 31.0231
+cap "VGND" "ua[5]" 16.6372
+cap "uio_in[0]" "uio_in[1]" 31.0231
+cap "uio_in[6]" "uio_in[7]" 31.0231
+cap "ui_in[3]" "ui_in[4]" 31.0231
+cap "clk" "rst_n" 31.0231
+cap "ua[3]" "VGND" 770.639
+cap "ui_in[7]" "uio_in[0]" 31.0231
+cap "ui_in[2]" "ui_in[1]" 31.0231
+cap "uio_in[5]" "uio_in[4]" 31.0231
 cap "diff_final_v0_0/vb" "diff_final_v0_0/vss" -5.68434e-14
-cap "diff_final_v0_0/vin-" "diff_final_v0_0/vss" 16.2512
 cap "diff_final_v0_0/vb" "diff_final_v0_0/vss" 359.854
-cap "diff_final_v0_0/vb" "diff_final_v0_0/vin-" 9.29585
-cap "diff_final_v0_0/XM2/a_n1258_n600#" "diff_final_v0_0/vin-" 8.99809
-cap "diff_final_v0_0/vin-" "diff_final_v0_0/vb" -3.62853
-cap "diff_final_v0_0/vin-" "diff_final_v0_0/vss" 97.4648
-cap "diff_final_v0_0/XM8/a_n1258_n600#" "diff_final_v0_0/vin+" 0.00303777
-cap "diff_final_v0_0/vin+" "diff_final_v0_0/vss" 92.0189
-cap "diff_final_v0_0/vss" "ua[0]" 0.174352
-cap "ua[0]" "diff_final_v0_0/vss" 0.682791
+cap "diff_final_v0_0/vb" "diff_final_v0_0/vin_n" 9.29585
+cap "diff_final_v0_0/vin_n" "diff_final_v0_0/vss" 16.2512
+cap "diff_final_v0_0/vb" "diff_final_v0_0/vin_n" -3.62853
+cap "diff_final_v0_0/vin_n" "diff_final_v0_0/vss" 97.4648
+cap "diff_final_v0_0/XM2/a_n1258_n600#" "diff_final_v0_0/vin_n" 8.99809
+cap "diff_final_v0_0/vin_p" "diff_final_v0_0/XM8/a_n1258_n600#" 0.00303777
+cap "diff_final_v0_0/vin_p" "diff_final_v0_0/vss" 92.0189
+cap "ua[0]" "diff_final_v0_0/vss" 0.174352
+cap "diff_final_v0_0/vss" "ua[0]" 0.682791
+cap "diff_final_v0_0/vb" "diff_final_v0_0/vin_n" 0.117048
 cap "diff_final_v0_0/XM2/a_n1258_n600#" "diff_final_v0_0/vss" -2.22045e-16
-cap "diff_final_v0_0/vin-" "diff_final_v0_0/vb" 0.117048
 cap "diff_final_v0_0/vb" "diff_final_v0_0/vss" 1.15759
-cap "ua[0]" "diff_final_v0_0/vss" 0.701415
-cap "ua[0]" "diff_final_v0_0/vss" 2.74686
+cap "diff_final_v0_0/vss" "ua[0]" 0.701415
+cap "diff_final_v0_0/vss" "ua[0]" 2.74686
 cap "diff_final_v0_0/vss" "diff_final_v0_0/vout" 0.701415
-cap "diff_final_v0_0/vss" "diff_final_v0_0/vout" 2.74686
-cap "diff_final_v0_0/vss" "diff_final_v0_0/vout" 0.318643
-cap "diff_final_v0_0/vcc" "diff_final_v0_0/vout" 26.5517
-cap "diff_final_v0_0/XM6/a_n1800_n277#" "diff_final_v0_0/vout" 16.5248
+cap "diff_final_v0_0/vout" "diff_final_v0_0/vss" 2.74686
+cap "diff_final_v0_0/vout" "diff_final_v0_0/vss" 0.318643
+cap "diff_final_v0_0/vout" "diff_final_v0_0/XM6/a_n1800_n277#" 13.1761
+cap "diff_final_v0_0/vcc" "diff_final_v0_0/vout" -5.68434e-14
 cap "diff_final_v0_0/vout" "diff_final_v0_0/XM6/a_n1800_n277#" 17.1915
 cap "diff_final_v0_0/vout" "diff_final_v0_0/vss" 1.24786
-cap "diff_final_v0_0/vcc" "diff_final_v0_0/vout" 12.0712
-cap "diff_final_v0_0/vcc" "diff_final_v0_0/vout" 0.0343799
-cap "diff_final_v0_0/vcc" "diff_final_v0_0/vout" 0.0164716
-merge "diff_final_v0_0/vcc" "VDPWR" -909.227 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -800 0 0 -560000 -2800 0 0 0 0
+cap "diff_final_v0_0/vout" "diff_final_v0_0/vcc" 0.00222593
+cap "diff_final_v0_0/vout" "diff_final_v0_0/vcc" -1.13687e-13
+cap "diff_final_v0_0/vcc" "diff_final_v0_0/vout" 0.000844367
+merge "diff_final_v0_0/vcc" "VDPWR" -909.037 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -800 0 0 -560000 -2800 0 0 0 0
 merge "diff_final_v0_0/vss" "VSUBS" -151.215 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -399 -800 0 0 0 0 0 0 0 0
 merge "VSUBS" "VGND"
-merge "diff_final_v0_0/vout" "ua[0]" -122.632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -400 -208 0 0 0 0 0 0 0 0 0 0
+merge "diff_final_v0_0/vout" "ua[0]" -167.505 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14800 -496 0 0 0 0 0 0 0 0 0 0
 merge "diff_final_v0_0/vb" "ua[3]" -252.824 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11880 -492 0 0 0 0 0 0
-merge "diff_final_v0_0/vin+" "ua[1]" -270.253 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11700 -490 0 0 0 0 0 0
-merge "diff_final_v0_0/vin-" "ua[2]" -182.565 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15120 -528 0 0 0 0 0 0
+merge "diff_final_v0_0/vin_n" "ua[2]" -182.565 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15120 -528 0 0 0 0 0 0
+merge "diff_final_v0_0/vin_p" "ua[1]" -270.253 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11700 -490 0 0 0 0 0 0

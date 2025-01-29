@@ -55,10 +55,10 @@ pinout:
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
   ua[0]: "vout"
-  ua[1]: "vin+"
-  ua[2]: "vin-"
+  ua[1]: "vin_p"
+  ua[2]: "vin_n"
   ua[3]: "vb"
-  
+  ua[4]: ""
 
 # Do not change!
 yaml_version: 6
