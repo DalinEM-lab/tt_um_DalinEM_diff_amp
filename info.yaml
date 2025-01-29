@@ -58,6 +58,14 @@ pinout:
   ua[1]: "vin_p"
   ua[2]: "vin_n"
   ua[3]: "vb"
+  ua[4]: ""
+  ua[5]: ""
+  ua[6]: ""
+  ua[7]: ""
+
+
+
+
  
 
 # Do not change!
