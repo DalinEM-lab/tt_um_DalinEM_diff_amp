@@ -58,7 +58,7 @@ pinout:
   ua[1]: "vin_p"
   ua[2]: "vin_n"
   ua[3]: "vb"
-  ua[4]: ""
+ 
 
 # Do not change!
 yaml_version: 6
