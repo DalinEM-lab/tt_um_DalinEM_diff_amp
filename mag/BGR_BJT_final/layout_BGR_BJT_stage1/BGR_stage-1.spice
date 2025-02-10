@@ -1,0 +1,69 @@
+* NGSPICE file created from BGR_stage-1.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2 a_100_n400# a_n158_n400# a_n100_n488# VSUBS
+X0 a_100_n400# a_n100_n488# a_n158_n400# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_QP6UW5 w_n296_n339# a_100_n120# a_n100_n217# a_n158_n120#
+X0 a_100_n120# a_n100_n217# a_n158_n120# w_n296_n339# sky130_fd_pr__pfet_01v8_lvt ad=0.348 pd=2.98 as=0.348 ps=2.98 w=1.2 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_SCQJZQ a_100_n50# a_n158_n50# w_n194_n150# a_n100_n147#
+X0 a_100_n50# a_n100_n147# a_n158_n50# w_n194_n150# sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=1
+.ends
+
+.subckt BGR_stage-1 vcc vss vref0 vr
+XXM12 vr vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM23 m1_9688_899# vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM34 m1_9688_899# vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM45 m1_9688_899# vss m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM13 vss m1_9678_328# m1_9678_328# m1_9678_328# sky130_fd_pr__pfet_01v8_lvt_QP6UW5
+XXM25 m1_9688_899# vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM24 vref0 m1_9688_899# m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM36 m1_9688_899# vss m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM35 vref0 m1_9688_899# m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM47 m1_9688_899# vss m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM46 vss m1_9688_899# m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM14 vr vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM26 vref0 m1_9688_899# m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM37 vss m1_9688_899# m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM48 vss m1_9688_899# m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM15 vref0 vr m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM27 m1_9688_899# vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM38 m1_9688_899# vss m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM49 m1_9688_899# vss m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM16 vr vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM28 vref0 m1_9688_899# m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM39 vss m1_9688_899# m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM17 vref0 vr m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM18 vr vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM29 vref0 m1_9688_899# m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM19 vref0 vr m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+Xsky130_fd_pr__pfet_01v8_lvt_SCQJZQ_0 vcc vr vcc vr sky130_fd_pr__pfet_01v8_lvt_SCQJZQ
+XXM1 vss m1_9688_899# m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM2 m1_9688_899# vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM3 vref0 vr m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM4 vr vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM5 vref0 vr m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM6 vr vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM7 vref0 vr m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM9 vcc m1_9678_328# vcc vr sky130_fd_pr__pfet_01v8_lvt_SCQJZQ
+XXM8 vr vcc vcc vr sky130_fd_pr__pfet_01v8_lvt_SCQJZQ
+Xsky130_fd_pr__nfet_01v8_lvt_UZ3GQ2_0 vss m1_9688_899# m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM50 m1_9688_899# vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM40 m1_9688_899# vss m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM41 vss m1_9688_899# m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM30 m1_9688_899# vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM42 m1_9688_899# vss m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM20 vr vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM31 vref0 m1_9688_899# m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM10 vr vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM21 vref0 vr m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM32 m1_9688_899# vref0 m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM43 m1_9688_899# vss m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM11 vref0 vr m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM22 vref0 m1_9688_899# m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM33 vref0 m1_9688_899# m1_9678_328# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+XXM44 vss m1_9688_899# m1_9688_899# vss sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2
+.ends
+

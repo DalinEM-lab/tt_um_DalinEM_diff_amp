@@ -1,0 +1,53 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1739140642
+<< locali >>
+rect 1990 2422 6596 2443
+rect 1990 1949 6712 2422
+rect 1990 1941 6596 1949
+rect 1911 262 2465 531
+rect -25 158 2465 262
+rect -25 0 7629 158
+rect -25 -2 2035 0
+<< metal1 >>
+rect 1753 827 2401 874
+<< metal2 >>
+rect -52 5420 14 5614
+rect 1991 1871 6800 1900
+rect 1412 1572 1574 1580
+rect 1406 1570 1965 1572
+rect 1406 1496 1412 1570
+rect 1574 1496 1965 1570
+rect 1406 1492 1965 1496
+rect 1412 1486 1574 1492
+rect 7630 1011 7667 1063
+rect -22 238 1788 239
+rect 1937 238 2509 303
+rect -22 233 2509 238
+rect 7481 233 7713 344
+rect -22 36 7713 233
+<< via2 >>
+rect 1412 1496 1574 1570
+<< metal3 >>
+rect 1406 1575 1482 2211
+rect 1402 1570 1584 1575
+rect 1402 1496 1412 1570
+rect 1574 1496 1584 1570
+rect 1402 1491 1584 1496
+use BGR_BJT_stage1  BGR_BJT_stage1_0 ~/Dalin/Projects/tinytape/voltage_ref_BJT/layout_BGR_BJT_stage1
+timestamp 1739137757
+transform 1 0 -5517 0 1 3414
+box 5349 -3380 12358 2268
+use BGR_BJT_stage2  BGR_BJT_stage2_0 ~/Dalin/Projects/tinytape/voltage_ref_BJT/layout_BGR_BJT_stage-2
+timestamp 1739131682
+transform 1 0 2888 0 -1 2485
+box -928 535 4746 2353
+<< labels >>
+rlabel metal2 7711 193 7711 193 7 vcc
+port 1 w
+rlabel metal2 -51 5514 -51 5514 3 vss
+port 2 e
+rlabel metal2 7666 1038 7666 1038 7 vref
+port 3 w
+<< end >>

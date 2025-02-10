@@ -1,0 +1,58 @@
+** sch_path: /home/zerotoasic/Dalin/Projects/tinytape/voltage_ref_BJT/BGR_BJT_stage1.sch
+.subckt BGR_BJT_stage1 vcc vr vref0 vss
+*.PININFO vcc:I vref0:O vr:O vss:I
+XM1 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM2 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM3 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM8 vr vr vcc vcc sky130_fd_pr__pfet_01v8_lvt L=2 W=0.5 nf=1 m=1
+XM9 net2 vr vcc vcc sky130_fd_pr__pfet_01v8_lvt L=1 W=1 nf=1 m=1
+XM4 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM5 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM6 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM7 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM10 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM11 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM12 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM14 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM15 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM16 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM17 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM18 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM19 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM20 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM21 vr net2 vref0 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM22 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM23 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM24 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM25 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM26 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM27 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM28 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM29 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM30 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM31 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM32 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM33 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM34 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM35 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM36 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM37 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM38 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM39 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM40 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM41 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM42 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM43 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM44 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM45 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM46 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM47 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM48 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM49 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM50 vref0 net2 net1 vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM51 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 m=1
+XM52 vr vr vcc vcc sky130_fd_pr__pfet_01v8_lvt L=2 W=0.5 nf=1 m=1
+XQ1 vss vss net2 sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1
+XM13 net2 vr vcc vcc sky130_fd_pr__pfet_01v8_lvt L=1 W=1 nf=1 m=1
+.ends
+.end

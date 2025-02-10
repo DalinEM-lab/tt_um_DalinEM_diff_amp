@@ -1,11 +1,11 @@
-timestamp 1738107480
+timestamp 1739144074
 version 8.3
 tech sky130A
 style ngspice()
 scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use BGR_BJT_final BGR_BJT_final_0 0 -1 16030 -1 0 9692
 use diff_final_v0 diff_final_v0_0 1 0 10675 0 1 3795
-port "ua[4]" 7 14906 0 15086 200 m4
 port "ua[5]" 8 11042 0 11222 200 m4
 port "ua[6]" 9 7178 0 7358 200 m4
 port "ua[7]" 10 3314 0 3494 200 m4
@@ -31,6 +31,7 @@ port "uio_in[7]" 26 19382 44952 19442 45152 m4
 port "ua[1]" 4 26498 0 26678 200 m4
 port "ua[2]" 5 22634 0 22814 200 m4
 port "ua[3]" 6 18770 0 18950 200 m4
+port "ua[4]" 7 14906 0 15086 200 m4
 port "VGND" 52 400 1000 800 44152 m4
 port "uo_out[7]" 50 14966 44952 15026 45152 m4
 port "uo_out[6]" 49 15518 44952 15578 45152 m4
@@ -58,7 +59,6 @@ port "uio_oe[1]" 28 9446 44952 9506 45152 m4
 port "uio_oe[0]" 27 9998 44952 10058 45152 m4
 port "VDPWR" 51 31400 1000 31800 44152 m4
 port "ua[0]" 3 30362 0 30542 200 m4
-node "ua[4]" 0 143.146 14906 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
 node "ua[5]" 0 127.612 11042 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
 node "ua[6]" 0 127.612 7178 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
 node "ua[7]" 0 127.612 3314 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
@@ -84,7 +84,8 @@ node "uio_in[7]" 0 42.8754 19382 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "ua[1]" 1 1064.52 26498 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 140588 1930 259740 3246 0 0 0 0
 node "ua[2]" 1 1077.81 22634 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 141864 1944 275220 3418 0 0 0 0
 node "ua[3]" 1 2313.63 18770 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 723240 8396 243900 3070 0 0 0 0
-node "VGND" 17 41512.5 400 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3326145 17450 302082 2314 31250400 197852 0 0 0 0
+node "ua[4]" 1 1126.98 14906 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 94145 1422 22230 614 358758 4348 0 0 0 0
+node "VGND" 20 46511 400 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6763745 35438 421091 3694 31250400 197852 0 0 0 0
 equiv "VGND" "uo_out[7]"
 equiv "VGND" "uo_out[6]"
 equiv "VGND" "uo_out[5]"
@@ -109,64 +110,112 @@ equiv "VGND" "uio_oe[3]"
 equiv "VGND" "uio_oe[2]"
 equiv "VGND" "uio_oe[1]"
 equiv "VGND" "uio_oe[0]"
-node "VDPWR" 6 20852.7 31400 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 412567 2866 318002 2394 17818800 89894 0 0 0 0
+node "VDPWR" 8 28619.1 31400 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 732567 5266 451460 3856 23980800 120704 0 0 0 0
 node "ua[0]" 3 2619.12 30362 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 126980 2362 55360 1012 60480 1032 941400 10820 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "ua[7]" "VGND" 16.6372
-cap "VGND" "ua[4]" 4.67684
-cap "ui_in[7]" "ui_in[6]" 31.0231
+cap "ui_in[5]" "ui_in[6]" 31.0231
+cap "uio_in[7]" "uio_in[6]" 31.0231
 cap "clk" "ena" 31.0231
-cap "ui_in[3]" "ui_in[2]" 31.0231
-cap "uio_in[3]" "uio_in[4]" 31.0231
-cap "ui_in[0]" "rst_n" 31.0231
-cap "VDPWR" "ua[0]" 438.616
-cap "uio_in[6]" "uio_in[5]" 31.0231
 cap "ui_in[0]" "ui_in[1]" 31.0231
 cap "ua[6]" "VGND" 16.6372
-cap "ui_in[5]" "ui_in[4]" 31.0231
-cap "VGND" "uio_in[7]" 31.0231
-cap "ui_in[5]" "ui_in[6]" 31.0231
-cap "ua[3]" "ua[2]" 60.5475
-cap "uio_in[2]" "uio_in[1]" 31.0231
-cap "uio_in[2]" "uio_in[3]" 31.0231
-cap "VGND" "ua[5]" 16.6372
-cap "uio_in[0]" "uio_in[1]" 31.0231
-cap "uio_in[6]" "uio_in[7]" 31.0231
-cap "ui_in[3]" "ui_in[4]" 31.0231
-cap "clk" "rst_n" 31.0231
-cap "ua[3]" "VGND" 770.639
-cap "ui_in[7]" "uio_in[0]" 31.0231
 cap "ui_in[2]" "ui_in[1]" 31.0231
-cap "uio_in[5]" "uio_in[4]" 31.0231
+cap "ui_in[4]" "ui_in[3]" 31.0231
+cap "ua[3]" "ua[2]" 60.5475
+cap "ui_in[2]" "ui_in[3]" 31.0231
+cap "uio_in[7]" "VGND" 31.0231
+cap "ui_in[4]" "ui_in[5]" 31.0231
+cap "uio_in[4]" "uio_in[5]" 31.0231
+cap "uio_in[2]" "uio_in[1]" 31.0231
+cap "uio_in[0]" "ui_in[7]" 31.0231
+cap "ua[0]" "VDPWR" 438.616
+cap "VGND" "ua[5]" 16.6372
+cap "ui_in[0]" "rst_n" 31.0231
+cap "clk" "rst_n" 31.0231
+cap "ui_in[7]" "ui_in[6]" 31.0231
+cap "uio_in[5]" "uio_in[6]" 31.0231
+cap "VGND" "ua[7]" 16.6372
+cap "uio_in[0]" "uio_in[1]" 31.0231
+cap "ua[3]" "VGND" 770.639
+cap "uio_in[4]" "uio_in[3]" 31.0231
+cap "VGND" "ua[4]" 265.597
+cap "uio_in[2]" "uio_in[3]" 31.0231
 cap "diff_final_v0_0/vb" "diff_final_v0_0/vss" -5.68434e-14
-cap "diff_final_v0_0/vb" "diff_final_v0_0/vss" 359.854
-cap "diff_final_v0_0/vb" "diff_final_v0_0/vin_n" 9.29585
-cap "diff_final_v0_0/vin_n" "diff_final_v0_0/vss" 16.2512
-cap "diff_final_v0_0/vb" "diff_final_v0_0/vin_n" -3.62853
-cap "diff_final_v0_0/vin_n" "diff_final_v0_0/vss" 97.4648
+cap "diff_final_v0_0/vss" "diff_final_v0_0/vb" 359.854
+cap "diff_final_v0_0/vin_n" "diff_final_v0_0/vb" 9.29585
+cap "diff_final_v0_0/vss" "diff_final_v0_0/vin_n" 16.2512
+cap "diff_final_v0_0/vss" "diff_final_v0_0/vin_n" 97.4648
 cap "diff_final_v0_0/XM2/a_n1258_n600#" "diff_final_v0_0/vin_n" 8.99809
-cap "diff_final_v0_0/vin_p" "diff_final_v0_0/XM8/a_n1258_n600#" 0.00303777
-cap "diff_final_v0_0/vin_p" "diff_final_v0_0/vss" 92.0189
-cap "ua[0]" "diff_final_v0_0/vss" 0.174352
-cap "diff_final_v0_0/vss" "ua[0]" 0.682791
-cap "diff_final_v0_0/vb" "diff_final_v0_0/vin_n" 0.117048
+cap "diff_final_v0_0/vin_n" "diff_final_v0_0/vb" -3.62853
+cap "diff_final_v0_0/XM8/a_n1258_n600#" "diff_final_v0_0/vin_p" 0.00303777
+cap "diff_final_v0_0/vss" "diff_final_v0_0/vin_p" 92.0189
+cap "diff_final_v0_0/vss" "ua[0]" 0.174352
+cap "ua[0]" "diff_final_v0_0/vss" 0.682791
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM42/a_n100_n488#" "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" 2.00105
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM42/a_n100_n488#" "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" 4.86279
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" "VGND" 32.1195
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" "BGR_BJT_final_0/vref" 0.461547
+cap "BGR_BJT_final_0/BGR_BJT_stage2_0/sky130_fd_pr__nfet_01v8_lvt_LH3874_0/a_n100_n188#" "VGND" 0.670665
+cap "VGND" "BGR_BJT_final_0/BGR_BJT_stage2_0/sky130_fd_pr__nfet_01v8_lvt_LH3874_0/a_n100_n188#" 2.08185
+cap "BGR_BJT_final_0/vref" "BGR_BJT_final_0/BGR_BJT_stage2_0/XM12/a_n200_n197#" 5.91449
+cap "VGND" "BGR_BJT_final_0/BGR_BJT_stage2_0/XM12/a_n200_n197#" 3.44508
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" "BGR_BJT_final_0/vref" 18.1512
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" "VGND" 12.1115
+cap "BGR_BJT_final_0/vref" "BGR_BJT_final_0/vcc" 19.3264
+cap "VGND" "BGR_BJT_final_0/vcc" 43.3984
+cap "VGND" "BGR_BJT_final_0/vref" 48.6126
+cap "BGR_BJT_final_0/BGR_BJT_stage2_0/sky130_fd_pr__nfet_01v8_lvt_LH3874_0/a_n100_n188#" "BGR_BJT_final_0/vref" 1.3095
+cap "BGR_BJT_final_0/vcc" "BGR_BJT_final_0/vref" 0.0172159
+cap "VGND" "BGR_BJT_final_0/vcc" 22.6259
 cap "diff_final_v0_0/XM2/a_n1258_n600#" "diff_final_v0_0/vss" -2.22045e-16
+cap "diff_final_v0_0/vin_n" "diff_final_v0_0/vb" 0.117048
 cap "diff_final_v0_0/vb" "diff_final_v0_0/vss" 1.15759
-cap "diff_final_v0_0/vss" "ua[0]" 0.701415
-cap "diff_final_v0_0/vss" "ua[0]" 2.74686
-cap "diff_final_v0_0/vss" "diff_final_v0_0/vout" 0.701415
+cap "ua[0]" "diff_final_v0_0/vss" 0.701415
+cap "ua[0]" "diff_final_v0_0/vss" 2.74686
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM12/a_100_n400#" "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" 22.7659
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM42/a_n100_n488#" "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" 15.295
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM12/a_n158_n400#" "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" 0.349134
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM12/a_n100_n488#" "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" 2.06802
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM42/a_n100_n488#" "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" 4.05911
+cap "VGND" "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" 3.13328
+cap "diff_final_v0_0/vout" "diff_final_v0_0/vss" 0.701415
 cap "diff_final_v0_0/vout" "diff_final_v0_0/vss" 2.74686
-cap "diff_final_v0_0/vout" "diff_final_v0_0/vss" 0.318643
-cap "diff_final_v0_0/vout" "diff_final_v0_0/XM6/a_n1800_n277#" 13.1761
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" "BGR_BJT_final_0/BGR_BJT_stage1_0/XM42/a_n100_n488#" 1.47346
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" "BGR_BJT_final_0/BGR_BJT_stage1_0/XM12/a_n158_n400#" 0.568775
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" "BGR_BJT_final_0/BGR_BJT_stage1_0/XM12/a_n100_n488#" 4.13604
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" "BGR_BJT_final_0/BGR_BJT_stage1_0/XM12/a_100_n400#" 29.6179
+cap "diff_final_v0_0/vss" "diff_final_v0_0/vout" 0.318643
 cap "diff_final_v0_0/vcc" "diff_final_v0_0/vout" -5.68434e-14
-cap "diff_final_v0_0/vout" "diff_final_v0_0/XM6/a_n1800_n277#" 17.1915
-cap "diff_final_v0_0/vout" "diff_final_v0_0/vss" 1.24786
-cap "diff_final_v0_0/vout" "diff_final_v0_0/vcc" 0.00222593
+cap "diff_final_v0_0/vout" "diff_final_v0_0/XM6/a_n1800_n277#" 13.1761
+cap "diff_final_v0_0/vss" "diff_final_v0_0/vout" 1.24786
+cap "diff_final_v0_0/XM6/a_n1800_n277#" "diff_final_v0_0/vout" 17.1915
+cap "diff_final_v0_0/vcc" "diff_final_v0_0/vout" 0.00222593
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM41/a_n100_n488#" "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" 1.60271
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM10/a_100_n400#" "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" 29.6179
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM27/a_n100_n488#" "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" 4.13604
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM11/a_100_n400#" "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" 0.568775
 cap "diff_final_v0_0/vout" "diff_final_v0_0/vcc" -1.13687e-13
 cap "diff_final_v0_0/vcc" "diff_final_v0_0/vout" 0.000844367
-merge "diff_final_v0_0/vcc" "VDPWR" -909.037 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -800 0 0 -560000 -2800 0 0 0 0
-merge "diff_final_v0_0/vss" "VSUBS" -151.215 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -399 -800 0 0 0 0 0 0 0 0
-merge "VSUBS" "VGND"
+cap "BGR_BJT_final_0/vss" "BGR_BJT_final_0/BGR_BJT_stage1_0/XM6/a_100_n400#" 29.6179
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM25/a_n100_n488#" "BGR_BJT_final_0/vss" 4.13604
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM7/a_100_n400#" "BGR_BJT_final_0/vss" 0.568775
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM40/a_n100_n488#" "BGR_BJT_final_0/vss" 1.30285
+cap "BGR_BJT_final_0/vss" "BGR_BJT_final_0/BGR_BJT_stage1_0/XM23/a_n100_n488#" 2.06802
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM38/a_n100_n488#" "BGR_BJT_final_0/vss" 1.82503
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/XM5/a_100_n400#" "BGR_BJT_final_0/vss" 0.441747
+cap "BGR_BJT_final_0/vss" "BGR_BJT_final_0/BGR_BJT_stage1_0/XM4/a_100_n400#" 27.0865
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/sky130_fd_pr__pfet_01v8_lvt_QCPJZY_0/a_n100_n197#" "BGR_BJT_final_0/BGR_BJT_stage1_0/vcc" 25.5883
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" "BGR_BJT_final_0/BGR_BJT_stage1_0/vcc" 1.76211
+cap "BGR_BJT_final_0/BGR_BJT_stage1_0/sky130_fd_pr__pfet_01v8_lvt_QCPJZY_0/a_n100_n197#" "BGR_BJT_final_0/BGR_BJT_stage1_0/vcc" 31.5259
+merge "BGR_BJT_final_0/BGR_BJT_stage1_0/vcc" "BGR_BJT_final_0/BGR_BJT_stage2_0/vcc" -1463.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -146946 -2392 0 0 -560000 -2800 0 0 0 0
+merge "BGR_BJT_final_0/BGR_BJT_stage2_0/vcc" "diff_final_v0_0/vcc"
+merge "diff_final_v0_0/vcc" "VDPWR"
+merge "BGR_BJT_final_0/vss" "BGR_BJT_final_0/BGR_BJT_stage2_0/vss" -5438.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1981887 -21307 -77418 -963 -117111 -1343 0 0 0 0
+merge "BGR_BJT_final_0/BGR_BJT_stage2_0/vss" "BGR_BJT_final_0/BGR_BJT_stage1_0/vss"
+merge "BGR_BJT_final_0/BGR_BJT_stage1_0/vss" "diff_final_v0_0/vss"
+merge "diff_final_v0_0/vss" "VGND"
+merge "VGND" "BGR_BJT_final_0/VSUBS"
+merge "BGR_BJT_final_0/VSUBS" "VSUBS"
+merge "BGR_BJT_final_0/vref" "ua[4]" -277.39 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -22058 -984 0 0 0 0 0 0 0 0
 merge "diff_final_v0_0/vout" "ua[0]" -167.505 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14800 -496 0 0 0 0 0 0 0 0 0 0
 merge "diff_final_v0_0/vb" "ua[3]" -252.824 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11880 -492 0 0 0 0 0 0
 merge "diff_final_v0_0/vin_n" "ua[2]" -182.565 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15120 -528 0 0 0 0 0 0
