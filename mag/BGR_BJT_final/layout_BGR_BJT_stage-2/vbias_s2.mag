@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1740711632
+use BGR_BJT_stage2  BGR_BJT_stage2_0 ~/Project_tinytape/magic/mag/BGR_BJT_final/layout_BGR_BJT_stage-2
+timestamp 1739131682
+transform 1 0 926 0 1 -533
+box -928 535 4746 2353
+<< end >>

@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1740710330
+use BGR_BJT_final  BGR_BJT_final_0
+timestamp 1740710330
+transform 1 0 17 0 1 8
+box -28 -14 7710 5634
+<< end >>

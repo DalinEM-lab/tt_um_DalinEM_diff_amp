@@ -1,0 +1,199 @@
+| units: 500000 tech: sky130A format: MIT
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter a_n27_n4200# OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=1005 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=5391 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 OTA_vref_0.OTA_vref_stage2_0.vr vss s=23200,858 d=23200,858 l=200 w=800 x=2037 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x a_n832_n2063# OTA_vref_0.vb a_n832_n2063# vss s=11600,516 d=5800,258 l=200 w=200 x=-831 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter a_n27_n4200# OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=4101 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x vin_p OTA_stage2_0.vd2 a_n8089_3635# vss s=69600,2516 d=34800,1258 l=2400 w=1200 x=-6703 y=4006 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 OTA_vref_0.OTA_vref_stage2_0.vr vss s=23200,858 d=23200,858 l=200 w=800 x=5133 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x a_3038_n2063# a_3038_n2063# a_2980_n1975# vss s=5800,258 d=5800,258 l=200 w=200 x=3812 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x a_458_n2063# a_400_n1975# a_458_n2063# vss s=5800,258 d=5800,258 l=200 w=200 x=974 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x a_1748_n2063# OTA_vref_0.vb1 a_2980_n1975# vss s=5800,258 d=5800,258 l=200 w=200 x=2780 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x a_458_n2063# a_458_n2063# a_400_n1975# vss s=5800,258 d=5800,258 l=200 w=200 x=716 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x OTA_stage2_0.vd1 vo a_959_2177# vcc s=87000,3058 d=87000,3058 l=380 w=3000 x=1455 y=2177 sky130_fd_pr__pfet_01v8_lvt
+x a_1748_n2063# a_1748_n2063# OTA_vref_0.vb1 vss s=5800,258 d=5800,258 l=200 w=200 x=2522 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x a_458_n2063# a_400_n1975# OTA_vref_0.vb1 vss s=5800,258 d=5800,258 l=200 w=200 x=1490 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x OTA_stage2_0.vd1 vo a_959_2177# vcc s=174000,6116 d=87000,3058 l=380 w=3000 x=579 y=6154 sky130_fd_pr__pfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage2_0.vr a_458_n2063# vcc vcc s=11600,516 d=11600,516 l=400 w=200 x=974 y=-1187 sky130_fd_pr__pfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.vb vcc vcc s=11600,516 d=11600,516 l=400 w=200 x=-896 y=-1187 sky130_fd_pr__pfet_01v8_lvt
+x a_458_n2063# a_458_n2063# a_400_n1975# vss s=5800,258 d=5800,258 l=200 w=200 x=1232 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter a_n27_n4200# OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=5649 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 OTA_vref_0.OTA_vref_stage2_0.vr vss s=23200,858 d=23200,858 l=200 w=800 x=2811 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x a_521_2177# vo vss vss s=8700,358 d=8700,358 l=1880 w=300 x=4465 y=441 sky130_fd_pr__nfet_01v8_lvt
+x a_521_2177# vo vss vss s=17400,716 d=8700,358 l=1880 w=300 x=589 y=851 sky130_fd_pr__nfet_01v8_lvt
+x OTA_stage2_0.vd2 a_959_2177# a_521_2177# vcc s=87000,3058 d=87000,3058 l=380 w=3000 x=1017 y=6154 sky130_fd_pr__pfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=3843 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 OTA_vref_0.OTA_vref_stage2_0.vr vss s=23200,858 d=23200,858 l=200 w=800 x=4359 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_stage2_0.vd2 OTA_stage2_0.vd2 vcc vcc s=20880,836 d=10440,418 l=3600 w=360 x=-7913 y=6718 sky130_fd_pr__pfet_01v8_lvt
+x a_521_2177# vss a_521_2177# vss s=8700,358 d=8700,358 l=1880 w=300 x=2527 y=851 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=1521 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=747 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.vb1 vcc a_959_2177# vcc s=40600,1458 d=40600,1458 l=360 w=1400 x=5826 y=2223 sky130_fd_pr__pfet_01v8
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=2553 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x a_8294_3178# OTA_stage2_0.vd1 s=17974710,19394 l=4000 w=4000 x=4999 y=5592 sky130_fd_pr__cap_mim_m3_1
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=3069 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.vb1 a_959_2177# vcc vcc s=81200,2916 d=40600,1458 l=360 w=1400 x=5408 y=2223 sky130_fd_pr__pfet_01v8
+x a_n27_n4200# a_n27_n4200# vss vss s=23200,858 d=23200,858 l=200 w=800 x=1263 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x a_521_2177# vss vo vss s=8700,358 d=17400,716 l=1880 w=300 x=6403 y=851 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=231 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=1005 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=4101 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x OTA_stage2_0.vd2 OTA_stage2_0.vd1 vcc vcc s=20880,836 d=10440,418 l=3600 w=360 x=-7913 y=6230 sky130_fd_pr__pfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=1779 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_stage2_0.vd2 a_959_2177# a_521_2177# vcc s=87000,3058 d=174000,6116 l=380 w=3000 x=1893 y=2177 sky130_fd_pr__pfet_01v8_lvt
+x a_3038_n2063# a_3038_n2063# a_2980_n1975# vss s=5800,258 d=5800,258 l=200 w=200 x=3296 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 OTA_vref_0.OTA_vref_stage2_0.vr vss s=23200,858 d=46400,1716 l=200 w=800 x=5907 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.vb1 vcc a_959_2177# vcc s=40600,1458 d=81200,2916 l=360 w=1400 x=6662 y=2223 sky130_fd_pr__pfet_01v8
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=4875 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_stage2_0.vd2 vcc OTA_stage2_0.vd1 vcc s=10440,418 d=20880,836 l=3600 w=360 x=-4255 y=6718 sky130_fd_pr__pfet_01v8_lvt
+x a_3038_n2063# a_2980_n1975# a_3038_n2063# vss s=5800,258 d=5800,258 l=200 w=200 x=3038 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=4617 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.vb1 a_959_2177# vcc vcc s=40600,1458 d=40600,1458 l=360 w=1400 x=6244 y=2223 sky130_fd_pr__pfet_01v8
+x a_n27_n4200# a_n27_n4200# vss vss s=23200,858 d=23200,858 l=200 w=800 x=3585 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_stage2_0.vd2 a_521_2177# a_959_2177# vcc s=87000,3058 d=87000,3058 l=380 w=3000 x=1455 y=6154 sky130_fd_pr__pfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=5649 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=46400,1716 d=23200,858 l=200 w=800 x=-26 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x a_n27_n4200# a_n27_n4200# vss vss s=23200,858 d=23200,858 l=200 w=800 x=2811 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=3327 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x a_n27_n4200# a_n27_n4200# vss vss s=23200,858 d=23200,858 l=200 w=800 x=489 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x a_n27_n4200# vss a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=2295 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x a_n832_n2063# OTA_vref_0.vb a_400_n1975# vss s=5800,258 d=5800,258 l=200 w=200 x=200 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter vcc vcc s=11600,516 d=5800,258 l=200 w=200 x=4642 y=-1187 sky130_fd_pr__pfet_01v8_lvt
+x a_n27_n4200# a_n27_n4200# vss vss s=23200,858 d=23200,858 l=200 w=800 x=4359 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x a_n27_n4200# vss a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=1521 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x vin_p a_n8089_3635# OTA_stage2_0.vd2 vss s=34800,1258 d=69600,2516 l=2400 w=1200 x=-4246 y=2131 sky130_fd_pr__nfet_01v8_lvt
+x a_n27_n4200# vss a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=5391 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x a_n27_n4200# a_n27_n4200# vss vss s=23200,858 d=23200,858 l=200 w=800 x=2037 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x a_n27_n4200# vss a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=3069 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x a_521_2177# a_521_2177# vss vss s=8700,358 d=8700,358 l=1880 w=300 x=4465 y=851 sky130_fd_pr__nfet_01v8_lvt
+x a_n27_n4200# a_n27_n4200# vss vss s=23200,858 d=23200,858 l=200 w=800 x=5133 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x a_1748_n2063# OTA_vref_0.vb1 a_1748_n2063# vss s=5800,258 d=5800,258 l=200 w=200 x=1748 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x OTA_stage2_0.vd2 a_521_2177# a_959_2177# vcc s=174000,6116 d=87000,3058 l=380 w=3000 x=579 y=2177 sky130_fd_pr__pfet_01v8_lvt
+x OTA_stage2_0.vd2 vcc OTA_stage2_0.vd2 vcc s=10440,418 d=20880,836 l=3600 w=360 x=-4255 y=6230 sky130_fd_pr__pfet_01v8_lvt
+x a_n832_n2063# a_n832_n2063# OTA_vref_0.vb vss s=5800,258 d=5800,258 l=200 w=200 x=-573 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x vin_n a_n8089_3635# OTA_stage2_0.vd1 vss s=34800,1258 d=69600,2516 l=2400 w=1200 x=-4245 y=4006 sky130_fd_pr__nfet_01v8_lvt
+x a_n832_n2063# a_n832_n2063# OTA_vref_0.vb vss s=5800,258 d=5800,258 l=200 w=200 x=-57 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x a_521_2177# a_521_2177# vss vss s=17400,716 d=8700,358 l=1880 w=300 x=589 y=441 sky130_fd_pr__nfet_01v8_lvt
+x vss OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter vss s=462400,2720 l=0 w=0 x=5232 y=-2695 sky130_fd_pr__pnp_05v5_W3p40L3p40
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter a_n27_n4200# OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=231 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x a_n832_n2063# OTA_vref_0.vb a_n832_n2063# vss s=5800,258 d=5800,258 l=200 w=200 x=-315 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x a_3038_n2063# a_2980_n1975# a_3038_n2063# vss s=5800,258 d=5800,258 l=200 w=200 x=3554 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x OTA_stage2_0.vd1 a_959_2177# vo vcc s=87000,3058 d=87000,3058 l=380 w=3000 x=1017 y=2177 sky130_fd_pr__pfet_01v8_lvt
+x a_521_2177# vss vo vss s=8700,358 d=8700,358 l=1880 w=300 x=2527 y=441 sky130_fd_pr__nfet_01v8_lvt
+x a_8294_3010# a_8294_3178# vo vss s=30240,1004 d=30240,1004 l=168 w=0 x=8294 y=3010 sky130_fd_pr__res_xhigh_po_0p35
+x a_458_n2063# a_400_n1975# a_458_n2063# vss s=5800,258 d=5800,258 l=200 w=200 x=458 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x a_1748_n2063# OTA_vref_0.vb1 a_1748_n2063# vss s=5800,258 d=5800,258 l=200 w=200 x=2264 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x a_n27_n4200# vss a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=3843 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter a_n27_n4200# OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=1779 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage2_0.vr a_n832_n2063# vcc vcc s=11600,516 d=11600,516 l=400 w=200 x=-315 y=-1187 sky130_fd_pr__pfet_01v8_lvt
+x a_n27_n4200# a_n27_n4200# vss vss s=23200,858 d=46400,1716 l=200 w=800 x=5907 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x a_1748_n2063# a_1748_n2063# OTA_vref_0.vb1 vss s=5800,258 d=5800,258 l=200 w=200 x=2006 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.OTA_vref_stage2_0.vr vcc vcc s=5800,316 d=2900,158 l=400 w=100 x=5367 y=-1187 sky130_fd_pr__pfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage2_0.vr a_3038_n2063# vcc vcc s=11600,516 d=11600,516 l=400 w=200 x=3554 y=-1187 sky130_fd_pr__pfet_01v8_lvt
+x a_n27_n4200# vss a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=747 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter a_n27_n4200# OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=4875 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter a_n27_n4200# OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=2553 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage2_0.vr vcc OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter vcc s=5800,258 d=11600,516 l=200 w=200 x=4900 y=-1187 sky130_fd_pr__pfet_01v8_lvt
+x a_521_2177# vss a_521_2177# vss s=8700,358 d=17400,716 l=1880 w=300 x=6403 y=441 sky130_fd_pr__nfet_01v8_lvt
+x OTA_stage2_0.vd1 a_959_2177# vo vcc s=87000,3058 d=174000,6116 l=380 w=3000 x=1893 y=6154 sky130_fd_pr__pfet_01v8_lvt
+x a_n27_n4200# vss a_n27_n4200# vss s=23200,858 d=23200,858 l=200 w=800 x=4617 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x a_3038_n2063# a_2980_n1975# OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=5800,258 d=11600,516 l=200 w=200 x=4070 y=-1974 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage2_0.vr a_1748_n2063# vcc vcc s=11600,516 d=11600,516 l=400 w=200 x=2264 y=-1187 sky130_fd_pr__pfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 OTA_vref_0.OTA_vref_stage2_0.vr vss s=23200,858 d=23200,858 l=200 w=800 x=3585 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x vin_n OTA_stage2_0.vd1 a_n8089_3635# vss s=69600,2516 d=34800,1258 l=2400 w=1200 x=-6704 y=2131 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 OTA_vref_0.OTA_vref_stage2_0.vr vss s=23200,858 d=23200,858 l=200 w=800 x=1263 y=-5592 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.vb vss a_n8089_3635# vss s=34800,1316 d=34800,1316 l=1000 w=600 x=-8088 y=2635 sky130_fd_pr__nfet_01v8
+x a_n27_n4200# vss a_n27_n4200# vss s=46400,1716 d=23200,858 l=200 w=800 x=-26 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 OTA_vref_0.OTA_vref_stage2_0.vr vss s=23200,858 d=23200,858 l=200 w=800 x=489 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter a_n27_n4200# OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=3327 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.OTA_vref_stage2_0.vref0 vss s=23200,858 d=23200,858 l=200 w=800 x=2295 y=-4111 sky130_fd_pr__nfet_01v8_lvt
+x OTA_vref_0.OTA_vref_stage2_0.vr vcc OTA_vref_0.OTA_vref_stage2_0.vr vcc s=2900,158 d=5800,316 l=400 w=100 x=5825 y=-1187 sky130_fd_pr__pfet_01v8_lvt
+C OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.OTA_vref_stage2_0.vref0 2.2
+C vcc OTA_vref_0.vb1 8.4
+C a_n27_n4200# OTA_vref_0.OTA_vref_stage2_0.vr 2.3
+C OTA_stage2_0.vd1 a_8294_3178# 35.9
+C a_n27_n4200# OTA_vref_0.OTA_vref_stage2_0.vref0 4.9
+C vin_p vin_n 2.4
+C OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter 9.3
+C OTA_stage2_0.vd2 a_959_2177# 5.4
+C OTA_stage2_0.vd2 OTA_stage2_0.vd1 9.6
+C OTA_stage2_0.vd1 a_959_2177# 5.6
+C OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter OTA_vref_0.OTA_vref_stage2_0.vref0 16.3
+C vo OTA_stage2_0.vd1 6.1
+C vcc OTA_stage2_0.vd2 23.3
+C a_521_2177# OTA_stage2_0.vd2 6.3
+C vcc a_959_2177# 6.1
+C vcc OTA_stage2_0.vd1 7.0
+C vo vcc 4.0
+C a_521_2177# vo 5.9
+C a_n27_n4200# OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter 17.2
+C vcc OTA_vref_0.OTA_vref_stage2_0.vr 11.5
+C a_521_2177# vcc 4.8
+C a_959_2177# OTA_vref_0.vb1 3.4
+C vo0 10.1
+R vo 37791
+= vo OTA_stage2_0.vo
+C vin_n0 14.9
+R vin_n 4012
+= vin_n OTA_stage1_0.vin_n
+C vin_p0 14.7
+R vin_p 4012
+= vin_p OTA_stage1_0.vin_p
+C vcc0 159.5
+R vcc 255476
+= vcc OTA_stage1_0.vcc
+= vcc OTA_stage2_0.vcc
+= vcc OTA_vref_0.OTA_vref_stage1_0.vcc
+= vcc OTA_vref_0.OTA_vref_stage2_0.vcc
+= vcc OTA_vref_0.vcc
+R vss 445830
+= vss OTA_stage1_0.vss
+= vss OTA_stage2_0.vss
+= vss OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Base
+= vss OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Collector
+= vss OTA_vref_0.OTA_vref_stage1_0.vss
+= vss OTA_vref_0.OTA_vref_stage2_0.vss
+= vss OTA_vref_0.vss
+C a_n27_n4200#0 23.9
+R a_n27_n4200# 44223
+C OTA_vref_0.OTA_vref_stage2_0.vref00 7.9
+R OTA_vref_0.OTA_vref_stage2_0.vref0 36316
+= OTA_vref_0.OTA_vref_stage2_0.vref0 OTA_vref_0.OTA_vref_stage1_0.vref0
+R a_2980_n1975# 2114
+R a_400_n1975# 2114
+C OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter0 25.1
+R OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter 15802
+C a_3038_n2063#0 3.8
+R a_3038_n2063# 4103
+C a_1748_n2063#0 3.7
+R a_1748_n2063# 4103
+C a_458_n2063#0 3.7
+R a_458_n2063# 4103
+C a_n832_n2063#0 3.8
+R a_n832_n2063# 4103
+C OTA_vref_0.OTA_vref_stage2_0.vr0 11.8
+R OTA_vref_0.OTA_vref_stage2_0.vr 25842
+= OTA_vref_0.OTA_vref_stage2_0.vr OTA_vref_0.OTA_vref_stage1_0.vr
+R a_8294_3010# 4800
+C a_8294_3178#0 3.7
+R a_8294_3178# 188
+C OTA_vref_0.vb10 5.8
+R OTA_vref_0.vb1 4613
+= OTA_vref_0.vb1 OTA_stage2_0.vb1
+= OTA_vref_0.vb1 OTA_vref_0.OTA_vref_stage2_0.vb1
+C a_521_2177#0 41.0
+R a_521_2177# 47270
+C a_959_2177#0 7.4
+R a_959_2177# 63761
+C OTA_vref_0.vb0 10.3
+R OTA_vref_0.vb 3779
+= OTA_vref_0.vb OTA_stage1_0.vb
+= OTA_vref_0.vb OTA_vref_0.OTA_vref_stage2_0.vb
+C a_n8089_3635#0 3.5
+R a_n8089_3635# 7910
+C OTA_stage2_0.vd10 17.9
+R OTA_stage2_0.vd1 12702
+= OTA_stage2_0.vd1 OTA_stage1_0.vd1
+C OTA_stage2_0.vd20 20.9
+R OTA_stage2_0.vd2 21110
+= OTA_stage2_0.vd2 OTA_stage1_0.vd2

@@ -1,0 +1,280 @@
+timestamp 1740775395
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use OTA_vref OTA_vref_0 -1 0 6640 0 -1 -436
+use OTA_stage2 OTA_stage2_0 1 0 -6296 0 1 5137
+use OTA_stage1 OTA_stage1_0 1 0 -19404 0 1 4436
+port "vo" 3 9166 905 9166 905 m4
+port "vin_p" 4 -4161 1299 -4161 1299 m3
+port "vin_n" 5 -6618 1321 -6618 1321 m3
+port "vss" 1 -8477 1929 -8477 1929 m2
+port "vcc" 2 2791 9774 2791 9774 m4
+node "vo" 0 138.868 9166 905 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32400 720 0 0 0 0
+node "vin_p" 0 208.354 -4161 1299 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64620 1078 0 0 0 0 0 0
+node "vin_n" 0 163.736 -6618 1321 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57600 1000 0 0 0 0 0 0
+node "m2_8679_n319#" 4 2772.77 8679 -319 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40302 1088 20460 592 617162 12582 0 0 0 0
+node "m2_n7472_1384#" 12 3984.05 -7472 1384 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 930180 18770 51000 942 0 0 0 0 0 0
+node "m2_n2133_n6026#" 4 8048.2 -2133 -6026 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2337672 14390 616745 5906 4952989 16252 0 0 0 0
+node "vss" 0 280.275 -8477 1929 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 93433 1268 0 0 0 0 0 0 0 0
+node "m2_n939_n725#" 2 3375.69 -939 -725 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 496365 4234 429855 3994 2449374 9312 0 0 0 0
+node "m2_n469_7417#" 0 586.897 -469 7417 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 315988 2378 0 0 0 0 0 0 0 0
+node "vcc" 2 3387.98 2791 9774 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 412680 4724 394560 4744 1332190 6286 0 0 0 0
+node "m1_n257_5586#" 1 224.139 -257 5586 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47652 1158 0 0 0 0 0 0 0 0 0 0
+node "m1_n237_5771#" 0 110.522 -237 5771 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23700 674 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m2_n7472_1384#" "vin_p" 146.934
+cap "vin_n" "m2_n7472_1384#" 167.959
+cap "m1_n257_5586#" "m1_n237_5771#" 77.2444
+cap "m2_n2133_n6026#" "m2_n939_n725#" 918.736
+cap "m2_n469_7417#" "m1_n237_5771#" 0.141456
+cap "m2_n7472_1384#" "m2_n2133_n6026#" 327.286
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2_0/a_n100_n488#" "OTA_vref_0/OTA_vref_stage1_0/vss" 21.0392
+cap "OTA_vref_0/OTA_vref_stage1_0/XM12/a_100_n400#" "OTA_vref_0/OTA_vref_stage1_0/vss" 14.8147
+cap "OTA_vref_0/OTA_vref_stage1_0/XM12/a_n100_n488#" "OTA_vref_0/OTA_vref_stage1_0/vss" 3.53821
+cap "OTA_vref_0/OTA_vref_stage1_0/XM12/a_100_n400#" "OTA_vref_0/OTA_vref_stage1_0/vss" 1.64768
+cap "OTA_vref_0/OTA_vref_stage1_0/vss" "OTA_vref_0/OTA_vref_stage1_0/XM12/a_n100_n488#" 0.436878
+cap "OTA_vref_0/OTA_vref_stage2_0/vss" "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2_0/a_n100_n488#" 20.1904
+cap "OTA_vref_0/OTA_vref_stage1_0/XM12/a_n100_n488#" "OTA_vref_0/OTA_vref_stage2_0/vss" 0.597559
+cap "OTA_vref_0/OTA_vref_stage2_0/vss" "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2_0/a_n100_n488#" 0.417851
+cap "OTA_vref_0/OTA_vref_stage1_0/XM12/a_n100_n488#" "OTA_vref_0/OTA_vref_stage2_0/vss" 0.134698
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2_0/a_n100_n488#" "OTA_vref_0/OTA_vref_stage2_0/vss" 0.31831
+cap "OTA_vref_0/OTA_vref_stage2_0/vss" "OTA_vref_0/vb" 11.7935
+cap "OTA_vref_0/OTA_vref_stage2_0/sky130_fd_pr__nfet_01v8_lvt_LH3874_0/a_n100_n188#" "OTA_vref_0/OTA_vref_stage2_0/vss" 7.12709
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_vref_0/OTA_vref_stage2_0/vss" -1.8332
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2_0/a_n100_n488#" "OTA_vref_0/OTA_vref_stage2_0/vss" 0.152146
+cap "OTA_vref_0/OTA_vref_stage2_0/vss" "OTA_vref_0/vb" 36.9269
+cap "OTA_vref_0/OTA_vref_stage2_0/vss" "OTA_vref_0/OTA_vref_stage2_0/vcc" 76.9523
+cap "OTA_vref_0/OTA_vref_stage2_0/vss" "OTA_vref_0/OTA_vref_stage2_0/sky130_fd_pr__nfet_01v8_lvt_LH3874_0/a_n100_n188#" 14.2827
+cap "OTA_vref_0/OTA_vref_stage2_0/XM12/a_n200_n197#" "OTA_vref_0/OTA_vref_stage2_0/vcc" 68.0957
+cap "OTA_vref_0/vb" "OTA_vref_0/OTA_vref_stage2_0/vcc" 11.5618
+cap "OTA_vref_0/OTA_vref_stage2_0/sky130_fd_pr__nfet_01v8_lvt_LH3874_0/a_n100_n188#" "OTA_vref_0/OTA_vref_stage2_0/vcc" 16.0285
+cap "OTA_vref_0/OTA_vref_stage2_0/vss" "OTA_vref_0/OTA_vref_stage2_0/XM12/a_n200_n197#" 24.7313
+cap "OTA_stage2_0/XM9/a_n998_n150#" "OTA_vref_0/OTA_vref_stage2_0/XM12/a_n200_n197#" 2.1865
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_vref_0/OTA_vref_stage2_0/vss" 85.0318
+cap "OTA_vref_0/OTA_vref_stage2_0/vss" "OTA_vref_0/OTA_vref_stage2_0/XM12/a_n200_n197#" 0.78765
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/vss" 103.719
+cap "OTA_vref_0/OTA_vref_stage2_0/vr" "OTA_stage2_0/XM9/a_n998_n150#" 2.58568
+cap "OTA_vref_0/OTA_vref_stage2_0/vr" "OTA_stage2_0/vss" 1.19243
+cap "OTA_vref_0/OTA_vref_stage2_0/vr" "OTA_stage2_0/XM9/a_n940_n238#" 2.57235
+cap "OTA_vref_0/vb1" "OTA_vref_0/OTA_vref_stage2_0/vr" 0.817035
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_vref_0/vb1" 23.0607
+cap "OTA_vref_0/vb1" "OTA_vref_0/OTA_vref_stage2_0/XM13/a_n100_n188#" 0.138776
+cap "OTA_vref_0/vb1" "OTA_vref_0/OTA_vref_stage2_0/XM3/a_n100_n188#" 0.333895
+cap "OTA_vref_0/OTA_vref_stage2_0/vr" "OTA_vref_0/OTA_vref_stage2_0/vss" 2.56071
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_vref_0/OTA_vref_stage2_0/vss" 100.418
+cap "OTA_vref_0/OTA_vref_stage2_0/XM3/a_n100_n188#" "OTA_vref_0/vb1" 0.10376
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__pfet_01v8_lvt_QCPJZY_0/a_100_n100#" "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" 1.20001
+cap "OTA_vref_0/OTA_vref_stage2_0/vr" "OTA_vref_0/vb1" 9.27859
+cap "OTA_vref_0/OTA_vref_stage2_0/vr" "OTA_stage2_0/XM10/a_n940_n238#" 3.51612
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" "OTA_vref_0/vcc" 13.927
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__pfet_01v8_lvt_QCPJZY_0/a_100_n100#" "OTA_stage2_0/m1_6804_n972#" 3.98717
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__pfet_01v8_lvt_QCPJZY_0/a_100_n100#" "OTA_vref_0/vb1" 30.5878
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__pfet_01v8_lvt_QCPJZY_0/a_100_n100#" "OTA_stage2_0/XM10/a_n940_n238#" 0.458746
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" "OTA_vref_0/OTA_vref_stage2_0/vr" 7.81334
+cap "OTA_vref_0/vcc" "OTA_vref_0/vb1" 3.58908
+cap "m2_8679_n319#" "OTA_vref_0/OTA_vref_stage2_0/vr" 53.154
+cap "OTA_vref_0/OTA_vref_stage2_0/vr" "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" 4.58481
+cap "OTA_vref_0/OTA_vref_stage2_0/vr" "OTA_stage2_0/XM10/a_n940_n238#" 4.20426
+cap "m2_8679_n319#" "OTA_vref_0/vcc" 0.00543665
+cap "OTA_vref_0/vcc" "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" 0.0292373
+cap "OTA_stage2_0/vss" "OTA_vref_0/OTA_vref_stage2_0/vcc" 30.9328
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/XM9/a_n998_n150#" 15.2712
+cap "OTA_stage2_0/XM19/a_n998_n150#" "OTA_vref_0/OTA_vref_stage2_0/vcc" 0.262641
+cap "OTA_stage2_0/XM9/a_n998_n150#" "OTA_vref_0/OTA_vref_stage2_0/XM12/a_n200_n197#" 3.14663
+cap "OTA_stage2_0/vss" "OTA_vref_0/OTA_vref_stage2_0/vcc" 195.118
+cap "OTA_stage2_0/XM9/a_n998_n150#" "OTA_vref_0/OTA_vref_stage2_0/XM22/a_n100_n188#" 0.262561
+cap "OTA_stage2_0/XM9/a_n998_n150#" "OTA_vref_0/OTA_vref_stage2_0/vcc" 25.3259
+cap "OTA_stage2_0/XM9/a_n998_n150#" "OTA_vref_0/OTA_vref_stage2_0/vr" 5.69715
+cap "OTA_stage2_0/XM9/a_n998_n150#" "OTA_vref_0/OTA_vref_stage2_0/vcc" 41.8712
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM9/a_n998_n150#" -8.88178e-16
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/vss" 215.506
+cap "OTA_vref_0/OTA_vref_stage2_0/XM13/a_n100_n188#" "OTA_stage2_0/XM9/a_n998_n150#" 0.262561
+cap "OTA_vref_0/OTA_vref_stage2_0/vr" "OTA_vref_0/vb1" 15.8749
+cap "OTA_vref_0/OTA_vref_stage2_0/XM13/a_n100_n188#" "OTA_vref_0/vb1" 1.54999
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" 214.374
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/m1_6804_n972#" 33.3101
+cap "OTA_vref_0/OTA_vref_stage2_0/XM3/a_n100_n188#" "OTA_stage2_0/m1_6804_n972#" 0.192535
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" "OTA_vref_0/vb1" 116.324
+cap "OTA_stage2_0/m1_6804_n972#" "OTA_vref_0/vb1" 13.055
+cap "OTA_vref_0/OTA_vref_stage2_0/vr" "OTA_stage2_0/XM9/a_n940_n238#" 0.638045
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_vref_0/vb1" 126.264
+cap "OTA_vref_0/OTA_vref_stage2_0/XM3/a_n100_n188#" "OTA_vref_0/vb1" 9.6587
+cap "OTA_stage2_0/vo" "OTA_vref_0/vb1" 48.2087
+cap "OTA_vref_0/OTA_vref_stage2_0/vr" "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" 1.6189
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/XM9/a_n940_n238#" 10.4824
+cap "OTA_vref_0/OTA_vref_stage2_0/vr" "OTA_stage2_0/m1_6804_n972#" 3.32393
+cap "OTA_vref_0/OTA_vref_stage2_0/XM3/a_n100_n188#" "OTA_stage2_0/XM9/a_n940_n238#" 0.0700264
+cap "OTA_vref_0/OTA_vref_stage2_0/XM3/a_100_n100#" "OTA_vref_0/vb1" 0.994961
+cap "OTA_vref_0/vb1" "OTA_stage2_0/XM9/a_n940_n238#" 53.89
+cap "OTA_vref_0/vb1" "OTA_vref_0/OTA_vref_stage2_0/vr" 25.6455
+cap "OTA_vref_0/vcc" "OTA_stage2_0/m1_6804_n972#" 23.5843
+cap "OTA_vref_0/vb1" "OTA_stage2_0/XM10/a_n940_n238#" 28.8486
+cap "OTA_vref_0/vb1" "OTA_stage2_0/XM10/a_940_n150#" 110.285
+cap "OTA_stage2_0/m1_6804_n972#" "OTA_vref_0/OTA_vref_stage2_0/vr" 4.26346
+cap "OTA_stage2_0/XM10/a_n940_n238#" "OTA_stage2_0/m1_6804_n972#" -3.41061e-13
+cap "OTA_vref_0/vb1" "OTA_vref_0/OTA_vref_stage2_0/vref0" 0.36546
+cap "OTA_vref_0/vb1" "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__pfet_01v8_lvt_QCPJZY_0/a_100_n100#" 30.888
+cap "OTA_vref_0/vcc" "OTA_stage2_0/XM10/a_n940_n238#" 10.0642
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" "OTA_vref_0/vb1" 111.721
+cap "OTA_vref_0/vb1" "OTA_stage2_0/vo" 9.98016
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__pfet_01v8_lvt_QCPJZY_0/a_100_n100#" "OTA_stage2_0/m1_6804_n972#" 4.1165
+cap "OTA_stage2_0/XM10/a_n940_n238#" "OTA_vref_0/OTA_vref_stage2_0/vr" 0.714907
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" "OTA_vref_0/vcc" 298.685
+cap "OTA_vref_0/vb1" "OTA_vref_0/OTA_vref_stage2_0/XM3/a_n100_n188#" 1.23924
+cap "OTA_vref_0/vb1" "OTA_stage2_0/m1_6804_n972#" 12.3585
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__pfet_01v8_lvt_QCPJZY_0/a_100_n100#" "OTA_stage2_0/XM10/a_n940_n238#" 0.181055
+cap "OTA_vref_0/vb1" "OTA_vref_0/vcc" 155.835
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" "OTA_vref_0/OTA_vref_stage2_0/vr" 5.82804
+cap "m2_8679_n319#" "OTA_vref_0/vcc" 118.28
+cap "m2_8679_n319#" "OTA_stage2_0/XM10/a_940_n150#" 138.381
+cap "OTA_vref_0/vcc" "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" 235.524
+cap "OTA_vref_0/vcc" "OTA_stage2_0/XM10/a_n940_n238#" 23.4686
+cap "m2_8679_n319#" "OTA_vref_0/OTA_vref_stage2_0/vr" 64.2865
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" "OTA_vref_0/OTA_vref_stage2_0/vr" 1.36031
+cap "m2_8679_n319#" "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" 106.858
+cap "m2_8679_n319#" "OTA_stage2_0/XM10/a_n940_n238#" 35.2028
+cap "OTA_stage2_0/XM10/a_n940_n238#" "OTA_vref_0/OTA_vref_stage2_0/vr" 6.86959
+cap "OTA_stage2_0/XM18/a_n940_n238#" "OTA_stage2_0/vb1" 37.1677
+cap "OTA_vref_0/OTA_vref_stage1_0/sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0/Base" "OTA_stage2_0/vb1" 102.876
+cap "OTA_stage2_0/vo" "OTA_stage2_0/vb1" 138.381
+cap "OTA_stage2_0/XM18/a_n940_n238#" "OTA_stage2_0/vo" 0.176007
+cap "OTA_stage2_0/vo" "OTA_stage2_0/vss" 0.461833
+cap "OTA_stage2_0/vo" "OTA_stage2_0/XM15/a_n940_n238#" 1.90348
+cap "OTA_stage2_0/vb1" "OTA_stage2_0/vss" 26.5136
+cap "OTA_stage2_0/vb1" "OTA_stage2_0/vo" 57.1109
+cap "OTA_stage2_0/vb1" "OTA_stage2_0/XM15/a_n940_n238#" 12.347
+cap "OTA_stage1_0/vb" "OTA_stage1_0/vin_n" -1.9792
+cap "OTA_stage1_0/vss" "OTA_stage1_0/vb" 95.8175
+cap "OTA_stage1_0/vss" "OTA_stage1_0/vin_n" 0.000301924
+cap "OTA_stage1_0/vss" "OTA_stage1_0/vin_n" 14.5306
+cap "OTA_stage1_0/vin_n" "OTA_stage1_0/vb" 9.16776
+cap "OTA_stage1_0/vss" "OTA_stage1_0/vb" 284.78
+cap "m2_n7472_1384#" "OTA_stage1_0/vin_n" 3.8249
+cap "OTA_stage1_0/vss" "m2_n7472_1384#" 284.78
+cap "m2_n7472_1384#" "OTA_stage1_0/vin_p" 11.5283
+cap "m2_n7472_1384#" "OTA_stage1_0/vss" 268.153
+cap "OTA_stage1_0/vss" "OTA_stage1_0/vin_p" 15.7228
+cap "OTA_stage1_0/XM8/a_1200_n600#" "OTA_stage1_0/vss" 12.7434
+cap "OTA_stage1_0/vin_p" "OTA_vref_0/OTA_vref_stage2_0/vcc" 1.08603
+cap "OTA_stage1_0/XM8/a_1200_n600#" "OTA_vref_0/OTA_vref_stage2_0/vcc" 4.59958
+cap "OTA_stage1_0/vin_p" "OTA_stage1_0/vss" 55.7086
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/XM9/a_n998_n150#" 6.25158
+cap "OTA_stage2_0/XM19/a_n998_n150#" "OTA_vref_0/OTA_vref_stage2_0/vcc" 5.2853
+cap "OTA_stage1_0/XM8/a_n1200_n688#" "OTA_vref_0/OTA_vref_stage2_0/vcc" 8.98079
+cap "OTA_stage2_0/vss" "OTA_vref_0/OTA_vref_stage2_0/vcc" 64.9859
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage1_0/XM8/a_1200_n600#" 1.84008
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/XM7/a_n248_n1500#" 4.76993
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/sky130_fd_pr__pfet_01v8_lvt_NH7ZMU_0/a_n190_n1597#" 8.15856
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/vss" 12.6513
+cap "OTA_stage2_0/XM19/a_n998_n150#" "OTA_stage2_0/vss" 17.3521
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/XM19/a_n998_n150#" 9.8509
+cap "OTA_stage2_0/XM9/a_n998_n150#" "OTA_stage2_0/vss" 1.99666
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/XM9/a_n998_n150#" -8.88178e-16
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/XM12/a_n190_n1597#" 14.7455
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/XM7/a_n190_n1597#" 33.5411
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/XM11/a_n190_n1597#" 1.35076
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/XM12/a_n248_n1500#" 3.07373
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM19/a_n998_n150#" 7.10543e-15
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/XM19/a_n998_n150#" 6.22743
+cap "OTA_stage2_0/m1_6804_n972#" "OTA_stage2_0/vcc" 2.84217e-14
+cap "OTA_stage2_0/vss" "OTA_stage2_0/vcc" 5.68434e-14
+cap "OTA_vref_0/OTA_vref_stage2_0/vcc" "OTA_stage2_0/XM12/a_190_n1500#" 0.0177926
+cap "OTA_stage2_0/XM12/a_190_n1500#" "OTA_stage2_0/XM9/a_n940_n238#" 5.68434e-14
+cap "OTA_vref_0/vb1" "OTA_stage2_0/XM12/a_190_n1500#" 48.2087
+cap "OTA_stage2_0/vo" "OTA_vref_0/vb1" 9.98016
+cap "OTA_stage2_0/vo" "OTA_stage2_0/XM15/a_n940_n238#" 1.03105
+cap "OTA_stage2_0/vss" "OTA_stage2_0/vo" 0.404104
+cap "OTA_stage2_0/vo" "OTA_stage2_0/vb1" 1.5501
+cap "OTA_stage1_0/XM8/a_n1258_n600#" "m2_n7472_1384#" 0.0326515
+cap "OTA_stage1_0/XM8/a_n1258_n600#" "m2_n7472_1384#" 0.0506662
+cap "m2_n939_n725#" "OTA_stage1_0/XM8/a_1200_n600#" 12.0235
+cap "OTA_stage2_0/vss" "OTA_stage2_0/vcc" 30.4908
+cap "OTA_stage1_0/XM8/a_n1200_n688#" "OTA_stage2_0/vcc" 9.83477
+cap "OTA_stage1_0/XM8/a_1200_n600#" "OTA_stage2_0/vcc" 5.28895
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/vss" 16.3964
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM7/a_n190_n1597#" 43.1599
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM7/a_n248_n1500#" 10.552
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM12/a_n190_n1597#" 20.196
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM11/a_n190_n1597#" 1.94928
+cap "OTA_stage2_0/sky130_fd_pr__pfet_01v8_lvt_NH7ZMU_0/a_n190_n1597#" "OTA_stage2_0/vcc" 11.4386
+cap "OTA_stage2_0/XM19/a_n998_n150#" "OTA_stage2_0/vcc" 1.82263
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM12/a_n248_n1500#" 6.7834
+cap "OTA_stage2_0/XM7/a_n248_n1500#" "OTA_stage2_0/XM12/a_n190_n1597#" 1.77636e-15
+cap "OTA_stage2_0/XM7/a_n248_n1500#" "OTA_stage2_0/XM12/a_n248_n1500#" -5.68434e-14
+cap "OTA_stage2_0/XM7/a_n248_n1500#" "OTA_stage2_0/sky130_fd_pr__pfet_01v8_lvt_NH7ZMU_0/a_n190_n1597#" -1.42109e-14
+cap "OTA_stage2_0/XM7/a_n248_n1500#" "OTA_stage2_0/vcc" -2.27374e-13
+cap "OTA_stage2_0/vcc" "OTA_stage1_0/vss" 12.3273
+cap "OTA_stage2_0/vcc" "OTA_stage1_0/vss" 13.7034
+cap "OTA_stage2_0/vd2" "OTA_stage2_0/XM8/a_n248_n1500#" 0.108949
+cap "OTA_stage2_0/vd2" "OTA_stage1_0/vss" 0.0130087
+cap "OTA_stage1_0/vcc" "OTA_stage2_0/vd2" 26.6496
+cap "OTA_stage1_0/vcc" "OTA_stage2_0/vd1" 20.812
+cap "OTA_stage2_0/vd2" "OTA_stage2_0/vd1" 7.91178
+cap "OTA_stage1_0/vcc" "OTA_stage1_0/vss" 3.17869
+cap "OTA_stage2_0/vd2" "OTA_stage2_0/vd1" 20.7238
+cap "OTA_stage1_0/vss" "OTA_stage1_0/vcc" 3.30239
+cap "OTA_stage2_0/vd2" "OTA_stage1_0/vcc" 52.9337
+cap "OTA_stage2_0/vd2" "OTA_stage2_0/XM8/a_n248_n1500#" 15.2568
+cap "OTA_stage1_0/vcc" "OTA_stage2_0/vd1" 22.9397
+cap "OTA_stage2_0/XM8/a_n248_n1500#" "OTA_stage2_0/vd1" 3.22726
+cap "OTA_stage2_0/XM8/a_n248_n1500#" "OTA_stage1_0/vcc" 12.6553
+cap "OTA_stage1_0/vss" "OTA_stage2_0/vd2" 0.0419475
+cap "OTA_stage1_0/vcc" "OTA_stage2_0/XM7/a_n248_n1500#" -5.68434e-14
+cap "OTA_stage2_0/vd1" "OTA_stage2_0/vd2" 0.268368
+cap "OTA_stage2_0/vd1" "OTA_stage1_0/vcc" 18.3154
+cap "OTA_stage2_0/XM8/a_n248_n1500#" "OTA_stage2_0/vd2" 0.133165
+cap "OTA_stage1_0/vcc" "OTA_stage2_0/vd2" 7.03622
+cap "OTA_stage2_0/vd1" "OTA_stage2_0/XM8/a_n248_n1500#" 8.99391
+cap "OTA_stage2_0/XM8/a_n248_n1500#" "OTA_stage2_0/vd2" 23.4859
+cap "OTA_stage2_0/XM8/a_n248_n1500#" "OTA_stage1_0/vcc" 25.6692
+cap "OTA_stage2_0/vd1" "OTA_stage1_0/vcc" 17.8407
+cap "OTA_stage2_0/vd2" "OTA_stage1_0/vcc" 4.6503
+cap "OTA_stage2_0/XM7/a_n248_n1500#" "OTA_stage1_0/vcc" 1.67903
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM4/a_n248_n1500#" 0.0863232
+cap "OTA_stage2_0/XM8/a_n248_n1500#" "OTA_stage2_0/vcc" 0.00620511
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM8/a_n190_n1597#" 1.70363
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM4/a_n190_n1597#" 1.33185
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM4/a_n248_n1500#" 0.316054
+cap "OTA_stage2_0/XM4/a_190_n1500#" "OTA_stage2_0/vcc" 2.47616
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/sky130_fd_pr__pfet_01v8_lvt_NH7ZMU_1/a_n190_n1597#" 1.70363
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM5/a_n190_n1597#" 1.70363
+cap "OTA_stage2_0/sky130_fd_pr__pfet_01v8_lvt_NH7ZMU_1/a_190_n1500#" "OTA_stage2_0/vcc" 0.00620511
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM4/a_n190_n1597#" 0.371779
+cap "OTA_stage2_0/sky130_fd_pr__pfet_01v8_lvt_NH7ZMU_1/a_n248_n1500#" "OTA_stage2_0/vcc" 0.266056
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM4/a_n248_n1500#" 27.4211
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM4/a_n190_n1597#" 68.9546
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM8/a_n248_n1500#" 11.9532
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM8/a_n190_n1597#" 108.407
+cap "OTA_stage2_0/sky130_fd_pr__pfet_01v8_lvt_NH7ZMU_1/a_190_n1500#" "OTA_stage2_0/vcc" 9.76999
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM4/a_n248_n1500#" 66.4407
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/sky130_fd_pr__pfet_01v8_lvt_NH7ZMU_1/a_n190_n1597#" 93.3734
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM4/a_190_n1500#" 10.8299
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM5/a_n190_n1597#" 92.3964
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/XM4/a_n190_n1597#" 23.4418
+cap "OTA_stage2_0/vcc" "OTA_stage2_0/sky130_fd_pr__pfet_01v8_lvt_NH7ZMU_1/a_n248_n1500#" 1.68466
+merge "OTA_stage2_0/vcc" "vcc" -6367.67 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -806473 -10517 -97002 -929 -393706 -1911 0 0 0 0
+merge "vcc" "OTA_stage1_0/vcc"
+merge "OTA_stage1_0/vcc" "m2_n469_7417#"
+merge "m2_n469_7417#" "OTA_vref_0/OTA_vref_stage2_0/vcc"
+merge "OTA_vref_0/OTA_vref_stage2_0/vcc" "m2_n939_n725#"
+merge "OTA_stage1_0/vin_n" "vin_n" -89.4838 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6480 -432 0 0 0 0 0 0
+merge "OTA_stage1_0/vb" "OTA_vref_0/vb" -2777.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -569831 -11514 -10080 -472 0 0 0 0 0 0
+merge "OTA_vref_0/vb" "m2_n7472_1384#"
+merge "OTA_stage1_0/vss" "vss" -3794.57 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -758521 -6282 -310104 -1786 -1245292 -2573 0 0 0 0
+merge "vss" "OTA_stage2_0/vss"
+merge "OTA_stage2_0/vss" "OTA_vref_0/VSUBS"
+merge "OTA_vref_0/VSUBS" "VSUBS"
+merge "VSUBS" "OTA_vref_0/OTA_vref_stage2_0/vss"
+merge "OTA_vref_0/OTA_vref_stage2_0/vss" "OTA_vref_0/OTA_vref_stage1_0/vss"
+merge "OTA_vref_0/OTA_vref_stage1_0/vss" "m2_n2133_n6026#"
+merge "OTA_stage1_0/vin_p" "vin_p" -99.9338 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8820 -458 0 0 0 0 0 0
+merge "OTA_stage2_0/vo" "vo" -292.008 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3780 -402 0 0 0 0
+merge "OTA_stage2_0/vb1" "OTA_vref_0/vb1" -1672.67 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -395 -168 0 0 -140462 -2946 0 0 0 0
+merge "OTA_vref_0/vb1" "m2_8679_n319#"
+merge "OTA_stage1_0/vd2" "OTA_stage2_0/vd2" -266.518 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12100 -642 0 0 0 0 0 0 0 0 0 0
+merge "OTA_stage2_0/vd2" "m1_n257_5586#"
+merge "OTA_stage1_0/vd1" "OTA_stage2_0/vd1" -184.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -300 -406 0 0 0 0 0 0 0 0 0 0
+merge "OTA_stage2_0/vd1" "m1_n237_5771#"

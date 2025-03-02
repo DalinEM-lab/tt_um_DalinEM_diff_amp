@@ -1,0 +1,2754 @@
+scale 1000 1 500000
+rnode "vin_n.t0" 0 873.562 -3046 4606 0
+rnode "vin_n.t1" 0 459.604 -5505 2731 0
+rnode "vin_n.n0" 0 1012.19 -5505 2731 0
+rnode "vin_n" 0 5.88382 -6618 1321 0
+rnode "OTA_stage1_0.vin_n" 0 48.7607 -6623 1607 0
+resist "OTA_stage1_0.vin_n" "vin_n" 0.0746778
+resist "OTA_stage1_0.vin_n" "vin_n.n0" 2.39955
+resist "vin_n.n0" "vin_n.t1" 8.85263
+resist "vin_n.n0" "vin_n.t0" 21.0687
+killnode "a_8294_3178#"
+rnode "a_8294_3178.t1" 0 35863.5 6999 7592 0
+rnode "a_8294_3178.t0" 0 36.4785 8329 3178 0
+resist "a_8294_3178.t0" "a_8294_3178.t1" 53.2465
+killnode "a_521_2177#"
+rnode "a_521_2177.n0" 0 1867.67 2526 5173 0
+rnode "a_521_2177.t9" 0 44.2911 1455 7654 0
+rnode "a_521_2177.n1" 0 1037.64 8312 503 0
+rnode "a_521_2177.t1" 0 15.6318 8283 591 0
+rnode "a_521_2177.n2" 0 73.2636 8312 503 0
+rnode "a_521_2177.t0" 0 615.961 7343 591 0
+rnode "a_521_2177.t14" 0 615.959 7343 1001 0
+rnode "a_521_2177.n3" 0 229.584 7343 1001 0
+rnode "a_521_2177.n4" 0 1625.91 7343 386 0
+rnode "a_521_2177.t12" 0 615.961 5405 591 0
+rnode "a_521_2177.t4" 0 615.959 5405 1001 0
+rnode "a_521_2177.n5" 0 229.584 5405 1001 0
+rnode "a_521_2177.n6" 0 1603.55 5405 386 0
+rnode "a_521_2177.t15" 0 615.961 3467 591 0
+rnode "a_521_2177.t6" 0 615.959 3467 1001 0
+rnode "a_521_2177.n7" 0 229.584 3467 1001 0
+rnode "a_521_2177.t2" 0 615.961 1529 591 0
+rnode "a_521_2177.t13" 0 615.959 1529 1001 0
+rnode "a_521_2177.n8" 0 229.584 1529 1001 0
+rnode "a_521_2177.t3" 0 15.6318 589 591 0
+rnode "a_521_2177.n9" 0 202.745 560 503 0
+rnode "a_521_2177.n10" 0 1629.29 1529 386 0
+rnode "a_521_2177.n11" 0 1649.4 3467 386 0
+rnode "a_521_2177.n12" 0 104.23 4262 1001 0
+rnode "a_521_2177.t5" 0 4.42911 4465 1001 0
+rnode "a_521_2177.t7" 0 4.42911 4407 1001 0
+rnode "a_521_2177.n13" 0 9.36857 4436 1001 0
+rnode "a_521_2177.n14" 0 34.107 4436 1001 0
+rnode "a_521_2177.n15" 0 623.005 4436 913 0
+rnode "a_521_2177.t10" 0 202.079 2273 3677 0
+rnode "a_521_2177.t8" 0 223.388 579 3677 0
+rnode "a_521_2177.n16" 0 139.622 1426 7654 0
+rnode "a_521_2177.t11" 0 44.2911 1397 7654 0
+resist "a_521_2177.n12" "a_521_2177.n6" 0.431812
+resist "a_521_2177.n14" "a_521_2177.n12" 0.792874
+resist "a_521_2177.n4" "a_521_2177.n2" 0.96938
+resist "a_521_2177.n10" "a_521_2177.n9" 0.995111
+resist "a_521_2177.n4" "a_521_2177.n3" 1.61174
+resist "a_521_2177.n6" "a_521_2177.n5" 1.61174
+resist "a_521_2177.n11" "a_521_2177.n7" 1.61174
+resist "a_521_2177.n10" "a_521_2177.n8" 1.61174
+resist "a_521_2177.n6" "a_521_2177.n4" 1.69748
+resist "a_521_2177.t11" "a_521_2177.n16" 1.90433
+resist "a_521_2177.n16" "a_521_2177.t9" 1.90433
+resist "a_521_2177.n15" "a_521_2177.n1" 2.10304
+resist "a_521_2177.n0" "a_521_2177.n15" 2.67586
+resist "a_521_2177.n12" "a_521_2177.n11" 3.54935
+resist "a_521_2177.n8" "a_521_2177.t13" 3.58217
+resist "a_521_2177.n7" "a_521_2177.t6" 3.58217
+resist "a_521_2177.n5" "a_521_2177.t4" 3.58217
+resist "a_521_2177.n3" "a_521_2177.t14" 3.58217
+resist "a_521_2177.n8" "a_521_2177.t2" 3.58276
+resist "a_521_2177.n7" "a_521_2177.t15" 3.58276
+resist "a_521_2177.n5" "a_521_2177.t12" 3.58276
+resist "a_521_2177.n3" "a_521_2177.t0" 3.58276
+resist "a_521_2177.n2" "a_521_2177.n1" 7.91
+resist "a_521_2177.n15" "a_521_2177.n14" 8.08767
+resist "a_521_2177.n9" "a_521_2177.n1" 11.2222
+resist "a_521_2177.n13" "a_521_2177.t7" 11.6
+resist "a_521_2177.n13" "a_521_2177.t5" 11.6
+resist "a_521_2177.n11" "a_521_2177.n10" 14.6529
+resist "a_521_2177.n16" "a_521_2177.n0" 16.2719
+resist "a_521_2177.n0" "a_521_2177.t10" 18.3075
+resist "a_521_2177.n0" "a_521_2177.t8" 19.131
+resist "a_521_2177.n14" "a_521_2177.n13" 48.575
+resist "a_521_2177.n9" "a_521_2177.t3" 60.3527
+resist "a_521_2177.n2" "a_521_2177.t1" 60.3527
+rnode "vcc.t23" 0 4.16343 -4256 6410 0
+rnode "vcc.t26" 0 4.16343 -4314 6410 0
+rnode "vcc.n0" 0 9.13596 -4285 6410 0
+rnode "vcc.t24" 0 4.16343 -4256 6898 0
+rnode "vcc.t27" 0 4.16343 -4314 6898 0
+rnode "vcc.n1" 0 8.69927 -4285 6898 0
+rnode "vcc.n2" 0 96.5403 -4285 6898 0
+rnode "OTA_stage1_0.vcc" 0 651.473 -8408 7639 0
+rnode "vcc.n3" 0 645.547 -4313 7354 0
+rnode "vcc.n4" 0 462.91 -4313 6012 0
+rnode "vcc.n5" 0 123.276 -4313 7354 0
+rnode "vcc.n6" 0 123.276 -4313 6012 0
+rnode "vcc.n7" 0 849.849 -426 6683 0
+rnode "vcc.n8" 0 1463.96 -426 6683 0
+rnode "vcc.t22" 0 2296.96 -2456 6898 0
+rnode "vcc.n9" 0 2151.72 -4313 7354 0
+rnode "vcc.t25" 0 2296.66 -6114 6898 0
+rnode "vcc.n10" 0 1461.91 -8200 6683 0
+rnode "vcc.n11" 0 915.581 -8200 6683 0
+rnode "vcc.n12" 0 818.11 -4326 7471 0
+rnode "vcc.n13" 0 1098.85 -4326 7471 0
+rnode "vcc.n14" 0 745.24 -4285 7417 0
+rnode "vcc.n15" 0 676.498 277 7818 0
+rnode "vcc" 0 785.053 2791 9774 0
+rnode "vcc.n16" 0 427.825 1491 9536 0
+rnode "vcc.n17" 0 283.327 1469 9551 0
+rnode "vcc.n18" 0 347.517 286 3621 0
+rnode "vcc.n19" 0 135.67 1469 9551 0
+rnode "vcc.n20" 0 135.643 1469 1930 0
+rnode "vcc.n21" 0 618.633 2668 3746 0
+rnode "vcc.n22" 0 5.32951 1493 1928 0
+rnode "vcc.n23" 0 79.0166 1493 1928 0
+rnode "vcc.t15" 0 8.66962 -497 -1088 0
+rnode "vcc.t11" 0 8.671 84 -1088 0
+rnode "vcc.n24" 0 141.204 113 -745 0
+rnode "vcc.n25" 0 93.0816 1509 -660 0
+rnode "vcc.t3" 0 8.67128 2664 -1088 0
+rnode "vcc.t9" 0 8.67128 3954 -1088 0
+rnode "vcc.t5" 0 2.31302 4900 -1088 0
+rnode "vcc.t13" 0 2.31302 4842 -1088 0
+rnode "vcc.n26" 0 4.93402 4871 -1088 0
+rnode "vcc.n27" 0 253.23 5457 -556 0
+rnode "vcc.n28" 0 29.0762 5005 -842 0
+rnode "vcc.n29" 0 81.2941 5005 -842 0
+rnode "vcc.n30" 0 25.9088 4097 -1088 0
+rnode "vcc.n31" 0 71.2566 3411 -1088 0
+rnode "vcc.n32" 0 124.324 3411 -1088 0
+rnode "vcc.n33" 0 124.324 4097 -1088 0
+rnode "vcc.n34" 0 28.0415 2464 -1354 0
+rnode "vcc.n35" 0 111.776 2464 -822 0
+rnode "vcc.n36" 0 0 2464 -822 0
+rnode "vcc.n37" 0 16.4417 2464 -822 0
+rnode "vcc.n38" 0 19.8884 1516 -1221 0
+rnode "vcc.n39" 0 0 1174 -822 0
+rnode "vcc.n40" 0 29.9819 1174 -1354 0
+rnode "vcc.n41" 0 16.4417 1174 -822 0
+rnode "vcc.n42" 0 109.561 1174 -822 0
+rnode "vcc.n43" 0 30.5481 268 -1303 0
+rnode "vcc.n44" 0 360.105 -411 -820 0
+rnode "vcc.n45" 0 23.6572 -411 -820 0
+rnode "vcc.n46" 0 23.6572 -411 -1330 0
+rnode "vcc.n47" 0 47.4551 -411 -1330 0
+rnode "vcc.n48" 0 101.104 -1101 -1123 0
+rnode "vcc.n49" 0 135.092 -1036 -1075 0
+rnode "vcc.t14" 0 165.02 -697 -1088 0
+rnode "vcc.n50" 0 147.129 -411 -1330 0
+rnode "vcc.t10" 0 164.97 -116 -1088 0
+rnode "vcc.n51" 0 131.328 214 -1075 0
+rnode "vcc.n52" 0 15.7221 214 -1075 0
+rnode "vcc.n53" 0 61.8273 268 -828 0
+rnode "vcc.n54" 0 174.973 269 -1221 0
+rnode "vcc.n55" 0 194.42 826 -1221 0
+rnode "vcc.n56" 0 74.6435 831 -1088 0
+rnode "vcc.n57" 0 124.324 831 -1088 0
+rnode "vcc.t16" 0 187.548 1174 -822 0
+rnode "vcc.n58" 0 0 1174 -822 0
+rnode "vcc.n59" 0 16.4417 1174 -1354 0
+rnode "vcc.n60" 0 124.324 1517 -1088 0
+rnode "vcc.n61" 0 185.565 1517 -1088 0
+rnode "vcc.n62" 0 205.026 2108 -1221 0
+rnode "vcc.n63" 0 71.7066 2121 -1088 0
+rnode "vcc.n64" 0 124.324 2121 -1088 0
+rnode "vcc.t2" 0 187.548 2464 -822 0
+rnode "vcc.n65" 0 0 2464 -822 0
+rnode "vcc.n66" 0 16.4417 2464 -1354 0
+rnode "vcc.n67" 0 124.324 2807 -1088 0
+rnode "vcc.n68" 0 72.2214 2807 -1088 0
+rnode "vcc.n69" 0 201.829 2811 -1209 0
+rnode "vcc.n70" 0 200.423 3408 -1209 0
+rnode "vcc.n71" 0 29.3008 3754 -1354 0
+rnode "vcc.n72" 0 16.4417 3754 -1354 0
+rnode "vcc.n73" 0 0 3754 -822 0
+rnode "vcc.t8" 0 187.548 3754 -822 0
+rnode "vcc.n74" 0 0 3754 -822 0
+rnode "vcc.n75" 0 16.4417 3754 -822 0
+rnode "vcc.n76" 0 113.787 3754 -822 0
+rnode "vcc.n77" 0 135.33 4098 -867 0
+rnode "vcc.n78" 0 27.2858 4729 -1338 0
+rnode "vcc.n79" 0 48.8906 5435 -838 0
+rnode "vcc.t12" 0 92.8182 4742 -1088 0
+rnode "vcc.n80" 0 154.676 6395 -1077 0
+rnode "vcc.n81" 0 78.226 5435 -838 0
+rnode "vcc.n82" 0 86.1971 5457 -556 0
+rnode "vcc.t1" 0 1.15651 5825 -1138 0
+rnode "vcc.t7" 0 1.15651 5767 -1138 0
+rnode "vcc.n83" 0 2.42311 5796 -1138 0
+rnode "OTA_vref_0.vcc" 0 1.04644 6518 -554 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.vcc" 0 10.3853 6504 -555 0
+rnode "vcc.n84" 0 265.56 5796 -851 0
+rnode "vcc.n85" 0 51.2373 5458 -775 0
+rnode "vcc.n86" 0 141.54 5458 -775 0
+rnode "vcc.n87" 0 338.875 5502 -825 0
+rnode "vcc.n88" 0 45.4405 6395 -1077 0
+rnode "vcc.n89" 0 36.4699 5679 -1338 0
+rnode "vcc.t0" 0 192.908 6025 -1138 0
+rnode "vcc.t4" 0 174.646 5000 -1088 0
+rnode "vcc.n90" 0 143.103 5435 -838 0
+rnode "vcc.t6" 0 61.5949 5567 -1138 0
+rnode "vcc.n91" 0 115.617 5679 -1338 0
+rnode "vcc.n92" 0 36.4699 5679 -1338 0
+rnode "vcc.n93" 0 27.2858 4729 -1338 0
+rnode "vcc.n94" 0 42.7346 4729 -1338 0
+rnode "vcc.n95" 0 112.946 4504 -1090 0
+rnode "vcc.n96" 0 13.5438 4504 -1090 0
+rnode "vcc.n97" 0 153.098 4504 -867 0
+rnode "vcc.n98" 0 86.093 4962 -709 0
+rnode "vcc.n99" 0 61.7297 4962 -709 0
+rnode "vcc.n100" 0 89.0384 4962 -842 0
+rnode "vcc.n101" 0 159.668 4871 -853 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vcc" 0 56.9612 4055 -658 0
+rnode "vcc.n102" 0 113.163 3983 -739 0
+rnode "vcc.n103" 0 184.054 2693 -739 0
+rnode "vcc.t17" 0 8.67128 1374 -1088 0
+rnode "vcc.n104" 0 114.258 1403 -739 0
+rnode "vcc.n105" 0 81.7971 1503 -660 0
+rnode "vcc.n106" 0 507.191 1503 -660 0
+rnode "vcc.n107" 0 113.621 -323 -732 0
+rnode "vcc.n108" 0 1175.28 -468 -745 0
+rnode "vcc.n109" 0 1521.41 217 2233 0
+rnode "vcc.n110" 0 571.893 286 3621 0
+rnode "vcc.n111" 0 77.2135 1469 1930 0
+rnode "vcc.n112" 0 246.651 285 2016 0
+rnode "vcc.n113" 0 193.519 285 2016 0
+rnode "vcc.n114" 0 151.016 285 2016 0
+rnode "vcc.n115" 0 388.432 1493 1928 0
+rnode "vcc.n116" 0 146.777 1550 1856 0
+rnode "vcc.n117" 0 488.438 2662 2988 0
+rnode "vcc.n118" 0 6.54664 5062 3978 0
+rnode "vcc.n119" 0 112.248 5111 2955 0
+rnode "vcc.n120" 0 1560.05 7389 3075 0
+rnode "vcc.n121" 0 349.27 7165 2923 0
+rnode "vcc.n122" 0 349.27 5265 2923 0
+rnode "vcc.t30" 0 557.597 6842 2923 0
+rnode "vcc.t28" 0 459.583 6424 2923 0
+rnode "vcc.n123" 0 380.591 7165 2923 0
+rnode "vcc.n124" 0 262.255 5265 2923 0
+rnode "vcc.n125" 0 216.741 6069 1960 0
+rnode "vcc.t31" 0 16.1911 6662 2923 0
+rnode "vcc.t29" 0 16.1911 6604 2923 0
+rnode "vcc.n126" 0 42.0577 6633 2923 0
+rnode "vcc.t35" 0 16.1911 5826 2923 0
+rnode "vcc.t33" 0 16.1911 5768 2923 0
+rnode "vcc.n127" 0 41.2821 5797 2923 0
+rnode "vcc.n128" 0 660.578 6111 1959 0
+rnode "vcc.n129" 0 1122.19 5111 3827 0
+rnode "vcc.n130" 0 276.206 5111 2955 0
+rnode "vcc.n131" 0 196.39 6069 1960 0
+rnode "vcc.n132" 0 210.66 6111 1842 0
+rnode "vcc.n133" 0 16.0699 6111 1842 0
+rnode "vcc.n134" 0 237.598 6215 2057 0
+rnode "vcc.n135" 0 49.2207 6215 2057 0
+rnode "vcc.t32" 0 557.597 5588 2923 0
+rnode "vcc.t34" 0 459.583 6006 2923 0
+rnode "vcc.n136" 0 306.389 6215 3789 0
+rnode "vcc.n137" 0 49.2207 6215 3789 0
+rnode "vcc.n138" 0 572.378 6215 3789 0
+rnode "vcc.n139" 0 322.156 5121 3746 0
+rnode "vcc.n140" 0 11.8937 5062 3978 0
+rnode "vcc.n141" 0 444.899 5057 4124 0
+rnode "vcc.n142" 0 290.962 5057 4124 0
+rnode "vcc.n143" 0 446.43 2662 4131 0
+rnode "vcc.n144" 0 203.314 2662 4374 0
+rnode "vcc.n145" 0 614.715 2652 5740 0
+rnode "vcc.n146" 0 2682.69 2652 5740 0
+rnode "vcc.t18" 0 3176.86 2083 7654 0
+rnode "vcc.t21" 0 1899.88 1645 7654 0
+rnode "vcc.n147" 0 1355.29 1469 9551 0
+rnode "vcc.t19" 0 2165.98 1207 7654 0
+rnode "vcc.t20" 0 2909.44 769 7654 0
+rnode "vcc.n148" 0 2250.81 286 5740 0
+rnode "vcc.n149" 0 383.538 286 5740 0
+rnode "vcc.n150" 0 463.313 277 7731 0
+rnode "vcc.n151" 0 468.512 277 7731 0
+rnode "vcc.n152" 0 480.372 1491 9536 0
+rnode "vcc.n153" 0 930.633 1491 9536 0
+rnode "vcc.n154" 0 228.92 277 9424 0
+rnode "OTA_stage2_0.vcc" 0 15.3648 107 9539 0
+resist "vcc.n85" "vcc.n27" 0.000329815
+resist "vcc.n115" "vcc.n23" 0.00105305
+resist "vcc.n142" "vcc.n118" 0.00205592
+resist "OTA_vref_0.OTA_vref_stage1_0.vcc" "OTA_vref_0.vcc" 0.0106707
+resist "vcc.n14" "vcc.n13" 0.0128125
+resist "vcc.n61" "vcc.n38" 0.016285
+resist "vcc.n54" "vcc.n53" 0.016285
+resist "vcc.n129" "vcc.n118" 0.020148
+resist "vcc.n132" "vcc.n131" 0.0211694
+resist "vcc.n106" "vcc.n105" 0.0288462
+resist "vcc.n101" "vcc.n100" 0.0298556
+resist "vcc.n140" "vcc.n118" 0.0336957
+resist "vcc.n99" "vcc.n28" 0.0365646
+resist "vcc.n153" "vcc.n152" 0.0375
+resist "vcc.n151" "vcc.n15" 0.0424528
+resist "vcc.n132" "vcc.n128" 0.046875
+resist "vcc.n70" "vcc.n31" 0.0496124
+resist "vcc.n102" "OTA_vref_0.OTA_vref_stage2_0.vcc" 0.0566038
+resist "vcc.n69" "vcc.n68" 0.0661499
+resist "vcc.n87" "vcc.n82" 0.069378
+resist "vcc.n106" "vcc.n25" 0.0723582
+resist "vcc.n86" "vcc.n85" 0.0725806
+resist "vcc.n105" "vcc.n104" 0.0786164
+resist "vcc.n56" "vcc.n55" 0.0814249
+resist "vcc.n152" "vcc.n16" 0.0861111
+resist "vcc.n114" "vcc.n109" 0.09133
+resist "OTA_stage2_0.vcc" "vcc.n154" 0.0948661
+resist "vcc.n151" "vcc.n150" 0.0989362
+resist "vcc.n131" "vcc.n125" 0.103333
+resist "vcc.n110" "vcc.n18" 0.105682
+resist "vcc.n85" "vcc.n84" 0.111478
+resist "vcc.n38" "vcc.n25" 0.113995
+resist "vcc.n13" "vcc.n12" 0.122996
+resist "vcc.n23" "vcc.n22" 0.129167
+resist "vcc.n130" "vcc.n119" 0.129167
+resist "vcc.n141" "vcc.n140" 0.137339
+resist "vcc.n100" "vcc.n27" 0.162405
+resist "vcc.n63" "vcc.n62" 0.211705
+resist "vcc.n82" "vcc.n27" 0.238652
+resist "vcc.n153" "vcc" 0.255233
+resist "vcc.n87" "vcc.n86" 0.283177
+resist "vcc.n107" "vcc.n24" 0.318713
+resist "vcc.n86" "vcc.n28" 0.385204
+resist "vcc.n130" "vcc.n129" 0.444898
+resist "vcc.n12" "vcc.n3" 0.492308
+resist "vcc.n82" "vcc.n81" 0.648848
+resist "vcc.n154" "vcc.n153" 0.680286
+resist "vcc.n109" "vcc.n108" 0.855847
+resist "vcc.n144" "vcc.n143" 0.861526
+resist "vcc.n129" "vcc.n120" 0.871992
+resist "vcc.n143" "vcc.n117" 0.874756
+resist "vcc.n131" "vcc.n130" 0.927761
+resist "vcc.n105" "vcc.n103" 0.935535
+resist "vcc.n115" "vcc.n114" 0.951547
+resist "vcc.n113" "vcc.n23" 0.96271
+resist "vcc.n143" "vcc.n142" 0.984786
+resist "vcc.n104" "vcc.n24" 1.00086
+resist "vcc.n103" "vcc.n102" 1.01415
+resist "vcc.n110" "vcc.n109" 1.05127
+resist "vcc.n113" "vcc.n110" 1.19412
+resist "vcc.n124" "vcc.n119" 1.19766
+resist "vcc.n14" "vcc.n2" 1.20139
+resist "vcc.n17" "vcc.n16" 1.20342
+resist "vcc.n154" "vcc.n15" 1.21667
+resist "vcc.n13" "OTA_stage1_0.vcc" 1.27562
+resist "vcc.n98" "vcc.n29" 1.27703
+resist "vcc.n15" "vcc.n14" 1.42504
+resist "vcc.n140" "vcc.n139" 1.6206
+resist "vcc.n9" "vcc.n5" 1.63717
+resist "vcc.n5" "vcc.n3" 1.63717
+resist "vcc.n9" "vcc.n6" 1.63717
+resist "vcc.n6" "vcc.n4" 1.63717
+resist "vcc.n149" "vcc.n148" 1.66667
+resist "vcc.n146" "vcc.n145" 1.66667
+resist "vcc.n108" "vcc.n107" 1.80601
+resist "vcc.n152" "vcc.n151" 1.85311
+resist "vcc.n111" "vcc.n22" 1.86182
+resist "vcc.n133" "vcc.n125" 1.94783
+resist "vcc.n100" "vcc.n99" 2.25
+resist "vcc.n107" "vcc.n106" 3.76159
+resist "vcc.n127" "vcc.t33" 4.08071
+resist "vcc.n127" "vcc.t35" 4.08071
+resist "vcc.n126" "vcc.t29" 4.08071
+resist "vcc.n126" "vcc.t31" 4.08071
+resist "vcc.n116" "vcc.n22" 4.42182
+resist "vcc.n123" "vcc.n120" 4.48295
+resist "vcc.n114" "vcc.n113" 4.5
+resist "vcc.n58" "vcc.t16" 4.71915
+resist "vcc.t16" "vcc.n39" 4.71915
+resist "vcc.n65" "vcc.t2" 4.71915
+resist "vcc.t2" "vcc.n36" 4.71915
+resist "vcc.t8" "vcc.n73" 4.71915
+resist "vcc.n74" "vcc.t8" 4.71915
+resist "vcc.n134" "vcc.n133" 4.82319
+resist "vcc.n147" "vcc.n19" 5.44118
+resist "vcc.n19" "vcc.n17" 5.44118
+resist "vcc.n147" "vcc.n20" 5.44118
+resist "vcc.n111" "vcc.n20" 5.44118
+resist "vcc.n144" "vcc.n21" 6.56203
+resist "vcc.n137" "vcc.n136" 7.11538
+resist "vcc.n138" "vcc.n137" 7.11538
+resist "vcc.n136" "vcc.n135" 7.11538
+resist "vcc.n135" "vcc.n134" 7.11538
+resist "OTA_vref_0.OTA_vref_stage2_0.vcc" "vcc.n101" 7.20658
+resist "vcc.n90" "vcc.n79" 7.4
+resist "vcc.n81" "vcc.n79" 7.4
+resist "vcc.n123" "vcc.n121" 8.04348
+resist "vcc.n124" "vcc.n122" 8.04348
+resist "vcc.n55" "vcc.n54" 9.07074
+resist "vcc.n113" "vcc.n112" 9.3
+resist "vcc.n142" "vcc.n141" 9.3
+resist "vcc.n133" "vcc.n132" 9.3
+resist "vcc.n29" "vcc.n28" 9.3
+resist "vcc.n99" "vcc.n98" 9.3
+resist "vcc.n116" "vcc.n115" 9.34517
+resist "vcc.n42" "vcc.n25" 9.57805
+resist "vcc.n62" "vcc.n61" 9.62443
+resist "vcc.n84" "OTA_vref_0.OTA_vref_stage1_0.vcc" 9.63196
+resist "vcc.n56" "vcc.n42" 9.75679
+resist "vcc.n68" "vcc.n35" 9.83597
+resist "vcc.n76" "vcc.n31" 9.86327
+resist "vcc.n70" "vcc.n69" 9.87287
+resist "vcc.n63" "vcc.n35" 9.97932
+resist "vcc.n8" "vcc.n7" 10.2778
+resist "vcc.n11" "vcc.n10" 10.2778
+resist "vcc.n77" "vcc.n76" 10.3631
+resist "vcc.n50" "vcc.n45" 10.8824
+resist "vcc.n45" "vcc.n44" 10.8824
+resist "vcc.n50" "vcc.n46" 10.8824
+resist "vcc.n47" "vcc.n46" 10.8824
+resist "vcc.n92" "vcc.n91" 11.5625
+resist "vcc.n92" "vcc.n89" 11.5625
+resist "vcc.n97" "vcc.n77" 12.0296
+resist "vcc.n81" "vcc.n29" 12.727
+resist "vcc.n98" "vcc.n97" 13.5972
+resist "vcc.n0" "vcc.t26" 15.8694
+resist "vcc.n0" "vcc.t23" 15.8694
+resist "vcc.n1" "vcc.t27" 15.8694
+resist "vcc.n1" "vcc.t24" 15.8694
+resist "vcc.n73" "vcc.n72" 18.2054
+resist "vcc.n66" "vcc.n65" 18.2054
+resist "vcc.n59" "vcc.n58" 18.2054
+resist "vcc.n41" "vcc.n39" 18.2054
+resist "vcc.n37" "vcc.n36" 18.2054
+resist "vcc.n75" "vcc.n74" 18.2054
+resist "vcc.n147" "vcc.t21" 21.5492
+resist "vcc.n72" "vcc.n71" 23.125
+resist "vcc.n66" "vcc.n34" 23.125
+resist "vcc.n59" "vcc.n40" 23.125
+resist "vcc.n42" "vcc.n41" 23.125
+resist "vcc.n37" "vcc.n35" 23.125
+resist "vcc.n76" "vcc.n75" 23.125
+resist "vcc.n26" "vcc.t13" 28.565
+resist "vcc.n26" "vcc.t5" 28.565
+resist "vcc.n139" "vcc.n119" 29.6047
+resist "vcc.n139" "vcc.n138" 30.0498
+resist "vcc.n117" "vcc.n21" 30.7038
+resist "vcc.n94" "vcc.t12" 30.7513
+resist "vcc.n96" "vcc.n95" 30.8333
+resist "vcc.n33" "vcc.n30" 30.8333
+resist "vcc.n68" "vcc.n67" 30.8333
+resist "vcc.n32" "vcc.n31" 30.8333
+resist "vcc.n61" "vcc.n60" 30.8333
+resist "vcc.n64" "vcc.n63" 30.8333
+resist "vcc.n57" "vcc.n56" 30.8333
+resist "vcc.n52" "vcc.n51" 30.8333
+resist "vcc.n49" "vcc.n48" 30.8794
+resist "vcc.n128" "vcc.n127" 32.0769
+resist "vcc.t19" "vcc.n147" 32.0789
+resist "vcc.n128" "vcc.n126" 32.1784
+resist "vcc.n94" "vcc.n93" 33.636
+resist "vcc.n52" "vcc.n43" 35.1614
+resist "vcc.n77" "vcc.n30" 36.2667
+resist "vcc.n53" "vcc.n52" 38.0916
+resist "vcc.n48" "vcc.n44" 45.8833
+resist "vcc.n53" "vcc.n44" 45.9057
+resist "vcc.n93" "vcc.n78" 46.25
+resist "vcc.n138" "vcc.n120" 50.9384
+resist "vcc.t20" "vcc.t19" 53.628
+resist "vcc.t21" "vcc.t18" 53.628
+resist "vcc.n145" "vcc.n144" 55.3316
+resist "vcc.n83" "vcc.t7" 57.13
+resist "vcc.n83" "vcc.t1" 57.13
+resist "vcc.n97" "vcc.n96" 58.2531
+resist "vcc.n148" "vcc.t20" 60.8044
+resist "vcc.n88" "vcc.n80" 61.6667
+resist "vcc.n55" "vcc.n40" 64.1317
+resist "vcc.n40" "vcc.n38" 64.6508
+resist "vcc.n141" "vcc.n21" 65.6206
+resist "vcc.n134" "vcc.n123" 70.7819
+resist "vcc.t18" "vcc.n146" 71.3342
+resist "vcc.n125" "vcc.n124" 71.8897
+resist "vcc.n69" "vcc.n34" 72.4508
+resist "vcc.n62" "vcc.n34" 73.701
+resist "vcc.n71" "vcc.n70" 82.4036
+resist "vcc.n112" "vcc.n18" 87.7949
+resist "vcc.n112" "vcc.n111" 87.9659
+resist "vcc.n71" "vcc.n30" 101.719
+resist "vcc.n47" "vcc.n43" 103.507
+resist "vcc.n136" "vcc.t34" 108.025
+resist "vcc.n136" "vcc.t28" 108.025
+resist "vcc.n150" "vcc.n149" 108.909
+resist "vcc.n149" "vcc.n18" 115.911
+resist "vcc.n117" "vcc.n116" 116.721
+resist "vcc.n96" "vcc.n78" 118.117
+resist "vcc.n2" "vcc.n1" 119.76
+resist "vcc.n2" "vcc.n0" 120.89
+resist "vcc.n48" "vcc.n47" 128.98
+resist "vcc.n150" "vcc.n17" 157.374
+resist "vcc.n91" "vcc.t6" 168.088
+resist "vcc.t32" "vcc.n122" 174.991
+resist "vcc.t30" "vcc.n121" 174.991
+resist "vcc.n12" "vcc.n11" 176.572
+resist "vcc.n7" "vcc.n3" 183.015
+resist "vcc.t6" "vcc.n90" 198.104
+resist "vcc.n101" "vcc.n26" 202.453
+resist "vcc.n145" "vcc.n16" 209.421
+resist "vcc.t34" "vcc.t32" 216.05
+resist "vcc.t28" "vcc.t30" 216.05
+resist "vcc.n108" "vcc.t15" 231.272
+resist "vcc.n24" "vcc.t11" 231.272
+resist "vcc.n102" "vcc.t9" 231.287
+resist "vcc.n103" "vcc.t3" 231.287
+resist "vcc.n104" "vcc.t17" 231.287
+resist "vcc.n89" "vcc.n88" 248.246
+resist "vcc.n89" "vcc.n78" 253.333
+resist "vcc.n95" "vcc.n94" 268.39
+resist "vcc.n88" "vcc.n87" 300.266
+resist "vcc.t4" "vcc.t12" 387.816
+resist "vcc.n11" "vcc.n4" 405.284
+resist "vcc.n7" "vcc.n4" 415.628
+resist "vcc.n60" "vcc.n39" 426.345
+resist "vcc.n58" "vcc.n57" 426.345
+resist "vcc.n67" "vcc.n36" 426.345
+resist "vcc.n65" "vcc.n64" 426.345
+resist "vcc.n74" "vcc.n33" 426.345
+resist "vcc.n73" "vcc.n32" 426.345
+resist "vcc.n50" "vcc.t14" 427.874
+resist "vcc.t10" "vcc.n50" 441.339
+resist "vcc.n91" "vcc.t0" 519.273
+resist "vcc.n51" "vcc.t10" 524.534
+resist "vcc.n54" "vcc.n43" 524.8
+resist "vcc.t14" "vcc.n49" 537.999
+resist "vcc.n84" "vcc.n83" 599.49
+resist "vcc.t0" "vcc.n80" 616.959
+resist "vcc.n90" "vcc.t4" 653.497
+resist "vcc.t25" "vcc.n9" 1159.97
+resist "vcc.n9" "vcc.t22" 1196.03
+resist "vcc.t22" "vcc.n8" 1317.74
+resist "vcc.n10" "vcc.t25" 1353.8
+resist "vcc.n60" "vcc.n59" 2089.41
+resist "vcc.n57" "vcc.n41" 2089.41
+resist "vcc.n67" "vcc.n66" 2089.41
+resist "vcc.n64" "vcc.n37" 2089.41
+resist "vcc.n72" "vcc.n33" 2089.41
+resist "vcc.n75" "vcc.n32" 2089.41
+resist "vcc.n92" "vcc.n80" 2327.31
+resist "vcc.n93" "vcc.n92" 2375
+resist "vcc.n95" "vcc.n79" 2701.93
+resist "vcc.n80" "vcc.n79" 2706.92
+resist "vcc.n49" "vcc.n46" 3045.88
+resist "vcc.n49" "vcc.n45" 3045.88
+resist "vcc.n51" "vcc.n46" 3045.88
+resist "vcc.n51" "vcc.n45" 3045.88
+resist "vcc.n135" "vcc.n122" 6349.41
+resist "vcc.n135" "vcc.n121" 6349.41
+resist "vcc.n137" "vcc.n122" 6349.41
+resist "vcc.n137" "vcc.n121" 6349.41
+resist "vcc.n10" "vcc.n6" 16027.1
+resist "vcc.n8" "vcc.n6" 16027.1
+resist "vcc.n10" "vcc.n5" 16027.1
+resist "vcc.n8" "vcc.n5" 16027.1
+resist "vcc.n146" "vcc.n20" 17562.4
+resist "vcc.n148" "vcc.n20" 17562.4
+resist "vcc.n148" "vcc.n19" 17565.9
+resist "vcc.n146" "vcc.n19" 17565.9
+killnode "a_959_2177#"
+rnode "a_959_2177.t4" 0 216.942 1893 3677 0
+rnode "a_959_2177.t0" 0 216.942 1893 7654 0
+rnode "a_959_2177.t5" 0 216.942 1835 7654 0
+rnode "a_959_2177.n0" 0 671.366 1864 7654 0
+rnode "a_959_2177.t6" 0 216.942 1017 7654 0
+rnode "a_959_2177.t2" 0 216.942 959 7654 0
+rnode "a_959_2177.n1" 0 762.068 988 7654 0
+rnode "a_959_2177.n2" 0 4725.3 1864 9052 0
+rnode "a_959_2177.t8" 0 399.519 5408 2923 0
+rnode "a_959_2177.t9" 0 101.24 6244 2923 0
+rnode "a_959_2177.t10" 0 101.24 6186 2923 0
+rnode "a_959_2177.n3" 0 235.864 6215 2923 0
+rnode "a_959_2177.t11" 0 427.351 7022 2923 0
+rnode "a_959_2177.n4" 0 2071.87 6215 3521 0
+rnode "a_959_2177.n5" 0 1406.4 5379 3521 0
+rnode "a_959_2177.n6" 0 2888.1 3583 3521 0
+rnode "a_959_2177.t1" 0 216.942 1017 3677 0
+rnode "a_959_2177.t7" 0 216.942 959 3677 0
+rnode "a_959_2177.n7" 0 762.09 988 3677 0
+rnode "a_959_2177.n8" 0 3540.56 1863 2700 0
+rnode "a_959_2177.n9" 0 671.495 1864 3677 0
+rnode "a_959_2177.t3" 0 216.942 1835 3677 0
+resist "a_959_2177.n5" "a_959_2177.n4" 1.045
+resist "a_959_2177.t3" "a_959_2177.n9" 1.90433
+resist "a_959_2177.n9" "a_959_2177.t4" 1.90433
+resist "a_959_2177.n7" "a_959_2177.t7" 1.90433
+resist "a_959_2177.n7" "a_959_2177.t1" 1.90433
+resist "a_959_2177.n0" "a_959_2177.t5" 1.90433
+resist "a_959_2177.n0" "a_959_2177.t0" 1.90433
+resist "a_959_2177.n1" "a_959_2177.t2" 1.90433
+resist "a_959_2177.n1" "a_959_2177.t6" 1.90433
+resist "a_959_2177.n6" "a_959_2177.n5" 2.245
+resist "a_959_2177.n8" "a_959_2177.n6" 3.05092
+resist "a_959_2177.n3" "a_959_2177.t10" 4.08071
+resist "a_959_2177.n3" "a_959_2177.t9" 4.08071
+resist "a_959_2177.n6" "a_959_2177.n2" 8.9375
+resist "a_959_2177.n2" "a_959_2177.n0" 17.2075
+resist "a_959_2177.n9" "a_959_2177.n8" 17.2093
+resist "a_959_2177.n2" "a_959_2177.n1" 18.3025
+resist "a_959_2177.n8" "a_959_2177.n7" 18.303
+resist "a_959_2177.n4" "a_959_2177.n3" 31.3514
+resist "a_959_2177.n5" "a_959_2177.t8" 35.4322
+resist "a_959_2177.n4" "a_959_2177.t11" 36.4772
+rnode "vo" 0 51.6649 9166 905 0
+rnode "vo.t5" 0 100.527 8329 3010 0
+rnode "vo.t2" 0 737.707 2273 7654 0
+rnode "vo.t3" 0 819.9 579 7654 0
+rnode "vo.n0" 0 4306.81 2302 6265 0
+rnode "vo.t1" 0 155.102 1455 3677 0
+rnode "vo.t4" 0 155.102 1397 3677 0
+rnode "vo.n1" 0 430.799 1426 3677 0
+rnode "vo.n2" 0 2500.99 2920 3871 0
+rnode "vo.t7" 0 84.3275 589 1001 0
+rnode "vo.n3" 0 2477.37 2920 1140 0
+rnode "vo.t8" 0 76.0745 8283 1001 0
+rnode "vo.n4" 0 1143.12 8312 1089 0
+rnode "vo.n5" 0 767.691 8328 1140 0
+rnode "vo.t6" 0 15.5102 4465 591 0
+rnode "vo.t0" 0 15.5102 4407 591 0
+rnode "vo.n6" 0 90.4165 4436 591 0
+rnode "vo.n7" 0 2004.31 8957 1000 0
+rnode "OTA_stage2_0.vo" 0 67.0681 9007 883 0
+resist "vo.n5" "vo.n4" 0.00737255
+resist "OTA_stage2_0.vo" "vo.n7" 0.0130556
+resist "OTA_stage2_0.vo" "vo" 0.0415167
+resist "vo.n7" "vo.n5" 0.307343
+resist "vo.n3" "vo.n2" 1.28357
+resist "vo.n2" "vo.n0" 1.32164
+resist "vo.n1" "vo.t4" 1.90433
+resist "vo.n1" "vo.t1" 1.90433
+resist "vo.n4" "vo.n3" 2.48455
+resist "vo.n6" "vo.t0" 11.6
+resist "vo.n6" "vo.t6" 11.6
+resist "vo.n2" "vo.n1" 15.6094
+resist "vo.n0" "vo.t2" 18.6506
+resist "vo.n0" "vo.t3" 19.4746
+resist "vo.n5" "vo.t5" 52.985
+resist "vo.n7" "vo.n6" 62.1973
+resist "vo.n4" "vo.t8" 71.6727
+resist "vo.n3" "vo.t7" 72.7601
+killnode "OTA_stage2_0.vd1"
+rnode "OTA_stage2_0.vd1.n0" 0 18838.8 1331 5821 0
+rnode "OTA_stage2_0.vd1.t2" 0 37743.9 -7971 6230 0
+rnode "OTA_stage2_0.vd1.t8" 0 1718.75 2083 7654 0
+rnode "OTA_stage2_0.vd1.t5" 0 1730.13 1645 3677 0
+rnode "OTA_stage2_0.vd1.t7" 0 1730.13 1207 3677 0
+rnode "OTA_stage2_0.vd1.t6" 0 1718.75 769 7654 0
+rnode "OTA_stage2_0.vd1.t4" 0 46.8746 -656 6898 0
+rnode "OTA_stage2_0.vd1.t3" 0 51.8394 -7914 6410 0
+rnode "OTA_stage2_0.vd1.t0" 0 385.333 -6705 2731 0
+rnode "OTA_stage2_0.vd1.t1" 0 235.537 -1846 4606 0
+resist "OTA_stage2_0.vd1.n0" "OTA_stage2_0.vd1.t2" 16.4886
+resist "OTA_stage2_0.vd1.n0" "OTA_stage2_0.vd1.t1" 17.5585
+resist "OTA_stage2_0.vd1.n0" "OTA_stage2_0.vd1.t0" 19.504
+resist "OTA_stage2_0.vd1.n0" "OTA_stage2_0.vd1.t8" 121.827
+resist "OTA_stage2_0.vd1.n0" "OTA_stage2_0.vd1.t6" 121.827
+resist "OTA_stage2_0.vd1.n0" "OTA_stage2_0.vd1.t5" 122.216
+resist "OTA_stage2_0.vd1.n0" "OTA_stage2_0.vd1.t7" 122.216
+resist "OTA_stage2_0.vd1.n0" "OTA_stage2_0.vd1.t4" 136.073
+resist "OTA_stage2_0.vd1.n0" "OTA_stage2_0.vd1.t3" 138.714
+killnode "OTA_vref_0.vb1"
+rnode "OTA_vref_0.vb1.n0" 0 5671.64 6523 2159 0
+rnode "OTA_vref_0.vb1.n1" 0 347.123 2751 -1933 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vb1" 0 1420.21 2754 -372 0
+rnode "OTA_vref_0.vb1.t7" 0 846.1 5588 2923 0
+rnode "OTA_vref_0.vb1.t6" 0 834.437 6006 2923 0
+rnode "OTA_vref_0.vb1.t9" 0 834.437 6424 2923 0
+rnode "OTA_vref_0.vb1.t8" 0 834.437 6842 2923 0
+rnode "OTA_stage2_0.vb1" 0 916.273 8803 55 0
+rnode "OTA_vref_0.vb1.t2" 0 6.93448 1748 -1875 0
+rnode "OTA_vref_0.vb1.t5" 0 6.93448 1690 -1875 0
+rnode "OTA_vref_0.vb1.n2" 0 18.5891 1719 -1875 0
+rnode "OTA_vref_0.vb1.t1" 0 6.93448 2264 -1875 0
+rnode "OTA_vref_0.vb1.t0" 0 6.93448 2206 -1875 0
+rnode "OTA_vref_0.vb1.n3" 0 17.5708 2235 -1875 0
+rnode "OTA_vref_0.vb1.t4" 0 6.93448 2780 -1875 0
+rnode "OTA_vref_0.vb1.t3" 0 6.93448 2722 -1875 0
+rnode "OTA_vref_0.vb1.n4" 0 17.5708 2751 -1875 0
+resist "OTA_vref_0.OTA_vref_stage2_0.vb1" "OTA_stage2_0.vb1" 6.72634
+resist "OTA_vref_0.OTA_vref_stage2_0.vb1" "OTA_vref_0.vb1.n1" 8.73645
+resist "OTA_stage2_0.vb1" "OTA_vref_0.vb1.n0" 10.0216
+resist "OTA_vref_0.vb1.n4" "OTA_vref_0.vb1.t3" 17.4
+resist "OTA_vref_0.vb1.n4" "OTA_vref_0.vb1.t4" 17.4
+resist "OTA_vref_0.vb1.n3" "OTA_vref_0.vb1.t0" 17.4
+resist "OTA_vref_0.vb1.n3" "OTA_vref_0.vb1.t1" 17.4
+resist "OTA_vref_0.vb1.n2" "OTA_vref_0.vb1.t5" 17.4
+resist "OTA_vref_0.vb1.n2" "OTA_vref_0.vb1.t2" 17.4
+resist "OTA_vref_0.vb1.n0" "OTA_vref_0.vb1.t8" 67.5133
+resist "OTA_vref_0.vb1.n0" "OTA_vref_0.vb1.t9" 67.5133
+resist "OTA_vref_0.vb1.n0" "OTA_vref_0.vb1.t6" 67.5133
+resist "OTA_vref_0.vb1.n0" "OTA_vref_0.vb1.t7" 68.1057
+resist "OTA_vref_0.vb1.n1" "OTA_vref_0.vb1.n4" 70.9448
+resist "OTA_vref_0.vb1.n1" "OTA_vref_0.vb1.n3" 70.9448
+resist "OTA_vref_0.vb1.n1" "OTA_vref_0.vb1.n2" 71.7511
+killnode "OTA_stage2_0.vd2"
+rnode "OTA_stage2_0.vd2.t0" 0 39213.6 -6114 6166 0
+rnode "OTA_stage2_0.vd2.t4" 0 1336.8 2083 3677 0
+rnode "OTA_stage2_0.vd2.t5" 0 1330.09 1645 7654 0
+rnode "OTA_stage2_0.vd2.t3" 0 1330.09 1207 7654 0
+rnode "OTA_stage2_0.vd2.t6" 0 1321.45 769 3677 0
+rnode "OTA_stage2_0.vd2.t2" 0 33.9758 -656 6410 0
+rnode "OTA_stage2_0.vd2.t1" 0 33.9636 -7914 6898 0
+resist "OTA_stage2_0.vd2.t0" "OTA_stage2_0.vd2.t5" 122.213
+resist "OTA_stage2_0.vd2.t0" "OTA_stage2_0.vd2.t3" 122.213
+resist "OTA_stage2_0.vd2.t0" "OTA_stage2_0.vd2.t4" 122.687
+resist "OTA_stage2_0.vd2.t0" "OTA_stage2_0.vd2.t6" 129.905
+resist "OTA_stage2_0.vd2.t0" "OTA_stage2_0.vd2.t1" 134.729
+resist "OTA_stage2_0.vd2.t0" "OTA_stage2_0.vd2.t2" 134.76
+rnode "vin_p.t0" 0 876.48 -5504 4606 0
+rnode "vin_p.t1" 0 460.642 -3047 2731 0
+rnode "vin_p.n0" 0 1007.26 -3047 2731 0
+rnode "vin_p" 0 6.42948 -4161 1299 0
+rnode "OTA_stage1_0.vin_p" 0 49.1923 -4157 1611 0
+resist "OTA_stage1_0.vin_p" "vin_p" 0.0814667
+resist "OTA_stage1_0.vin_p" "vin_p.n0" 2.55766
+resist "vin_p.n0" "vin_p.t1" 8.85268
+resist "vin_p.n0" "vin_p.t0" 21.6007
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t22" 0 304.639 4742 -1088 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t25" 0 304.639 5000 -1088 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t1" 0 25.9384 5367 -1138 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t3" 0 25.9736 6225 -1138 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t2" 0 460.559 6025 -1138 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n0" 0 835.68 6025 -1252 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t10" 0 277.156 6107 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t9" 0 54.9652 4617 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t14" 0 54.9652 4559 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n1" 0 208.795 4588 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t11" 0 54.9652 3069 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t16" 0 54.9652 3011 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n2" 0 208.795 3040 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t13" 0 54.9652 1521 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t6" 0 54.9652 1463 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n3" 0 208.795 1492 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t8" 0 302.577 -27 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n4" 0 1716.56 1492 -5506 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n5" 0 983.628 3040 -5506 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n6" 0 983.628 4588 -5506 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n7" 0 924.068 6136 -5506 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t15" 0 54.9652 3843 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t7" 0 54.9652 3785 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n8" 0 208.795 3814 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t4" 0 54.9652 2295 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t18" 0 54.9652 2237 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n9" 0 208.795 2266 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t12" 0 54.9652 747 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t5" 0 54.9652 689 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n10" 0 237.14 718 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n11" 0 1672.06 2266 -4025 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n12" 0 983.628 3814 -4025 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t19" 0 54.9652 5391 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t17" 0 54.9652 5333 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n13" 0 208.795 5362 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n14" 0 1020.84 5362 -4025 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n15" 0 1691.07 6414 -4774 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n16" 0 847.025 5568 -1264 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t0" 0 460.559 5567 -1138 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n17" 0 780.032 5567 -1252 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n18" 0 111.572 5338 -1229 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n19" 0 371.836 5053 -1252 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n20" 0 367.258 4801 -1252 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.vr" 0 60.5944 4440 -1253 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t21" 0 610.236 -697 -1088 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t23" 0 586.815 -116 -1088 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n21" 0 1659.18 11 -1252 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t20" 0 586.815 1174 -1088 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n22" 0 980.201 1321 -1252 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t26" 0 586.815 2464 -1088 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n23" 0 978.893 2602 -1252 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.t24" 0 586.815 3754 -1088 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr.n24" 0 894.432 3900 -1252 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vr" 0 58.8507 4127 -1249 0
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n16" "OTA_vref_0.OTA_vref_stage2_0.vr.n0" 0.216451
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n17" "OTA_vref_0.OTA_vref_stage2_0.vr.n16" 0.239692
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n18" "OTA_vref_0.OTA_vref_stage2_0.vr.n17" 0.268939
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n20" "OTA_vref_0.OTA_vref_stage2_0.vr.n19" 0.36413
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n15" "OTA_vref_0.OTA_vref_stage2_0.vr.n7" 0.576987
+resist "OTA_vref_0.OTA_vref_stage2_0.vr" "OTA_vref_0.OTA_vref_stage2_0.vr.n24" 0.616848
+resist "OTA_vref_0.OTA_vref_stage1_0.vr" "OTA_vref_0.OTA_vref_stage2_0.vr.n20" 0.660326
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n19" "OTA_vref_0.OTA_vref_stage2_0.vr.n18" 0.774457
+resist "OTA_vref_0.OTA_vref_stage2_0.vr" "OTA_vref_0.OTA_vref_stage1_0.vr" 0.850543
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n12" "OTA_vref_0.OTA_vref_stage2_0.vr.n11" 0.957316
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n14" "OTA_vref_0.OTA_vref_stage2_0.vr.n12" 0.957316
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n5" "OTA_vref_0.OTA_vref_stage2_0.vr.n4" 0.957316
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n6" "OTA_vref_0.OTA_vref_stage2_0.vr.n5" 0.957316
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n7" "OTA_vref_0.OTA_vref_stage2_0.vr.n6" 0.957316
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n15" "OTA_vref_0.OTA_vref_stage2_0.vr.n14" 1.06678
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n23" "OTA_vref_0.OTA_vref_stage2_0.vr.n22" 2.72283
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n24" "OTA_vref_0.OTA_vref_stage2_0.vr.n23" 2.76902
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n22" "OTA_vref_0.OTA_vref_stage2_0.vr.n21" 2.80163
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n16" "OTA_vref_0.OTA_vref_stage2_0.vr.n15" 3.8929
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n13" "OTA_vref_0.OTA_vref_stage2_0.vr.t17" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n13" "OTA_vref_0.OTA_vref_stage2_0.vr.t19" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n3" "OTA_vref_0.OTA_vref_stage2_0.vr.t6" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n3" "OTA_vref_0.OTA_vref_stage2_0.vr.t13" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n2" "OTA_vref_0.OTA_vref_stage2_0.vr.t16" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n2" "OTA_vref_0.OTA_vref_stage2_0.vr.t11" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n1" "OTA_vref_0.OTA_vref_stage2_0.vr.t14" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n1" "OTA_vref_0.OTA_vref_stage2_0.vr.t9" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n10" "OTA_vref_0.OTA_vref_stage2_0.vr.t5" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n10" "OTA_vref_0.OTA_vref_stage2_0.vr.t12" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n9" "OTA_vref_0.OTA_vref_stage2_0.vr.t18" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n9" "OTA_vref_0.OTA_vref_stage2_0.vr.t4" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n8" "OTA_vref_0.OTA_vref_stage2_0.vr.t7" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n8" "OTA_vref_0.OTA_vref_stage2_0.vr.t15" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n0" "OTA_vref_0.OTA_vref_stage2_0.vr.t2" 22.9995
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n17" "OTA_vref_0.OTA_vref_stage2_0.vr.t0" 22.9995
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n14" "OTA_vref_0.OTA_vref_stage2_0.vr.n13" 23.2511
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n4" "OTA_vref_0.OTA_vref_stage2_0.vr.n3" 23.2511
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n5" "OTA_vref_0.OTA_vref_stage2_0.vr.n2" 23.2511
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n6" "OTA_vref_0.OTA_vref_stage2_0.vr.n1" 23.2511
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n11" "OTA_vref_0.OTA_vref_stage2_0.vr.n9" 23.2511
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n12" "OTA_vref_0.OTA_vref_stage2_0.vr.n8" 23.2511
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n11" "OTA_vref_0.OTA_vref_stage2_0.vr.n10" 24.2084
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n24" "OTA_vref_0.OTA_vref_stage2_0.vr.t24" 26.0487
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n23" "OTA_vref_0.OTA_vref_stage2_0.vr.t26" 26.0487
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n22" "OTA_vref_0.OTA_vref_stage2_0.vr.t20" 26.0487
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n21" "OTA_vref_0.OTA_vref_stage2_0.vr.t23" 26.0487
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n21" "OTA_vref_0.OTA_vref_stage2_0.vr.t21" 26.8557
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n7" "OTA_vref_0.OTA_vref_stage2_0.vr.t10" 27.6011
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n4" "OTA_vref_0.OTA_vref_stage2_0.vr.t8" 28.5584
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n19" "OTA_vref_0.OTA_vref_stage2_0.vr.t25" 60.1747
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n20" "OTA_vref_0.OTA_vref_stage2_0.vr.t22" 60.1747
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n18" "OTA_vref_0.OTA_vref_stage2_0.vr.t1" 651.677
+resist "OTA_vref_0.OTA_vref_stage2_0.vr.n0" "OTA_vref_0.OTA_vref_stage2_0.vr.t3" 651.943
+rnode "vss.n0" 0 0 -4834 1799 0
+rnode "vss.t14" 0 0 -7789 2635 0
+rnode "vss.n1" 0 0 -7789 2492 0
+rnode "vss.n2" 0 0 -7789 3778 0
+rnode "vss.n3" 0 0 -7789 3778 0
+rnode "vss.n4" 0 0 -7789 2492 0
+rnode "vss.t13" 0 0 -7789 3778 0
+rnode "vss.t69" 0 0 -3046 4606 0
+rnode "vss.n5" 0 0 -4276 5393 0
+rnode "vss.n6" 0 0 -4276 1965 0
+rnode "vss.n7" 0 0 -4276 5393 0
+rnode "vss.n8" 0 0 -7670 3796 0
+rnode "vss.n9" 0 0 -6969 3679 0
+rnode "vss.t12" 0 0 -3047 2731 0
+rnode "vss.n10" 0 0 -4276 5393 0
+rnode "vss.t0" 0 0 -5504 4606 0
+rnode "vss.t4" 0 0 -5505 2731 0
+rnode "vss.n11" 0 0 -6969 3679 0
+rnode "vss.n12" 0 0 -6969 3679 0
+rnode "vss.n13" 0 0 -7332 3135 0
+rnode "vss.n14" 0 0 -7332 3135 0
+rnode "vss.n15" 0 0 -7332 3135 0
+rnode "vss.n16" 0 0 -7145 2513 0
+rnode "vss.n17" 0 0 -4834 1799 0
+rnode "vss.n18" 0 0 -4276 1965 0
+rnode "vss.n19" 0 0 -1582 3679 0
+rnode "vss.n20" 0 0 -1582 3679 0
+rnode "vss.n21" 0 0 -1582 3679 0
+rnode "vss.n22" 0 0 -1099 -3738 0
+rnode "vss.n23" 0 0 4000 2004 0
+rnode "vss.t20" 0 0 8329 3723 0
+rnode "vss.t10" 0 0 7343 1001 0
+rnode "vss.n24" 0 0 8329 3723 0
+rnode "vss.n25" 0 0 8329 2465 0
+rnode "vss.n26" 0 0 8329 3723 0
+rnode "vss.n27" 0 0 8329 3723 0
+rnode "vss.n28" 0 0 8477 3094 0
+rnode "vss.n29" 0 0 8477 3094 0
+rnode "vss.n30" 0 0 8329 2465 0
+rnode "vss.n31" 0 0 8154 1555 0
+rnode "vss.n32" 0 0 8151 1400 0
+rnode "vss.n33" 0 0 4212 1457 0
+rnode "vss.n34" 0 0 4465 1498 0
+rnode "vss.n35" 0 0 350 1368 0
+rnode "vss.n36" 0 -0 340 1514 0
+rnode "vss.n37" 0 0 424 1458 0
+rnode "vss.t3" 0 0 2527 1001 0
+rnode "vss.t72" 0 0 2469 1001 0
+rnode "vss.n38" 0 0 2498 1001 0
+rnode "vss.t79" 0 0 6403 1001 0
+rnode "vss.t70" 0 0 6345 1001 0
+rnode "vss.n39" 0 0 6374 1001 0
+rnode "vss.n40" 0 0 4212 1457 0
+rnode "vss.n41" 0 0 2498 1396 0
+rnode "vss.n42" 0 0 340 811 0
+rnode "vss.t31" 0 0 747 -5193 0
+rnode "vss.t51" 0 0 689 -5193 0
+rnode "vss.n43" 0 0 718 -5193 0
+rnode "vss.n44" 0 0 718 -5822 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vss" 0 0 4529 -2249 0
+rnode "vss.n45" 0 0 2145 -2904 0
+rnode "vss.n46" 0 0 -1028 -1870 0
+rnode "vss.n47" 0 0 4466 -1870 0
+rnode "vss.n48" 0 0 -1028 -1870 0
+rnode "vss.n49" 0 0 1819 -1407 0
+rnode "vss.t44" 0 0 1621 -3712 0
+rnode "vss.n50" 0 0 3071 -3057 0
+rnode "vss.n51" 0 0 5222 -2588 0
+rnode "vss.n52" 0 0 5155 -2748 0
+rnode "vss.n53" 0 0 5155 -2568 0
+rnode "vss.t63" 0 0 5232 -4390 0
+rnode "vss.n54" 0 0 5155 -1758 0
+rnode "vss.n55" 0 0 5155 -1938 0
+rnode "vss.n56" 0 0 5155 -2118 0
+rnode "vss.n57" 0 0 5155 -2298 0
+rnode "vss.n58" 0 0 5155 -2478 0
+rnode "vss.t60" 0 0 4975 -3712 0
+rnode "vss.n59" 0 0 5256 -1584 0
+rnode "vss.n60" 0 0 5304 -1828 0
+rnode "vss.n61" 0 0 5396 -1734 0
+rnode "vss.n62" 0 0 5436 -1584 0
+rnode "vss.n63" 0 0 5275 -1532 0
+rnode "vss.n64" 0 0 5526 -1584 0
+rnode "vss.n65" 0 0 5706 -1584 0
+rnode "vss.n66" 0 0 5886 -1584 0
+rnode "vss.n67" 0 0 6066 -1584 0
+rnode "vss.n68" 0 0 6342 -1668 0
+rnode "vss.n69" 0 0 6156 -1584 0
+rnode "vss.n70" 0 0 6274 -1770 0
+rnode "vss.n71" 0 0 6066 -1584 0
+rnode "vss.n72" 0 0 6194 -1847 0
+rnode "vss.n73" 0 0 6026 -1734 0
+rnode "vss.n74" 0 0 5936 -1734 0
+rnode "vss.n75" 0 0 6194 -2567 0
+rnode "vss.n76" 0 0 5756 -1734 0
+rnode "vss.n77" 0 0 6194 -2567 0
+rnode "vss.n78" 0 0 5576 -1734 0
+rnode "vss.n79" 0 0 6194 -2567 0
+rnode "vss.n80" 0 0 5396 -1734 0
+rnode "vss.n81" 0 0 5362 -2624 0
+rnode "vss.n82" 0 0 5304 -2548 0
+rnode "vss.n83" 0 0 5304 -2368 0
+rnode "vss.n84" 0 0 5304 -2188 0
+rnode "vss.n85" 0 0 5304 -2008 0
+rnode "vss.n86" 0 0 5992 -2624 0
+rnode "vss.n87" 0 0 6194 -1847 0
+rnode "vss.n88" 0 0 6194 -2027 0
+rnode "vss.n89" 0 0 6194 -2207 0
+rnode "vss.n90" 0 0 6194 -2387 0
+rnode "vss.n91" 0 0 6082 -2624 0
+rnode "vss.n92" 0 0 6194 -2477 0
+rnode "vss.n93" 0 0 6342 -2478 0
+rnode "vss.n94" 0 0 6342 -2658 0
+rnode "vss.n95" 0 0 6342 -2478 0
+rnode "vss.n96" 0 0 6342 -2658 0
+rnode "vss.n97" 0 0 6342 -2478 0
+rnode "vss.n98" 0 0 6342 -4455 0
+rnode "vss.n99" 0 0 6246 -2771 0
+rnode "vss.n100" 0 0 6342 -2748 0
+rnode "vss.n101" 0 0 6156 -2771 0
+rnode "vss.n102" 0 0 6391 -2749 0
+rnode "vss.n103" 0 0 6082 -2624 0
+rnode "vss.n104" 0 0 6345 -5674 0
+rnode "vss.t33" 0 0 6107 -3712 0
+rnode "vss.n105" 0 0 6342 -2028 0
+rnode "vss.n106" 0 0 6342 -2118 0
+rnode "vss.n107" 0 0 6391 -2179 0
+rnode "vss.n108" 0 0 6194 -2297 0
+rnode "vss.n109" 0 0 6342 -2028 0
+rnode "vss.n110" 0 0 6342 -1848 0
+rnode "vss.n111" 0 0 6342 -1758 0
+rnode "vss.n112" 0 0 6342 -1668 0
+rnode "vss.n113" 0 0 5256 -1584 0
+rnode "vss.n114" 0 0 5275 -1532 0
+rnode "vss.n115" 0 0 6342 -1668 0
+rnode "vss.n116" 0 0 6342 -1758 0
+rnode "vss.n117" 0 0 6342 -1758 0
+rnode "vss.n118" 0 0 6342 -1848 0
+rnode "vss.n119" 0 0 6194 -1847 0
+rnode "vss.n120" 0 0 6342 -1848 0
+rnode "vss.n121" 0 0 6194 -1937 0
+rnode "vss.n122" 0 0 6194 -1937 0
+rnode "vss.n123" 0 0 6194 -2027 0
+rnode "vss.n124" 0 0 6194 -2027 0
+rnode "vss.n125" 0 0 6342 -1938 0
+rnode "vss.n126" 0 0 6342 -1938 0
+rnode "vss.n127" 0 0 6342 -1938 0
+rnode "vss.n128" 0 0 6342 -2028 0
+rnode "vss.n129" 0 0 6342 -2118 0
+rnode "vss.n130" 0 0 6342 -2118 0
+rnode "vss.n131" 0 0 6342 -2298 0
+rnode "vss.n132" 0 0 6342 -2298 0
+rnode "vss.n133" 0 0 6194 -2297 0
+rnode "vss.n134" 0 0 6194 -2387 0
+rnode "vss.n135" 0 0 6194 -2387 0
+rnode "vss.n136" 0 0 6194 -2477 0
+rnode "vss.n137" 0 0 6342 -2388 0
+rnode "vss.n138" 0 0 6342 -2388 0
+rnode "vss.n139" 0 0 6342 -2388 0
+rnode "vss.n140" 0 0 6342 -2298 0
+rnode "vss.n141" 0 0 6342 -2208 0
+rnode "vss.n142" 0 0 6342 -2208 0
+rnode "vss.n143" 0 0 6342 -2208 0
+rnode "vss.n144" 0 0 6194 -2207 0
+rnode "vss.n145" 0 0 6194 -2207 0
+rnode "vss.n146" 0 0 6194 -2117 0
+rnode "vss.n147" 0 0 6194 -2117 0
+rnode "vss.n148" 0 0 6276 -2053 0
+rnode "vss.n149" 0 0 5846 -1734 0
+rnode "vss.n150" 0 0 5666 -1734 0
+rnode "vss.n151" 0 0 5436 -1584 0
+rnode "vss.n152" 0 0 5396 -1734 0
+rnode "vss.n153" 0 0 5486 -1734 0
+rnode "vss.n154" 0 0 5486 -1734 0
+rnode "vss.n155" 0 0 5526 -1584 0
+rnode "vss.n156" 0 0 5526 -1584 0
+rnode "vss.n157" 0 0 5666 -1734 0
+rnode "vss.n158" 0 0 5576 -1734 0
+rnode "vss.n159" 0 0 5576 -1734 0
+rnode "vss.n160" 0 0 5616 -1584 0
+rnode "vss.n161" 0 0 5616 -1584 0
+rnode "vss.n162" 0 0 5706 -1584 0
+rnode "vss.n163" 0 0 5706 -1584 0
+rnode "vss.n164" 0 0 5846 -1734 0
+rnode "vss.n165" 0 0 5756 -1734 0
+rnode "vss.n166" 0 0 5756 -1734 0
+rnode "vss.n167" 0 0 6026 -1734 0
+rnode "vss.n168" 0 0 6066 -1584 0
+rnode "vss.n169" 0 0 5976 -1584 0
+rnode "vss.n170" 0 0 5976 -1584 0
+rnode "vss.n171" 0 0 5936 -1734 0
+rnode "vss.n172" 0 0 5936 -1734 0
+rnode "vss.n173" 0 0 5886 -1584 0
+rnode "vss.n174" 0 0 5886 -1584 0
+rnode "vss.n175" 0 0 5796 -1584 0
+rnode "vss.n176" 0 0 5796 -1584 0
+rnode "vss.n177" 0 0 5826 -1641 0
+rnode "vss.n178" 0 0 5826 -1641 0
+rnode "vss.n179" 0 0 5304 -2188 0
+rnode "vss.n180" 0 0 5304 -2368 0
+rnode "vss.n181" 0 0 5155 -2568 0
+rnode "vss.n182" 0 0 5304 -2548 0
+rnode "vss.n183" 0 0 5304 -2548 0
+rnode "vss.n184" 0 0 5155 -2478 0
+rnode "vss.n185" 0 0 5155 -2478 0
+rnode "vss.n186" 0 0 5304 -2368 0
+rnode "vss.n187" 0 0 5304 -2458 0
+rnode "vss.n188" 0 0 5304 -2458 0
+rnode "vss.n189" 0 0 5155 -2388 0
+rnode "vss.n190" 0 0 5155 -2388 0
+rnode "vss.n191" 0 0 5155 -2298 0
+rnode "vss.n192" 0 0 5155 -2298 0
+rnode "vss.n193" 0 0 5304 -2188 0
+rnode "vss.n194" 0 0 5304 -2278 0
+rnode "vss.n195" 0 0 5304 -2278 0
+rnode "vss.n196" 0 0 5155 -2028 0
+rnode "vss.n197" 0 0 5155 -1848 0
+rnode "vss.n198" 0 0 5155 -1848 0
+rnode "vss.n199" 0 0 5304 -1828 0
+rnode "vss.n200" 0 0 5304 -1918 0
+rnode "vss.n201" 0 0 5304 -1918 0
+rnode "vss.n202" 0 0 5155 -2028 0
+rnode "vss.n203" 0 0 5155 -1938 0
+rnode "vss.n204" 0 0 5155 -1938 0
+rnode "vss.n205" 0 0 5304 -2008 0
+rnode "vss.n206" 0 0 5304 -2008 0
+rnode "vss.n207" 0 0 5304 -2098 0
+rnode "vss.n208" 0 0 5304 -2098 0
+rnode "vss.n209" 0 0 5155 -2118 0
+rnode "vss.n210" 0 0 5155 -2118 0
+rnode "vss.n211" 0 0 5155 -2208 0
+rnode "vss.n212" 0 0 5155 -2208 0
+rnode "vss.n213" 0 0 5235 -2204 0
+rnode "vss.n214" 0 0 5235 -2204 0
+rnode "vss.t29" 0 0 4617 -3712 0
+rnode "vss.t47" 0 0 4559 -3712 0
+rnode "vss.n215" 0 0 4588 -3712 0
+rnode "vss.t39" 0 0 3069 -3712 0
+rnode "vss.t53" 0 0 3011 -3712 0
+rnode "vss.n216" 0 0 3040 -3712 0
+rnode "vss.t45" 0 0 1521 -3712 0
+rnode "vss.t57" 0 0 1463 -3712 0
+rnode "vss.n217" 0 0 1492 -3712 0
+rnode "vss.t27" 0 0 -27 -3712 0
+rnode "vss.n218" 0 0 1492 -3075 0
+rnode "vss.n219" 0 0 3011 -3009 0
+rnode "vss.n220" 0 0 3011 -3009 0
+rnode "vss.n221" 0 0 3040 -3075 0
+rnode "vss.n222" 0 0 4588 -3075 0
+rnode "vss.n223" 0 0 5157 -3009 0
+rnode "vss.n224" 0 0 5976 -2771 0
+rnode "vss.n225" 0 0 5812 -2624 0
+rnode "vss.n226" 0 0 5976 -2771 0
+rnode "vss.n227" 0 0 5706 -2771 0
+rnode "vss.n228" 0 0 5616 -2771 0
+rnode "vss.n229" 0 0 5452 -2624 0
+rnode "vss.n230" 0 0 5452 -2624 0
+rnode "vss.n231" 0 0 5616 -2771 0
+rnode "vss.n232" 0 0 5436 -2771 0
+rnode "vss.n233" 0 0 5706 -2771 0
+rnode "vss.n234" 0 0 5616 -2771 0
+rnode "vss.t36" 0 0 5233 -3712 0
+rnode "vss.n235" 0 0 5256 -2771 0
+rnode "vss.n236" 0 0 5256 -2771 0
+rnode "vss.n237" 0 0 5436 -2771 0
+rnode "vss.n238" 0 0 5362 -2624 0
+rnode "vss.n239" 0 0 5256 -2771 0
+rnode "vss.n240" 0 0 5346 -2771 0
+rnode "vss.n241" 0 0 5346 -2771 0
+rnode "vss.n242" 0 0 5346 -2771 0
+rnode "vss.n243" 0 0 5436 -2771 0
+rnode "vss.t42" 0 0 5491 -3712 0
+rnode "vss.n244" 0 0 5526 -2771 0
+rnode "vss.n245" 0 0 5526 -2771 0
+rnode "vss.n246" 0 0 5526 -2771 0
+rnode "vss.n247" 0 0 5542 -2624 0
+rnode "vss.n248" 0 0 5542 -2624 0
+rnode "vss.n249" 0 0 5632 -2624 0
+rnode "vss.n250" 0 0 5632 -2624 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Collector" 0 0 5705 -2810 0
+rnode "vss.n251" 0 0 5706 -2771 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Base" 0 0 5711 -2651 0
+rnode "vss.n252" 0 0 5812 -2624 0
+rnode "vss.n253" 0 0 5722 -2624 0
+rnode "vss.n254" 0 0 5722 -2624 0
+rnode "vss.n255" 0 0 5796 -2771 0
+rnode "vss.n256" 0 0 5796 -2771 0
+rnode "vss.n257" 0 0 6156 -2771 0
+rnode "vss.n258" 0 0 5992 -2624 0
+rnode "vss.n259" 0 0 6066 -2771 0
+rnode "vss.n260" 0 0 6066 -2771 0
+rnode "vss.n261" 0 0 6066 -2771 0
+rnode "vss.t32" 0 0 6007 -3712 0
+rnode "vss.n262" 0 0 5976 -2771 0
+rnode "vss.n263" 0 0 5796 -2771 0
+rnode "vss.n264" 0 0 5886 -2771 0
+rnode "vss.n265" 0 0 5886 -2771 0
+rnode "vss.n266" 0 0 5886 -2771 0
+rnode "vss.n267" 0 0 5902 -2624 0
+rnode "vss.n268" 0 0 5902 -2624 0
+rnode "vss.n269" 0 0 5926 -2856 0
+rnode "vss.n270" 0 0 5926 -2856 0
+rnode "vss.n271" 0 0 6136 -3075 0
+rnode "OTA_vref_0.vss" 0 0 6486 -5913 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.vss" 0 0 6476 -5919 0
+rnode "vss.t43" 0 0 5391 -5193 0
+rnode "vss.t37" 0 0 5333 -5193 0
+rnode "vss.n272" 0 0 5362 -5193 0
+rnode "vss.t35" 0 0 3843 -5193 0
+rnode "vss.t55" 0 0 3785 -5193 0
+rnode "vss.n273" 0 0 3814 -5193 0
+rnode "vss.t49" 0 0 2295 -5193 0
+rnode "vss.t41" 0 0 2237 -5193 0
+rnode "vss.n274" 0 0 2266 -5193 0
+rnode "vss.n275" 0 0 2267 -5822 0
+rnode "vss.n276" 0 0 -200 -4455 0
+rnode "vss.n277" 0 0 -200 -4455 0
+rnode "vss.t76" 0 0 3138 -1875 0
+rnode "vss.t28" 0 0 4717 -3712 0
+rnode "vss.n278" 0 0 4466 -1870 0
+rnode "vss.t46" 0 0 4459 -3712 0
+rnode "vss.t38" 0 0 3169 -3712 0
+rnode "vss.t77" 0 0 3396 -1875 0
+rnode "vss.t58" 0 0 3427 -3712 0
+rnode "vss.t75" 0 0 3654 -1875 0
+rnode "vss.t54" 0 0 3685 -3712 0
+rnode "vss.t78" 0 0 3912 -1875 0
+rnode "vss.t34" 0 0 3943 -3712 0
+rnode "vss.t74" 0 0 4170 -1875 0
+rnode "vss.t64" 0 0 4201 -3712 0
+rnode "vss.n279" 0 0 4297 -1400 0
+rnode "vss.n280" 0 0 3616 -768 0
+rnode "vss.t1" 0 0 3467 1001 0
+rnode "vss.t17" 0 0 1590 -1875 0
+rnode "vss.t56" 0 0 1363 -3712 0
+rnode "vss.t16" 0 0 1332 -1875 0
+rnode "vss.t65" 0 0 1105 -3712 0
+rnode "vss.t19" 0 0 1074 -1875 0
+rnode "vss.t30" 0 0 847 -3712 0
+rnode "vss.t18" 0 0 816 -1875 0
+rnode "vss.t50" 0 0 589 -3712 0
+rnode "vss.t15" 0 0 558 -1875 0
+rnode "vss.n281" 0 0 -1028 -1870 0
+rnode "vss.t25" 0 0 -732 -1875 0
+rnode "vss.t23" 0 0 -474 -1875 0
+rnode "vss.t21" 0 0 -216 -1875 0
+rnode "vss.n282" 0 0 -200 -4455 0
+rnode "vss.t22" 0 0 42 -1875 0
+rnode "vss.t26" 0 0 73 -3712 0
+rnode "vss.t24" 0 0 300 -1875 0
+rnode "vss.t62" 0 0 331 -3712 0
+rnode "vss.n283" 0 0 526 -1391 0
+rnode "vss.n284" 0 0 4465 1498 0
+rnode "vss.n285" 0 0 4465 189 0
+rnode "vss.n286" 0 0 340 1514 0
+rnode "vss.n287" 0 0 387 215 0
+rnode "OTA_stage2_0.vss" 0 0 202 120 0
+rnode "vss.n288" 0 0 340 226 0
+rnode "vss.n289" 0 0 387 215 0
+rnode "vss.n290" 0 0 4465 1498 0
+rnode "vss.t66" 0 0 5405 1001 0
+rnode "vss.n291" 0 0 8593 843 0
+rnode "vss.n292" 0 0 8593 843 0
+rnode "vss.n293" 0 0 8593 843 0
+rnode "vss.n294" 0 0 4465 189 0
+rnode "vss.n295" 0 0 4226 116 0
+rnode "vss.t11" 0 0 6403 591 0
+rnode "vss.t67" 0 0 6345 591 0
+rnode "vss.n296" 0 0 6374 591 0
+rnode "vss.t2" 0 0 2527 591 0
+rnode "vss.t73" 0 0 2469 591 0
+rnode "vss.n297" 0 0 2498 591 0
+rnode "vss.n298" 0 0 2498 225 0
+rnode "vss.n299" 0 0 4226 116 0
+rnode "vss.n300" 0 0 4226 116 0
+rnode "vss.n301" 0 0 387 215 0
+rnode "vss.n302" 0 0 340 811 0
+rnode "vss.n303" 0 0 266 829 0
+rnode "vss.n304" 0 0 266 829 0
+rnode "vss.n305" 0 0 338 843 0
+rnode "vss.n306" 0 0 338 843 0
+rnode "vss.n307" 0 0 338 843 0
+rnode "vss.n308" 0 0 526 -769 0
+rnode "vss.t71" 0 0 1529 1001 0
+rnode "vss.n309" 0 0 1819 -769 0
+rnode "vss.n310" 0 0 2789 553 0
+rnode "vss.n311" 0 0 3109 -769 0
+rnode "vss.n312" 0 0 3109 -1407 0
+rnode "vss.t7" 0 0 1848 -1875 0
+rnode "vss.t61" 0 0 1879 -3712 0
+rnode "vss.t5" 0 0 2106 -1875 0
+rnode "vss.t40" 0 0 2137 -3712 0
+rnode "vss.t6" 0 0 2364 -1875 0
+rnode "vss.t48" 0 0 2395 -3712 0
+rnode "vss.t8" 0 0 2622 -1875 0
+rnode "vss.t59" 0 0 2653 -3712 0
+rnode "vss.t9" 0 0 2880 -1875 0
+rnode "vss.t52" 0 0 2911 -3712 0
+rnode "vss.n313" 0 0 3071 -3057 0
+rnode "vss.n314" 0 0 3071 -3057 0
+rnode "vss.n315" 0 0 3071 -5852 0
+rnode "vss.n316" 0 0 3071 -5852 0
+rnode "vss.n317" 0 0 3086 -5919 0
+rnode "vss.n318" 0 0 3086 -5919 0
+rnode "vss.n319" 0 0 3814 -5822 0
+rnode "vss.n320" 0 0 5362 -5822 0
+rnode "vss.n321" 0 0 6345 -5822 0
+rnode "vss.n322" 0 0 6345 -5674 0
+rnode "vss.n323" 0 0 6345 -4686 0
+rnode "vss.n324" 0 0 6345 -4686 0
+rnode "vss.n325" 0 0 6342 -4455 0
+rnode "vss.n326" 0 0 6139 -2849 0
+rnode "vss.n327" 0 0 6156 -2771 0
+rnode "vss.n328" 0 0 6246 -2771 0
+rnode "vss.n329" 0 0 6246 -2771 0
+rnode "vss.n330" 0 0 6342 -2722 0
+rnode "vss.n331" 0 0 6342 -2748 0
+rnode "vss.n332" 0 0 6342 -2658 0
+rnode "vss.n333" 0 0 6342 -2568 0
+rnode "vss.n334" 0 0 6342 -2568 0
+rnode "vss.n335" 0 0 6342 -2568 0
+rnode "vss.n336" 0 0 6194 -2567 0
+rnode "vss.n337" 0 0 6194 -2567 0
+rnode "vss.n338" 0 0 6194 -2567 0
+rnode "vss.t68" 0 0 6194 -2567 0
+rnode "vss.n339" 0 0 6116 -1734 0
+rnode "vss.n340" 0 0 6116 -1734 0
+rnode "vss.n341" 0 0 6116 -1734 0
+rnode "vss.n342" 0 0 6156 -1584 0
+rnode "vss.n343" 0 0 6246 -1584 0
+rnode "vss.n344" 0 0 6246 -1584 0
+rnode "vss.n345" 0 0 6246 -1584 0
+rnode "vss.n346" 0 0 5346 -1584 0
+rnode "vss.n347" 0 0 5346 -1584 0
+rnode "vss.n348" 0 0 5346 -1584 0
+rnode "vss.n349" 0 0 5256 -1584 0
+rnode "vss.n350" 0 0 5222 -1770 0
+rnode "vss.n351" 0 0 5155 -1758 0
+rnode "vss.n352" 0 0 5155 -1668 0
+rnode "vss.n353" 0 0 5155 -1668 0
+rnode "vss.n354" 0 0 5155 -2658 0
+rnode "vss.n355" 0 0 5155 -2658 0
+rnode "vss.n356" 0 0 5155 -2748 0
+rnode "vss.n357" 0 0 4535 -2967 0
+rnode "vss.n358" 0 0 4468 -2095 0
+rnode "vss.n359" 0 0 4466 -1870 0
+rnode "vss.n360" 0 0 1719 -1536 0
+rnode "vss.n361" 0 0 1719 -1536 0
+rnode "vss.n362" 0 0 1719 -1536 0
+rnode "vss.n363" 0 0 1719 -2204 0
+rnode "vss.n364" 0 0 1719 -2204 0
+rnode "vss.n365" 0 0 1733 -2228 0
+rnode "vss.n366" 0 0 1733 -2228 0
+rnode "vss.n367" 0 0 -1802 -2229 0
+rnode "vss.n368" 0 0 -1367 1251 0
+rnode "vss.n369" 0 0 340 1514 0
+rnode "vss.n370" 0 0 405 1509 0
+rnode "vss.n371" 0 0 405 1509 0
+rnode "vss.n372" 0 0 405 1509 0
+rnode "vss.n373" 0 0 4238 1457 0
+rnode "vss.n374" 0 0 4238 1457 0
+rnode "vss.n375" 0 0 8087 1457 0
+rnode "vss.n376" 0 0 8151 2012 0
+rnode "vss.n377" 0 0 8233 2462 0
+rnode "vss.n378" 0 0 8181 3094 0
+rnode "vss.n379" 0 0 8181 3094 0
+rnode "vss.n380" 0 0 4000 3842 0
+rnode "vss.n381" 0 0 -59 7428 0
+rnode "vss.n382" 0 0 -8246 3135 0
+rnode "vss.n383" 0 0 -8246 3135 0
+rnode "vss.n384" 0 0 -8246 3135 0
+rnode "vss.n385" 0 0 -8027 2032 0
+rnode "vss.n386" 0 0 -8027 2032 0
+rnode "vss" 0 0 -8477 1929 0
+rnode "OTA_stage1_0.vss" 0 0 -8410 1903 0
+resist "vss.n371" "vss.n36" 0.00374252
+resist "OTA_vref_0.OTA_vref_stage1_0.vss" "OTA_vref_0.vss" 0.0064433
+resist "vss.n300" "vss.n299" 0.0121951
+resist "vss.n370" "vss.n369" 0.0147996
+resist "OTA_stage1_0.vss" "vss" 0.0209375
+resist "vss.n251" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Collector" 0.0241966
+resist "vss.n289" "vss.n288" 0.0269495
+resist "vss.n221" "vss.n220" 0.0274621
+resist "vss.n300" "vss.n295" 0.0281818
+resist "vss.n374" "vss.n33" 0.0282609
+resist "vss.n40" "vss.n33" 0.0365854
+resist "vss.n371" "vss.n37" 0.0381737
+resist "vss.n102" "vss.n100" 0.0507937
+resist "vss.n336" "vss.n335" 0.0549356
+resist "vss.n136" "vss.n93" 0.0549356
+resist "vss.n137" "vss.n135" 0.0549356
+resist "vss.n132" "vss.n108" 0.0549356
+resist "vss.n144" "vss.n143" 0.0549356
+resist "vss.n147" "vss.n106" 0.0549356
+resist "vss.n124" "vss.n105" 0.0549356
+resist "vss.n125" "vss.n121" 0.0549356
+resist "vss.n120" "vss.n119" 0.0549356
+resist "vss.n366" "vss.n365" 0.0591905
+resist "vss.n318" "vss.n317" 0.0731577
+resist "vss.n288" "OTA_stage2_0.vss" 0.0791284
+resist "vss.n321" "OTA_vref_0.OTA_vref_stage1_0.vss" 0.0844072
+resist "vss.n374" "vss.n373" 0.0845455
+resist "vss.n271" "vss.n270" 0.0947653
+resist "vss.n220" "vss.n219" 0.0982955
+resist "OTA_stage1_0.vss" "vss.n386" 0.119687
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Base" "vss.n251" 0.120983
+resist "vss.n302" "vss.n42" 0.125
+resist "vss.n17" "vss.n0" 0.138542
+resist "vss.n369" "vss.n42" 0.141156
+resist "vss.n32" "vss.n31" 0.205348
+resist "vss.n213" "vss.n212" 0.217872
+resist "vss.n365" "vss.n364" 0.221508
+resist "vss.n254" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Base" 0.266163
+resist "vss.n303" "vss.n302" 0.32691
+resist "vss.n322" "vss.n321" 0.342593
+resist "vss.t4" "vss.t0" 0.36554
+resist "vss.t12" "vss.t69" 0.36554
+resist "vss.n240" "vss.n238" 0.387146
+resist "vss.n237" "vss.n230" 0.387146
+resist "vss.n247" "vss.n246" 0.387146
+resist "vss.n250" "vss.n228" 0.387146
+resist "vss.n255" "vss.n225" 0.387146
+resist "vss.n268" "vss.n266" 0.387146
+resist "vss.n258" "vss.n224" 0.387146
+resist "vss.n259" "vss.n103" 0.387146
+resist "vss.n369" "vss.n368" 0.388661
+resist "vss.n368" "vss.n367" 0.40659
+resist "vss.n302" "vss.n301" 0.446046
+resist "vss.n270" "vss.n223" 0.452016
+resist "vss.n319" "vss.n318" 0.469072
+resist "vss.n302" "vss.n37" 0.484281
+resist "vss.n288" "vss.n42" 0.497449
+resist "vss.n318" "vss.n275" 0.527706
+resist "vss.n317" "vss.n316" 0.531856
+resist "vss.n223" "vss.n222" 0.538826
+resist "vss.t36" "vss.t63" 0.545094
+resist "vss.n269" "vss.n268" 0.580718
+resist "vss.n214" "vss.n213" 0.59125
+resist "vss.n178" "vss.n177" 0.595804
+resist "vss.n321" "vss.n320" 0.633376
+resist "vss.n223" "vss.n214" 0.653409
+resist "vss.n286" "vss.n35" 0.684492
+resist "vss.n214" "vss.n178" 0.764474
+resist "vss.n239" "vss.n51" 0.822684
+resist "vss.n213" "vss.n179" 0.871489
+resist "vss.n376" "vss.n375" 0.874135
+resist "vss.n299" "vss.n298" 0.995392
+resist "vss.n320" "vss.n319" 0.997423
+resist "vss.n275" "vss.n44" 0.998067
+resist "vss.n305" "vss.n304" 1.06035
+resist "vss.n177" "vss.n149" 1.08936
+resist "vss.n181" "vss.n51" 1.08936
+resist "vss.n183" "vss.n181" 1.08936
+resist "vss.n188" "vss.n185" 1.08936
+resist "vss.n189" "vss.n180" 1.08936
+resist "vss.n195" "vss.n192" 1.08936
+resist "vss.n209" "vss.n208" 1.08936
+resist "vss.n205" "vss.n196" 1.08936
+resist "vss.n204" "vss.n201" 1.08936
+resist "vss.n198" "vss.n60" 1.08936
+resist "vss.n327" "vss.n102" 1.11746
+resist "vss.n269" "vss.n224" 1.20983
+resist "vss.n298" "vss.n289" 1.21569
+resist "vss.n304" "vss.n303" 1.30911
+resist "vss.n148" "vss.n105" 1.37339
+resist "vss.n326" "vss.n103" 1.37921
+resist "vss.n220" "vss.n218" 1.43845
+resist "vss.n222" "vss.n221" 1.46591
+resist "vss.n178" "vss.n148" 1.51928
+resist "vss.n343" "vss.n70" 1.52511
+resist "vss.n144" "vss.n107" 1.5382
+resist "vss.n356" "vss.n51" 1.62117
+resist "vss.n177" "vss.n176" 1.63404
+resist "vss.n366" "OTA_vref_0.OTA_vref_stage2_0.vss" 1.6564
+resist "vss.n386" "vss.n385" 1.725
+resist "vss.n41" "vss.n40" 1.74187
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Collector" "vss.n250" 1.76635
+resist "vss.n238" "vss.n237" 1.79055
+resist "vss.n246" "vss.n230" 1.79055
+resist "vss.n247" "vss.n228" 1.79055
+resist "vss.n255" "vss.n254" 1.79055
+resist "vss.n266" "vss.n225" 1.79055
+resist "vss.n259" "vss.n258" 1.79055
+resist "vss.n350" "vss.n349" 1.85191
+resist "vss.n270" "vss.n269" 1.89107
+resist "vss.n370" "vss.n41" 2.11888
+resist "vss.n240" "vss.n239" 2.17769
+resist "vss.n151" "vss.n61" 2.17872
+resist "vss.n156" "vss.n154" 2.17872
+resist "vss.n160" "vss.n159" 2.17872
+resist "vss.n163" "vss.n150" 2.17872
+resist "vss.n176" "vss.n166" 2.17872
+resist "vss.n173" "vss.n149" 2.17872
+resist "vss.n172" "vss.n170" 2.17872
+resist "vss.n167" "vss.n71" 2.17872
+resist "vss.n342" "vss.n341" 2.17872
+resist "vss.n367" "vss.n44" 2.27863
+resist "vss.n323" "vss.n322" 2.28704
+resist "vss.n301" "vss.n300" 2.34613
+resist "vss.n367" "vss.n366" 2.49833
+resist "vss.n348" "vss.n61" 2.7234
+resist "vss.n154" "vss.n151" 2.7234
+resist "vss.n159" "vss.n156" 2.7234
+resist "vss.n160" "vss.n150" 2.7234
+resist "vss.n166" "vss.n163" 2.7234
+resist "vss.n173" "vss.n172" 2.7234
+resist "vss.n170" "vss.n167" 2.7234
+resist "vss.n341" "vss.n71" 2.7234
+resist "vss.n350" "vss.n60" 3.15915
+resist "vss.n368" "vss.n0" 3.1869
+resist "vss.n386" "vss.n0" 3.32965
+resist "vss.n107" "vss.n106" 3.35107
+resist "vss.n148" "vss.n147" 3.51588
+resist "vss.n219" "vss.n50" 3.60563
+resist "vss.n111" "vss.n70" 3.70383
+resist "vss.n385" "vss.n1" 3.71512
+resist "vss.n372" "vss.n35" 3.76471
+resist "vss.n185" "vss.n183" 3.81277
+resist "vss.n189" "vss.n188" 3.81277
+resist "vss.n192" "vss.n180" 3.81277
+resist "vss.n212" "vss.n195" 3.81277
+resist "vss.n209" "vss.n179" 3.81277
+resist "vss.n208" "vss.n196" 3.81277
+resist "vss.n205" "vss.n204" 3.81277
+resist "vss.n201" "vss.n198" 3.81277
+resist "vss.n327" "vss.n326" 3.9619
+resist "vss.n323" "vss.n271" 4.10301
+resist "vss.n37" "vss.n33" 4.11616
+resist "vss.n375" "vss.n374" 4.1837
+resist "vss.n119" "vss.n70" 4.23004
+resist "vss.n215" "vss.t47" 4.35
+resist "vss.n215" "vss.t29" 4.35
+resist "vss.n216" "vss.t53" 4.35
+resist "vss.n216" "vss.t39" 4.35
+resist "vss.n217" "vss.t57" 4.35
+resist "vss.n217" "vss.t45" 4.35
+resist "vss.n43" "vss.t51" 4.35
+resist "vss.n43" "vss.t31" 4.35
+resist "vss.n274" "vss.t41" 4.35
+resist "vss.n274" "vss.t49" 4.35
+resist "vss.n273" "vss.t55" 4.35
+resist "vss.n273" "vss.t35" 4.35
+resist "vss.n272" "vss.t37" 4.35
+resist "vss.n272" "vss.t43" 4.35
+resist "vss.n369" "vss.n36" 4.5
+resist "vss.n371" "vss.n370" 4.5
+resist "vss.n301" "vss.n289" 4.5
+resist "vss.n100" "vss.n94" 4.57143
+resist "vss.n335" "vss.n94" 4.65427
+resist "vss.n290" "vss.n284" 4.875
+resist "vss.n284" "vss.n34" 4.875
+resist "vss.n290" "vss.n285" 4.875
+resist "vss.n294" "vss.n285" 4.875
+resist "vss.n336" "vss.n93" 4.88927
+resist "vss.n137" "vss.n136" 4.88927
+resist "vss.n135" "vss.n132" 4.88927
+resist "vss.n143" "vss.n108" 4.88927
+resist "vss.n125" "vss.n124" 4.88927
+resist "vss.n121" "vss.n120" 4.88927
+resist "vss.n349" "vss.n348" 4.90213
+resist "vss.n343" "vss.n342" 4.90213
+resist "vss.n314" "vss.n313" 6.15789
+resist "vss.n313" "vss.n50" 6.15789
+resist "vss.n315" "vss.n314" 6.15789
+resist "vss.n316" "vss.n315" 6.15789
+resist "vss.n365" "vss.n45" 6.51866
+resist "vss.t46" "vss.n278" 6.57558
+resist "vss.n322" "vss.n104" 6.9
+resist "vss.n324" "vss.n323" 6.9
+resist "vss.n362" "vss.n361" 7.3125
+resist "vss.n361" "vss.n360" 7.3125
+resist "vss.n363" "vss.n362" 7.3125
+resist "vss.n364" "vss.n363" 7.3125
+resist "vss.n10" "vss.n5" 7.5
+resist "vss.n7" "vss.n5" 7.5
+resist "vss.n10" "vss.n6" 7.5
+resist "vss.n18" "vss.n6" 7.5
+resist "vss.n291" "vss.t10" 8.47258
+resist "vss.n286" "vss.n36" 9.3
+resist "vss.n372" "vss.n371" 9.3
+resist "vss.n301" "vss.n287" 9.3
+resist "vss.n375" "vss.n32" 9.35566
+resist "vss.n345" "vss.n63" 9.36588
+resist "vss.n16" "vss.n1" 10.0527
+resist "vss.n295" "vss.n294" 10.549
+resist "vss.n39" "vss.t70" 11.6
+resist "vss.n39" "vss.t79" 11.6
+resist "vss.n38" "vss.t72" 11.6
+resist "vss.n38" "vss.t3" 11.6
+resist "vss.n297" "vss.t73" 11.6
+resist "vss.n297" "vss.t2" 11.6
+resist "vss.n296" "vss.t67" 11.6
+resist "vss.n296" "vss.t11" 11.6
+resist "vss.n21" "vss.n20" 11.9388
+resist "vss.n20" "vss.n19" 11.9388
+resist "vss.n12" "vss.n11" 11.9388
+resist "vss.n11" "vss.n9" 11.9388
+resist "vss.n377" "vss.n30" 14.2884
+resist "vss.t18" "vss.t30" 14.5571
+resist "vss.t64" "vss.t74" 14.5711
+resist "vss.n331" "vss.n98" 14.625
+resist "vss.n325" "vss.n98" 14.625
+resist "vss.n282" "vss.n277" 14.625
+resist "vss.n277" "vss.n276" 14.625
+resist "vss.n282" "vss.t21" 15.0011
+resist "vss.n373" "vss.n34" 15.538
+resist "vss.n15" "vss.n9" 16.384
+resist "vss.n16" "vss.n15" 18.7332
+resist "vss.n44" "vss.n43" 20.6678
+resist "vss.n275" "vss.n274" 20.6678
+resist "vss.n319" "vss.n273" 20.6678
+resist "vss.n320" "vss.n272" 20.6678
+resist "vss.n222" "vss.n215" 20.6871
+resist "vss.n221" "vss.n216" 20.6871
+resist "vss.n218" "vss.n217" 20.6871
+resist "vss.n27" "vss.t20" 22.4753
+resist "vss.n18" "vss.n17" 23.04
+resist "vss.n359" "vss.n358" 23.4146
+resist "vss.n271" "vss.t33" 25.0371
+resist "vss.n357" "vss.n356" 25.5298
+resist "vss.n218" "vss.t27" 26.503
+resist "vss.t7" "vss.n49" 27.2824
+resist "vss.n312" "vss.t76" 27.2824
+resist "vss.t26" "vss.t22" 29.0646
+resist "vss.t62" "vss.t24" 29.0646
+resist "vss.t15" "vss.t50" 29.0646
+resist "vss.t19" "vss.t65" 29.164
+resist "vss.t16" "vss.t56" 29.164
+resist "vss.t17" "vss.t44" 29.164
+resist "vss.t61" "vss.t7" 29.164
+resist "vss.t40" "vss.t5" 29.164
+resist "vss.t48" "vss.t6" 29.164
+resist "vss.t59" "vss.t8" 29.164
+resist "vss.t52" "vss.t9" 29.164
+resist "vss.t38" "vss.t76" 29.164
+resist "vss.t58" "vss.t77" 29.164
+resist "vss.t54" "vss.t75" 29.164
+resist "vss.t34" "vss.t78" 29.164
+resist "vss.n235" "vss.t36" 29.8701
+resist "vss.n283" "vss.t15" 30.0021
+resist "vss.n1" "vss.t14" 30.8829
+resist "vss.n325" "vss.n324" 32.1391
+resist "vss.n307" "vss.n306" 32.5
+resist "vss.n306" "vss.n305" 32.5
+resist "vss.n293" "vss.n292" 32.5
+resist "vss.n14" "vss.n13" 34.4118
+resist "vss.n15" "vss.n14" 34.4118
+resist "vss.n383" "vss.n382" 34.4118
+resist "vss.n384" "vss.n383" 34.4118
+resist "vss.n314" "vss.n312" 35.7494
+resist "vss.n379" "vss.n378" 36.5625
+resist "vss.n29" "vss.n28" 36.5625
+resist "vss.n377" "vss.n376" 36.6879
+resist "vss.n358" "vss.n45" 36.7545
+resist "vss.n376" "vss.n31" 37.2586
+resist "vss.n303" "vss.n287" 39.5105
+resist "vss.n305" "vss.n35" 39.7633
+resist "vss.n262" "vss.t32" 40.2597
+resist "vss.n8" "vss.n2" 41.1676
+resist "vss.n141" "vss.t63" 41.6313
+resist "vss.n385" "vss.n384" 42.0566
+resist "vss.n244" "vss.t42" 45.4545
+resist "vss.n378" "vss.n377" 51.5261
+resist "vss.n219" "vss.n45" 52.0413
+resist "vss.t13" "vss.n3" 53.1818
+resist "vss.n3" "vss.n2" 53.1818
+resist "vss.t13" "vss.n4" 53.1818
+resist "vss.n4" "vss.n1" 53.1818
+resist "vss.n92" "vss.n90" 53.3659
+resist "vss.n133" "vss.n89" 53.3659
+resist "vss.n146" "vss.n88" 53.3659
+resist "vss.n122" "vss.n87" 53.3659
+resist "vss.n339" "vss.n73" 53.3659
+resist "vss.n164" "vss.n74" 53.3659
+resist "vss.n157" "vss.n76" 53.3659
+resist "vss.n153" "vss.n78" 53.3659
+resist "vss.n200" "vss.n85" 53.3659
+resist "vss.n207" "vss.n84" 53.3659
+resist "vss.n194" "vss.n83" 53.3659
+resist "vss.n187" "vss.n82" 53.3659
+resist "vss.n252" "vss.n75" 53.3659
+resist "vss.n249" "vss.n77" 53.3659
+resist "vss.n229" "vss.n79" 53.3659
+resist "vss.n248" "vss.n79" 53.3659
+resist "vss.n253" "vss.n77" 53.3659
+resist "vss.n267" "vss.n75" 53.3659
+resist "vss.n182" "vss.n82" 53.3659
+resist "vss.n186" "vss.n83" 53.3659
+resist "vss.n193" "vss.n84" 53.3659
+resist "vss.n206" "vss.n85" 53.3659
+resist "vss.n158" "vss.n78" 53.3659
+resist "vss.n165" "vss.n76" 53.3659
+resist "vss.n171" "vss.n74" 53.3659
+resist "vss.n340" "vss.n339" 53.3659
+resist "vss.n134" "vss.n90" 53.3659
+resist "vss.n145" "vss.n89" 53.3659
+resist "vss.n123" "vss.n88" 53.3659
+resist "vss.n87" "vss.n72" 53.3659
+resist "vss.n298" "vss.n297" 53.9333
+resist "vss.n41" "vss.n38" 54.003
+resist "vss.n299" "vss.n296" 55.1707
+resist "vss.t68" "vss.n80" 55.2021
+resist "vss.n233" "vss.t63" 55.8442
+resist "vss.n40" "vss.n39" 56.2002
+resist "vss.n355" "vss.n52" 56.399
+resist "vss.t68" "vss.n338" 57.8456
+resist "vss.n263" "vss.t63" 61.039
+resist "vss.n278" "vss.n47" 65
+resist "vss.n359" "vss.n47" 65
+resist "vss.n281" "vss.n48" 65
+resist "vss.n48" "vss.n46" 65
+resist "vss.t68" "vss.n90" 65.8178
+resist "vss.t68" "vss.n89" 65.8178
+resist "vss.t68" "vss.n88" 65.8178
+resist "vss.t68" "vss.n87" 65.8178
+resist "vss.n339" "vss.t68" 65.8178
+resist "vss.t68" "vss.n74" 65.8178
+resist "vss.t68" "vss.n76" 65.8178
+resist "vss.t68" "vss.n78" 65.8178
+resist "vss.t68" "vss.n85" 65.8178
+resist "vss.t68" "vss.n84" 65.8178
+resist "vss.t68" "vss.n83" 65.8178
+resist "vss.t68" "vss.n82" 65.8178
+resist "vss.t68" "vss.n75" 65.8178
+resist "vss.t68" "vss.n77" 65.8178
+resist "vss.t68" "vss.n79" 65.8178
+resist "vss.n281" "vss.n22" 66.5672
+resist "vss.n378" "vss.n26" 67.282
+resist "vss.n30" "vss.n29" 67.4517
+resist "vss.n293" "vss.n31" 68.8542
+resist "vss.n29" "vss.n26" 68.9192
+resist "vss.n338" "vss.n91" 69.3104
+resist "vss.n338" "vss.n337" 69.3104
+resist "vss.t42" "vss.n243" 71.4286
+resist "vss.n353" "vss.t63" 72.3313
+resist "vss.n199" "vss.n80" 74.5973
+resist "vss.n152" "vss.n80" 74.5973
+resist "vss.n117" "vss.n112" 76.3217
+resist "vss.n328" "vss.n101" 76.3217
+resist "vss.n352" "vss.n351" 76.3217
+resist "vss.n197" "vss.n55" 76.3217
+resist "vss.n202" "vss.n56" 76.3217
+resist "vss.n211" "vss.n57" 76.3217
+resist "vss.n190" "vss.n58" 76.3217
+resist "vss.n354" "vss.n53" 76.3217
+resist "vss.n69" "vss.n67" 76.3217
+resist "vss.n169" "vss.n66" 76.3217
+resist "vss.n175" "vss.n65" 76.3217
+resist "vss.n161" "vss.n64" 76.3217
+resist "vss.n346" "vss.n62" 76.3217
+resist "vss.n347" "vss.n346" 76.3217
+resist "vss.n155" "vss.n64" 76.3217
+resist "vss.n162" "vss.n65" 76.3217
+resist "vss.n174" "vss.n66" 76.3217
+resist "vss.n168" "vss.n67" 76.3217
+resist "vss.n112" "vss.n68" 76.3217
+resist "vss.n329" "vss.n328" 76.3217
+resist "vss.n184" "vss.n58" 76.3217
+resist "vss.n191" "vss.n57" 76.3217
+resist "vss.n210" "vss.n56" 76.3217
+resist "vss.n203" "vss.n55" 76.3217
+resist "vss.n351" "vss.n54" 76.3217
+resist "vss.t32" "vss.n261" 76.6234
+resist "vss.n129" "vss.t63" 87.5693
+resist "vss.n17" "vss.n16" 89.952
+resist "vss.n279" "vss.t64" 90.1793
+resist "vss.n362" "vss.t44" 92.1959
+resist "vss.n364" "vss.n46" 93.8574
+resist "vss.n362" "vss.n49" 94.0774
+resist "vss.n242" "vss.n235" 116.883
+resist "vss.n243" "vss.n242" 116.883
+resist "vss.n244" "vss.n234" 116.883
+resist "vss.n234" "vss.n233" 116.883
+resist "vss.n264" "vss.n263" 116.883
+resist "vss.n264" "vss.n262" 116.883
+resist "vss.n261" "vss.n257" 116.883
+resist "vss.n257" "vss.n99" 116.883
+resist "vss.n317" "vss.n104" 122.372
+resist "vss.n331" "vss.n99" 124.675
+resist "vss.n330" "vss.n96" 124.832
+resist "vss.n333" "vss.n332" 129.201
+resist "vss.n333" "vss.n97" 129.201
+resist "vss.n139" "vss.n97" 129.201
+resist "vss.n140" "vss.n139" 129.201
+resist "vss.n141" "vss.n140" 129.201
+resist "vss.n129" "vss.n128" 129.201
+resist "vss.n128" "vss.n127" 129.201
+resist "vss.n127" "vss.n110" 129.201
+resist "vss.n116" "vss.n110" 129.201
+resist "vss.n116" "vss.n115" 129.201
+resist "vss.n380" "vss.t20" 131.665
+resist "vss.n13" "vss.n12" 132.691
+resist "vss.n355" "vss.n354" 132.721
+resist "vss.n324" "vss.n104" 137.461
+resist "vss.n229" "vss.n81" 150
+resist "vss.n249" "vss.n248" 150
+resist "vss.n253" "vss.n252" 150
+resist "vss.n267" "vss.n86" 150
+resist "vss.n91" "vss.n86" 150
+resist "vss.n187" "vss.n186" 150
+resist "vss.n194" "vss.n193" 150
+resist "vss.n207" "vss.n206" 150
+resist "vss.n200" "vss.n199" 150
+resist "vss.n153" "vss.n152" 150
+resist "vss.n158" "vss.n157" 150
+resist "vss.n165" "vss.n164" 150
+resist "vss.n171" "vss.n73" 150
+resist "vss.n337" "vss.n92" 150
+resist "vss.n134" "vss.n133" 150
+resist "vss.n146" "vss.n145" 150
+resist "vss.n123" "vss.n122" 150
+resist "vss.n314" "vss.t52" 150.524
+resist "vss.n279" "vss.t46" 152.178
+resist "vss.n182" "vss.n81" 163.333
+resist "vss.n382" "vss.t13" 167.052
+resist "vss.n13" "vss.t13" 167.052
+resist "vss.n353" "vss.t60" 169.086
+resist "vss.n295" "vss.n287" 169.446
+resist "vss.n292" "vss.n291" 172.707
+resist "vss.n347" "vss.n59" 175.545
+resist "vss.n155" "vss.n62" 175.545
+resist "vss.n162" "vss.n161" 175.545
+resist "vss.n175" "vss.n174" 175.545
+resist "vss.n169" "vss.n168" 175.545
+resist "vss.n344" "vss.n69" 175.545
+resist "vss.n334" "vss.n96" 175.545
+resist "vss.n334" "vss.n95" 175.545
+resist "vss.n138" "vss.n95" 175.545
+resist "vss.n138" "vss.n131" 175.545
+resist "vss.n142" "vss.n131" 175.545
+resist "vss.n142" "vss.n130" 175.545
+resist "vss.n130" "vss.n109" 175.545
+resist "vss.n126" "vss.n109" 175.545
+resist "vss.n126" "vss.n118" 175.545
+resist "vss.n118" "vss.n117" 175.545
+resist "vss.n241" "vss.n236" 175.545
+resist "vss.n241" "vss.n232" 175.545
+resist "vss.n245" "vss.n232" 175.545
+resist "vss.n245" "vss.n231" 175.545
+resist "vss.n231" "vss.n227" 175.545
+resist "vss.n256" "vss.n227" 175.545
+resist "vss.n265" "vss.n256" 175.545
+resist "vss.n265" "vss.n226" 175.545
+resist "vss.n260" "vss.n226" 175.545
+resist "vss.n260" "vss.n101" 175.545
+resist "vss.n184" "vss.n53" 175.545
+resist "vss.n191" "vss.n190" 175.545
+resist "vss.n211" "vss.n210" 175.545
+resist "vss.n203" "vss.n202" 175.545
+resist "vss.n197" "vss.n54" 175.545
+resist "vss.n22" "vss.n21" 176.556
+resist "vss.n19" "vss.n18" 177.084
+resist "vss.n283" "vss.t62" 182.825
+resist "vss.n9" "vss.n8" 184.031
+resist "vss.n337" "vss.n336" 185
+resist "vss.n136" "vss.n92" 185
+resist "vss.n135" "vss.n134" 185
+resist "vss.n133" "vss.n108" 185
+resist "vss.n145" "vss.n144" 185
+resist "vss.n147" "vss.n146" 185
+resist "vss.n124" "vss.n123" 185
+resist "vss.n122" "vss.n121" 185
+resist "vss.n119" "vss.n72" 185
+resist "vss.n341" "vss.n340" 185
+resist "vss.n167" "vss.n73" 185
+resist "vss.n172" "vss.n171" 185
+resist "vss.n164" "vss.n149" 185
+resist "vss.n166" "vss.n165" 185
+resist "vss.n157" "vss.n150" 185
+resist "vss.n159" "vss.n158" 185
+resist "vss.n154" "vss.n153" 185
+resist "vss.n152" "vss.n61" 185
+resist "vss.n199" "vss.n60" 185
+resist "vss.n201" "vss.n200" 185
+resist "vss.n206" "vss.n205" 185
+resist "vss.n208" "vss.n207" 185
+resist "vss.n193" "vss.n179" 185
+resist "vss.n195" "vss.n194" 185
+resist "vss.n186" "vss.n180" 185
+resist "vss.n188" "vss.n187" 185
+resist "vss.n183" "vss.n182" 185
+resist "vss.n103" "vss.n91" 185
+resist "vss.t68" "vss.n86" 185
+resist "vss.n258" "vss.n86" 185
+resist "vss.n268" "vss.n267" 185
+resist "vss.n252" "vss.n225" 185
+resist "vss.n254" "vss.n253" 185
+resist "vss.n250" "vss.n249" 185
+resist "vss.n248" "vss.n247" 185
+resist "vss.n230" "vss.n229" 185
+resist "vss.t68" "vss.n81" 185
+resist "vss.n238" "vss.n81" 185
+resist "vss.n330" "vss.n329" 187.248
+resist "vss.t50" "vss.t18" 195.044
+resist "vss.n115" "vss.n114" 195.237
+resist "vss.n236" "vss.n52" 197
+resist "vss.n357" "vss.n50" 200.317
+resist "vss.n326" "vss.n325" 200.388
+resist "vss.t74" "vss.t34" 204.141
+resist "vss.t24" "vss.t26" 212.828
+resist "vss.t30" "vss.t19" 213.556
+resist "vss.t65" "vss.t16" 213.556
+resist "vss.t56" "vss.t17" 213.556
+resist "vss.t5" "vss.t61" 213.556
+resist "vss.t6" "vss.t40" 213.556
+resist "vss.t8" "vss.t48" 213.556
+resist "vss.t9" "vss.t59" 213.556
+resist "vss.t77" "vss.t38" 213.556
+resist "vss.t75" "vss.t58" 213.556
+resist "vss.t78" "vss.t54" 213.556
+resist "vss.n114" "vss.n63" 215.269
+resist "vss.n384" "vss.n2" 216.016
+resist "vss.n294" "vss.n293" 223.467
+resist "vss.t22" "vss.n282" 226.891
+resist "vss.n278" "vss.t28" 235.781
+resist "vss.t1" "vss.n280" 236.508
+resist "vss.t23" "vss.t25" 241.892
+resist "vss.t21" "vss.t23" 241.892
+resist "vss.t28" "vss.t60" 242.357
+resist "vss.n344" "vss.n68" 249.663
+resist "vss.n34" "vss.n32" 252.304
+resist "vss.n27" "vss.n24" 253.207
+resist "vss.n112" "vss.n111" 254.34
+resist "vss.n328" "vss.n327" 254.34
+resist "vss.n353" "vss.n55" 254.34
+resist "vss.n353" "vss.n56" 254.34
+resist "vss.n353" "vss.n57" 254.34
+resist "vss.n353" "vss.n58" 254.34
+resist "vss.n354" "vss.n353" 254.34
+resist "vss.n345" "vss.n67" 254.34
+resist "vss.n345" "vss.n66" 254.34
+resist "vss.n345" "vss.n65" 254.34
+resist "vss.n345" "vss.n64" 254.34
+resist "vss.n346" "vss.n345" 254.34
+resist "vss.n316" "vss.n276" 255.259
+resist "vss.n8" "vss.n7" 256.805
+resist "vss.n351" "vss.n350" 257.989
+resist "vss.n340" "vss.n72" 258.333
+resist "vss.n380" "vss.n379" 259.196
+resist "vss.n352" "vss.n59" 259.416
+resist "vss.n373" "vss.n372" 262.366
+resist "vss.n356" "vss.n355" 264.301
+resist "vss.t25" "vss.n281" 277.52
+resist "vss.n360" "vss.n359" 281.243
+resist "vss.n360" "vss.n46" 281.335
+resist "vss.n276" "vss.n45" 287.48
+resist "vss.n26" "vss.n24" 292.5
+resist "vss.n25" "vss.t20" 292.5
+resist "vss.n30" "vss.n25" 292.5
+resist "vss.n19" "vss.n7" 307.035
+resist "vss.n308" "vss.n307" 312.859
+resist "vss.n114" "vss.n113" 319.084
+resist "vss.n63" "vss.t63" 322.904
+resist "vss.n28" "vss.n27" 338.354
+resist "vss.n113" "vss.t63" 403.053
+resist "vss.t0" "vss.n10" 448.883
+resist "vss.n10" "vss.t12" 449.248
+resist "vss.n309" "vss.t71" 482.602
+resist "vss.n12" "vss.t4" 535.15
+resist "vss.n21" "vss.t69" 535.15
+resist "vss.n310" "vss.t1" 550.812
+resist "vss.n332" "vss.n96" 585
+resist "vss.n96" "vss.n94" 585
+resist "vss.n334" "vss.n333" 585
+resist "vss.n335" "vss.n334" 585
+resist "vss.n97" "vss.n95" 585
+resist "vss.n95" "vss.n93" 585
+resist "vss.n139" "vss.n138" 585
+resist "vss.n138" "vss.n137" 585
+resist "vss.n140" "vss.n131" 585
+resist "vss.n132" "vss.n131" 585
+resist "vss.n142" "vss.n141" 585
+resist "vss.n143" "vss.n142" 585
+resist "vss.n130" "vss.n129" 585
+resist "vss.n130" "vss.n106" 585
+resist "vss.n128" "vss.n109" 585
+resist "vss.n109" "vss.n105" 585
+resist "vss.n127" "vss.n126" 585
+resist "vss.n126" "vss.n125" 585
+resist "vss.n118" "vss.n110" 585
+resist "vss.n120" "vss.n118" 585
+resist "vss.n117" "vss.n116" 585
+resist "vss.n115" "vss.n68" 585
+resist "vss.n236" "vss.n235" 585
+resist "vss.n239" "vss.n236" 585
+resist "vss.n242" "vss.n241" 585
+resist "vss.n241" "vss.n240" 585
+resist "vss.n243" "vss.n232" 585
+resist "vss.n237" "vss.n232" 585
+resist "vss.n245" "vss.n244" 585
+resist "vss.n246" "vss.n245" 585
+resist "vss.n234" "vss.n231" 585
+resist "vss.n231" "vss.n228" 585
+resist "vss.n233" "vss.n227" 585
+resist "vss.n251" "vss.n227" 585
+resist "vss.n263" "vss.n256" 585
+resist "vss.n256" "vss.n255" 585
+resist "vss.n265" "vss.n264" 585
+resist "vss.n266" "vss.n265" 585
+resist "vss.n262" "vss.n226" 585
+resist "vss.n226" "vss.n224" 585
+resist "vss.n261" "vss.n260" 585
+resist "vss.n260" "vss.n259" 585
+resist "vss.n257" "vss.n101" 585
+resist "vss.n329" "vss.n99" 585
+resist "vss.n331" "vss.n330" 585
+resist "vss.n330" "vss.n100" 585
+resist "vss.n353" "vss.n52" 585
+resist "vss.n353" "vss.n352" 585
+resist "vss.n353" "vss.n54" 585
+resist "vss.n198" "vss.n197" 585
+resist "vss.n204" "vss.n203" 585
+resist "vss.n202" "vss.n196" 585
+resist "vss.n210" "vss.n209" 585
+resist "vss.n212" "vss.n211" 585
+resist "vss.n192" "vss.n191" 585
+resist "vss.n190" "vss.n189" 585
+resist "vss.n185" "vss.n184" 585
+resist "vss.n181" "vss.n53" 585
+resist "vss.n345" "vss.n344" 585
+resist "vss.n344" "vss.n343" 585
+resist "vss.n342" "vss.n69" 585
+resist "vss.n168" "vss.n71" 585
+resist "vss.n170" "vss.n169" 585
+resist "vss.n174" "vss.n173" 585
+resist "vss.n176" "vss.n175" 585
+resist "vss.n163" "vss.n162" 585
+resist "vss.n161" "vss.n160" 585
+resist "vss.n156" "vss.n155" 585
+resist "vss.n151" "vss.n62" 585
+resist "vss.n348" "vss.n347" 585
+resist "vss.n113" "vss.n59" 585
+resist "vss.n349" "vss.n59" 585
+resist "vss.n280" "vss.n23" 609.524
+resist "vss.n290" "vss.n23" 738.095
+resist "vss.n358" "vss.n357" 884.181
+resist "vss.n304" "vss.n286" 903.91
+resist "vss.t66" "vss.n290" 1492.06
+resist "vss.n380" "vss.t10" 1536.63
+resist "vss.n310" "vss.n309" 1614.22
+resist "vss.t71" "vss.n308" 1669.14
+resist "vss.n332" "vss.n331" 1945.46
+resist "vss.n291" "vss.t66" 2286.68
+resist "vss.n114" "vss.t10" 3239.87
+resist "vss.n380" "vss.n23" 3337.68
+resist "vss.n379" "vss.n25" 4403.53
+resist "vss.n379" "vss.n24" 4403.53
+resist "vss.n28" "vss.n25" 4403.53
+resist "vss.n308" "vss.n283" 5430.16
+resist "vss.n312" "vss.n311" 5636.95
+resist "vss.n309" "vss.n49" 5636.95
+resist "vss.n383" "vss.n4" 6275.03
+resist "vss.n14" "vss.n4" 6275.03
+resist "vss.n383" "vss.n3" 6275.03
+resist "vss.n14" "vss.n3" 6275.03
+resist "vss.n111" "vss.n107" 6735.47
+resist "vss.n107" "vss.n102" 7296
+resist "vss.n307" "vss.n22" 7306.95
+resist "vss.n363" "vss.n48" 17753.2
+resist "vss.n363" "vss.n47" 17753.2
+resist "vss.n361" "vss.n48" 17753.2
+resist "vss.n361" "vss.n47" 17753.2
+resist "vss.n381" "vss.n22" 25416
+resist "vss.n11" "vss.n6" 25436.2
+resist "vss.n11" "vss.n5" 25436.2
+resist "vss.n20" "vss.n6" 25442
+resist "vss.n20" "vss.n5" 25442
+resist "vss.n315" "vss.n277" 26948.4
+resist "vss.n315" "vss.n98" 26948.4
+resist "vss.n313" "vss.n277" 26954.2
+resist "vss.n313" "vss.n98" 26954.2
+resist "vss.n306" "vss.n285" 27603.2
+resist "vss.n292" "vss.n285" 27609
+resist "vss.n306" "vss.n284" 27609
+resist "vss.n292" "vss.n284" 27614.8
+resist "vss.n381" "vss.n380" 43514.2
+resist "vss.n382" "vss.n381" 50190.3
+resist "vss.n311" "vss.n310" 1.408e+06
+resist "vss.n311" "vss.n280" 2.2308e+06
+resist "vss.n280" "vss.n279" 3.00584e+06
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n0" 0 1127.75 5104 -3395 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.vref0" 0 422.089 5033 -2615 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t32" 0 77.0958 4270 -1875 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0" 0 717.216 4560 -1929 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t3" 0 79.3799 5133 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t7" 0 79.3799 5075 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n1" 0 254.851 5104 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t11" 0 79.3799 5649 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t24" 0 79.3799 5591 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n2" 0 254.735 5620 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t16" 0 79.3799 231 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t1" 0 79.3799 173 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n3" 0 278.086 202 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t29" 0 79.3799 1263 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t20" 0 79.3799 1205 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n4" 0 254.416 1234 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n5" 0 1715.1 1234 -4905 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t13" 0 79.3799 1779 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t0" 0 79.3799 1721 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n6" 0 254.416 1750 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n7" 0 924.65 1750 -4905 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t26" 0 79.3799 2811 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t6" 0 79.3799 2753 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n8" 0 254.416 2782 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n9" 0 924.65 2782 -4905 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t10" 0 79.3799 3327 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t21" 0 79.3799 3269 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n10" 0 254.416 3298 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n11" 0 924.65 3298 -4905 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t4" 0 79.3799 4359 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t19" 0 79.3799 4301 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n12" 0 254.416 4330 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n13" 0 924.65 4330 -4905 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t12" 0 79.3799 4875 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t23" 0 79.3799 4817 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n14" 0 254.416 4846 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n15" 0 924.65 4846 -4905 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t22" 0 79.3799 5907 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t18" 0 79.3799 5849 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n16" 0 254.416 5878 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n17" 0 1438.58 5878 -4905 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n18" 0 1306.83 5620 -3395 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t14" 0 79.3799 4101 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t27" 0 79.3799 4043 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n19" 0 254.851 4072 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t2" 0 79.3799 3585 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t5" 0 79.3799 3527 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n20" 0 254.851 3556 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t17" 0 79.3799 2553 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t31" 0 79.3799 2495 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n21" 0 254.851 2524 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t25" 0 79.3799 2037 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t8" 0 79.3799 1979 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n22" 0 254.851 2008 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t15" 0 79.3799 1005 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t28" 0 79.3799 947 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n23" 0 254.851 976 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t30" 0 79.3799 489 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.t9" 0 79.3799 431 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n24" 0 264.844 460 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n25" 0 1608.94 976 -3395 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n26" 0 933.767 2008 -3395 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n27" 0 933.767 2524 -3395 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n28" 0 933.767 3556 -3395 0
+rnode "OTA_vref_0.OTA_vref_stage2_0.vref0.n29" 0 914.004 4072 -3395 0
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n7" "OTA_vref_0.OTA_vref_stage2_0.vref0.n5" 0.296469
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n11" "OTA_vref_0.OTA_vref_stage2_0.vref0.n9" 0.296469
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n15" "OTA_vref_0.OTA_vref_stage2_0.vref0.n13" 0.296469
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n27" "OTA_vref_0.OTA_vref_stage2_0.vref0.n26" 0.319105
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n29" "OTA_vref_0.OTA_vref_stage2_0.vref0.n28" 0.319105
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n0" "OTA_vref_0.OTA_vref_stage2_0.vref0.n18" 0.366105
+resist "OTA_vref_0.OTA_vref_stage1_0.vref0" "OTA_vref_0.OTA_vref_stage2_0.vref0.n0" 0.414342
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n0" "OTA_vref_0.OTA_vref_stage2_0.vref0.n29" 0.59121
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n9" "OTA_vref_0.OTA_vref_stage2_0.vref0.n7" 0.624199
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n13" "OTA_vref_0.OTA_vref_stage2_0.vref0.n11" 0.624199
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n17" "OTA_vref_0.OTA_vref_stage2_0.vref0.n15" 0.624199
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n26" "OTA_vref_0.OTA_vref_stage2_0.vref0.n25" 0.638211
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n28" "OTA_vref_0.OTA_vref_stage2_0.vref0.n27" 0.638211
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n18" "OTA_vref_0.OTA_vref_stage2_0.vref0.n17" 1.5277
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n4" "OTA_vref_0.OTA_vref_stage2_0.vref0.t20" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n4" "OTA_vref_0.OTA_vref_stage2_0.vref0.t29" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n2" "OTA_vref_0.OTA_vref_stage2_0.vref0.t24" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n2" "OTA_vref_0.OTA_vref_stage2_0.vref0.t11" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n1" "OTA_vref_0.OTA_vref_stage2_0.vref0.t7" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n1" "OTA_vref_0.OTA_vref_stage2_0.vref0.t3" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n19" "OTA_vref_0.OTA_vref_stage2_0.vref0.t27" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n19" "OTA_vref_0.OTA_vref_stage2_0.vref0.t14" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n20" "OTA_vref_0.OTA_vref_stage2_0.vref0.t5" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n20" "OTA_vref_0.OTA_vref_stage2_0.vref0.t2" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n21" "OTA_vref_0.OTA_vref_stage2_0.vref0.t31" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n21" "OTA_vref_0.OTA_vref_stage2_0.vref0.t17" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n22" "OTA_vref_0.OTA_vref_stage2_0.vref0.t8" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n22" "OTA_vref_0.OTA_vref_stage2_0.vref0.t25" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n23" "OTA_vref_0.OTA_vref_stage2_0.vref0.t28" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n23" "OTA_vref_0.OTA_vref_stage2_0.vref0.t15" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n24" "OTA_vref_0.OTA_vref_stage2_0.vref0.t9" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n24" "OTA_vref_0.OTA_vref_stage2_0.vref0.t30" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n16" "OTA_vref_0.OTA_vref_stage2_0.vref0.t18" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n16" "OTA_vref_0.OTA_vref_stage2_0.vref0.t22" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n14" "OTA_vref_0.OTA_vref_stage2_0.vref0.t23" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n14" "OTA_vref_0.OTA_vref_stage2_0.vref0.t12" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n12" "OTA_vref_0.OTA_vref_stage2_0.vref0.t19" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n12" "OTA_vref_0.OTA_vref_stage2_0.vref0.t4" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n10" "OTA_vref_0.OTA_vref_stage2_0.vref0.t21" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n10" "OTA_vref_0.OTA_vref_stage2_0.vref0.t10" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n8" "OTA_vref_0.OTA_vref_stage2_0.vref0.t6" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n8" "OTA_vref_0.OTA_vref_stage2_0.vref0.t26" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n6" "OTA_vref_0.OTA_vref_stage2_0.vref0.t0" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n6" "OTA_vref_0.OTA_vref_stage2_0.vref0.t13" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n3" "OTA_vref_0.OTA_vref_stage2_0.vref0.t1" 4.35
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n3" "OTA_vref_0.OTA_vref_stage2_0.vref0.t16" 4.35
+resist "OTA_vref_0.OTA_vref_stage1_0.vref0" "OTA_vref_0.OTA_vref_stage2_0.vref0" 4.89631
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n5" "OTA_vref_0.OTA_vref_stage2_0.vref0.n4" 21.544
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n17" "OTA_vref_0.OTA_vref_stage2_0.vref0.n16" 21.544
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n15" "OTA_vref_0.OTA_vref_stage2_0.vref0.n14" 21.544
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n13" "OTA_vref_0.OTA_vref_stage2_0.vref0.n12" 21.544
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n11" "OTA_vref_0.OTA_vref_stage2_0.vref0.n10" 21.544
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n9" "OTA_vref_0.OTA_vref_stage2_0.vref0.n8" 21.544
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n7" "OTA_vref_0.OTA_vref_stage2_0.vref0.n6" 21.544
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n18" "OTA_vref_0.OTA_vref_stage2_0.vref0.n2" 21.5598
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n0" "OTA_vref_0.OTA_vref_stage2_0.vref0.n1" 21.5619
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n29" "OTA_vref_0.OTA_vref_stage2_0.vref0.n19" 21.5619
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n28" "OTA_vref_0.OTA_vref_stage2_0.vref0.n20" 21.5619
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n27" "OTA_vref_0.OTA_vref_stage2_0.vref0.n21" 21.5619
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n26" "OTA_vref_0.OTA_vref_stage2_0.vref0.n22" 21.5619
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n25" "OTA_vref_0.OTA_vref_stage2_0.vref0.n23" 21.5619
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n25" "OTA_vref_0.OTA_vref_stage2_0.vref0.n24" 21.881
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0.n5" "OTA_vref_0.OTA_vref_stage2_0.vref0.n3" 22.2
+resist "OTA_vref_0.OTA_vref_stage2_0.vref0" "OTA_vref_0.OTA_vref_stage2_0.vref0.t32" 88.7527
+killnode "a_n27_n4200#"
+rnode "a_n27_n4200.n0" 0 646.091 5231 -5179 0
+rnode "a_n27_n4200.n1" 0 421.62 5231 -5179 0
+rnode "a_n27_n4200.n2" 0 651.883 3687 -5178 0
+rnode "a_n27_n4200.n3" 0 425.62 3687 -5178 0
+rnode "a_n27_n4200.n4" 0 434.861 2911 -3257 0
+rnode "a_n27_n4200.n5" 0 0 3169 -4167 0
+rnode "a_n27_n4200.n6" 0 527.809 3169 -4167 0
+rnode "a_n27_n4200.n7" 0 58.5555 3169 -4167 0
+rnode "a_n27_n4200.n8" 0 0 847 -4738 0
+rnode "a_n27_n4200.n9" 0 564.683 847 -4738 0
+rnode "a_n27_n4200.n10" 0 60.1802 847 -4738 0
+rnode "a_n27_n4200.n11" 0 60.6903 2395 -4738 0
+rnode "a_n27_n4200.n12" 0 564.177 2395 -4738 0
+rnode "a_n27_n4200.n13" 0 0 2395 -4738 0
+rnode "a_n27_n4200.n14" 0 450.822 4675 -3257 0
+rnode "a_n27_n4200.n15" 0 0 4425 -4167 0
+rnode "a_n27_n4200.n16" 0 543.856 4425 -4167 0
+rnode "a_n27_n4200.n17" 0 63.4123 4425 -4167 0
+rnode "a_n27_n4200.n18" 0 569.986 1565 -3257 0
+rnode "a_n27_n4200.n19" 0 0 1565 -3257 0
+rnode "a_n27_n4200.n20" 0 589.474 2394 -5177 0
+rnode "a_n27_n4200.n21" 0 875.998 851 -5182 0
+rnode "a_n27_n4200.n22" 0 414.104 5231 -5179 0
+rnode "a_n27_n4200.n23" 0 598.858 3949 -5180 0
+rnode "a_n27_n4200.n24" 0 589.368 2919 -3747 0
+rnode "a_n27_n4200.n25" 0 751.854 202 -3749 0
+rnode "a_n27_n4200.n26" 0 589.533 1368 -3749 0
+rnode "a_n27_n4200.n27" 0 589.369 4723 -3750 0
+rnode "a_n27_n4200.n28" 0 279.618 5878 -3749 0
+rnode "a_n27_n4200.n29" 0 0 1329 -4167 0
+rnode "a_n27_n4200.n30" 0 592.443 1329 -4167 0
+rnode "a_n27_n4200.n31" 0 283.642 5151 -4367 0
+rnode "a_n27_n4200.n32" 0 233.813 507 -4367 0
+rnode "a_n27_n4200.n33" 0 447.151 589 -5648 0
+rnode "a_n27_n4200.n34" 0 447.748 2137 -5648 0
+rnode "a_n27_n4200.t30" 0 426.145 4459 -3712 0
+rnode "a_n27_n4200.t26" 0 426.145 1363 -3712 0
+rnode "a_n27_n4200.n35" 0 159.721 2829 -4367 0
+rnode "a_n27_n4200.t34" 0 36.4841 4875 -3712 0
+rnode "a_n27_n4200.t25" 0 36.4841 5907 -3712 0
+rnode "a_n27_n4200.t43" 0 36.4841 5849 -3712 0
+rnode "a_n27_n4200.n36" 0 77.9371 5878 -3712 0
+rnode "a_n27_n4200.t24" 0 426.781 6007 -3712 0
+rnode "a_n27_n4200.n37" 0 509.606 6007 -3712 0
+rnode "a_n27_n4200.t46" 0 36.4841 5649 -5193 0
+rnode "a_n27_n4200.t15" 0 36.4841 5591 -5193 0
+rnode "a_n27_n4200.n38" 0 78.0938 5620 -5193 0
+rnode "a_n27_n4200.t14" 0 427.925 5491 -5193 0
+rnode "a_n27_n4200.t22" 0 426.145 5233 -5193 0
+rnode "a_n27_n4200.t23" 0 36.4841 5133 -5193 0
+rnode "a_n27_n4200.t42" 0 36.4841 5075 -5193 0
+rnode "a_n27_n4200.n39" 0 77.885 5104 -5193 0
+rnode "a_n27_n4200.t45" 0 36.4841 4101 -5193 0
+rnode "a_n27_n4200.t13" 0 36.4841 4043 -5193 0
+rnode "a_n27_n4200.n40" 0 77.885 4072 -5193 0
+rnode "a_n27_n4200.t6" 0 426.145 2395 -5193 0
+rnode "a_n27_n4200.t31" 0 36.4841 4359 -3712 0
+rnode "a_n27_n4200.t40" 0 36.4841 4301 -3712 0
+rnode "a_n27_n4200.n41" 0 77.9371 4330 -3712 0
+rnode "a_n27_n4200.t36" 0 36.4841 3327 -3712 0
+rnode "a_n27_n4200.t9" 0 36.4841 3269 -3712 0
+rnode "a_n27_n4200.n42" 0 77.9371 3298 -3712 0
+rnode "a_n27_n4200.t8" 0 426.145 3169 -3712 0
+rnode "a_n27_n4200.t28" 0 426.145 2911 -3712 0
+rnode "a_n27_n4200.t29" 0 36.4841 2811 -3712 0
+rnode "a_n27_n4200.t44" 0 36.4841 2753 -3712 0
+rnode "a_n27_n4200.n43" 0 77.9389 2782 -3712 0
+rnode "a_n27_n4200.t33" 0 36.4841 1779 -3712 0
+rnode "a_n27_n4200.t19" 0 36.4841 1721 -3712 0
+rnode "a_n27_n4200.n44" 0 77.9371 1750 -3712 0
+rnode "a_n27_n4200.t18" 0 426.145 1621 -3712 0
+rnode "a_n27_n4200.t21" 0 36.4841 2037 -5193 0
+rnode "a_n27_n4200.t41" 0 36.4841 1979 -5193 0
+rnode "a_n27_n4200.n45" 0 77.885 2008 -5193 0
+rnode "a_n27_n4200.t47" 0 36.4841 1005 -5193 0
+rnode "a_n27_n4200.t17" 0 36.4841 947 -5193 0
+rnode "a_n27_n4200.n46" 0 77.885 976 -5193 0
+rnode "a_n27_n4200.t16" 0 426.145 847 -5193 0
+rnode "a_n27_n4200.t4" 0 426.145 589 -5193 0
+rnode "a_n27_n4200.t5" 0 36.4841 489 -5193 0
+rnode "a_n27_n4200.t38" 0 36.4841 431 -5193 0
+rnode "a_n27_n4200.n47" 0 77.885 460 -5193 0
+rnode "a_n27_n4200.t10" 0 426.788 73 -3712 0
+rnode "a_n27_n4200.n48" 0 499.272 39 -4167 0
+rnode "a_n27_n4200.t37" 0 36.4841 231 -3712 0
+rnode "a_n27_n4200.t11" 0 36.4841 173 -3712 0
+rnode "a_n27_n4200.n49" 0 77.9371 202 -3712 0
+rnode "a_n27_n4200.t27" 0 36.4841 1263 -3712 0
+rnode "a_n27_n4200.t39" 0 36.4841 1205 -3712 0
+rnode "a_n27_n4200.n50" 0 77.9371 1234 -3712 0
+rnode "a_n27_n4200.n51" 0 159.7 1281 -4367 0
+rnode "a_n27_n4200.n52" 0 173.683 2055 -4367 0
+rnode "a_n27_n4200.t20" 0 426.145 2137 -5193 0
+rnode "a_n27_n4200.t35" 0 36.4841 2553 -5193 0
+rnode "a_n27_n4200.t7" 0 36.4841 2495 -5193 0
+rnode "a_n27_n4200.n53" 0 77.885 2524 -5193 0
+rnode "a_n27_n4200.t3" 0 36.4841 3585 -5193 0
+rnode "a_n27_n4200.t32" 0 36.4841 3527 -5193 0
+rnode "a_n27_n4200.n54" 0 77.885 3556 -5193 0
+rnode "a_n27_n4200.t12" 0 427.916 3943 -5193 0
+rnode "a_n27_n4200.t2" 0 426.145 3685 -5193 0
+rnode "a_n27_n4200.n55" 0 173.683 3603 -4367 0
+rnode "a_n27_n4200.n56" 0 159.7 4377 -4367 0
+rnode "a_n27_n4200.t0" 0 426.145 4717 -3712 0
+rnode "a_n27_n4200.n57" 0 77.9371 4846 -3712 0
+rnode "a_n27_n4200.t1" 0 36.4841 4817 -3712 0
+resist "a_n27_n4200.t14" "a_n27_n4200.n1" 95.2313
+resist "a_n27_n4200.t12" "a_n27_n4200.n3" 95.2255
+resist "a_n27_n4200.n17" "a_n27_n4200.n14" 1.39378
+resist "a_n27_n4200.n4" "a_n27_n4200.n7" 1.50302
+resist "a_n27_n4200.n30" "a_n27_n4200.n29" 0.490595
+resist "a_n27_n4200.n24" "a_n27_n4200.n27" 1.075
+resist "a_n27_n4200.n9" "a_n27_n4200.n8" 0.558733
+resist "a_n27_n4200.n13" "a_n27_n4200.n12" 0.560851
+resist "a_n27_n4200.n16" "a_n27_n4200.n15" 0.574449
+resist "a_n27_n4200.n6" "a_n27_n4200.n5" 0.619771
+resist "a_n27_n4200.n19" "a_n27_n4200.n18" 0.301864
+resist "a_n27_n4200.n21" "a_n27_n4200.n20" 1.6125
+resist "a_n27_n4200.n23" "a_n27_n4200.n20" 1.6125
+resist "a_n27_n4200.n26" "a_n27_n4200.n24" 1.6125
+resist "a_n27_n4200.n27" "a_n27_n4200.n28" 1.6125
+resist "a_n27_n4200.n18" "a_n27_n4200.n29" 1.67447
+resist "a_n27_n4200.n34" "a_n27_n4200.n11" 1.38825
+resist "a_n27_n4200.n10" "a_n27_n4200.n33" 1.38516
+resist "a_n27_n4200.n26" "a_n27_n4200.n25" 1.74375
+resist "a_n27_n4200.n51" "a_n27_n4200.n32" 1.86058
+resist "a_n27_n4200.n52" "a_n27_n4200.n51" 1.86058
+resist "a_n27_n4200.n52" "a_n27_n4200.n35" 1.86058
+resist "a_n27_n4200.n55" "a_n27_n4200.n35" 1.86058
+resist "a_n27_n4200.n56" "a_n27_n4200.n55" 1.86058
+resist "a_n27_n4200.n56" "a_n27_n4200.n31" 1.86058
+resist "a_n27_n4200.n23" "a_n27_n4200.n22" 2.02083
+resist "a_n27_n4200.n25" "a_n27_n4200.n21" 2.55208
+resist "a_n27_n4200.t1" "a_n27_n4200.n57" 4.35
+resist "a_n27_n4200.n57" "a_n27_n4200.t34" 4.35
+resist "a_n27_n4200.n38" "a_n27_n4200.t15" 4.35
+resist "a_n27_n4200.n38" "a_n27_n4200.t46" 4.35
+resist "a_n27_n4200.n39" "a_n27_n4200.t42" 4.35
+resist "a_n27_n4200.n39" "a_n27_n4200.t23" 4.35
+resist "a_n27_n4200.n40" "a_n27_n4200.t13" 4.35
+resist "a_n27_n4200.n40" "a_n27_n4200.t45" 4.35
+resist "a_n27_n4200.n54" "a_n27_n4200.t32" 4.35
+resist "a_n27_n4200.n54" "a_n27_n4200.t3" 4.35
+resist "a_n27_n4200.n53" "a_n27_n4200.t7" 4.35
+resist "a_n27_n4200.n53" "a_n27_n4200.t35" 4.35
+resist "a_n27_n4200.n45" "a_n27_n4200.t41" 4.35
+resist "a_n27_n4200.n45" "a_n27_n4200.t21" 4.35
+resist "a_n27_n4200.n46" "a_n27_n4200.t17" 4.35
+resist "a_n27_n4200.n46" "a_n27_n4200.t47" 4.35
+resist "a_n27_n4200.n47" "a_n27_n4200.t38" 4.35
+resist "a_n27_n4200.n47" "a_n27_n4200.t5" 4.35
+resist "a_n27_n4200.n36" "a_n27_n4200.t43" 4.35
+resist "a_n27_n4200.n36" "a_n27_n4200.t25" 4.35
+resist "a_n27_n4200.n41" "a_n27_n4200.t40" 4.35
+resist "a_n27_n4200.n41" "a_n27_n4200.t31" 4.35
+resist "a_n27_n4200.n42" "a_n27_n4200.t9" 4.35
+resist "a_n27_n4200.n42" "a_n27_n4200.t36" 4.35
+resist "a_n27_n4200.n43" "a_n27_n4200.t44" 4.35
+resist "a_n27_n4200.n43" "a_n27_n4200.t29" 4.35
+resist "a_n27_n4200.n44" "a_n27_n4200.t19" 4.35
+resist "a_n27_n4200.n44" "a_n27_n4200.t33" 4.35
+resist "a_n27_n4200.n50" "a_n27_n4200.t39" 4.35
+resist "a_n27_n4200.n50" "a_n27_n4200.t27" 4.35
+resist "a_n27_n4200.n49" "a_n27_n4200.t11" 4.35
+resist "a_n27_n4200.n49" "a_n27_n4200.t37" 4.35
+resist "a_n27_n4200.n26" "a_n27_n4200.n18" 1.94891
+resist "a_n27_n4200.n7" "a_n27_n4200.n6" 0.743759
+resist "a_n27_n4200.n7" "a_n27_n4200.n24" 1.87887
+resist "a_n27_n4200.n17" "a_n27_n4200.n27" 1.90471
+resist "a_n27_n4200.n17" "a_n27_n4200.n16" 0.692077
+resist "a_n27_n4200.n10" "a_n27_n4200.n9" 0.723226
+resist "a_n27_n4200.n10" "a_n27_n4200.n21" 1.88914
+resist "a_n27_n4200.n12" "a_n27_n4200.n11" 0.719218
+resist "a_n27_n4200.n20" "a_n27_n4200.n11" 1.89114
+resist "a_n27_n4200.n23" "a_n27_n4200.n2" 2.23697
+resist "a_n27_n4200.n22" "a_n27_n4200.n0" 2.24012
+resist "a_n27_n4200.n25" "a_n27_n4200.n48" 4.79604
+resist "a_n27_n4200.n37" "a_n27_n4200.n28" 4.927
+resist "a_n27_n4200.n16" "a_n27_n4200.n56" 9.39769
+resist "a_n27_n4200.n51" "a_n27_n4200.n30" 9.39769
+resist "a_n27_n4200.n6" "a_n27_n4200.n35" 9.4025
+resist "a_n27_n4200.n0" "a_n27_n4200.n31" 9.80875
+resist "a_n27_n4200.n55" "a_n27_n4200.n2" 9.80875
+resist "a_n27_n4200.n12" "a_n27_n4200.n52" 9.80875
+resist "a_n27_n4200.n9" "a_n27_n4200.n32" 9.80875
+resist "a_n27_n4200.n48" "a_n27_n4200.n32" 10.933
+resist "a_n27_n4200.n31" "a_n27_n4200.n37" 11.5561
+resist "a_n27_n4200.n22" "a_n27_n4200.n39" 22.1879
+resist "a_n27_n4200.n23" "a_n27_n4200.n40" 22.1879
+resist "a_n27_n4200.n23" "a_n27_n4200.n54" 22.1879
+resist "a_n27_n4200.n20" "a_n27_n4200.n53" 22.1879
+resist "a_n27_n4200.n20" "a_n27_n4200.n45" 22.1879
+resist "a_n27_n4200.n21" "a_n27_n4200.n46" 22.1879
+resist "a_n27_n4200.n21" "a_n27_n4200.n47" 22.1879
+resist "a_n27_n4200.n57" "a_n27_n4200.n27" 22.2279
+resist "a_n27_n4200.n28" "a_n27_n4200.n36" 22.2279
+resist "a_n27_n4200.n27" "a_n27_n4200.n41" 22.2279
+resist "a_n27_n4200.n24" "a_n27_n4200.n42" 22.2279
+resist "a_n27_n4200.n26" "a_n27_n4200.n44" 22.2279
+resist "a_n27_n4200.n26" "a_n27_n4200.n50" 22.2279
+resist "a_n27_n4200.n25" "a_n27_n4200.n49" 22.2279
+resist "a_n27_n4200.n24" "a_n27_n4200.n43" 22.2296
+resist "a_n27_n4200.n22" "a_n27_n4200.n38" 22.3171
+resist "a_n27_n4200.n37" "a_n27_n4200.t24" 95.1778
+resist "a_n27_n4200.n48" "a_n27_n4200.t10" 95.1806
+resist "a_n27_n4200.n15" "a_n27_n4200.n14" 0.574449
+resist "a_n27_n4200.n15" "a_n27_n4200.t0" 94.866
+resist "a_n27_n4200.n14" "a_n27_n4200.t30" 190.305
+resist "a_n27_n4200.n16" "a_n27_n4200.t30" 190.305
+resist "a_n27_n4200.n2" "a_n27_n4200.n3" 0.39459
+resist "a_n27_n4200.t2" "a_n27_n4200.n3" 94.956
+resist "a_n27_n4200.t8" "a_n27_n4200.n4" 190.305
+resist "a_n27_n4200.n6" "a_n27_n4200.t8" 190.305
+resist "a_n27_n4200.n5" "a_n27_n4200.n4" 0.619771
+resist "a_n27_n4200.n5" "a_n27_n4200.t28" 94.8434
+resist "a_n27_n4200.t20" "a_n27_n4200.n13" 94.8728
+resist "a_n27_n4200.n34" "a_n27_n4200.n13" 0.560851
+resist "a_n27_n4200.t6" "a_n27_n4200.n12" 190.305
+resist "a_n27_n4200.n34" "a_n27_n4200.t6" 190.305
+resist "a_n27_n4200.t18" "a_n27_n4200.n29" 94.908
+resist "a_n27_n4200.n19" "a_n27_n4200.t26" 95.0023
+resist "a_n27_n4200.n30" "a_n27_n4200.n19" 0.301864
+resist "a_n27_n4200.t4" "a_n27_n4200.n8" 94.8739
+resist "a_n27_n4200.n33" "a_n27_n4200.n8" 0.558733
+resist "a_n27_n4200.t16" "a_n27_n4200.n9" 190.305
+resist "a_n27_n4200.n33" "a_n27_n4200.t16" 190.305
+resist "a_n27_n4200.n1" "a_n27_n4200.n0" 0.400392
+resist "a_n27_n4200.n1" "a_n27_n4200.t22" 94.9531
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n0" 0 108.958 5658 -2450 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n1" 0 122.425 5568 -2450 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n2" 0 215.214 5706 -2122 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t0" 0 107.96 5749 -2179 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n3" 0 122.425 5838 -2450 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t24" 0 478.982 73 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t16" 0 480.213 331 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n4" 0 1171.19 331 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n5" 0 305.431 589 -4167 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t17" 0 478.883 1105 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n6" 0 233.332 1105 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n7" 0 470.573 802 -4167 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t13" 0 478.028 847 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n8" 0 470.573 847 -3257 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t32" 0 478.028 589 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n9" 0 0 589 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n10" 0 470.128 543 -3257 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t26" 0 478.028 331 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n11" 0 119.324 331 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n12" 0 391.163 339 -4167 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n13" 0 207.747 249 -4512 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n14" 0 305.316 1363 -4738 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t19" 0 478.028 1879 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n15" 0 222.808 1879 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n16" 0 474.153 1584 -4738 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t12" 0 478.028 1621 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n17" 0 0 1621 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n18" 0 474.153 1621 -5648 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t31" 0 478.028 1363 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n19" 0 0 1363 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n20" 0 472.108 1319 -5648 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t3" 0 478.028 1105 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n21" 0 114.608 1105 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n22" 0 358.069 1083 -4738 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n23" 0 171.291 1023 -4512 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n24" 0 305.164 2137 -4167 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t14" 0 478.885 2653 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n25" 0 233.869 2653 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n26" 0 471.116 2354 -4167 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t34" 0 478.028 2395 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n27" 0 471.116 2395 -3257 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t5" 0 478.028 2137 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n28" 0 0 2137 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n29" 0 471.016 2093 -3257 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t27" 0 478.028 1879 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n30" 0 116.651 1879 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n31" 0 391.917 1887 -4167 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n32" 0 175.402 1797 -4512 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n33" 0 305.187 2911 -4738 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t25" 0 478.028 3427 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n34" 0 233.649 3427 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n35" 0 470.031 3120 -4738 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t15" 0 478.028 3169 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n36" 0 0 3169 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n37" 0 470.031 3169 -5648 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t9" 0 478.028 2911 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n38" 0 0 2911 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n39" 0 470.335 2863 -5648 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t29" 0 478.028 2653 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n40" 0 118.954 2653 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n41" 0 357.235 2632 -4738 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n42" 0 171.379 2571 -4512 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n43" 0 305.728 3685 -4167 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t18" 0 478.865 4201 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n44" 0 230.684 4201 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n45" 0 470.852 3901 -4167 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t10" 0 478.028 3943 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n46" 0 470.852 3943 -3257 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t30" 0 478.028 3685 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n47" 0 0 3685 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n48" 0 466.741 3649 -3257 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t33" 0 478.028 3427 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n49" 0 124.091 3427 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n50" 0 391.922 3435 -4167 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n51" 0 175.402 3345 -4512 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t6" 0 478.028 4201 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n52" 0 282.661 4201 -5648 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n53" 0 467.93 4717 -4738 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t21" 0 478.926 4975 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n54" 0 239.387 4975 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t22" 0 478.028 4717 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n55" 0 467.93 4665 -5648 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n56" 0 304.748 4459 -5648 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t11" 0 478.028 4459 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n57" 0 0 4459 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n58" 0 303.873 4415 -4738 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n59" 0 157.73 4266 -4738 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n60" 0 205.168 4180 -4738 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n61" 0 171.854 4119 -4512 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n62" 0 305.508 5233 -4167 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t23" 0 478.842 5749 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n63" 0 227.626 5749 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n64" 0 473.853 5457 -4167 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t4" 0 478.028 5491 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n65" 0 473.853 5491 -3257 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t7" 0 478.028 5233 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n66" 0 0 5233 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n67" 0 473.079 5187 -3257 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t28" 0 478.028 4975 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n68" 0 113.695 4975 -3712 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n69" 0 395.354 4991 -4167 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n70" 0 176.43 4893 -4512 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t8" 0 478.987 5749 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t20" 0 480.409 6007 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n71" 0 1185.21 6007 -5193 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n72" 0 383.032 5667 -4512 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n73" 0 604.284 6006 -2122 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n74" 0 490.623 5838 -1910 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n75" 0 451.62 6006 -2122 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n76" 0 184.059 5906 -2122 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n77" 0 215.214 5906 -2122 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n78" 0 215.214 5806 -2122 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n79" 0 110.183 5806 -2122 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n80" 0 110.183 5706 -2122 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n81" 0 122.425 5748 -2450 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n82" 0 109.159 5748 -1910 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n83" 0 215.92 5658 -1910 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n84" 0 215.92 5568 -1910 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n85" 0 -6436.81 -26 -5680 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n86" 0 6711.66 5478 -1910 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n87" 0 329.447 5506 -2122 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t2" 0 41.2552 5100 -1088 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t1" 0 41.2504 4642 -1088 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n88" 0 1056.7 4868 -1482 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n89" 0 591.984 5519 -2179 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n90" 0 201.225 5606 -2122 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n91" 0 59.9883 5606 -2122 0
+rnode "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 0 63.6611 5617 -2239 0
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n60" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n59" 0.0069695
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n90" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n89" 0.0178279
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n90" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n2" 0.0204918
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n78" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n2" 0.0204918
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n78" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n77" 0.0204918
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n77" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n73" 0.0204918
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n91" 0.202882
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n82" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t0" 0.289706
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n65" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n63" 0.405135
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n64" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n63" 0.405135
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n46" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n44" 0.406645
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n45" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n44" 0.406645
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n8" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n6" 0.407765
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n7" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n6" 0.407765
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n27" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n25" 0.407765
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n26" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n25" 0.407765
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n54" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n53" 0.410339
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n55" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n54" 0.410339
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n69" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n62" 0.413984
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n59" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n58" 0.431269
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n31" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n24" 0.434051
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n56" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n55" 0.440217
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n58" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n53" 0.440217
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n22" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n14" 0.442935
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n12" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n5" 0.445443
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n45" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n43" 0.445652
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n48" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n46" 0.445652
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n35" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n33" 0.459239
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n39" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n37" 0.459239
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n41" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n33" 0.459344
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n7" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n5" 0.464674
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n10" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n8" 0.464674
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n56" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n52" 0.464674
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n26" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n24" 0.470109
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n29" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n27" 0.470109
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n50" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n43" 0.475021
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n16" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n14" 0.480978
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n20" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n18" 0.480978
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n64" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n62" 0.494565
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n67" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n65" 0.494565
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n79" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n3" 0.590202
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n22" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n21" 0.644617
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n10" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n9" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n9" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n5" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n12" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n11" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n19" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n14" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n17" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n16" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n18" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n17" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n20" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n19" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n29" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n28" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n28" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n24" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n31" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n30" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n41" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n40" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n38" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n33" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n36" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n35" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n37" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n36" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n39" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n38" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n48" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n47" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n47" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n43" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n50" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n49" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n58" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n57" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n57" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n56" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n67" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n66" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n66" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n62" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n69" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n68" 0.644619
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n91" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n1" 0.700865
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n0" 0.756196
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n81" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n80" 0.77464
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n80" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n0" 0.885303
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n76" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n75" 1.0232
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n16" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n15" 1.06853
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n18" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n15" 1.06853
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n81" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n79" 1.06974
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n68" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n67" 1.08212
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n21" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n20" 1.08755
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n30" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n29" 1.09842
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n35" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n34" 1.10114
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n37" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n34" 1.10114
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n40" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n39" 1.10929
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n11" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n10" 1.11201
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n49" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n48" 1.1419
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n87" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n1" 1.14352
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n76" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n3" 1.25418
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n59" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n52" 1.28652
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n77" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n76" 1.55
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n79" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n78" 1.55
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n80" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n2" 1.55
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n91" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n90" 1.55
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n89" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n87" 1.55266
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n23" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n13" 1.86058
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n32" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n23" 1.86058
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n42" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n32" 1.86058
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n51" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n42" 1.86058
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n61" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n51" 1.86058
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n70" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n61" 1.86058
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n72" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n70" 1.86058
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n89" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n88" 2.29765
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n75" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n73" 2.36156
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n73" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n72" 6.75262
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n13" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n12" 6.81583
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n32" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n31" 6.81583
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n51" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n50" 6.81583
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n70" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n69" 6.82972
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n23" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n22" 7.22769
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n42" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n41" 7.22943
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n61" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n60" 7.22943
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n72" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n71" 9.66334
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n13" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n4" 10.2817
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n74" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t0" 25.7838
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n86" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n84" 26.0735
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n84" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n83" 26.0735
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n83" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n82" 26.0735
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n75" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n74" 73.1895
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n74" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n3" 83.5714
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n82" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n81" 83.5714
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n83" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n0" 83.5714
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n84" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n1" 83.5714
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n87" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n86" 84.0879
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n9" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t32" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n11" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t26" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n17" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t12" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n15" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t19" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n19" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t31" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n28" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t5" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n30" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t27" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n40" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t29" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n36" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t15" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n34" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t25" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n38" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t9" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n47" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t30" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n49" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t33" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n57" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t11" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n66" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t7" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n68" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t28" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n21" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t3" 94.8309
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n4" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t24" 95.1537
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n71" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t8" 95.1537
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n63" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t23" 95.1702
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n44" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t18" 95.1749
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n6" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t17" 95.1784
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n25" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t14" 95.1784
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n54" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t21" 95.1866
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n4" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t16" 95.3643
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n71" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t20" 95.3915
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n8" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t13" 190.305
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t13" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n7" 190.305
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n27" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t34" 190.305
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t34" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n26" 190.305
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n46" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t10" 190.305
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t10" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n45" 190.305
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t22" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n53" 190.305
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n55" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t22" 190.305
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n60" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t6" 190.305
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n52" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t6" 190.305
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n65" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t4" 190.305
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t4" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n64" 190.305
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n88" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t1" 235.978
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n88" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t2" 235.982
+resist "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n86" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.n85" 1594.54
+device msubckt sky130_fd_pr__pfet_01v8_lvt 5825 -1188 5826 -1187  "vcc.t0" "OTA_vref_0.OTA_vref_stage2_0.vr.t2" 800 0 "vcc.t1" 100 2900,158 "OTA_vref_0.OTA_vref_stage2_0.vr.t3" 100 5800,316
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2295 -4112 2296 -4111  "vss.t48" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t34" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vr.t4" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t31" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3327 -4112 3328 -4111  "vss.t58" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t33" 400 0 "a_n27_n4200.t36" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t5" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 489 -4112 490 -4111  "vss.t50" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t32" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t30" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vr.t5" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt -27 -4112 -26 -4111  "vss.t26" "a_n27_n4200.t10" 400 0 "vss.t27" 800 46400,1716 "a_n27_n4200.t11" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8 -8089 2635 -8088 2636  "vss.t13" "OTA_vref_0.vb" 2000 0 "vss.t14" 600 34800,1316 "a_n8089_3635#" 600 34800,1316
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1263 -5593 1264 -5592  "vss.t56" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t31" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t29" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vr.t6" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt -6705 2131 -6704 2132  "vss.t4" "vin_n.t1" 4800 0 "OTA_stage2_0.vd1.t0" 1200 69600,2516 "a_n8089_3635#" 1200 34800,1258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3585 -4112 3586 -4111  "vss.t54" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t30" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t2" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vr.t7" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8_lvt 2264 -1188 2265 -1187  "vcc.t2" "OTA_vref_0.OTA_vref_stage2_0.vr.t26" 800 0 "a_1748_n2063#" 200 11600,516 "vcc.t3" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4070 -1975 4071 -1974  "vss.t74" "a_3038_n2063#" 400 0 "a_2980_n1975#" 200 5800,258 "OTA_vref_0.OTA_vref_stage2_0.vref0.t32" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4617 -4112 4618 -4111  "vss.t28" "a_n27_n4200.t0" 400 0 "vss.t29" 800 23200,858 "a_n27_n4200.t1" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8_lvt 1893 6154 1894 6155  "vcc.t18" "OTA_stage2_0.vd1.t8" 760 0 "a_959_2177.t0" 3000 87000,3058 "vo.t2" 3000 174000,6116
+device msubckt sky130_fd_pr__nfet_01v8_lvt 6403 441 6404 442  "vss.t10" "a_521_2177.t0" 3760 0 "vss.t11" 300 8700,358 "a_521_2177.t1" 300 17400,716
+device msubckt sky130_fd_pr__pfet_01v8_lvt 4900 -1188 4901 -1187  "vcc.t4" "OTA_vref_0.OTA_vref_stage2_0.vr.t25" 400 0 "vcc.t5" 200 5800,258 "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t2" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2553 -5593 2554 -5592  "vss.t59" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t29" 400 0 "a_n27_n4200.t35" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t6" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4875 -4112 4876 -4111  "vss.t60" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t28" 400 0 "a_n27_n4200.t34" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t7" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 747 -5593 748 -5592  "vss.t30" "a_n27_n4200.t16" 400 0 "vss.t31" 800 23200,858 "a_n27_n4200.t17" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8_lvt 3554 -1188 3555 -1187  "vcc.t8" "OTA_vref_0.OTA_vref_stage2_0.vr.t24" 800 0 "a_3038_n2063#" 200 11600,516 "vcc.t9" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8_lvt 5367 -1188 5368 -1187  "vcc.t6" "OTA_vref_0.OTA_vref_stage2_0.vr.t0" 800 0 "OTA_vref_0.OTA_vref_stage2_0.vr.t1" 100 5800,316 "vcc.t7" 100 2900,158
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2006 -1975 2007 -1974  "vss.t5" "a_1748_n2063#" 400 0 "a_1748_n2063#" 200 5800,258 "OTA_vref_0.vb1.t0" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5907 -4112 5908 -4111  "vss.t32" "a_n27_n4200.t24" 400 0 "a_n27_n4200.t25" 800 23200,858 "vss.t33" 800 46400,1716
+device msubckt sky130_fd_pr__pfet_01v8_lvt -316 -1188 -315 -1187  "vcc.t10" "OTA_vref_0.OTA_vref_stage2_0.vr.t23" 800 0 "a_n832_n2063#" 200 11600,516 "vcc.t11" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1779 -4112 1780 -4111  "vss.t61" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t27" 400 0 "a_n27_n4200.t33" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t8" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3843 -5593 3844 -5592  "vss.t34" "a_n27_n4200.t12" 400 0 "vss.t35" 800 23200,858 "a_n27_n4200.t13" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2264 -1975 2265 -1974  "vss.t6" "a_1748_n2063#" 400 0 "OTA_vref_0.vb1.t1" 200 5800,258 "a_1748_n2063#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 458 -1975 459 -1974  "vss.t15" "a_458_n2063#" 400 0 "a_400_n1975#" 200 5800,258 "a_458_n2063#" 200 5800,258
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 8294 3010 8295 3011  "vss.t20" "a_8294_3010#" 140 0 "a_8294_3178.t0" 168 30240,1004 "vo.t5" 168 30240,1004
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2527 441 2528 442  "vss.t1" "a_521_2177.t15" 3760 0 "vss.t2" 300 8700,358 "vo.t0" 300 8700,358
+device msubckt sky130_fd_pr__pfet_01v8_lvt 1017 2177 1018 2178  "vcc.t19" "OTA_stage2_0.vd1.t7" 760 0 "a_959_2177.t1" 3000 87000,3058 "vo.t4" 3000 87000,3058
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3554 -1975 3555 -1974  "vss.t75" "a_3038_n2063#" 400 0 "a_2980_n1975#" 200 5800,258 "a_3038_n2063#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt -316 -1975 -315 -1974  "vss.t21" "a_n832_n2063#" 400 0 "OTA_vref_0.vb" 200 5800,258 "a_n832_n2063#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 231 -4112 232 -4111  "vss.t62" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t26" 400 0 "a_n27_n4200.t37" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t9" 800 23200,858
+device msubckt sky130_fd_pr__pnp_05v5_W3p40L3p40 5232 -2696 5233 -2695  "None" "vss.t68" 2068 0 "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t0" 1034 462400,2720 "vss.t63" 1034 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 589 441 590 442  "vss.t71" "a_521_2177.t2" 3760 0 "a_521_2177.t3" 300 17400,716 "vss.t73" 300 8700,358
+device msubckt sky130_fd_pr__nfet_01v8_lvt -58 -1975 -57 -1974  "vss.t22" "a_n832_n2063#" 400 0 "a_n832_n2063#" 200 5800,258 "OTA_vref_0.vb" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt -4246 4006 -4245 4007  "vss.t69" "vin_n.t0" 4800 0 "a_n8089_3635#" 1200 34800,1258 "OTA_stage2_0.vd1.t1" 1200 69600,2516
+device msubckt sky130_fd_pr__nfet_01v8_lvt -574 -1975 -573 -1974  "vss.t23" "a_n832_n2063#" 400 0 "a_n832_n2063#" 200 5800,258 "OTA_vref_0.vb" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8_lvt -4256 6230 -4255 6231  "vcc.t22" "OTA_stage2_0.vd2.t0" 7200 0 "vcc.t23" 360 10440,418 "OTA_stage2_0.vd2.t2" 360 20880,836
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579 2177 580 2178  "vcc.t20" "OTA_stage2_0.vd2.t6" 760 0 "a_521_2177.t8" 3000 174000,6116 "a_959_2177.t7" 3000 87000,3058
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1748 -1975 1749 -1974  "vss.t7" "a_1748_n2063#" 400 0 "OTA_vref_0.vb1.t2" 200 5800,258 "a_1748_n2063#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5133 -5593 5134 -5592  "vss.t36" "a_n27_n4200.t22" 400 0 "a_n27_n4200.t23" 800 23200,858 "vss.t37" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4465 851 4466 852  "vss.t66" "a_521_2177.t4" 3760 0 "a_521_2177.t5" 300 8700,358 "vss.t70" 300 8700,358
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3069 -4112 3070 -4111  "vss.t38" "a_n27_n4200.t8" 400 0 "vss.t39" 800 23200,858 "a_n27_n4200.t9" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2037 -5593 2038 -5592  "vss.t40" "a_n27_n4200.t20" 400 0 "a_n27_n4200.t21" 800 23200,858 "vss.t41" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5391 -5593 5392 -5592  "vss.t42" "a_n27_n4200.t14" 400 0 "vss.t43" 800 23200,858 "a_n27_n4200.t15" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt -4247 2131 -4246 2132  "vss.t12" "vin_p.t1" 4800 0 "a_n8089_3635#" 1200 34800,1258 "OTA_stage2_0.vd2.t0" 1200 69600,2516
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1521 -4112 1522 -4111  "vss.t44" "a_n27_n4200.t18" 400 0 "vss.t45" 800 23200,858 "a_n27_n4200.t19" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4359 -4112 4360 -4111  "vss.t46" "a_n27_n4200.t30" 400 0 "a_n27_n4200.t31" 800 23200,858 "vss.t47" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8_lvt 4642 -1188 4643 -1187  "vcc.t12" "OTA_vref_0.OTA_vref_stage2_0.vr.t22" 400 0 "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t1" 200 11600,516 "vcc.t13" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 200 -1975 201 -1974  "vss.t24" "a_n832_n2063#" 400 0 "OTA_vref_0.vb" 200 5800,258 "a_400_n1975#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2295 -5593 2296 -5592  "vss.t48" "a_n27_n4200.t6" 400 0 "vss.t49" 800 23200,858 "a_n27_n4200.t7" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 489 -5593 490 -5592  "vss.t50" "a_n27_n4200.t4" 400 0 "a_n27_n4200.t5" 800 23200,858 "vss.t51" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3327 -5593 3328 -5592  "vss.t58" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t25" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t10" 800 23200,858 "a_n27_n4200.t32" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2811 -4112 2812 -4111  "vss.t52" "a_n27_n4200.t28" 400 0 "a_n27_n4200.t29" 800 23200,858 "vss.t53" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt -27 -5593 -26 -5592  "vss.t26" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t24" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vr.t8" 800 46400,1716 "OTA_vref_0.OTA_vref_stage2_0.vref0.t1" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5649 -4112 5650 -4111  "vss.t63" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t23" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t11" 800 23200,858 "a_n27_n4200.t43" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8_lvt 1455 6154 1456 6155  "vcc.t21" "OTA_stage2_0.vd2.t5" 760 0 "a_521_2177.t9" 3000 87000,3058 "a_959_2177.t5" 3000 87000,3058
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3585 -5593 3586 -5592  "vss.t54" "a_n27_n4200.t2" 400 0 "a_n27_n4200.t3" 800 23200,858 "vss.t55" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 6244 2223 6245 2224  "vcc.t28" "OTA_vref_0.vb1.t9" 720 0 "a_959_2177.t9" 1400 40600,1458 "vcc.t29" 1400 40600,1458
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4617 -5593 4618 -5592  "vss.t28" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t22" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vr.t9" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t23" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3038 -1975 3039 -1974  "vss.t76" "a_3038_n2063#" 400 0 "a_2980_n1975#" 200 5800,258 "a_3038_n2063#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8_lvt -4256 6718 -4255 6719  "vcc.t22" "OTA_stage2_0.vd2.t0" 7200 0 "vcc.t24" 360 10440,418 "OTA_stage2_0.vd1.t4" 360 20880,836
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4875 -5593 4876 -5592  "vss.t60" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t21" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t12" 800 23200,858 "a_n27_n4200.t42" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 6662 2223 6663 2224  "vcc.t30" "OTA_vref_0.vb1.t8" 720 0 "vcc.t31" 1400 40600,1458 "a_959_2177.t11" 1400 81200,2916
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5907 -5593 5908 -5592  "vss.t32" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t20" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t22" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vr.t10" 800 46400,1716
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3296 -1975 3297 -1974  "vss.t77" "a_3038_n2063#" 400 0 "a_3038_n2063#" 200 5800,258 "a_2980_n1975#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8_lvt 1893 2177 1894 2178  "vcc.t18" "OTA_stage2_0.vd2.t4" 760 0 "a_959_2177.t4" 3000 87000,3058 "a_521_2177.t10" 3000 174000,6116
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1779 -5593 1780 -5592  "vss.t61" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t19" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t13" 800 23200,858 "a_n27_n4200.t41" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8_lvt -7914 6230 -7913 6231  "vcc.t25" "OTA_stage2_0.vd2.t0" 7200 0 "OTA_stage2_0.vd1.t3" 360 20880,836 "vcc.t26" 360 10440,418
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4101 -4112 4102 -4111  "vss.t64" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t18" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t14" 800 23200,858 "a_n27_n4200.t40" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1005 -4112 1006 -4111  "vss.t65" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t17" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t15" 800 23200,858 "a_n27_n4200.t39" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 231 -5593 232 -5592  "vss.t62" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t16" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t16" 800 23200,858 "a_n27_n4200.t38" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 6403 851 6404 852  "vss.t10" "a_521_2177.t14" 3760 0 "vss.t79" 300 8700,358 "vo.t8" 300 17400,716
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1263 -4112 1264 -4111  "vss.t56" "a_n27_n4200.t26" 400 0 "a_n27_n4200.t27" 800 23200,858 "vss.t57" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 5408 2223 5409 2224  "vcc.t32" "OTA_vref_0.vb1.t7" 720 0 "a_959_2177.t8" 1400 81200,2916 "vcc.t33" 1400 40600,1458
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3069 -5593 3070 -5592  "vss.t38" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t15" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vr.t11" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t21" 800 23200,858
+device csubckt sky130_fd_pr__cap_mim_m3_1 4999 5592 5000 5593  "None" "a_8294_3178.t1" 31680 0 "OTA_stage2_0.vd1.t2" -11880 17974710,19394
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2553 -4112 2554 -4111  "vss.t59" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t14" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t17" 800 23200,858 "a_n27_n4200.t44" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 5826 2223 5827 2224  "vcc.t34" "OTA_vref_0.vb1.t6" 720 0 "vcc.t35" 1400 40600,1458 "a_959_2177.t10" 1400 40600,1458
+device msubckt sky130_fd_pr__nfet_01v8_lvt 747 -4112 748 -4111  "vss.t30" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t13" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vr.t12" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t28" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1521 -5593 1522 -5592  "vss.t44" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t12" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vr.t13" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t0" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2527 851 2528 852  "vss.t1" "a_521_2177.t6" 3760 0 "vss.t3" 300 8700,358 "a_521_2177.t7" 300 8700,358
+device msubckt sky130_fd_pr__pfet_01v8_lvt -7914 6718 -7913 6719  "vcc.t25" "OTA_stage2_0.vd2.t0" 7200 0 "OTA_stage2_0.vd2.t1" 360 20880,836 "vcc.t27" 360 10440,418
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4359 -5593 4360 -5592  "vss.t46" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t11" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t4" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vr.t14" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3843 -4112 3844 -4111  "vss.t34" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t10" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vr.t15" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t27" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8_lvt 1017 6154 1018 6155  "vcc.t19" "OTA_stage2_0.vd2.t3" 760 0 "a_959_2177.t6" 3000 87000,3058 "a_521_2177.t11" 3000 87000,3058
+device msubckt sky130_fd_pr__nfet_01v8_lvt 589 851 590 852  "vss.t71" "a_521_2177.t13" 3760 0 "vo.t7" 300 17400,716 "vss.t72" 300 8700,358
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4465 441 4466 442  "vss.t66" "a_521_2177.t12" 3760 0 "vo.t6" 300 8700,358 "vss.t67" 300 8700,358
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2811 -5593 2812 -5592  "vss.t52" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t9" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t26" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vr.t16" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5649 -5593 5650 -5592  "vss.t63" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t8" 400 0 "a_n27_n4200.t46" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t18" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1232 -1975 1233 -1974  "vss.t16" "a_458_n2063#" 400 0 "a_458_n2063#" 200 5800,258 "a_400_n1975#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8_lvt -897 -1188 -896 -1187  "vcc.t14" "OTA_vref_0.OTA_vref_stage2_0.vr.t21" 800 0 "OTA_vref_0.vb" 200 11600,516 "vcc.t15" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8_lvt 974 -1188 975 -1187  "vcc.t16" "OTA_vref_0.OTA_vref_stage2_0.vr.t20" 800 0 "a_458_n2063#" 200 11600,516 "vcc.t17" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8_lvt 579 6154 580 6155  "vcc.t20" "OTA_stage2_0.vd1.t6" 760 0 "vo.t3" 3000 174000,6116 "a_959_2177.t2" 3000 87000,3058
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1490 -1975 1491 -1974  "vss.t17" "a_458_n2063#" 400 0 "a_400_n1975#" 200 5800,258 "OTA_vref_0.vb1.t5" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2522 -1975 2523 -1974  "vss.t8" "a_1748_n2063#" 400 0 "a_1748_n2063#" 200 5800,258 "OTA_vref_0.vb1.t3" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8_lvt 1455 2177 1456 2178  "vcc.t21" "OTA_stage2_0.vd1.t5" 760 0 "vo.t1" 3000 87000,3058 "a_959_2177.t3" 3000 87000,3058
+device msubckt sky130_fd_pr__nfet_01v8_lvt 716 -1975 717 -1974  "vss.t18" "a_458_n2063#" 400 0 "a_458_n2063#" 200 5800,258 "a_400_n1975#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2780 -1975 2781 -1974  "vss.t9" "a_1748_n2063#" 400 0 "OTA_vref_0.vb1.t4" 200 5800,258 "a_2980_n1975#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 974 -1975 975 -1974  "vss.t19" "a_458_n2063#" 400 0 "a_400_n1975#" 200 5800,258 "a_458_n2063#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3812 -1975 3813 -1974  "vss.t78" "a_3038_n2063#" 400 0 "a_3038_n2063#" 200 5800,258 "a_2980_n1975#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5133 -4112 5134 -4111  "vss.t36" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t7" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t3" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vr.t17" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt -6704 4006 -6703 4007  "vss.t0" "vin_p.t0" 4800 0 "OTA_stage2_0.vd2.t0" 1200 69600,2516 "a_n8089_3635#" 1200 34800,1258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4101 -5593 4102 -5592  "vss.t64" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t6" 400 0 "a_n27_n4200.t45" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t19" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt -832 -1975 -831 -1974  "vss.t25" "a_n832_n2063#" 400 0 "OTA_vref_0.vb" 200 11600,516 "a_n832_n2063#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2037 -4112 2038 -4111  "vss.t40" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t5" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0.t25" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vr.t18" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5391 -4112 5392 -4111  "vss.t42" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t4" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vr.t19" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t24" 800 23200,858
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1005 -5593 1006 -5592  "vss.t65" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter.t3" 400 0 "a_n27_n4200.t47" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0.t20" 800 23200,858

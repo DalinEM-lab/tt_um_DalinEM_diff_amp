@@ -1,0 +1,39 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1740770860
+<< locali >>
+rect 2208 1906 6880 2404
+<< metal1 >>
+rect 2196 793 2587 839
+<< metal2 >>
+rect 113 5386 189 5580
+rect 1926 2261 2006 2271
+rect 1926 1537 2006 2176
+rect 1926 1457 2197 1537
+rect 7850 979 7872 1028
+rect 99 36 153 200
+rect 2150 143 2630 304
+<< via2 >>
+rect 1926 2176 2006 2261
+<< metal3 >>
+rect 1916 2261 2016 2266
+rect 1574 2176 1926 2261
+rect 2006 2176 2016 2261
+rect 1916 2171 2016 2176
+use BGR_BJT_stage1  BGR_BJT_stage1_0 ~/Project_tinytape/magic/mag/OTA_vref/OTA_vref_stage1
+timestamp 1739137757
+transform 1 0 -5349 0 1 3380
+box 5349 -3380 12358 2268
+use BGR_BJT_stage2  BGR_BJT_stage2_0 ~/Project_tinytape/magic/mag/OTA_vref/OTA_vref_stage2
+timestamp 1739131682
+transform 1 0 3106 0 -1 2450
+box -928 535 4746 2353
+<< labels >>
+rlabel metal2 7871 1006 7871 1006 7 vref
+port 1 w
+rlabel metal2 100 117 100 117 7 vcc
+port 2 w
+rlabel metal2 114 5483 114 5483 7 vss
+port 3 w
+<< end >>

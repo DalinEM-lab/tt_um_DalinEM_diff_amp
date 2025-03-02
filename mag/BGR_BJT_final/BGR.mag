@@ -1,0 +1,29 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1740712932
+<< locali >>
+rect -2720 840 2014 1376
+<< metal1 >>
+rect -2666 -274 -2238 -228
+<< metal2 >>
+rect -2914 1230 -2834 1240
+rect -2914 470 -2834 1109
+rect -2914 390 -2740 470
+rect -2741 -924 -2335 -764
+<< via2 >>
+rect -2914 1109 -2834 1230
+<< metal3 >>
+rect -2924 1230 -2824 1235
+rect -3290 1109 -2914 1230
+rect -2834 1109 -2824 1230
+rect -2924 1104 -2824 1109
+use BGR_BJT_stage1  BGR_BJT_stage1_0 ~/Project_tinytape/magic/mag/BGR_BJT_final/layout_BGR_BJT_stage1
+timestamp 1739137757
+transform 1 0 -10213 0 1 2313
+box 5349 -3380 12358 2268
+use BGR_BJT_stage2  BGR_BJT_stage2_0 ~/Project_tinytape/magic/mag/BGR_BJT_final/layout_BGR_BJT_stage-2
+timestamp 1739131682
+transform 1 0 -1821 0 -1 1383
+box -928 535 4746 2353
+<< end >>

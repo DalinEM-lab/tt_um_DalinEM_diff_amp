@@ -1,0 +1,46 @@
+* NGSPICE file created from BGR_stage-2.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_8F4JZ6 a_n100_n297# a_100_n200# w_n194_n300# a_n158_n200#
+X0 a_100_n200# a_n100_n297# a_n158_n200# w_n194_n300# sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_LH3874 a_100_n100# a_n158_n100# a_n100_n188# VSUBS
+X0 a_100_n100# a_n100_n188# a_n158_n100# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_AH64E9 w_n346_n319# a_n150_n197# a_150_n100# a_n208_n100#
+X0 a_150_n100# a_n150_n197# a_n208_n100# w_n346_n319# sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1.5
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_QXYN66 a_n150_n197# a_150_n100# w_n244_n200# a_n208_n100#
+X0 a_150_n100# a_n150_n197# a_n208_n100# w_n244_n200# sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1.5
+.ends
+
+.subckt BGR_stage-2 vcc vss vref vref0 vr
+XXM12 vr vref vcc vcc sky130_fd_pr__pfet_01v8_lvt_8F4JZ6
+XXM23 vref m1_4340_877# m1_4340_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM14 vcc vr m1_3032_877# vcc sky130_fd_pr__pfet_01v8_lvt_AH64E9
+XXM24 m1_4340_877# vref m1_4340_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM13 m1_846_923# m1_971_877# m1_971_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM15 m1_3032_877# m1_2136_923# m1_3032_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM16 m1_2136_923# m1_846_923# m1_3032_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM17 vr m1_4340_877# vcc vcc sky130_fd_pr__pfet_01v8_lvt_QXYN66
+XXM18 m1_4340_877# vref m1_4340_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM19 vref m1_2136_923# m1_4340_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM1 m1_n444_923# m1_75_833# m1_75_833# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM2 m1_75_833# m1_n444_923# m1_75_833# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM3 m1_n444_923# m1_75_833# m1_75_833# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM4 m1_n444_923# vref0 m1_75_833# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM5 m1_75_833# m1_n444_923# m1_75_833# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM6 m1_846_923# m1_n444_923# m1_971_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+Xsky130_fd_pr__nfet_01v8_lvt_LH3874_0 vref m1_4340_877# m1_4340_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM7 m1_971_877# m1_846_923# m1_971_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM9 m1_971_877# m1_846_923# m1_971_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM8 m1_846_923# m1_971_877# m1_971_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM20 m1_2136_923# m1_3032_877# m1_3032_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM10 vcc vr m1_75_833# vcc sky130_fd_pr__pfet_01v8_lvt_AH64E9
+XXM21 m1_3032_877# m1_2136_923# m1_3032_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+XXM11 vcc vr m1_971_877# vcc sky130_fd_pr__pfet_01v8_lvt_AH64E9
+XXM22 m1_2136_923# m1_3032_877# m1_3032_877# vss sky130_fd_pr__nfet_01v8_lvt_LH3874
+.ends
+

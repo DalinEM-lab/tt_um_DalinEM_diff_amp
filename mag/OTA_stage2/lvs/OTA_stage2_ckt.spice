@@ -1,0 +1,26 @@
+** sch_path: /home/zerotoasic/Project_tinytape/xschem/Projects/tinytape/OTA/OTA_tinytape/layout
+*+ schs/OTA_stage2.sch
+.subckt OTA_stage2 vd2 vd1 vb1 vcc vss vo
+*.PININFO vd2:I vd1:I vb1:I vcc:I vss:I vo:O
+XM7 net1 vd2 net2 vcc sky130_fd_pr__pfet_01v8_lvt L=1.9 W=15 nf=1 m=1
+XM8 vo vd1 net2 vcc sky130_fd_pr__pfet_01v8_lvt L=1.9 W=15 nf=1 m=1
+XM9 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=9.4 W=1.5 nf=1 m=1
+XM10 vo net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=9.4 W=1.5 nf=1 m=1
+XC1 net3 vd1 sky130_fd_pr__cap_mim_m3_1 W=20 L=20 m=1
+XM3 net2 vb1 vcc vcc sky130_fd_pr__pfet_01v8 L=1.8 W=28 nf=4 m=1
+XM4 net1 vd2 net2 vcc sky130_fd_pr__pfet_01v8_lvt L=1.9 W=15 nf=1 m=1
+XM5 net1 vd2 net2 vcc sky130_fd_pr__pfet_01v8_lvt L=1.9 W=15 nf=1 m=1
+XM11 net1 vd2 net2 vcc sky130_fd_pr__pfet_01v8_lvt L=1.9 W=15 nf=1 m=1
+XR34 vo net3 vss sky130_fd_pr__res_xhigh_po_0p35 L=1 mult=1 m=1
+XM12 vo vd1 net2 vcc sky130_fd_pr__pfet_01v8_lvt L=1.9 W=15 nf=1 m=1
+XM13 vo vd1 net2 vcc sky130_fd_pr__pfet_01v8_lvt L=1.9 W=15 nf=1 m=1
+XM14 vo vd1 net2 vcc sky130_fd_pr__pfet_01v8_lvt L=1.9 W=15 nf=1 m=1
+XM15 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=9.4 W=1.5 nf=1 m=1
+XM16 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=9.4 W=1.5 nf=1 m=1
+XM17 net1 net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=9.4 W=1.5 nf=1 m=1
+XM18 vo net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=9.4 W=1.5 nf=1 m=1
+XM19 vo net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=9.4 W=1.5 nf=1 m=1
+XM20 vo net1 vss vss sky130_fd_pr__nfet_01v8_lvt L=9.4 W=1.5 nf=1 m=1
+.ends
+.GLOBAL GND
+.end

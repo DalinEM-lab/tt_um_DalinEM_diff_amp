@@ -1,53 +1,41 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1739140642
+timestamp 1740710330
 << locali >>
-rect 1990 2422 6596 2443
-rect 1990 1949 6712 2422
-rect 1990 1941 6596 1949
-rect 1911 262 2465 531
-rect -25 158 2465 262
-rect -25 0 7629 158
-rect -25 -2 2035 0
+rect 2075 2434 6860 2445
+rect 2049 1894 6860 2434
+rect 2075 1889 6860 1894
 << metal1 >>
-rect 1753 827 2401 874
+rect 2168 779 2431 825
 << metal2 >>
-rect -52 5420 14 5614
-rect 1991 1871 6800 1900
-rect 1412 1572 1574 1580
-rect 1406 1570 1965 1572
-rect 1406 1496 1412 1570
-rect 1574 1496 1965 1570
-rect 1406 1492 1965 1496
-rect 1412 1486 1574 1492
-rect 7630 1011 7667 1063
-rect -22 238 1788 239
-rect 1937 238 2509 303
-rect -22 233 2509 238
-rect 7481 233 7713 344
-rect -22 36 7713 233
+rect 102 5372 161 5566
+rect 1842 2246 1922 2256
+rect 1842 1523 1922 2162
+rect 1842 1443 2041 1523
+rect 7692 965 7710 1014
+rect 83 22 139 186
+rect 2134 130 2478 290
 << via2 >>
-rect 1412 1496 1574 1570
+rect 1842 2162 1922 2246
 << metal3 >>
-rect 1406 1575 1482 2211
-rect 1402 1570 1584 1575
-rect 1402 1496 1412 1570
-rect 1574 1496 1584 1570
-rect 1402 1491 1584 1496
-use BGR_BJT_stage1  BGR_BJT_stage1_0 ~/Dalin/Projects/tinytape/voltage_ref_BJT/layout_BGR_BJT_stage1
+rect 1832 2246 1932 2251
+rect 1546 2162 1842 2246
+rect 1922 2162 1932 2246
+rect 1832 2157 1932 2162
+use BGR_BJT_stage1  BGR_BJT_stage1_0 ~/Project_tinytape/magic/mag/BGR_BJT_final/layout_BGR_BJT_stage1
 timestamp 1739137757
-transform 1 0 -5517 0 1 3414
+transform 1 0 -5377 0 1 3366
 box 5349 -3380 12358 2268
-use BGR_BJT_stage2  BGR_BJT_stage2_0 ~/Dalin/Projects/tinytape/voltage_ref_BJT/layout_BGR_BJT_stage-2
+use BGR_BJT_stage2  BGR_BJT_stage2_0 ~/Project_tinytape/magic/mag/BGR_BJT_final/layout_BGR_BJT_stage-2
 timestamp 1739131682
-transform 1 0 2888 0 -1 2485
+transform 1 0 2947 0 -1 2436
 box -928 535 4746 2353
 << labels >>
-rlabel metal2 7711 193 7711 193 7 vcc
+rlabel metal2 85 102 85 102 7 vcc
 port 1 w
-rlabel metal2 -51 5514 -51 5514 3 vss
-port 2 e
-rlabel metal2 7666 1038 7666 1038 7 vref
+rlabel metal2 103 5468 103 5468 7 vss
+port 2 w
+rlabel metal2 7709 990 7709 990 7 vref
 port 3 w
 << end >>

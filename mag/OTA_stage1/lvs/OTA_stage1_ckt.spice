@@ -1,0 +1,15 @@
+** sch_path: /home/zerotoasic/Project_tinytape/xschem/Projects/tinytape/OTA/OTA_tinytape/layout
+*+ schs/OTA_stage1.sch
+.subckt OTA_stage1 vd1 vin_p vin_n vb vcc vss vd2
+*.PININFO vd1:O vin_p:I vin_n:I vb:I vcc:I vss:I vd2:O
+XM1 vd2 vin_p net1 vss sky130_fd_pr__nfet_01v8_lvt L=12 W=6 nf=1 m=1
+XM2 vd1 vin_n net1 vss sky130_fd_pr__nfet_01v8_lvt L=12 W=6 nf=1 m=1
+XM4 vd1 vd2 vcc vcc sky130_fd_pr__pfet_01v8_lvt L=18 W=1.8 nf=1 m=1
+XM5 vd2 vd2 vcc vcc sky130_fd_pr__pfet_01v8_lvt L=18 W=1.8 nf=1 m=1
+XM3 net1 vb vss vss sky130_fd_pr__nfet_01v8 L=5 W=3 nf=1 m=1
+XM6 vd2 vd2 vcc vcc sky130_fd_pr__pfet_01v8_lvt L=18 W=1.8 nf=1 m=1
+XM7 vd1 vd2 vcc vcc sky130_fd_pr__pfet_01v8_lvt L=18 W=1.8 nf=1 m=1
+XM8 vd2 vin_p net1 vss sky130_fd_pr__nfet_01v8_lvt L=12 W=6 nf=1 m=1
+XM9 vd1 vin_n net1 vss sky130_fd_pr__nfet_01v8_lvt L=12 W=6 nf=1 m=1
+.ends
+.end

@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1740769973
+use BGR_BJT_stage2  BGR_BJT_stage2_0 ~/Project_tinytape/magic/mag/OTA_vref/OTA_vref_stage2
+timestamp 1739131682
+transform 1 0 914 0 1 -541
+box -928 535 4746 2353
+<< end >>
