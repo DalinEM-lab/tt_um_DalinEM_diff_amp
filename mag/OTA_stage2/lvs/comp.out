@@ -29,20 +29,6 @@ Circuit 1: sky130_fd_pr__nfet_01v8_lvt     |Circuit 2: sky130_fd_pr__nfet_01v8_l
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__nfet_01v8_lvt and sky130_fd_pr__nfet_01v8_lvt are equivalent.
 
-Circuit 1 cell sky130_fd_pr__res_xhigh_po_0p35 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_0p35 are black boxes.
-Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
-Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_pr__res_xhigh_po_0p35 |Circuit 2: sky130_fd_pr__res_xhigh_po_0p35 
--------------------------------------------|-------------------------------------------
-1                                          |1                                          
-2                                          |2                                          
-3                                          |3                                          
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_pr__res_xhigh_po_0p35 and sky130_fd_pr__res_xhigh_po_0p35 are equivalent.
-
 Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
 Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
 Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
@@ -70,39 +56,38 @@ Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_NH7ZMU in circuit OTA_stage2 (1)(8 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_AR4WA2 in circuit OTA_stage2 (1)(8 instances)
-Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_Q9T44L in circuit OTA_stage2 (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_6JHA76 in circuit OTA_stage2 (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_V6F9HY in circuit OTA_stage2 (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_NH7ZMU in circuit x2nd_3_OTA (1)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_AR4WA2 in circuit x2nd_3_OTA (1)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_6JHA76 in circuit x2nd_3_OTA (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_FGZHLY in circuit x2nd_3_OTA (1)(1 instance)
 
-Class OTA_stage2 (0):  Merged 12 parallel devices.
-Class OTA_stage2 (1):  Merged 15 parallel devices.
+Class 2nd_3_OTA (0):  Merged 12 parallel devices.
+Class x2nd_3_OTA (1):  Merged 15 parallel devices.
 Subcircuit summary:
-Circuit 1: OTA_stage2                      |Circuit 2: OTA_stage2                      
+Circuit 1: 2nd_3_OTA                       |Circuit 2: x2nd_3_OTA                      
 -------------------------------------------|-------------------------------------------
 sky130_fd_pr__pfet_01v8_lvt (8->2)         |sky130_fd_pr__pfet_01v8_lvt (8->2)         
 sky130_fd_pr__nfet_01v8_lvt (8->2)         |sky130_fd_pr__nfet_01v8_lvt (8->2)         
-sky130_fd_pr__cap_mim_m3_1 (1)             |sky130_fd_pr__cap_mim_m3_1 (1)             
 sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (4->1)             
-sky130_fd_pr__res_xhigh_po_0p35 (1)        |sky130_fd_pr__res_xhigh_po_0p35 (1)        
-Number of devices: 7                       |Number of devices: 7                       
-Number of nets: 9                          |Number of nets: 9                          
+sky130_fd_pr__cap_mim_m3_1 (1)             |sky130_fd_pr__cap_mim_m3_1 (1)             
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 8                          |Number of nets: 8                          
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: OTA_stage2                      |Circuit 2: OTA_stage2                      
+Circuit 1: 2nd_3_OTA                       |Circuit 2: x2nd_3_OTA                      
 -------------------------------------------|-------------------------------------------
-vss                                        |vss                                        
 vd1                                        |vd1                                        
-vo                                         |vo                                         
+vd4                                        |vd4                                        
 vb1                                        |vb1                                        
 vd2                                        |vd2                                        
 vcc                                        |vcc                                        
+vd3                                        |vd3                                        
+vss                                        |vss                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes OTA_stage2 and OTA_stage2 are equivalent.
+Device classes 2nd_3_OTA and x2nd_3_OTA are equivalent.
 
 Final result: Circuits match uniquely.
 .

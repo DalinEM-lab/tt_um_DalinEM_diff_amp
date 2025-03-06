@@ -1,7 +1,10 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1740775395
+timestamp 1741232063
+<< error_s >>
+rect -257 5586 -205 5590
+rect -285 5558 -233 5562
 << metal1 >>
 rect -237 5771 0 5871
 rect -257 5586 98 5686
@@ -123,7 +126,7 @@ rect -2134 -6016 -2133 -5819
 rect -1469 -6016 -1468 -5819
 rect -2134 -6017 -1468 -6016
 use OTA_stage1  OTA_stage1_0 ~/Project_tinytape/magic/mag/OTA_stage1
-timestamp 1740520188
+timestamp 1741208255
 transform 1 0 -19404 0 1 4436
 box 10993 -2832 19171 3381
 use OTA_stage2  OTA_stage2_0 ~/Project_tinytape/magic/mag/OTA_stage2

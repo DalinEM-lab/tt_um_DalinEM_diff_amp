@@ -57,34 +57,6 @@ Circuit 1: sky130_fd_pr__res_xhigh_po_0p35 |Circuit 2: sky130_fd_pr__res_xhigh_p
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__res_xhigh_po_0p35 and sky130_fd_pr__res_xhigh_po_0p35 are equivalent.
 
-Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
-Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
-Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
--------------------------------------------|-------------------------------------------
-1                                          |1                                          
-2                                          |2                                          
-3                                          |3                                          
-4                                          |4                                          
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
-
-Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
-Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
-Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_1      
--------------------------------------------|-------------------------------------------
-1                                          |1                                          
-2                                          |2                                          
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
-
 Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
 Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
 Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
@@ -99,72 +71,37 @@ Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_58FN7G in circuit OTA_stage1 (1)(4 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_59CFV9 in circuit OTA_stage1 (1)(4 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_Q93DRV in circuit OTA_stage1 (1)(1 instance)
 
-Class OTA_stage1 (0):  Merged 4 parallel devices.
-Class OTA_stage1 (1):  Merged 4 parallel devices.
-Subcircuit summary:
-Circuit 1: OTA_stage1                      |Circuit 2: OTA_stage1                      
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_01v8_lvt (4->2)         |sky130_fd_pr__nfet_01v8_lvt (4->2)         
-sky130_fd_pr__pfet_01v8_lvt (4->2)         |sky130_fd_pr__pfet_01v8_lvt (4->2)         
-sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
-Number of devices: 5                       |Number of devices: 5                       
-Number of nets: 8                          |Number of nets: 8                          
----------------------------------------------------------------------------------------
-Netlists match uniquely.
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
 
 Subcircuit pins:
-Circuit 1: OTA_stage1                      |Circuit 2: OTA_stage1                      
+Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_1      
 -------------------------------------------|-------------------------------------------
-vd1                                        |vd1                                        
-vin_p                                      |vin_p                                      
-vin_n                                      |vin_n                                      
-vb                                         |vb                                         
-vd2                                        |vd2                                        
-vcc                                        |vcc                                        
-vss                                        |vss                                        
+1                                          |1                                          
+2                                          |2                                          
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes OTA_stage1 and OTA_stage1 are equivalent.
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_NH7ZMU in circuit OTA_stage2 (1)(8 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_AR4WA2 in circuit OTA_stage2 (1)(8 instances)
-Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_Q9T44L in circuit OTA_stage2 (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_6JHA76 in circuit OTA_stage2 (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_V6F9HY in circuit OTA_stage2 (1)(1 instance)
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
 
-Class OTA_stage2 (0):  Merged 12 parallel devices.
-Class OTA_stage2 (1):  Merged 15 parallel devices.
-Subcircuit summary:
-Circuit 1: OTA_stage2                      |Circuit 2: OTA_stage2                      
--------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8_lvt (8->2)         |sky130_fd_pr__pfet_01v8_lvt (8->2)         
-sky130_fd_pr__nfet_01v8_lvt (8->2)         |sky130_fd_pr__nfet_01v8_lvt (8->2)         
-sky130_fd_pr__cap_mim_m3_1 (1)             |sky130_fd_pr__cap_mim_m3_1 (1)             
-sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (4->1)             
-sky130_fd_pr__res_xhigh_po_0p35 (1)        |sky130_fd_pr__res_xhigh_po_0p35 (1)        
-Number of devices: 7                       |Number of devices: 7                       
-Number of nets: 9                          |Number of nets: 9                          
----------------------------------------------------------------------------------------
-Netlists match uniquely.
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
 
 Subcircuit pins:
-Circuit 1: OTA_stage2                      |Circuit 2: OTA_stage2                      
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
 -------------------------------------------|-------------------------------------------
-vss                                        |vss                                        
-vd1                                        |vd1                                        
-vo                                         |vo                                         
-vb1                                        |vb1                                        
-vd2                                        |vd2                                        
-vcc                                        |vcc                                        
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes OTA_stage2 and OTA_stage2 are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
 Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2 in circuit BGR_BJT_stage1 (1)(48 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_KLHH7J in circuit BGR_BJT_stage1 (1)(2 instances)
 Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_QCPJZY in circuit BGR_BJT_stage1 (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_KLHH7J in circuit BGR_BJT_stage1 (1)(2 instances)
 Flattening unmatched subcell sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 in circuit BGR_BJT_stage1 (1)(1 instance)
 
 Class BGR_BJT_stage1 (0):  Merged 47 parallel devices.
@@ -218,264 +155,83 @@ vref                                       |vref
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes BGR_BJT_stage2 and BGR_BJT_stage2 are equivalent.
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_58FN7G in circuit diff_final_v0 (1)(4 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_59CFV9 in circuit diff_final_v0 (1)(4 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_Q93DRV in circuit diff_final_v0 (1)(1 instance)
+Flattening unmatched subcell 3_OTA_ckt in circuit tinytape_3OTA_diff_BGR (0)(1 instance)
+Flattening unmatched subcell 3rd_3_OTA in circuit tinytape_3OTA_diff_BGR (0)(1 instance)
+Flattening unmatched subcell 2nd_3_OTA in circuit tinytape_3OTA_diff_BGR (0)(1 instance)
+Flattening unmatched subcell 1st_3_OTA in circuit tinytape_3OTA_diff_BGR (0)(1 instance)
+Flattening unmatched subcell v_bias_3OTA in circuit tinytape_3OTA_diff_BGR (0)(1 instance)
+Flattening unmatched subcell vref_stage1 in circuit tinytape_3OTA_diff_BGR (0)(1 instance)
+Flattening unmatched subcell vref_stage2 in circuit tinytape_3OTA_diff_BGR (0)(1 instance)
+Flattening unmatched subcell BGR_BJT_final in circuit tinytape_3OTA_diff_BGR (0)(1 instance)
+Flattening unmatched subcell diff_amplifier in circuit tinytape_3OTA_diff_BGR (0)(1 instance)
+Flattening unmatched subcell BGR_BJT_vref in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell x3_OTA in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell OTA_vref in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell OTA_vref_stage2 in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_L4HHUA in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_LH3874 in circuit tt_um_DalinEM_test (1)(20 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_QCP9T2 in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_Q4S9T2 in circuit tt_um_DalinEM_test (1)(3 instances)
+Flattening unmatched subcell OTA_vref_stage1 in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2 in circuit tt_um_DalinEM_test (1)(48 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_KLHH7J in circuit tt_um_DalinEM_test (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_QCPJZY in circuit tt_um_DalinEM_test (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell x3rd_3_OTA in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_227YHS in circuit tt_um_DalinEM_test (1)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_D5AAWA in circuit tt_um_DalinEM_test (1)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_NX66A7 in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_RX9YJP in circuit tt_um_DalinEM_test (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_22NDE3 in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_K7KF7V in circuit tt_um_DalinEM_test (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_Q3FE5R in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell x2nd_3_OTA in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_NH7ZMU in circuit tt_um_DalinEM_test (1)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_AR4WA2 in circuit tt_um_DalinEM_test (1)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_6JHA76 in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_FGZHLY in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell OTA_stage1 in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_58FN7G in circuit tt_um_DalinEM_test (1)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_59CFV9 in circuit tt_um_DalinEM_test (1)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_Q93DRV in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell diff_final_v0 in circuit tt_um_DalinEM_test (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_58FN7G in circuit tt_um_DalinEM_test (1)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_59CFV9 in circuit tt_um_DalinEM_test (1)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_Q93DRV in circuit tt_um_DalinEM_test (1)(1 instance)
 
-Class diff_final_v0 (0):  Merged 4 parallel devices.
-Class diff_final_v0 (1):  Merged 4 parallel devices.
+Class tinytape_3OTA_diff_BGR (0):  Merged 91 parallel devices.
+Class tt_um_DalinEM_test (1):  Merged 95 parallel devices.
 Subcircuit summary:
-Circuit 1: diff_final_v0                   |Circuit 2: diff_final_v0                   
+Circuit 1: tinytape_3OTA_diff_BGR          |Circuit 2: tt_um_DalinEM_test              
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_01v8_lvt (4->2)         |sky130_fd_pr__nfet_01v8_lvt (4->2)         
-sky130_fd_pr__pfet_01v8_lvt (4->2)         |sky130_fd_pr__pfet_01v8_lvt (4->2)         
-sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
-Number of devices: 5                       |Number of devices: 5                       
-Number of nets: 8                          |Number of nets: 8                          
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (4->3)             
+sky130_fd_pr__nfet_01v8_lvt (94->21)       |sky130_fd_pr__nfet_01v8_lvt (94->21)       
+sky130_fd_pr__pfet_01v8_lvt (35->17)       |sky130_fd_pr__pfet_01v8_lvt (35->17)       
+sky130_fd_pr__cap_mim_m3_1 (2)             |sky130_fd_pr__cap_mim_m3_1 (2)             
+sky130_fd_pr__res_xhigh_po_0p35 (1)        |sky130_fd_pr__res_xhigh_po_0p35 (1)        
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (4->1)             
+sky130_fd_pr__pnp_05v5_W3p40L3p40 (1)      |sky130_fd_pr__pnp_05v5_W3p40L3p40 (1)      
+BGR_BJT_stage1 (1)                         |BGR_BJT_stage1 (1)                         
+BGR_BJT_stage2 (1)                         |BGR_BJT_stage2 (1)                         
+Number of devices: 48                      |Number of devices: 48                      
+Number of nets: 35                         |Number of nets: 35                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: diff_final_v0                   |Circuit 2: diff_final_v0                   
--------------------------------------------|-------------------------------------------
-vout                                       |vout                                       
-vin+                                       |vin_p **Mismatch**                         
-vin-                                       |vin_n **Mismatch**                         
-vb                                         |vb                                         
-vcc                                        |vcc                                        
-vss                                        |vss                                        
----------------------------------------------------------------------------------------
-Cell pin lists for diff_final_v0 and diff_final_v0 altered to match.
-Device classes diff_final_v0 and diff_final_v0 are equivalent.
-Flattening unmatched subcell 2_OTA in circuit tinytape_OTA_diff_BGR (0)(1 instance)
-Flattening unmatched subcell v_bias in circuit tinytape_OTA_diff_BGR (0)(1 instance)
-Flattening unmatched subcell vref_stage1 in circuit tinytape_OTA_diff_BGR (0)(1 instance)
-Flattening unmatched subcell vref_stage2 in circuit tinytape_OTA_diff_BGR (0)(1 instance)
-Flattening unmatched subcell BGR_BJT_final in circuit tinytape_OTA_diff_BGR (0)(1 instance)
-Flattening unmatched subcell diff_tinytape in circuit tinytape_OTA_diff_BGR (0)(1 instance)
-Flattening unmatched subcell BGR_BJT_vref in circuit tt_um_DalinEM_diff_amp (1)(1 instance)
-Flattening unmatched subcell x2_OTA in circuit tt_um_DalinEM_diff_amp (1)(1 instance)
-Flattening unmatched subcell OTA_vref in circuit tt_um_DalinEM_diff_amp (1)(1 instance)
-Flattening unmatched subcell OTA_vref_stage2 in circuit tt_um_DalinEM_diff_amp (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_L4HHUA in circuit tt_um_DalinEM_diff_amp (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_LH3874 in circuit tt_um_DalinEM_diff_amp (1)(20 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_QCP9T2 in circuit tt_um_DalinEM_diff_amp (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_Q4S9T2 in circuit tt_um_DalinEM_diff_amp (1)(3 instances)
-Flattening unmatched subcell OTA_vref_stage1 in circuit tt_um_DalinEM_diff_amp (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_UZ3GQ2 in circuit tt_um_DalinEM_diff_amp (1)(48 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_KLHH7J in circuit tt_um_DalinEM_diff_amp (1)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_QCPJZY in circuit tt_um_DalinEM_diff_amp (1)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__rf_pnp_05v5_W3p40L3p40 in circuit tt_um_DalinEM_diff_amp (1)(1 instance)
-
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[1]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[2]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[2]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[3]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: rst_n
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[3]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[4]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[4]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[5]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[5]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[6]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ua[6]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[6]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[7]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[0]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[7]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ua[7]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[0]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[0]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[1]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[1]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[2]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[2]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[3]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[3]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[4]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[0]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[4]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[5]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[5]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[6]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: clk
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[1]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[6]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[7]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ena
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[7]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[0]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[1]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[2]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[3]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[4]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[5]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[6]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[7]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: clk
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ena
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: rst_n
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ua[6]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ua[7]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[0]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[1]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[2]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[3]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[4]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[5]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[6]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[7]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[0]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[1]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[2]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[3]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[4]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[5]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[6]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[7]
-Class tinytape_OTA_diff_BGR (0):  Merged 59 parallel devices.
-Class tt_um_DalinEM_diff_amp (1):  Merged 59 parallel devices.
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[1]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[2]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[2]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[3]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: rst_n
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[3]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[4]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[4]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[5]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[5]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[6]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ua[6]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[6]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[7]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[0]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[7]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ua[7]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[0]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[0]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[1]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[1]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[2]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[2]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[3]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[3]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[4]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_in[0]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[4]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[5]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[5]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[6]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: clk
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_out[1]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[6]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ui_in[7]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: ena
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uo_out[7]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[0]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[1]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[2]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[3]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[4]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[5]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[6]
-Cell tinytape_OTA_diff_BGR (0) disconnected node: uio_oe[7]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: clk
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ena
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: rst_n
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ua[6]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ua[7]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[0]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[1]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[2]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[3]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[4]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[5]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[6]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: ui_in[7]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[0]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[1]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[2]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[3]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[4]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[5]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[6]
-Cell tt_um_DalinEM_diff_amp (1) disconnected node: uio_in[7]
-Subcircuit summary:
-Circuit 1: tinytape_OTA_diff_BGR           |Circuit 2: tt_um_DalinEM_diff_amp          
--------------------------------------------|-------------------------------------------
-OTA_stage1 (1)                             |OTA_stage1 (1)                             
-OTA_stage2 (1)                             |OTA_stage2 (1)                             
-sky130_fd_pr__nfet_01v8_lvt (68->11)       |sky130_fd_pr__nfet_01v8_lvt (68->11)       
-sky130_fd_pr__pfet_01v8_lvt (9->7)         |sky130_fd_pr__pfet_01v8_lvt (9->7)         
-sky130_fd_pr__pnp_05v5_W3p40L3p40 (1)      |sky130_fd_pr__pnp_05v5_W3p40L3p40 (1)      
-BGR_BJT_stage1 (1)                         |BGR_BJT_stage1 (1)                         
-BGR_BJT_stage2 (1)                         |BGR_BJT_stage2 (1)                         
-diff_final_v0 (1)                          |diff_final_v0 (1)                          
-Number of devices: 24                      |Number of devices: 24                      
-Number of nets: 24                         |Number of nets: 24                         
----------------------------------------------------------------------------------------
-Netlists match uniquely with port errors.
-
-Subcircuit pins:
-Circuit 1: tinytape_OTA_diff_BGR           |Circuit 2: tt_um_DalinEM_diff_amp          
+Circuit 1: tinytape_3OTA_diff_BGR          |Circuit 2: tt_um_DalinEM_test              
 -------------------------------------------|-------------------------------------------
 ua[5]                                      |ua[5]                                      
-ua[0]                                      |ua[0]                                      
-ua[1]                                      |ua[1]                                      
 ua[4]                                      |ua[4]                                      
+VGND                                       |VGND                                       
 ua[2]                                      |ua[2]                                      
 ua[3]                                      |ua[3]                                      
+ua[1]                                      |ua[1]                                      
 VDPWR                                      |VDPWR                                      
-VGND                                       |VGND                                       
-uio_in[1]                                  |uio_in[1]                                  
-uio_in[2]                                  |uio_in[2]                                  
-rst_n                                      |rst_n                                      
-uio_in[3]                                  |uio_in[3]                                  
-uio_in[4]                                  |uio_in[4]                                  
-uio_in[5]                                  |uio_in[5]                                  
-ua[6]                                      |ua[6]                                      
-uio_in[6]                                  |uio_in[6]                                  
-uio_in[7]                                  |uio_in[7]                                  
-ua[7]                                      |ua[7]                                      
-ui_in[0]                                   |ui_in[0]                                   
-ui_in[1]                                   |ui_in[1]                                   
-ui_in[2]                                   |ui_in[2]                                   
-ui_in[3]                                   |ui_in[3]                                   
-ui_in[4]                                   |ui_in[4]                                   
-uio_in[0]                                  |uio_in[0]                                  
-ui_in[5]                                   |ui_in[5]                                   
-ui_in[6]                                   |ui_in[6]                                   
-clk                                        |clk                                        
-ui_in[7]                                   |ui_in[7]                                   
-ena                                        |ena                                        
-uio_out[2]                                 |(no matching pin)                          
-uio_out[3]                                 |(no matching pin)                          
-uio_out[4]                                 |(no matching pin)                          
-uio_out[5]                                 |(no matching pin)                          
-uio_out[6]                                 |(no matching pin)                          
-uio_out[7]                                 |(no matching pin)                          
-uio_out[0]                                 |(no matching pin)                          
-uo_out[0]                                  |(no matching pin)                          
-uo_out[1]                                  |(no matching pin)                          
-uo_out[2]                                  |(no matching pin)                          
-uo_out[3]                                  |(no matching pin)                          
-uo_out[4]                                  |(no matching pin)                          
-uo_out[5]                                  |(no matching pin)                          
-uio_out[1]                                 |(no matching pin)                          
-uo_out[6]                                  |(no matching pin)                          
-uo_out[7]                                  |(no matching pin)                          
-uio_oe[0]                                  |(no matching pin)                          
-uio_oe[1]                                  |(no matching pin)                          
-uio_oe[2]                                  |(no matching pin)                          
-uio_oe[3]                                  |(no matching pin)                          
-uio_oe[4]                                  |(no matching pin)                          
-uio_oe[5]                                  |(no matching pin)                          
-uio_oe[6]                                  |(no matching pin)                          
-uio_oe[7]                                  |(no matching pin)                          
+ua[0]                                      |ua[0]                                      
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes tinytape_OTA_diff_BGR and tt_um_DalinEM_diff_amp are equivalent.
+Device classes tinytape_3OTA_diff_BGR and tt_um_DalinEM_test are equivalent.
 
 Final result: Circuits match uniquely.
 .

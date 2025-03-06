@@ -24,7 +24,7 @@ module tt_um_DalinEM_diff_amp (
 
      diff_final_v0 subckt1(.vcc(VDPWR),.vss(VGND),.vout(ua[1]),.vin_p(ua[2]),.vin_n(ua[3]),.vb(ua[4]));
      BGR_BJT_vref subckt2(.vcc(VDPWR),.vss(VGND),.vref(ua[5]));
-     2_OTA subckt3(.vcc(VDPWR),.vss(VGND),.vo(ua[0]),.vin_p(ua[2]),.vin_n(ua[3]));
+     3_OTA subckt3(.vcc(VDPWR),.vss(VGND),.vo3(ua[0]),.vin_p(ua[2]),.vin_n(ua[3]));
 
     
     assign uo_out[0] = VGND;
