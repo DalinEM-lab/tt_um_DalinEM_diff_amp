@@ -38,192 +38,192 @@ node "a_11275_n2439#" 189 2607.01 11275 -2439 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "vo3" 2651 2832.19 14185 -1227 m2 0 0 0 0 0 0 0 0 11600 516 30160 1156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 85504 3616 61660 2674 490628 8534 0 0 0 0 0 0 0 0
 equiv "vo3" "3rd_3_OTA_0.vo3"
 node "a_11847_n1701#" 3982 1474.9 11847 -1701 p 0 0 0 0 0 0 0 0 11600 516 30160 1156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32064 1912 0 0 34000 2408 79872 3578 35620 1474 0 0 0 0 0 0 0 0
-node "a_9040_n3397#" 12673 5753.08 9040 -3397 ndif 0 0 0 0 0 0 0 0 266800 9896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158032 9704 244542 10036 755597 15208 0 0 0 0 0 0 0 0
-node "a_7434_495#" 15827 8926.2 7434 495 pdif 0 0 0 0 0 0 0 0 104400 3948 87000 3348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2825980 15120 0 0 390592 24064 1212894 37296 387334 11236 103194 3330 1668216 29264 0 0 0 0
-node "a_7434_1657#" 15826 9224.8 7434 1657 pdif 0 0 0 0 0 0 0 0 104400 3948 87000 3348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2825980 15120 0 0 390592 24064 1262512 38298 387234 11234 1704961 29172 0 0 0 0 0 0
-node "2nd_3_OTA_0.vb1" 4619 6743.29 2470 -6668 ndif 0 0 0 0 0 0 0 0 34800 1548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2295360 15632 0 0 119136 7756 1380378 19092 751451 19316 20160 816 287658 8848 0 0 0 0
-equiv "2nd_3_OTA_0.vb1" "OTA_vref_0.OTA_vref_stage2_0.vb1"
-equiv "2nd_3_OTA_0.vb1" "OTA_vref_0.vb1"
-node "2nd_3_OTA_0.vd3" 49327 47077.7 -1488 166 pdif 0 0 0 0 0 0 0 0 52200 2148 522000 18348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7904320 31536 0 0 1214072 73184 6255320 64272 399040 12430 2907723 55460 14130 482 0 0 0 0
-equiv "2nd_3_OTA_0.vd3" "3rd_3_OTA_0.vd3"
+node "a_9040_n3397#" 12673 5419.46 9040 -3397 ndif 0 0 0 0 0 0 0 0 266800 9896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158032 9704 244542 10036 755597 15208 0 0 0 0 0 0 0 0
+node "a_7434_495#" 15807 8319.09 7434 495 pdif 0 0 0 0 0 0 0 0 104400 3948 87000 3348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2825980 15120 0 0 390592 24064 2726699 36702 387334 11236 103194 3330 1668216 29264 0 0 0 0
+node "a_7434_1657#" 15806 8906.06 7434 1657 pdif 0 0 0 0 0 0 0 0 104400 3948 87000 3348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2825980 15120 0 0 390592 24064 2776966 37706 387234 11234 1704961 29172 0 0 0 0 0 0
+node "OTA_vref_0.vb1" 4619 6743.29 2470 -6668 ndif 0 0 0 0 0 0 0 0 34800 1548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2295360 15632 0 0 119136 7756 1380378 19092 751451 19316 20160 816 287658 8848 0 0 0 0
+equiv "OTA_vref_0.vb1" "2nd_3_OTA_0.vb1"
+equiv "OTA_vref_0.vb1" "OTA_vref_0.OTA_vref_stage2_0.vb1"
+node "3rd_3_OTA_0.vd3" 49327 46991.4 -1488 166 pdif 0 0 0 0 0 0 0 0 52200 2148 522000 18348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7904320 31536 0 0 1214072 73184 6840661 67792 399040 12430 2907723 55460 14130 482 0 0 0 0
+equiv "3rd_3_OTA_0.vd3" "2nd_3_OTA_0.vd3"
 node "a_n1050_166#" 63761 7365.6 -1050 166 pdif 0 0 0 0 0 0 0 0 0 0 939600 33212 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 552704 32988 933600 33568 1799452 40004 0 0 0 0 0 0 0 0
-node "2nd_3_OTA_0.vd4" 39880 17397 -1488 4143 pdif 0 0 0 0 0 0 0 0 52200 2148 522000 18348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1241600 9408 0 0 447032 27248 1067136 34800 395440 12370 306460 8394 6546928 70156 0 0 0 0
-equiv "2nd_3_OTA_0.vd4" "3rd_3_OTA_0.vd4"
+node "3rd_3_OTA_0.vd4" 39872 17313.8 -1488 4143 pdif 0 0 0 0 0 0 0 0 52200 2148 522000 18348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1241600 9408 0 0 447032 27248 1652471 38320 395440 12370 306460 8394 6546928 70156 0 0 0 0
+equiv "3rd_3_OTA_0.vd4" "2nd_3_OTA_0.vd4"
 node "vin_n" 4012 15143.5 -8592 -989 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6604800 15104 0 0 326400 19472 3479449 25760 188010 3390 217600 3176 0 0 0 0 0 0
 equiv "vin_n" "OTA_stage1_0.vin_n"
 node "vin_p" 4012 14843.2 -6150 -956 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6604800 15104 0 0 326400 19472 3438373 25732 189900 3408 212020 3114 0 0 0 0 0 0
 equiv "vin_p" "OTA_stage1_0.vin_p"
-node "OTA_vref_0.vb" 4934 17242.1 -10165 624 p 0 0 0 0 0 0 0 0 34800 1548 11600 516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1541600 9856 0 0 137088 8744 614029 9386 257076 7608 991220 17418 2614376 29412 0 0 0 0
-equiv "OTA_vref_0.vb" "3rd_3_OTA_0.vb"
-equiv "OTA_vref_0.vb" "OTA_stage1_0.vb"
-equiv "OTA_vref_0.vb" "OTA_vref_0.OTA_vref_stage2_0.vb"
+node "3rd_3_OTA_0.vb" 4935 18068 -10165 624 p 0 0 0 0 0 0 0 0 34800 1548 11600 516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1541600 9856 0 0 137088 8744 987517 13368 257076 7608 991220 17418 2614376 29412 0 0 0 0
+equiv "3rd_3_OTA_0.vb" "OTA_stage1_0.vb"
+equiv "3rd_3_OTA_0.vb" "OTA_vref_0.OTA_vref_stage2_0.vb"
+equiv "3rd_3_OTA_0.vb" "OTA_vref_0.vb"
 node "a_n10077_1624#" 7910 3491.04 -10077 1624 ndif 0 0 0 0 0 0 0 0 174000 6348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102816 6252 161144 6402 90054 2992 394674 10566 0 0 0 0 0 0
-node "2nd_3_OTA_0.vd1" 12704 25887.3 -9960 4219 pdif 0 0 0 0 0 0 0 0 139200 5032 41760 1672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4854880 28592 0 0 210528 13200 4411341 62902 1004279 21088 20975924 56592 529152 11408 0 0 0 0
-equiv "2nd_3_OTA_0.vd1" "3rd_3_OTA_0.vd1"
-equiv "2nd_3_OTA_0.vd1" "OTA_stage1_0.vd1"
-node "2nd_3_OTA_0.vd2" 21110 20956.2 -9960 4707 pdif 0 0 0 0 0 0 0 0 139200 5032 41760 1672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12357280 47160 0 0 944928 56808 10983546 81950 956174 20048 0 0 0 0 0 0 0 0
-equiv "2nd_3_OTA_0.vd2" "OTA_stage1_0.vd2"
-node "vcc" 338898 219316 895 7673 m4 0 0 0 0 52134088 83502 0 0 2768674 158266 455880 17692 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24959882 185592 11381316 136738 14595721 128540 594545 8342 10153678 53860 0 0 0 0
-equiv "vcc" "3rd_3_OTA_0.vcc"
+node "3rd_3_OTA_0.vd1" 12704 25897.4 -9960 4219 pdif 0 0 0 0 0 0 0 0 139200 5032 41760 1672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4854880 28592 0 0 210528 13200 4411341 62902 1004279 21088 20975924 56592 529152 11408 0 0 0 0
+equiv "3rd_3_OTA_0.vd1" "2nd_3_OTA_0.vd1"
+equiv "3rd_3_OTA_0.vd1" "OTA_stage1_0.vd1"
+node "OTA_stage1_0.vd2" 21110 20956.2 -9960 4707 pdif 0 0 0 0 0 0 0 0 139200 5032 41760 1672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12357280 47160 0 0 944928 56808 10983546 81950 956174 20048 0 0 0 0 0 0 0 0
+equiv "OTA_stage1_0.vd2" "2nd_3_OTA_0.vd2"
+node "vcc" 338898 219728 895 7673 m4 0 0 0 0 52134088 83502 0 0 2768674 158266 455880 17692 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24959882 185592 11381316 136738 14595721 128540 594545 8342 10153678 53860 0 0 0 0
+equiv "vcc" "2nd_3_OTA_0.vcc"
 equiv "vcc" "OTA_stage1_0.vcc"
 equiv "vcc" "OTA_vref_0.OTA_vref_stage1_0.vcc"
 equiv "vcc" "OTA_vref_0.OTA_vref_stage2_0.vcc"
 equiv "vcc" "OTA_vref_0.vcc"
-equiv "vcc" "2nd_3_OTA_0.vcc"
+equiv "vcc" "3rd_3_OTA_0.vcc"
 substrate "vss" 0 0 -10692 -78 m4 0 0 0 0 0 0 0 0 865320 30092 3574432 191548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28238465 198434 10241693 147388 11846238 144558 170384 3038 643873 6698 0 0 0 0
-equiv "vss" "3rd_3_OTA_0.vss"
+equiv "vss" "2nd_3_OTA_0.vss"
 equiv "vss" "OTA_stage1_0.vss"
 equiv "vss" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Base"
 equiv "vss" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Collector"
 equiv "vss" "OTA_vref_0.OTA_vref_stage1_0.vss"
 equiv "vss" "OTA_vref_0.OTA_vref_stage2_0.vss"
 equiv "vss" "OTA_vref_0.vss"
-equiv "vss" "2nd_3_OTA_0.vss"
-cap "a_7434_495#" "a_9040_n3397#" 763.271
-cap "a_7434_495#" "2nd_3_OTA_0.vd4" 625.928
-cap "vcc" "vin_n" 18.4475
-cap "a_7434_495#" "a_7434_1657#" 8341.85
-cap "a_7434_495#" "2nd_3_OTA_0.vb1" 5.33682
-cap "a_11275_n2439#" "vo3" 36.8959
-cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "OTA_vref_0.OTA_vref_stage2_0.vr" 9256.97
-cap "2nd_3_OTA_0.vd3" "a_11847_n1701#" 0.066749
-cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_2382_n6868#" 9.52407
-cap "a_11275_n2439#" "a_11847_n1701#" 1.49104
+equiv "vss" "3rd_3_OTA_0.vss"
+cap "3rd_3_OTA_0.vd3" "a_7434_495#" 1539.15
+cap "vcc" "a_7434_1657#" 12114
+cap "a_9040_n3397#" "a_11275_n2439#" 18.5848
+cap "OTA_vref_0.vb1" "a_2470_n7958#" 56.2354
 cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_2470_n7958#" 3.41936
-cap "OTA_vref_0.OTA_vref_stage2_0.vr" "a_2382_n6868#" 341.152
-cap "OTA_vref_0.OTA_vref_stage2_0.vr" "a_2470_n7958#" 8.04893
-cap "a_2470_n7958#" "a_2382_n6868#" 97.5924
-cap "vo3" "a_11847_n1701#" 159.655
-cap "a_7434_495#" "vcc" 11941.2
-cap "2nd_3_OTA_0.vd1" "2nd_3_OTA_0.vd3" 1228.86
-cap "a_11275_n2439#" "2nd_3_OTA_0.vd1" 26334
-cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "OTA_vref_0.vb" 6.31503
-cap "OTA_vref_0.OTA_vref_stage2_0.vr" "OTA_vref_0.vb" 233.485
-cap "vin_p" "a_n10077_1624#" 1680.92
-cap "a_2382_n4288#" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 2.32903
-cap "a_n1236_n9479#" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 17151
-cap "2nd_3_OTA_0.vd2" "a_n10077_1624#" 17.0337
-cap "a_2382_n4288#" "OTA_vref_0.OTA_vref_stage2_0.vr" 368.863
-cap "a_n1236_n9479#" "OTA_vref_0.OTA_vref_stage2_0.vr" 2298.43
-cap "vo3" "2nd_3_OTA_0.vd1" 366.634
-cap "OTA_vref_0.vb" "a_n10077_1624#" 443.825
-cap "a_n1236_n9479#" "a_2382_n6868#" 2.41062
-cap "a_n1236_n9479#" "a_2470_n7958#" 0.0328649
-cap "2nd_3_OTA_0.vd1" "a_11847_n1701#" 11.9925
-cap "vin_p" "2nd_3_OTA_0.vd2" 1064.5
-cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "2nd_3_OTA_0.vb1" 0.615402
-cap "OTA_vref_0.OTA_vref_stage2_0.vr" "2nd_3_OTA_0.vb1" 62.5935
-cap "vin_p" "OTA_vref_0.vb" 393.32
-cap "2nd_3_OTA_0.vd2" "OTA_vref_0.vb" 9.05628
-cap "2nd_3_OTA_0.vb1" "a_2382_n6868#" 1613.73
-cap "a_2470_n7958#" "2nd_3_OTA_0.vb1" 56.2354
-cap "a_2382_n4288#" "OTA_vref_0.vb" 1672.98
-cap "a_2382_n5578#" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 7.17626
-cap "a_n1236_n9479#" "OTA_vref_0.vb" 28.1088
-cap "2nd_3_OTA_0.vd2" "2nd_3_OTA_0.vd4" 1011.7
-cap "a_2470_n5378#" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 0.0662055
-cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "vcc" 512.021
-cap "a_2470_n5378#" "OTA_vref_0.OTA_vref_stage2_0.vr" 8.03715
-cap "a_2382_n5578#" "OTA_vref_0.OTA_vref_stage2_0.vr" 334.808
-cap "OTA_vref_0.OTA_vref_stage2_0.vr" "vcc" 11398.7
-cap "OTA_vref_0.vb" "a_9040_n3397#" 541.253
-cap "a_n1236_n9479#" "a_2382_n4288#" 2.3886
-cap "OTA_vref_0.vb" "2nd_3_OTA_0.vd4" 318.281
-cap "a_2470_n5378#" "a_2382_n6868#" 0.103799
-cap "a_2382_n5578#" "a_2382_n6868#" 154.516
-cap "OTA_vref_0.vb" "a_7434_1657#" 35.8502
-cap "vcc" "a_2382_n6868#" 318.981
-cap "OTA_vref_0.vb" "2nd_3_OTA_0.vb1" 111.837
-cap "vcc" "a_2470_n7958#" 34.2922
-cap "a_2382_n4288#" "2nd_3_OTA_0.vd4" 0.0209919
-cap "vcc" "a_n10077_1624#" 0.564228
-cap "2nd_3_OTA_0.vd4" "a_9040_n3397#" 1051.52
-cap "a_n1236_n9479#" "2nd_3_OTA_0.vb1" 0.229994
-cap "a_9040_n3397#" "a_7434_1657#" 1529.85
-cap "2nd_3_OTA_0.vd4" "a_7434_1657#" 1208.85
-cap "a_2382_n8158#" "OTA_vref_0.OTA_vref_stage2_0.vref0" 112.341
-cap "2nd_3_OTA_0.vd4" "2nd_3_OTA_0.vb1" 226.739
-cap "vin_p" "vcc" 18.7519
-cap "2nd_3_OTA_0.vd3" "a_7434_495#" 950.872
-cap "2nd_3_OTA_0.vd2" "vcc" 23126.3
-cap "a_2382_n5578#" "OTA_vref_0.vb" 0.303823
-cap "a_2470_n5378#" "OTA_vref_0.vb" 36.3843
-cap "vcc" "OTA_vref_0.vb" 434.712
-cap "a_2470_n5378#" "a_2382_n4288#" 100.61
-cap "a_2382_n5578#" "a_2382_n4288#" 154.422
-cap "a_n1236_n9479#" "a_2470_n5378#" 0.0295381
-cap "a_n1236_n9479#" "a_2382_n5578#" 4.72909
-cap "a_2382_n4288#" "vcc" 368.035
-cap "vo3" "a_7434_495#" 0.00383238
-cap "2nd_3_OTA_0.vd1" "vin_n" 784.618
-cap "vcc" "a_9040_n3397#" 101.608
-cap "vcc" "2nd_3_OTA_0.vd4" 4404.67
-cap "a_7434_495#" "a_11847_n1701#" 61.0528
-cap "vcc" "a_7434_1657#" 12094.9
-cap "a_2382_n5578#" "2nd_3_OTA_0.vb1" 106.848
-cap "a_2470_n5378#" "2nd_3_OTA_0.vb1" 38.035
-cap "vcc" "2nd_3_OTA_0.vb1" 8322.21
-cap "2nd_3_OTA_0.vd2" "a_n1050_166#" 5419.65
-cap "2nd_3_OTA_0.vd1" "a_7434_495#" 11.2099
-cap "a_2470_n5378#" "a_2382_n5578#" 1530.05
-cap "a_2382_n5578#" "vcc" 335.707
-cap "a_2470_n5378#" "vcc" 34.4547
-cap "2nd_3_OTA_0.vd4" "a_n1050_166#" 1213.41
-cap "2nd_3_OTA_0.vd3" "OTA_vref_0.OTA_vref_stage2_0.vr" 1.58653
-cap "a_n1050_166#" "2nd_3_OTA_0.vb1" 3373.17
-cap "2nd_3_OTA_0.vd3" "2nd_3_OTA_0.vd2" 6266.07
-cap "vcc" "a_n1050_166#" 6119.73
-cap "2nd_3_OTA_0.vd3" "OTA_vref_0.vb" 494.477
-cap "a_11275_n2439#" "OTA_vref_0.vb" 22.6511
-cap "2nd_3_OTA_0.vd3" "a_2382_n4288#" 2.35951
-cap "a_11275_n2439#" "a_9040_n3397#" 18.5848
-cap "2nd_3_OTA_0.vd3" "a_9040_n3397#" 1069.71
+cap "3rd_3_OTA_0.vd1" "vin_n" 784.618
+cap "3rd_3_OTA_0.vb" "vin_n" 605.449
+cap "a_9040_n3397#" "3rd_3_OTA_0.vd4" 1932.02
+cap "a_n10077_1624#" "OTA_stage1_0.vd2" 17.0337
+cap "a_9040_n3397#" "vcc" 101.608
+cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "OTA_vref_0.vb1" 0.615402
+cap "OTA_vref_0.OTA_vref_stage2_0.vref0" "a_2470_n7958#" 37.9942
+cap "a_2382_n8158#" "a_2470_n7958#" 1537.65
+cap "3rd_3_OTA_0.vd3" "OTA_vref_0.OTA_vref_stage2_0.vr" 1.58653
+cap "3rd_3_OTA_0.vd3" "3rd_3_OTA_0.vd4" 9518.96
+cap "OTA_vref_0.vb1" "a_2382_n5578#" 106.848
+cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_2382_n5578#" 7.17626
+cap "OTA_vref_0.vb1" "a_n1050_166#" 3373.17
+cap "3rd_3_OTA_0.vd3" "vcc" 4628.35
+cap "OTA_vref_0.OTA_vref_stage2_0.vref0" "OTA_vref_0.vb1" 6.42227
+cap "OTA_vref_0.vb1" "a_2382_n8158#" 34.2287
 cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_2382_n8158#" 32.6193
-cap "2nd_3_OTA_0.vd3" "2nd_3_OTA_0.vd4" 9480.93
-cap "OTA_vref_0.OTA_vref_stage2_0.vr" "a_2382_n8158#" 336.05
-cap "2nd_3_OTA_0.vd3" "a_7434_1657#" 639.232
-cap "2nd_3_OTA_0.vd3" "2nd_3_OTA_0.vb1" 316.815
-cap "2nd_3_OTA_0.vd1" "a_n10077_1624#" 118.468
-cap "a_2382_n8158#" "a_2382_n6868#" 154.705
-cap "a_2470_n7958#" "a_2382_n8158#" 1537.65
-cap "vo3" "a_9040_n3397#" 4.16765
-cap "a_9040_n3397#" "a_11847_n1701#" 16.9744
-cap "vo3" "a_7434_1657#" 56.3426
-cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "OTA_vref_0.OTA_vref_stage2_0.vref0" 16257.3
-cap "2nd_3_OTA_0.vd4" "a_11847_n1701#" 0.0115345
-cap "OTA_vref_0.OTA_vref_stage2_0.vr" "OTA_vref_0.OTA_vref_stage2_0.vref0" 2206.74
-cap "2nd_3_OTA_0.vd1" "vin_p" 137.87
-cap "a_11847_n1701#" "a_7434_1657#" 19.9143
-cap "2nd_3_OTA_0.vd1" "2nd_3_OTA_0.vd2" 9520.54
-cap "OTA_vref_0.OTA_vref_stage2_0.vref0" "a_2382_n6868#" 10.9908
-cap "a_2470_n7958#" "OTA_vref_0.OTA_vref_stage2_0.vref0" 37.9942
-cap "2nd_3_OTA_0.vd3" "vcc" 4628.35
-cap "a_11275_n2439#" "vcc" 307.957
-cap "2nd_3_OTA_0.vd1" "OTA_vref_0.vb" 246.6
-cap "a_n1236_n9479#" "a_2382_n8158#" 2.43929
-cap "2nd_3_OTA_0.vd1" "a_9040_n3397#" 6.98444
-cap "2nd_3_OTA_0.vd1" "2nd_3_OTA_0.vd4" 15765.7
-cap "vo3" "vcc" 594.996
-cap "2nd_3_OTA_0.vd1" "a_7434_1657#" 199.552
+cap "OTA_vref_0.OTA_vref_stage2_0.vref0" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 16257.3
+cap "a_2382_n4288#" "3rd_3_OTA_0.vb" 1672.98
+cap "3rd_3_OTA_0.vb" "3rd_3_OTA_0.vd1" 237.308
+cap "3rd_3_OTA_0.vd1" "a_7434_1657#" 195.698
+cap "OTA_vref_0.OTA_vref_stage2_0.vref0" "a_2382_n5578#" 11.3153
+cap "OTA_vref_0.vb1" "a_7434_495#" 5.33682
+cap "a_n1050_166#" "OTA_stage1_0.vd2" 5419.65
+cap "3rd_3_OTA_0.vb" "a_7434_1657#" 23.9906
+cap "OTA_vref_0.OTA_vref_stage2_0.vref0" "a_2382_n8158#" 112.341
+cap "OTA_vref_0.vb1" "a_2470_n5378#" 38.035
+cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_2470_n5378#" 0.0662055
+cap "vo3" "a_11847_n1701#" 159.655
+cap "a_7434_495#" "a_11847_n1701#" 61.0254
+cap "OTA_vref_0.OTA_vref_stage2_0.vr" "a_2470_n7958#" 8.04893
+cap "a_n10077_1624#" "vin_p" 1680.92
+cap "a_9040_n3397#" "3rd_3_OTA_0.vd1" 6.98444
+cap "a_n10077_1624#" "vcc" 0.564228
+cap "a_2470_n5378#" "a_2382_n5578#" 1530.05
+cap "vcc" "a_2470_n7958#" 34.2922
+cap "a_9040_n3397#" "3rd_3_OTA_0.vb" 1483.36
+cap "a_n1236_n9479#" "a_2470_n7958#" 0.0328649
+cap "OTA_vref_0.OTA_vref_stage2_0.vref0" "a_2470_n5378#" 1.51032
+cap "OTA_vref_0.vb1" "OTA_vref_0.OTA_vref_stage2_0.vr" 62.5935
+cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "OTA_vref_0.OTA_vref_stage2_0.vr" 9256.97
+cap "vo3" "a_7434_495#" 0.00383238
+cap "a_9040_n3397#" "a_7434_1657#" 1222.25
+cap "3rd_3_OTA_0.vd3" "a_2382_n4288#" 2.35951
+cap "3rd_3_OTA_0.vd3" "3rd_3_OTA_0.vd1" 1228.86
+cap "a_11275_n2439#" "a_11847_n1701#" 1.49104
+cap "OTA_vref_0.vb1" "3rd_3_OTA_0.vd4" 226.739
+cap "OTA_vref_0.vb1" "a_n1236_n9479#" 0.229994
+cap "3rd_3_OTA_0.vd3" "3rd_3_OTA_0.vb" 483.395
+cap "OTA_vref_0.vb1" "vcc" 8322.21
+cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "vcc" 512.021
+cap "OTA_vref_0.OTA_vref_stage2_0.vr" "a_2382_n5578#" 334.808
+cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_n1236_n9479#" 17151
+cap "a_n10077_1624#" "vin_n" 1474.82
+cap "3rd_3_OTA_0.vd3" "a_7434_1657#" 689.023
+cap "OTA_vref_0.OTA_vref_stage2_0.vref0" "OTA_vref_0.OTA_vref_stage2_0.vr" 2206.74
+cap "a_2382_n8158#" "OTA_vref_0.OTA_vref_stage2_0.vr" 336.05
+cap "3rd_3_OTA_0.vd4" "a_11847_n1701#" 0.0115345
+cap "a_n1050_166#" "3rd_3_OTA_0.vd4" 1213.41
+cap "a_11275_n2439#" "vo3" 36.8959
+cap "a_2382_n5578#" "a_n1236_n9479#" 4.72909
+cap "vcc" "a_2382_n5578#" 335.707
 cap "vcc" "a_11847_n1701#" 836.592
-cap "OTA_vref_0.vb" "OTA_vref_0.OTA_vref_stage2_0.vref0" 0.432071
-cap "a_2382_n8158#" "2nd_3_OTA_0.vb1" 34.2287
-cap "vin_n" "a_n10077_1624#" 1474.82
-cap "a_n1236_n9479#" "OTA_vref_0.OTA_vref_stage2_0.vref0" 4935.49
-cap "2nd_3_OTA_0.vd3" "a_n1050_166#" 1209.38
+cap "3rd_3_OTA_0.vd4" "OTA_stage1_0.vd2" 1011.7
+cap "a_n1050_166#" "vcc" 6119.73
+cap "vin_p" "OTA_stage1_0.vd2" 1064.5
+cap "a_2382_n8158#" "a_n1236_n9479#" 2.43929
+cap "OTA_vref_0.OTA_vref_stage2_0.vref0" "vcc" 30.2239
+cap "a_2382_n8158#" "vcc" 327.8
+cap "OTA_vref_0.OTA_vref_stage2_0.vref0" "a_n1236_n9479#" 4935.49
+cap "vcc" "OTA_stage1_0.vd2" 23126.3
+cap "3rd_3_OTA_0.vd4" "a_7434_495#" 637.694
+cap "a_n10077_1624#" "3rd_3_OTA_0.vd1" 118.468
+cap "3rd_3_OTA_0.vd3" "a_9040_n3397#" 1972.54
+cap "vo3" "vcc" 594.996
+cap "OTA_vref_0.OTA_vref_stage2_0.vr" "a_2470_n5378#" 8.03715
+cap "vcc" "a_7434_495#" 11960.1
+cap "a_2382_n6868#" "a_2470_n7958#" 97.5924
+cap "a_n10077_1624#" "3rd_3_OTA_0.vb" 443.825
+cap "vin_n" "OTA_stage1_0.vd2" 575.386
+cap "vcc" "a_2470_n5378#" 34.4547
+cap "a_2470_n5378#" "a_n1236_n9479#" 0.0295381
+cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_2382_n4288#" 2.32903
+cap "OTA_vref_0.vb1" "a_2382_n6868#" 1613.73
+cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_2382_n6868#" 9.52407
+cap "a_11275_n2439#" "vcc" 307.957
+cap "OTA_vref_0.vb1" "3rd_3_OTA_0.vb" 111.837
+cap "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "3rd_3_OTA_0.vb" 6.31503
+cap "a_2382_n4288#" "a_2382_n5578#" 154.422
+cap "OTA_vref_0.OTA_vref_stage2_0.vr" "a_n1236_n9479#" 2298.43
+cap "vcc" "OTA_vref_0.OTA_vref_stage2_0.vr" 11398.7
+cap "a_11847_n1701#" "3rd_3_OTA_0.vd1" 11.9925
+cap "a_2382_n6868#" "a_2382_n5578#" 154.516
+cap "a_n1050_166#" "3rd_3_OTA_0.vd1" 5595.77
+cap "3rd_3_OTA_0.vd4" "vcc" 4404.67
+cap "3rd_3_OTA_0.vd1" "OTA_stage1_0.vd2" 9520.54
+cap "3rd_3_OTA_0.vb" "a_2382_n5578#" 0.303823
+cap "a_2382_n8158#" "a_2382_n6868#" 154.705
+cap "OTA_vref_0.OTA_vref_stage2_0.vref0" "a_2382_n6868#" 10.9908
+cap "vcc" "vin_p" 18.7519
+cap "a_11847_n1701#" "a_7434_1657#" 19.9143
+cap "3rd_3_OTA_0.vb" "OTA_stage1_0.vd2" 9.05628
+cap "OTA_vref_0.OTA_vref_stage2_0.vref0" "3rd_3_OTA_0.vb" 0.432071
+cap "vo3" "3rd_3_OTA_0.vd1" 366.634
+cap "a_7434_495#" "3rd_3_OTA_0.vd1" 10.9679
+cap "3rd_3_OTA_0.vb" "a_7434_495#" 37.0135
+cap "a_2382_n4288#" "a_2470_n5378#" 100.61
+cap "vo3" "a_7434_1657#" 56.3426
 cap "vin_p" "vin_n" 2364.46
-cap "2nd_3_OTA_0.vd2" "vin_n" 575.386
-cap "2nd_3_OTA_0.vb1" "OTA_vref_0.OTA_vref_stage2_0.vref0" 6.42227
-cap "2nd_3_OTA_0.vd1" "vcc" 8205.65
-cap "vcc" "a_2382_n8158#" 327.8
-cap "OTA_vref_0.vb" "vin_n" 605.449
-cap "a_2470_n5378#" "OTA_vref_0.OTA_vref_stage2_0.vref0" 1.51032
-cap "a_2382_n5578#" "OTA_vref_0.OTA_vref_stage2_0.vref0" 11.3153
-cap "vcc" "OTA_vref_0.OTA_vref_stage2_0.vref0" 30.2239
-cap "a_7434_495#" "OTA_vref_0.vb" 37.8468
-cap "2nd_3_OTA_0.vd1" "a_n1050_166#" 5595.77
-device csubckt sky130_fd_pr__cap_mim_m3_1 10829 -6393 10830 -6392 w=3400 l=3400 "None" "a_11275_n2439#" 13280 0 "2nd_3_OTA_0.vd1" 0 20975924,56592
-device csubckt sky130_fd_pr__cap_mim_m3_1 2990 3581 2991 3582 w=2000 l=2000 "None" "2nd_3_OTA_0.vd4" 7680 0 "2nd_3_OTA_0.vd1" 0 20975924,56592
+cap "a_2382_n6868#" "a_2470_n5378#" 0.103799
+cap "a_7434_495#" "a_7434_1657#" 8457.66
+cap "vcc" "vin_n" 18.4475
+cap "3rd_3_OTA_0.vb" "a_2470_n5378#" 36.3843
+cap "a_9040_n3397#" "a_11847_n1701#" 16.9744
+cap "OTA_vref_0.vb1" "3rd_3_OTA_0.vd3" 316.815
+cap "a_11275_n2439#" "3rd_3_OTA_0.vd1" 26334
+cap "a_2382_n4288#" "OTA_vref_0.OTA_vref_stage2_0.vr" 368.863
+cap "a_11275_n2439#" "3rd_3_OTA_0.vb" 22.4181
+cap "OTA_vref_0.OTA_vref_stage2_0.vr" "a_2382_n6868#" 341.152
+cap "3rd_3_OTA_0.vd3" "a_11847_n1701#" 0.112313
+cap "3rd_3_OTA_0.vd4" "a_2382_n4288#" 0.0209919
+cap "a_n1050_166#" "3rd_3_OTA_0.vd3" 1209.38
+cap "a_9040_n3397#" "vo3" 4.16765
+cap "a_9040_n3397#" "a_7434_495#" 485.586
+cap "3rd_3_OTA_0.vd4" "3rd_3_OTA_0.vd1" 15765.7
+cap "OTA_vref_0.OTA_vref_stage2_0.vr" "3rd_3_OTA_0.vb" 233.485
+cap "3rd_3_OTA_0.vd3" "OTA_stage1_0.vd2" 6266.07
+cap "a_2382_n4288#" "a_n1236_n9479#" 2.3886
+cap "vin_p" "3rd_3_OTA_0.vd1" 137.87
+cap "a_2382_n4288#" "vcc" 368.035
+cap "vcc" "3rd_3_OTA_0.vd1" 8205.65
+cap "a_2382_n6868#" "a_n1236_n9479#" 2.41062
+cap "vcc" "a_2382_n6868#" 318.981
+cap "3rd_3_OTA_0.vd4" "3rd_3_OTA_0.vb" 322.891
+cap "vin_p" "3rd_3_OTA_0.vb" 393.32
+cap "3rd_3_OTA_0.vb" "a_n1236_n9479#" 28.1088
+cap "3rd_3_OTA_0.vd4" "a_7434_1657#" 1834.22
+cap "vcc" "3rd_3_OTA_0.vb" 434.712
+device csubckt sky130_fd_pr__cap_mim_m3_1 10829 -6393 10830 -6392 w=3400 l=3400 "None" "a_11275_n2439#" 13280 0 "3rd_3_OTA_0.vd1" 0 20975924,56592
+device csubckt sky130_fd_pr__cap_mim_m3_1 2990 3581 2991 3582 w=2000 l=2000 "None" "3rd_3_OTA_0.vd4" 7680 0 "3rd_3_OTA_0.vd1" 0 20975924,56592
 device msubckt sky130_fd_pr__pfet_01v8_lvt 3257 -10113 3258 -10112 l=400 w=100 "vcc" "OTA_vref_0.OTA_vref_stage2_0.vr" 800 0 "OTA_vref_0.OTA_vref_stage2_0.vr" 100 5800,316 "vcc" 100 2900,158
 device msubckt sky130_fd_pr__pfet_01v8_lvt 3257 -9655 3258 -9654 l=400 w=100 "vcc" "OTA_vref_0.OTA_vref_stage2_0.vr" 800 0 "vcc" 100 2900,158 "OTA_vref_0.OTA_vref_stage2_0.vr" 100 5800,316
 device msubckt sky130_fd_pr__pfet_01v8_lvt 3257 -8988 3258 -8987 l=200 w=200 "vcc" "OTA_vref_0.OTA_vref_stage2_0.vr" 400 0 "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 200 11600,516 "vcc" 200 5800,258
@@ -231,30 +231,30 @@ device msubckt sky130_fd_pr__pfet_01v8_lvt 3257 -8730 3258 -8729 l=200 w=200 "vc
 device msubckt sky130_fd_pr__pfet_01v8_lvt 3257 -7842 3258 -7841 l=400 w=200 "vcc" "OTA_vref_0.OTA_vref_stage2_0.vr" 800 0 "vcc" 200 11600,516 "a_2382_n8158#" 200 11600,516
 device msubckt sky130_fd_pr__pfet_01v8_lvt 3257 -6552 3258 -6551 l=400 w=200 "vcc" "OTA_vref_0.OTA_vref_stage2_0.vr" 800 0 "vcc" 200 11600,516 "a_2382_n6868#" 200 11600,516
 device msubckt sky130_fd_pr__pfet_01v8_lvt 3257 -5262 3258 -5261 l=400 w=200 "vcc" "OTA_vref_0.OTA_vref_stage2_0.vr" 800 0 "vcc" 200 11600,516 "a_2382_n5578#" 200 11600,516
-device msubckt sky130_fd_pr__nfet_01v8 9040 -3339 9041 -3338 l=300 w=1100 "vss" "OTA_vref_0.vb" 600 0 "a_9040_n3397#" 1100 63800,2316 "vss" 1100 31900,1158
-device msubckt sky130_fd_pr__nfet_01v8 9040 -2981 9041 -2980 l=300 w=1100 "vss" "OTA_vref_0.vb" 600 0 "vss" 1100 31900,1158 "a_9040_n3397#" 1100 63800,2316
+device msubckt sky130_fd_pr__nfet_01v8 9040 -3339 9041 -3338 l=300 w=1100 "vss" "3rd_3_OTA_0.vb" 600 0 "a_9040_n3397#" 1100 63800,2316 "vss" 1100 31900,1158
+device msubckt sky130_fd_pr__nfet_01v8 9040 -2981 9041 -2980 l=300 w=1100 "vss" "3rd_3_OTA_0.vb" 600 0 "vss" 1100 31900,1158 "a_9040_n3397#" 1100 63800,2316
 device msubckt sky130_fd_pr__pfet_01v8_lvt 3257 -3972 3258 -3971 l=400 w=200 "vcc" "OTA_vref_0.OTA_vref_stage2_0.vr" 800 0 "vcc" 200 11600,516 "a_2382_n4288#" 200 11600,516
-device msubckt sky130_fd_pr__pfet_01v8_lvt 3257 -3391 3258 -3390 l=400 w=200 "vcc" "OTA_vref_0.OTA_vref_stage2_0.vr" 800 0 "vcc" 200 11600,516 "OTA_vref_0.vb" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8_lvt 3257 -3391 3258 -3390 l=400 w=200 "vcc" "OTA_vref_0.OTA_vref_stage2_0.vr" 800 0 "vcc" 200 11600,516 "3rd_3_OTA_0.vb" 200 11600,516
 device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -8158 2471 -8157 l=200 w=200 "vss" "a_2382_n8158#" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vref0" 200 11600,516 "a_2470_n7958#" 200 5800,258
 device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -7900 2471 -7899 l=200 w=200 "vss" "a_2382_n8158#" 400 0 "a_2470_n7958#" 200 5800,258 "a_2382_n8158#" 200 5800,258
 device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -7642 2471 -7641 l=200 w=200 "vss" "a_2382_n8158#" 400 0 "a_2382_n8158#" 200 5800,258 "a_2470_n7958#" 200 5800,258
 device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -7384 2471 -7383 l=200 w=200 "vss" "a_2382_n8158#" 400 0 "a_2470_n7958#" 200 5800,258 "a_2382_n8158#" 200 5800,258
 device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -7126 2471 -7125 l=200 w=200 "vss" "a_2382_n8158#" 400 0 "a_2382_n8158#" 200 5800,258 "a_2470_n7958#" 200 5800,258
-device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -6868 2471 -6867 l=200 w=200 "vss" "a_2382_n6868#" 400 0 "a_2470_n7958#" 200 5800,258 "2nd_3_OTA_0.vb1" 200 5800,258
-device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -6610 2471 -6609 l=200 w=200 "vss" "a_2382_n6868#" 400 0 "2nd_3_OTA_0.vb1" 200 5800,258 "a_2382_n6868#" 200 5800,258
-device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -6352 2471 -6351 l=200 w=200 "vss" "a_2382_n6868#" 400 0 "a_2382_n6868#" 200 5800,258 "2nd_3_OTA_0.vb1" 200 5800,258
-device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -6094 2471 -6093 l=200 w=200 "vss" "a_2382_n6868#" 400 0 "2nd_3_OTA_0.vb1" 200 5800,258 "a_2382_n6868#" 200 5800,258
-device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -5836 2471 -5835 l=200 w=200 "vss" "a_2382_n6868#" 400 0 "a_2382_n6868#" 200 5800,258 "2nd_3_OTA_0.vb1" 200 5800,258
-device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -5578 2471 -5577 l=200 w=200 "vss" "a_2382_n5578#" 400 0 "2nd_3_OTA_0.vb1" 200 5800,258 "a_2470_n5378#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -6868 2471 -6867 l=200 w=200 "vss" "a_2382_n6868#" 400 0 "a_2470_n7958#" 200 5800,258 "OTA_vref_0.vb1" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -6610 2471 -6609 l=200 w=200 "vss" "a_2382_n6868#" 400 0 "OTA_vref_0.vb1" 200 5800,258 "a_2382_n6868#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -6352 2471 -6351 l=200 w=200 "vss" "a_2382_n6868#" 400 0 "a_2382_n6868#" 200 5800,258 "OTA_vref_0.vb1" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -6094 2471 -6093 l=200 w=200 "vss" "a_2382_n6868#" 400 0 "OTA_vref_0.vb1" 200 5800,258 "a_2382_n6868#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -5836 2471 -5835 l=200 w=200 "vss" "a_2382_n6868#" 400 0 "a_2382_n6868#" 200 5800,258 "OTA_vref_0.vb1" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -5578 2471 -5577 l=200 w=200 "vss" "a_2382_n5578#" 400 0 "OTA_vref_0.vb1" 200 5800,258 "a_2470_n5378#" 200 5800,258
 device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -5320 2471 -5319 l=200 w=200 "vss" "a_2382_n5578#" 400 0 "a_2470_n5378#" 200 5800,258 "a_2382_n5578#" 200 5800,258
 device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -5062 2471 -5061 l=200 w=200 "vss" "a_2382_n5578#" 400 0 "a_2382_n5578#" 200 5800,258 "a_2470_n5378#" 200 5800,258
 device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -4804 2471 -4803 l=200 w=200 "vss" "a_2382_n5578#" 400 0 "a_2470_n5378#" 200 5800,258 "a_2382_n5578#" 200 5800,258
 device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -4546 2471 -4545 l=200 w=200 "vss" "a_2382_n5578#" 400 0 "a_2382_n5578#" 200 5800,258 "a_2470_n5378#" 200 5800,258
-device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -4288 2471 -4287 l=200 w=200 "vss" "a_2382_n4288#" 400 0 "a_2470_n5378#" 200 5800,258 "OTA_vref_0.vb" 200 5800,258
-device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -4030 2471 -4029 l=200 w=200 "vss" "a_2382_n4288#" 400 0 "OTA_vref_0.vb" 200 5800,258 "a_2382_n4288#" 200 5800,258
-device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -3772 2471 -3771 l=200 w=200 "vss" "a_2382_n4288#" 400 0 "a_2382_n4288#" 200 5800,258 "OTA_vref_0.vb" 200 5800,258
-device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -3514 2471 -3513 l=200 w=200 "vss" "a_2382_n4288#" 400 0 "OTA_vref_0.vb" 200 5800,258 "a_2382_n4288#" 200 5800,258
-device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -3256 2471 -3255 l=200 w=200 "vss" "a_2382_n4288#" 400 0 "a_2382_n4288#" 200 5800,258 "OTA_vref_0.vb" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -4288 2471 -4287 l=200 w=200 "vss" "a_2382_n4288#" 400 0 "a_2470_n5378#" 200 5800,258 "3rd_3_OTA_0.vb" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -4030 2471 -4029 l=200 w=200 "vss" "a_2382_n4288#" 400 0 "3rd_3_OTA_0.vb" 200 5800,258 "a_2382_n4288#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -3772 2471 -3771 l=200 w=200 "vss" "a_2382_n4288#" 400 0 "a_2382_n4288#" 200 5800,258 "3rd_3_OTA_0.vb" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -3514 2471 -3513 l=200 w=200 "vss" "a_2382_n4288#" 400 0 "3rd_3_OTA_0.vb" 200 5800,258 "a_2382_n4288#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2470 -3256 2471 -3255 l=200 w=200 "vss" "a_2382_n4288#" 400 0 "a_2382_n4288#" 200 5800,258 "3rd_3_OTA_0.vb" 200 11600,516
 device msubckt sky130_fd_pr__nfet_01v8_lvt 333 -9995 334 -9994 l=200 w=800 "vss" "a_n1236_n9479#" 400 0 "vss" 800 46400,1716 "a_n1236_n9479#" 800 23200,858
 device msubckt sky130_fd_pr__nfet_01v8_lvt -1148 -9995 -1147 -9994 l=200 w=800 "vss" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 400 0 "OTA_vref_0.OTA_vref_stage2_0.vr" 800 46400,1716 "OTA_vref_0.OTA_vref_stage2_0.vref0" 800 23200,858
 device msubckt sky130_fd_pr__nfet_01v8_lvt 333 -9737 334 -9736 l=200 w=800 "vss" "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 400 0 "a_n1236_n9479#" 800 23200,858 "OTA_vref_0.OTA_vref_stage2_0.vref0" 800 23200,858
@@ -308,22 +308,22 @@ device msubckt sky130_fd_pr__nfet_01v8_lvt 12221 -1613 12222 -1612 l=30 w=200 "v
 device msubckt sky130_fd_pr__nfet_01v8_lvt 11865 -1613 11866 -1612 l=30 w=200 "vss" "a_11847_n1701#" 60 0 "vss" 200 11600,516 "a_11847_n1701#" 200 11600,516
 device msubckt sky130_fd_pr__pfet_01v8_lvt 12181 -928 12182 -927 l=70 w=520 "vcc" "a_7434_1657#" 140 0 "vcc" 520 30160,1156 "vo3" 520 30160,1156
 device msubckt sky130_fd_pr__pfet_01v8_lvt 11825 -928 11826 -927 l=70 w=520 "vcc" "a_7434_495#" 140 0 "vcc" 520 30160,1156 "a_11847_n1701#" 520 30160,1156
-device msubckt sky130_fd_pr__nfet_01v8_lvt 10051 -2097 10052 -2096 l=400 w=600 "vss" "2nd_3_OTA_0.vd3" 800 0 "a_9040_n3397#" 600 17400,658 "a_7434_495#" 600 34800,1316
-device msubckt sky130_fd_pr__nfet_01v8_lvt 9593 -2097 9594 -2096 l=400 w=600 "vss" "2nd_3_OTA_0.vd4" 800 0 "a_7434_1657#" 600 17400,658 "a_9040_n3397#" 600 17400,658
-device msubckt sky130_fd_pr__nfet_01v8_lvt 9135 -2097 9136 -2096 l=400 w=600 "vss" "2nd_3_OTA_0.vd4" 800 0 "a_9040_n3397#" 600 17400,658 "a_7434_1657#" 600 17400,658
-device msubckt sky130_fd_pr__nfet_01v8_lvt 8677 -2097 8678 -2096 l=400 w=600 "vss" "2nd_3_OTA_0.vd3" 800 0 "a_7434_495#" 600 34800,1316 "a_9040_n3397#" 600 17400,658
-device msubckt sky130_fd_pr__nfet_01v8_lvt 10051 -890 10052 -889 l=400 w=600 "vss" "2nd_3_OTA_0.vd4" 800 0 "a_9040_n3397#" 600 17400,658 "a_7434_1657#" 600 34800,1316
-device msubckt sky130_fd_pr__nfet_01v8_lvt 9593 -890 9594 -889 l=400 w=600 "vss" "2nd_3_OTA_0.vd3" 800 0 "a_7434_495#" 600 17400,658 "a_9040_n3397#" 600 17400,658
-device msubckt sky130_fd_pr__nfet_01v8_lvt 9135 -890 9136 -889 l=400 w=600 "vss" "2nd_3_OTA_0.vd3" 800 0 "a_9040_n3397#" 600 17400,658 "a_7434_495#" 600 17400,658
-device msubckt sky130_fd_pr__nfet_01v8_lvt 8677 -890 8678 -889 l=400 w=600 "vss" "2nd_3_OTA_0.vd4" 800 0 "a_7434_1657#" 600 34800,1316 "a_9040_n3397#" 600 17400,658
-device msubckt sky130_fd_pr__nfet_01v8_lvt 4394 -1570 4395 -1569 l=1880 w=300 "vss" "2nd_3_OTA_0.vd3" 3760 0 "vss" 300 8700,358 "2nd_3_OTA_0.vd3" 300 17400,716
-device msubckt sky130_fd_pr__nfet_01v8_lvt 2456 -1570 2457 -1569 l=1880 w=300 "vss" "2nd_3_OTA_0.vd3" 3760 0 "2nd_3_OTA_0.vd4" 300 8700,358 "vss" 300 8700,358
-device msubckt sky130_fd_pr__nfet_01v8_lvt 518 -1570 519 -1569 l=1880 w=300 "vss" "2nd_3_OTA_0.vd3" 3760 0 "vss" 300 8700,358 "2nd_3_OTA_0.vd4" 300 8700,358
-device msubckt sky130_fd_pr__nfet_01v8_lvt -1420 -1570 -1419 -1569 l=1880 w=300 "vss" "2nd_3_OTA_0.vd3" 3760 0 "2nd_3_OTA_0.vd3" 300 17400,716 "vss" 300 8700,358
-device msubckt sky130_fd_pr__nfet_01v8_lvt 4394 -1160 4395 -1159 l=1880 w=300 "vss" "2nd_3_OTA_0.vd3" 3760 0 "vss" 300 8700,358 "2nd_3_OTA_0.vd4" 300 17400,716
-device msubckt sky130_fd_pr__nfet_01v8_lvt 2456 -1160 2457 -1159 l=1880 w=300 "vss" "2nd_3_OTA_0.vd3" 3760 0 "2nd_3_OTA_0.vd3" 300 8700,358 "vss" 300 8700,358
-device msubckt sky130_fd_pr__nfet_01v8_lvt 518 -1160 519 -1159 l=1880 w=300 "vss" "2nd_3_OTA_0.vd3" 3760 0 "vss" 300 8700,358 "2nd_3_OTA_0.vd3" 300 8700,358
-device msubckt sky130_fd_pr__nfet_01v8_lvt -1420 -1160 -1419 -1159 l=1880 w=300 "vss" "2nd_3_OTA_0.vd3" 3760 0 "2nd_3_OTA_0.vd4" 300 17400,716 "vss" 300 8700,358
+device msubckt sky130_fd_pr__nfet_01v8_lvt 10051 -2097 10052 -2096 l=400 w=600 "vss" "3rd_3_OTA_0.vd3" 800 0 "a_9040_n3397#" 600 17400,658 "a_7434_495#" 600 34800,1316
+device msubckt sky130_fd_pr__nfet_01v8_lvt 9593 -2097 9594 -2096 l=400 w=600 "vss" "3rd_3_OTA_0.vd4" 800 0 "a_7434_1657#" 600 17400,658 "a_9040_n3397#" 600 17400,658
+device msubckt sky130_fd_pr__nfet_01v8_lvt 9135 -2097 9136 -2096 l=400 w=600 "vss" "3rd_3_OTA_0.vd4" 800 0 "a_9040_n3397#" 600 17400,658 "a_7434_1657#" 600 17400,658
+device msubckt sky130_fd_pr__nfet_01v8_lvt 8677 -2097 8678 -2096 l=400 w=600 "vss" "3rd_3_OTA_0.vd3" 800 0 "a_7434_495#" 600 34800,1316 "a_9040_n3397#" 600 17400,658
+device msubckt sky130_fd_pr__nfet_01v8_lvt 10051 -890 10052 -889 l=400 w=600 "vss" "3rd_3_OTA_0.vd4" 800 0 "a_9040_n3397#" 600 17400,658 "a_7434_1657#" 600 34800,1316
+device msubckt sky130_fd_pr__nfet_01v8_lvt 9593 -890 9594 -889 l=400 w=600 "vss" "3rd_3_OTA_0.vd3" 800 0 "a_7434_495#" 600 17400,658 "a_9040_n3397#" 600 17400,658
+device msubckt sky130_fd_pr__nfet_01v8_lvt 9135 -890 9136 -889 l=400 w=600 "vss" "3rd_3_OTA_0.vd3" 800 0 "a_9040_n3397#" 600 17400,658 "a_7434_495#" 600 17400,658
+device msubckt sky130_fd_pr__nfet_01v8_lvt 8677 -890 8678 -889 l=400 w=600 "vss" "3rd_3_OTA_0.vd4" 800 0 "a_7434_1657#" 600 34800,1316 "a_9040_n3397#" 600 17400,658
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4394 -1570 4395 -1569 l=1880 w=300 "vss" "3rd_3_OTA_0.vd3" 3760 0 "vss" 300 8700,358 "3rd_3_OTA_0.vd3" 300 17400,716
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2456 -1570 2457 -1569 l=1880 w=300 "vss" "3rd_3_OTA_0.vd3" 3760 0 "3rd_3_OTA_0.vd4" 300 8700,358 "vss" 300 8700,358
+device msubckt sky130_fd_pr__nfet_01v8_lvt 518 -1570 519 -1569 l=1880 w=300 "vss" "3rd_3_OTA_0.vd3" 3760 0 "vss" 300 8700,358 "3rd_3_OTA_0.vd4" 300 8700,358
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1420 -1570 -1419 -1569 l=1880 w=300 "vss" "3rd_3_OTA_0.vd3" 3760 0 "3rd_3_OTA_0.vd3" 300 17400,716 "vss" 300 8700,358
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4394 -1160 4395 -1159 l=1880 w=300 "vss" "3rd_3_OTA_0.vd3" 3760 0 "vss" 300 8700,358 "3rd_3_OTA_0.vd4" 300 17400,716
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2456 -1160 2457 -1159 l=1880 w=300 "vss" "3rd_3_OTA_0.vd3" 3760 0 "3rd_3_OTA_0.vd3" 300 8700,358 "vss" 300 8700,358
+device msubckt sky130_fd_pr__nfet_01v8_lvt 518 -1160 519 -1159 l=1880 w=300 "vss" "3rd_3_OTA_0.vd3" 3760 0 "vss" 300 8700,358 "3rd_3_OTA_0.vd3" 300 8700,358
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1420 -1160 -1419 -1159 l=1880 w=300 "vss" "3rd_3_OTA_0.vd3" 3760 0 "3rd_3_OTA_0.vd4" 300 17400,716 "vss" 300 8700,358
 device msubckt sky130_fd_pr__pfet_01v8_lvt 10666 495 10667 496 l=1000 w=500 "vcc" "a_7434_495#" 2000 0 "vcc" 500 14500,558 "a_7434_495#" 500 29000,1116
 device msubckt sky130_fd_pr__pfet_01v8_lvt 9608 495 9609 496 l=1000 w=500 "vcc" "a_7434_1657#" 2000 0 "a_7434_1657#" 500 14500,558 "vcc" 500 14500,558
 device msubckt sky130_fd_pr__pfet_01v8_lvt 8550 495 8551 496 l=1000 w=500 "vcc" "a_7434_1657#" 2000 0 "vcc" 500 14500,558 "a_7434_1657#" 500 14500,558
@@ -332,25 +332,25 @@ device msubckt sky130_fd_pr__pfet_01v8_lvt 10666 1657 10667 1658 l=1000 w=500 "v
 device msubckt sky130_fd_pr__pfet_01v8_lvt 9608 1657 9609 1658 l=1000 w=500 "vcc" "a_7434_495#" 2000 0 "a_7434_495#" 500 14500,558 "vcc" 500 14500,558
 device msubckt sky130_fd_pr__pfet_01v8_lvt 8550 1657 8551 1658 l=1000 w=500 "vcc" "a_7434_495#" 2000 0 "vcc" 500 14500,558 "a_7434_495#" 500 14500,558
 device msubckt sky130_fd_pr__pfet_01v8_lvt 7492 1657 7493 1658 l=1000 w=500 "vcc" "a_7434_1657#" 2000 0 "a_7434_1657#" 500 29000,1116 "vcc" 500 14500,558
-device msubckt sky130_fd_pr__pfet_01v8 4653 212 4654 213 l=360 w=1400 "vcc" "2nd_3_OTA_0.vb1" 720 0 "vcc" 1400 40600,1458 "a_n1050_166#" 1400 81200,2916
-device msubckt sky130_fd_pr__pfet_01v8 4235 212 4236 213 l=360 w=1400 "vcc" "2nd_3_OTA_0.vb1" 720 0 "a_n1050_166#" 1400 40600,1458 "vcc" 1400 40600,1458
-device msubckt sky130_fd_pr__pfet_01v8 3817 212 3818 213 l=360 w=1400 "vcc" "2nd_3_OTA_0.vb1" 720 0 "vcc" 1400 40600,1458 "a_n1050_166#" 1400 40600,1458
-device msubckt sky130_fd_pr__pfet_01v8 3399 212 3400 213 l=360 w=1400 "vcc" "2nd_3_OTA_0.vb1" 720 0 "a_n1050_166#" 1400 81200,2916 "vcc" 1400 40600,1458
-device msubckt sky130_fd_pr__pfet_01v8_lvt -116 166 -115 167 l=380 w=3000 "vcc" "2nd_3_OTA_0.vd2" 760 0 "a_n1050_166#" 3000 87000,3058 "2nd_3_OTA_0.vd3" 3000 174000,6116
-device msubckt sky130_fd_pr__pfet_01v8_lvt -554 166 -553 167 l=380 w=3000 "vcc" "2nd_3_OTA_0.vd1" 760 0 "2nd_3_OTA_0.vd4" 3000 87000,3058 "a_n1050_166#" 3000 87000,3058
-device msubckt sky130_fd_pr__pfet_01v8_lvt -992 166 -991 167 l=380 w=3000 "vcc" "2nd_3_OTA_0.vd1" 760 0 "a_n1050_166#" 3000 87000,3058 "2nd_3_OTA_0.vd4" 3000 87000,3058
-device msubckt sky130_fd_pr__pfet_01v8_lvt -1430 166 -1429 167 l=380 w=3000 "vcc" "2nd_3_OTA_0.vd2" 760 0 "2nd_3_OTA_0.vd3" 3000 174000,6116 "a_n1050_166#" 3000 87000,3058
-device msubckt sky130_fd_pr__pfet_01v8_lvt -116 4143 -115 4144 l=380 w=3000 "vcc" "2nd_3_OTA_0.vd1" 760 0 "a_n1050_166#" 3000 87000,3058 "2nd_3_OTA_0.vd4" 3000 174000,6116
-device msubckt sky130_fd_pr__pfet_01v8_lvt -554 4143 -553 4144 l=380 w=3000 "vcc" "2nd_3_OTA_0.vd2" 760 0 "2nd_3_OTA_0.vd3" 3000 87000,3058 "a_n1050_166#" 3000 87000,3058
-device msubckt sky130_fd_pr__pfet_01v8_lvt -992 4143 -991 4144 l=380 w=3000 "vcc" "2nd_3_OTA_0.vd2" 760 0 "a_n1050_166#" 3000 87000,3058 "2nd_3_OTA_0.vd3" 3000 87000,3058
-device msubckt sky130_fd_pr__pfet_01v8_lvt -1430 4143 -1429 4144 l=380 w=3000 "vcc" "2nd_3_OTA_0.vd1" 760 0 "2nd_3_OTA_0.vd4" 3000 174000,6116 "a_n1050_166#" 3000 87000,3058
-device msubckt sky130_fd_pr__nfet_01v8_lvt -6235 120 -6234 121 l=2400 w=1200 "vss" "vin_p" 4800 0 "a_n10077_1624#" 1200 34800,1258 "2nd_3_OTA_0.vd2" 1200 69600,2516
-device msubckt sky130_fd_pr__nfet_01v8_lvt -8693 120 -8692 121 l=2400 w=1200 "vss" "vin_n" 4800 0 "2nd_3_OTA_0.vd1" 1200 69600,2516 "a_n10077_1624#" 1200 34800,1258
-device msubckt sky130_fd_pr__nfet_01v8_lvt -6234 1995 -6233 1996 l=2400 w=1200 "vss" "vin_n" 4800 0 "a_n10077_1624#" 1200 34800,1258 "2nd_3_OTA_0.vd1" 1200 69600,2516
-device msubckt sky130_fd_pr__nfet_01v8_lvt -8692 1995 -8691 1996 l=2400 w=1200 "vss" "vin_p" 4800 0 "2nd_3_OTA_0.vd2" 1200 69600,2516 "a_n10077_1624#" 1200 34800,1258
-device msubckt sky130_fd_pr__nfet_01v8 -10077 624 -10076 625 l=1000 w=600 "vss" "OTA_vref_0.vb" 2000 0 "vss" 600 34800,1316 "a_n10077_1624#" 600 34800,1316
-device msubckt sky130_fd_pr__pfet_01v8_lvt -6244 4219 -6243 4220 l=3600 w=360 "vcc" "2nd_3_OTA_0.vd2" 7200 0 "vcc" 360 10440,418 "2nd_3_OTA_0.vd2" 360 20880,836
-device msubckt sky130_fd_pr__pfet_01v8_lvt -9902 4219 -9901 4220 l=3600 w=360 "vcc" "2nd_3_OTA_0.vd2" 7200 0 "2nd_3_OTA_0.vd1" 360 20880,836 "vcc" 360 10440,418
-device msubckt sky130_fd_pr__pfet_01v8_lvt -6244 4707 -6243 4708 l=3600 w=360 "vcc" "2nd_3_OTA_0.vd2" 7200 0 "vcc" 360 10440,418 "2nd_3_OTA_0.vd1" 360 20880,836
-device msubckt sky130_fd_pr__pfet_01v8_lvt -9902 4707 -9901 4708 l=3600 w=360 "vcc" "2nd_3_OTA_0.vd2" 7200 0 "2nd_3_OTA_0.vd2" 360 20880,836 "vcc" 360 10440,418
+device msubckt sky130_fd_pr__pfet_01v8 4653 212 4654 213 l=360 w=1400 "vcc" "OTA_vref_0.vb1" 720 0 "vcc" 1400 40600,1458 "a_n1050_166#" 1400 81200,2916
+device msubckt sky130_fd_pr__pfet_01v8 4235 212 4236 213 l=360 w=1400 "vcc" "OTA_vref_0.vb1" 720 0 "a_n1050_166#" 1400 40600,1458 "vcc" 1400 40600,1458
+device msubckt sky130_fd_pr__pfet_01v8 3817 212 3818 213 l=360 w=1400 "vcc" "OTA_vref_0.vb1" 720 0 "vcc" 1400 40600,1458 "a_n1050_166#" 1400 40600,1458
+device msubckt sky130_fd_pr__pfet_01v8 3399 212 3400 213 l=360 w=1400 "vcc" "OTA_vref_0.vb1" 720 0 "a_n1050_166#" 1400 81200,2916 "vcc" 1400 40600,1458
+device msubckt sky130_fd_pr__pfet_01v8_lvt -116 166 -115 167 l=380 w=3000 "vcc" "OTA_stage1_0.vd2" 760 0 "a_n1050_166#" 3000 87000,3058 "3rd_3_OTA_0.vd3" 3000 174000,6116
+device msubckt sky130_fd_pr__pfet_01v8_lvt -554 166 -553 167 l=380 w=3000 "vcc" "3rd_3_OTA_0.vd1" 760 0 "3rd_3_OTA_0.vd4" 3000 87000,3058 "a_n1050_166#" 3000 87000,3058
+device msubckt sky130_fd_pr__pfet_01v8_lvt -992 166 -991 167 l=380 w=3000 "vcc" "3rd_3_OTA_0.vd1" 760 0 "a_n1050_166#" 3000 87000,3058 "3rd_3_OTA_0.vd4" 3000 87000,3058
+device msubckt sky130_fd_pr__pfet_01v8_lvt -1430 166 -1429 167 l=380 w=3000 "vcc" "OTA_stage1_0.vd2" 760 0 "3rd_3_OTA_0.vd3" 3000 174000,6116 "a_n1050_166#" 3000 87000,3058
+device msubckt sky130_fd_pr__pfet_01v8_lvt -116 4143 -115 4144 l=380 w=3000 "vcc" "3rd_3_OTA_0.vd1" 760 0 "a_n1050_166#" 3000 87000,3058 "3rd_3_OTA_0.vd4" 3000 174000,6116
+device msubckt sky130_fd_pr__pfet_01v8_lvt -554 4143 -553 4144 l=380 w=3000 "vcc" "OTA_stage1_0.vd2" 760 0 "3rd_3_OTA_0.vd3" 3000 87000,3058 "a_n1050_166#" 3000 87000,3058
+device msubckt sky130_fd_pr__pfet_01v8_lvt -992 4143 -991 4144 l=380 w=3000 "vcc" "OTA_stage1_0.vd2" 760 0 "a_n1050_166#" 3000 87000,3058 "3rd_3_OTA_0.vd3" 3000 87000,3058
+device msubckt sky130_fd_pr__pfet_01v8_lvt -1430 4143 -1429 4144 l=380 w=3000 "vcc" "3rd_3_OTA_0.vd1" 760 0 "3rd_3_OTA_0.vd4" 3000 174000,6116 "a_n1050_166#" 3000 87000,3058
+device msubckt sky130_fd_pr__nfet_01v8_lvt -6235 120 -6234 121 l=2400 w=1200 "vss" "vin_p" 4800 0 "a_n10077_1624#" 1200 34800,1258 "OTA_stage1_0.vd2" 1200 69600,2516
+device msubckt sky130_fd_pr__nfet_01v8_lvt -8693 120 -8692 121 l=2400 w=1200 "vss" "vin_n" 4800 0 "3rd_3_OTA_0.vd1" 1200 69600,2516 "a_n10077_1624#" 1200 34800,1258
+device msubckt sky130_fd_pr__nfet_01v8_lvt -6234 1995 -6233 1996 l=2400 w=1200 "vss" "vin_n" 4800 0 "a_n10077_1624#" 1200 34800,1258 "3rd_3_OTA_0.vd1" 1200 69600,2516
+device msubckt sky130_fd_pr__nfet_01v8_lvt -8692 1995 -8691 1996 l=2400 w=1200 "vss" "vin_p" 4800 0 "OTA_stage1_0.vd2" 1200 69600,2516 "a_n10077_1624#" 1200 34800,1258
+device msubckt sky130_fd_pr__nfet_01v8 -10077 624 -10076 625 l=1000 w=600 "vss" "3rd_3_OTA_0.vb" 2000 0 "vss" 600 34800,1316 "a_n10077_1624#" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8_lvt -6244 4219 -6243 4220 l=3600 w=360 "vcc" "OTA_stage1_0.vd2" 7200 0 "vcc" 360 10440,418 "OTA_stage1_0.vd2" 360 20880,836
+device msubckt sky130_fd_pr__pfet_01v8_lvt -9902 4219 -9901 4220 l=3600 w=360 "vcc" "OTA_stage1_0.vd2" 7200 0 "3rd_3_OTA_0.vd1" 360 20880,836 "vcc" 360 10440,418
+device msubckt sky130_fd_pr__pfet_01v8_lvt -6244 4707 -6243 4708 l=3600 w=360 "vcc" "OTA_stage1_0.vd2" 7200 0 "vcc" 360 10440,418 "3rd_3_OTA_0.vd1" 360 20880,836
+device msubckt sky130_fd_pr__pfet_01v8_lvt -9902 4707 -9901 4708 l=3600 w=360 "vcc" "OTA_stage1_0.vd2" 7200 0 "OTA_stage1_0.vd2" 360 20880,836 "vcc" 360 10440,418
 device msubckt sky130_fd_pr__pnp_05v5_W3p40L3p40 1749 -10154 1750 -10153 "None" "vss" 0 0 "OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 0 462400,2720 "vss" 0 0

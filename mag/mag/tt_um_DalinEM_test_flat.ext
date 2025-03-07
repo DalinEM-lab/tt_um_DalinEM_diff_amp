@@ -64,36 +64,40 @@ node "ua[0]" 2664 13272.2 30362 0 m4 0 0 0 0 0 0 0 0 11600 516 30160 1156 0 0 0 
 equiv "ua[0]" "3_OTA_0.3rd_3_OTA_0.vo3"
 equiv "ua[0]" "3_OTA_0.vo3"
 node "a_25461_23684#" 3982 1474.9 25461 23684 p 0 0 0 0 0 0 0 0 11600 516 30160 1156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32064 1912 0 0 34000 2408 79872 3578 35620 1474 0 0 0 0 0 0 0 0
-node "a_22654_21988#" 12673 5753.08 22654 21988 ndif 0 0 0 0 0 0 0 0 266800 9896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158032 9704 244542 10036 755597 15208 0 0 0 0 0 0 0 0
-node "a_21048_25880#" 15827 8926.2 21048 25880 pdif 0 0 0 0 0 0 0 0 104400 3948 87000 3348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2825980 15120 0 0 390592 24064 1212894 37296 387334 11236 103194 3330 1668216 29264 0 0 0 0
-node "a_21048_27042#" 15826 9224.8 21048 27042 pdif 0 0 0 0 0 0 0 0 104400 3948 87000 3348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2825980 15120 0 0 390592 24064 1262512 38298 387234 11234 1704961 29172 0 0 0 0 0 0
+node "a_22654_21988#" 12673 5419.46 22654 21988 ndif 0 0 0 0 0 0 0 0 266800 9896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158032 9704 244542 10036 755597 15208 0 0 0 0 0 0 0 0
+node "a_21048_25880#" 15807 8319.09 21048 25880 pdif 0 0 0 0 0 0 0 0 104400 3948 87000 3348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2825980 15120 0 0 390592 24064 2726699 36702 387334 11236 103194 3330 1668216 29264 0 0 0 0
+node "a_21048_27042#" 15806 8906.06 21048 27042 pdif 0 0 0 0 0 0 0 0 104400 3948 87000 3348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2825980 15120 0 0 390592 24064 2776966 37706 387234 11234 1704961 29172 0 0 0 0 0 0
 node "3_OTA_0.OTA_vref_0.vb1" 4619 6743.29 16084 18717 ndif 0 0 0 0 0 0 0 0 34800 1548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2295360 15632 0 0 119136 7756 1380378 19092 751451 19316 20160 816 287658 8848 0 0 0 0
 equiv "3_OTA_0.OTA_vref_0.vb1" "3_OTA_0.2nd_3_OTA_0.vb1"
 equiv "3_OTA_0.OTA_vref_0.vb1" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vb1"
-node "3_OTA_0.3rd_3_OTA_0.vd3" 49327 48613 12126 25551 pdif 0 0 0 0 0 0 0 0 52200 2148 522000 18348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7904320 31536 0 0 1214072 73184 6255320 64272 399040 12430 2907723 55460 14130 482 0 0 0 0
+node "3_OTA_0.3rd_3_OTA_0.vd3" 49327 48526.7 12126 25551 pdif 0 0 0 0 0 0 0 0 52200 2148 522000 18348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7904320 31536 0 0 1214072 73184 6840661 67792 399040 12430 2907723 55460 14130 482 0 0 0 0
 equiv "3_OTA_0.3rd_3_OTA_0.vd3" "3_OTA_0.2nd_3_OTA_0.vd3"
 node "a_12564_25551#" 63761 7365.6 12564 25551 pdif 0 0 0 0 0 0 0 0 0 0 939600 33212 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 552704 32988 933600 33568 1799452 40004 0 0 0 0 0 0 0 0
-node "3_OTA_0.3rd_3_OTA_0.vd4" 39880 17849.1 12126 29528 pdif 0 0 0 0 0 0 0 0 52200 2148 522000 18348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1241600 9408 0 0 447032 27248 1067136 34800 395440 12370 306460 8394 6546928 70156 0 0 0 0
+node "3_OTA_0.3rd_3_OTA_0.vd4" 39872 17765.8 12126 29528 pdif 0 0 0 0 0 0 0 0 52200 2148 522000 18348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1241600 9408 0 0 447032 27248 1652471 38320 395440 12370 306460 8394 6546928 70156 0 0 0 0
 equiv "3_OTA_0.3rd_3_OTA_0.vd4" "3_OTA_0.2nd_3_OTA_0.vd4"
 node "ua[3]" 8169 47140 18770 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13209600 30208 0 0 652800 38944 6958898 51520 376020 6780 3662060 42206 4170962 46704 0 0 0 0
+equiv "ua[3]" "diff_final_v0_0.vin_n"
 equiv "ua[3]" "3_OTA_0.OTA_stage1_0.vin_n"
 equiv "ua[3]" "3_OTA_0.vin_n"
-equiv "ua[3]" "diff_final_v0_0.vin_n"
 node "ua[2]" 8169 46256.5 22634 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13209600 30208 0 0 652800 38944 6876746 51464 379800 6816 3228620 37390 4464126 49962 0 0 0 0
+equiv "ua[2]" "diff_final_v0_0.vin_p"
 equiv "ua[2]" "3_OTA_0.OTA_stage1_0.vin_p"
 equiv "ua[2]" "3_OTA_0.vin_p"
-equiv "ua[2]" "diff_final_v0_0.vin_p"
-node "3_OTA_0.OTA_vref_0.vb" 4934 18301.3 3449 26009 p 0 0 0 0 0 0 0 0 34800 1548 11600 516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1541600 9856 0 0 137088 8744 614029 9386 257076 7608 991220 17418 2614376 29412 0 0 0 0
+node "3_OTA_0.OTA_vref_0.vb" 4935 19127.1 3449 26009 p 0 0 0 0 0 0 0 0 34800 1548 11600 516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1541600 9856 0 0 137088 8744 987517 13368 257076 7608 991220 17418 2614376 29412 0 0 0 0
 equiv "3_OTA_0.OTA_vref_0.vb" "3_OTA_0.3rd_3_OTA_0.vb"
 equiv "3_OTA_0.OTA_vref_0.vb" "3_OTA_0.OTA_stage1_0.vb"
 equiv "3_OTA_0.OTA_vref_0.vb" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vb"
 node "a_3537_27009#" 7910 3491.04 3537 27009 ndif 0 0 0 0 0 0 0 0 174000 6348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102816 6252 161144 6402 90054 2992 394674 10566 0 0 0 0 0 0
-node "3_OTA_0.OTA_stage1_0.vd1" 12704 25723.7 3654 29604 pdif 0 0 0 0 0 0 0 0 139200 5032 41760 1672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4854880 28592 0 0 210528 13200 4411341 62902 1004279 21088 20975924 56592 529152 11408 0 0 0 0
+node "3_OTA_0.OTA_stage1_0.vd1" 12704 25733.8 3654 29604 pdif 0 0 0 0 0 0 0 0 139200 5032 41760 1672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4854880 28592 0 0 210528 13200 4411341 62902 1004279 21088 20975924 56592 529152 11408 0 0 0 0
 equiv "3_OTA_0.OTA_stage1_0.vd1" "3_OTA_0.2nd_3_OTA_0.vd1"
 equiv "3_OTA_0.OTA_stage1_0.vd1" "3_OTA_0.3rd_3_OTA_0.vd1"
 node "3_OTA_0.OTA_stage1_0.vd2" 21110 20956.2 3654 30092 pdif 0 0 0 0 0 0 0 0 139200 5032 41760 1672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12357280 47160 0 0 944928 56808 10983546 81950 956174 20048 0 0 0 0 0 0 0 0
 equiv "3_OTA_0.OTA_stage1_0.vd2" "3_OTA_0.2nd_3_OTA_0.vd2"
-node "VDPWR" 482854 323368 31401 1000 m4 0 0 0 0 67611241 120364 0 0 3996264 225948 573040 22776 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33303840 261230 13676491 176930 22911484 185012 914160 12742 45374661 225728 0 0 0 0
+node "VDPWR" 482854 323780 31401 1000 m4 0 0 0 0 67611241 120364 0 0 3996264 225948 573040 22776 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33303840 261230 13676491 176930 22911484 185012 914160 12742 45374661 225728 0 0 0 0
+equiv "VDPWR" "BGR_BJT_vref_0.BGR_BJT_stage1_0.vcc"
+equiv "VDPWR" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vcc"
+equiv "VDPWR" "BGR_BJT_vref_0.vcc"
+equiv "VDPWR" "diff_final_v0_0.vcc"
 equiv "VDPWR" "3_OTA_0.2nd_3_OTA_0.vcc"
 equiv "VDPWR" "3_OTA_0.3rd_3_OTA_0.vcc"
 equiv "VDPWR" "3_OTA_0.OTA_stage1_0.vcc"
@@ -101,11 +105,13 @@ equiv "VDPWR" "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.vcc"
 equiv "VDPWR" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vcc"
 equiv "VDPWR" "3_OTA_0.OTA_vref_0.vcc"
 equiv "VDPWR" "3_OTA_0.vcc"
-equiv "VDPWR" "BGR_BJT_vref_0.BGR_BJT_stage1_0.vcc"
-equiv "VDPWR" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vcc"
-equiv "VDPWR" "BGR_BJT_vref_0.vcc"
-equiv "VDPWR" "diff_final_v0_0.vcc"
 substrate "VGND" 0 0 400 1000 m4 0 0 0 0 0 0 0 0 1574040 53972 5856932 307100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47270161 317408 14958390 225688 20962703 240050 6700137 47046 27390612 155498 0 0 0 0
+equiv "VGND" "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Base"
+equiv "VGND" "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Collector"
+equiv "VGND" "BGR_BJT_vref_0.BGR_BJT_stage1_0.vss"
+equiv "VGND" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vss"
+equiv "VGND" "BGR_BJT_vref_0.vss"
+equiv "VGND" "diff_final_v0_0.vss"
 equiv "VGND" "3_OTA_0.2nd_3_OTA_0.vss"
 equiv "VGND" "3_OTA_0.3rd_3_OTA_0.vss"
 equiv "VGND" "3_OTA_0.OTA_stage1_0.vss"
@@ -115,235 +121,229 @@ equiv "VGND" "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.vss"
 equiv "VGND" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vss"
 equiv "VGND" "3_OTA_0.OTA_vref_0.vss"
 equiv "VGND" "3_OTA_0.vss"
-equiv "VGND" "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Base"
-equiv "VGND" "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Collector"
-equiv "VGND" "BGR_BJT_vref_0.BGR_BJT_stage1_0.vss"
-equiv "VGND" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vss"
-equiv "VGND" "BGR_BJT_vref_0.vss"
-equiv "VGND" "diff_final_v0_0.vss"
-cap "a_6719_5623#" "a_6631_6971#" 0.103799
-cap "3_OTA_0.OTA_vref_0.vb1" "3_OTA_0.OTA_vref_0.vb" 111.837
-cap "a_3013_4521#" "a_6631_6971#" 2.69608
-cap "a_24889_22946#" "a_22654_21988#" 18.5848
-cap "a_21048_25880#" "a_25461_23684#" 61.0528
-cap "a_15996_19807#" "VDPWR" 335.707
-cap "3_OTA_0.3rd_3_OTA_0.vd4" "a_25461_23684#" 0.0115345
-cap "a_15996_19807#" "a_12378_15906#" 4.72909
-cap "3_OTA_0.OTA_stage1_0.vd1" "a_25461_23684#" 11.9925
-cap "a_24889_22946#" "VDPWR" 307.957
-cap "a_6719_6913#" "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 2.79265
-cap "ua[3]" "VDPWR" 335.831
-cap "a_16084_17427#" "3_OTA_0.OTA_vref_0.vb1" 56.2354
-cap "ua[1]" "VDPWR" 2538.78
-cap "a_21048_27042#" "3_OTA_0.OTA_vref_0.vb" 35.8502
-cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" "a_6719_4333#" 1.29346
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 2206.74
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" "3_OTA_0.OTA_vref_0.vb" 0.432071
-cap "ua[5]" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 174.409
-cap "a_22654_21988#" "3_OTA_0.3rd_3_OTA_0.vd3" 1069.71
-cap "a_24889_22946#" "3_OTA_0.OTA_stage1_0.vd1" 26334
-cap "ua[5]" "VDPWR" 311.78
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" 16257.3
+cap "a_18046_7223#" "ua[1]" 118.468
+cap "a_15996_17227#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" 112.341
+cap "VDPWR" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 11398.7
 cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" "a_6631_6971#" 112.195
-cap "3_OTA_0.OTA_stage1_0.vd1" "ua[3]" 784.618
-cap "a_16084_17427#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" 37.9942
-cap "a_3013_4521#" "ua[5]" 0.0644326
-cap "a_25461_23684#" "ua[0]" 159.655
-cap "a_3537_27009#" "ua[3]" 1474.82
-cap "3_OTA_0.3rd_3_OTA_0.vd3" "VDPWR" 4645.42
-cap "ua[2]" "ua[3]" 5690.43
-cap "a_22654_21988#" "VDPWR" 101.608
-cap "ua[1]" "ua[2]" 138.779
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" "3_OTA_0.OTA_vref_0.vb" 233.485
-cap "a_15996_18517#" "3_OTA_0.OTA_vref_0.vb1" 1613.73
-cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" "VDPWR" 11377.9
-cap "a_3013_4521#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 2298.43
-cap "a_6719_5623#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 8.14316
-cap "a_6631_4391#" "a_6631_5681#" 154.516
-cap "ua[4]" "ua[3]" 734.728
-cap "a_21048_25880#" "3_OTA_0.3rd_3_OTA_0.vd3" 950.872
-cap "a_6719_5623#" "VDPWR" 34.4932
-cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_6631_5681#" 6.38998
-cap "a_3013_4521#" "a_6719_5623#" 0.0576186
-cap "a_16084_17427#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 8.04893
-cap "a_12564_25551#" "3_OTA_0.OTA_vref_0.vb1" 3373.17
-cap "a_24889_22946#" "ua[0]" 36.8959
-cap "ua[1]" "ua[4]" 200.778
-cap "3_OTA_0.3rd_3_OTA_0.vd4" "3_OTA_0.3rd_3_OTA_0.vd3" 9480.93
-cap "3_OTA_0.OTA_stage1_0.vd1" "3_OTA_0.3rd_3_OTA_0.vd3" 1228.86
-cap "a_21048_25880#" "a_22654_21988#" 763.271
-cap "3_OTA_0.3rd_3_OTA_0.vd4" "a_22654_21988#" 1051.52
-cap "3_OTA_0.OTA_stage1_0.vd1" "a_22654_21988#" 6.98444
-cap "a_21048_25880#" "VDPWR" 11941.2
-cap "a_6719_6913#" "a_6631_6971#" 1537.65
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" "a_15996_18517#" 10.9908
-cap "3_OTA_0.3rd_3_OTA_0.vd4" "VDPWR" 4417.84
-cap "3_OTA_0.OTA_stage1_0.vd1" "VDPWR" 8443.54
-cap "a_3537_27009#" "VDPWR" 0.564228
-cap "ua[2]" "VDPWR" 298.348
-cap "a_16084_20007#" "3_OTA_0.OTA_vref_0.vb1" 38.035
-cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 2206.93
-cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" "VDPWR" 30.8077
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "3_OTA_0.OTA_vref_0.vb1" 0.615402
-cap "a_3013_4521#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" 4936.41
-cap "a_21048_25880#" "3_OTA_0.3rd_3_OTA_0.vd4" 625.928
-cap "3_OTA_0.OTA_stage1_0.vd2" "3_OTA_0.OTA_vref_0.vb" 9.05628
-cap "a_6719_5623#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" 1.6185
-cap "a_21048_25880#" "3_OTA_0.OTA_stage1_0.vd1" 11.2099
-cap "a_15996_17227#" "3_OTA_0.OTA_vref_0.vb1" 34.2287
-cap "a_15996_18517#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 341.152
-cap "a_22654_21988#" "ua[0]" 4.16765
-cap "3_OTA_0.3rd_3_OTA_0.vd4" "3_OTA_0.OTA_stage1_0.vd1" 15765.7
-cap "a_3537_27009#" "3_OTA_0.OTA_stage1_0.vd1" 118.468
-cap "ua[0]" "VDPWR" 3176.09
-cap "3_OTA_0.OTA_stage1_0.vd1" "ua[2]" 137.87
-cap "a_15996_19807#" "3_OTA_0.OTA_vref_0.vb1" 106.848
-cap "a_21048_27042#" "a_25461_23684#" 19.9143
-cap "ua[3]" "a_18163_10306#" 575.386
-cap "a_3537_27009#" "ua[2]" 1680.92
-cap "a_6719_4333#" "a_6631_5681#" 0.103799
-cap "a_16084_17427#" "a_15996_18517#" 97.5924
-cap "a_16084_20007#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" 1.51032
-cap "ua[1]" "a_18163_10306#" 6958.96
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 16257.3
-cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_6631_4391#" 5.85433
-cap "a_6631_6971#" "a_6631_5681#" 154.705
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" "a_15996_17227#" 112.341
-cap "a_21048_25880#" "ua[0]" 0.00383238
-cap "a_15996_21097#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 368.863
-cap "a_18046_7223#" "ua[3]" 1474.82
-cap "a_6719_6913#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 8.04893
-cap "a_15996_21097#" "3_OTA_0.OTA_vref_0.vb" 1672.98
-cap "ua[4]" "ua[2]" 328.127
-cap "a_6719_6913#" "VDPWR" 34.2922
-cap "3_OTA_0.OTA_stage1_0.vd1" "ua[0]" 367.637
-cap "ua[1]" "a_18046_7223#" 118.468
-cap "a_6719_5623#" "a_6719_6913#" 36.3535
-cap "a_6631_3101#" "a_6631_4391#" 154.422
-cap "a_3013_4521#" "a_6719_6913#" 0.0753636
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" "a_15996_19807#" 11.3153
-cap "a_6631_3101#" "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 0.506949
-cap "a_16084_20007#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 8.03715
-cap "a_16084_20007#" "3_OTA_0.OTA_vref_0.vb" 36.3843
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 9256.97
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "3_OTA_0.OTA_vref_0.vb" 6.31503
-cap "3_OTA_0.OTA_vref_0.vb1" "3_OTA_0.3rd_3_OTA_0.vd3" 316.815
-cap "a_15996_17227#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 336.05
-cap "a_18163_10306#" "VDPWR" 19299.7
-cap "3_OTA_0.OTA_stage1_0.vd2" "a_12564_25551#" 5419.65
-cap "a_16084_17427#" "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 3.41936
-cap "a_15996_19807#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 334.808
-cap "a_15996_19807#" "3_OTA_0.OTA_vref_0.vb" 0.303823
-cap "3_OTA_0.OTA_vref_0.vb1" "VDPWR" 8322.21
-cap "a_16084_17427#" "a_15996_17227#" 1537.65
-cap "a_12378_15906#" "3_OTA_0.OTA_vref_0.vb1" 0.229994
-cap "a_24889_22946#" "3_OTA_0.OTA_vref_0.vb" 22.6511
-cap "a_21048_27042#" "3_OTA_0.3rd_3_OTA_0.vd3" 639.232
-cap "ua[3]" "3_OTA_0.OTA_vref_0.vb" 618.087
-cap "a_6719_6913#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" 37.9921
-cap "a_18046_7223#" "VDPWR" 0.564228
-cap "a_21048_27042#" "a_22654_21988#" 1529.85
-cap "a_6719_4333#" "a_6631_4391#" 1530.05
-cap "a_21048_25880#" "3_OTA_0.OTA_vref_0.vb1" 5.33682
-cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" "a_6631_5681#" 340.876
-cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_6719_4333#" 0.158017
-cap "a_21048_27042#" "VDPWR" 12094.9
-cap "a_6631_5681#" "VDPWR" 318.904
-cap "3_OTA_0.3rd_3_OTA_0.vd4" "3_OTA_0.OTA_vref_0.vb1" 226.739
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" "VDPWR" 30.2239
-cap "a_6719_5623#" "a_6631_5681#" 1537.81
-cap "ua[2]" "a_18163_10306#" 1064.5
-cap "a_3013_4521#" "a_6631_5681#" 1.64578
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" "a_12378_15906#" 4935.49
-cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_6631_6971#" 24.2921
-cap "a_16084_20007#" "a_15996_18517#" 0.103799
-cap "a_6631_3101#" "a_6719_4333#" 100.61
-cap "3_OTA_0.3rd_3_OTA_0.vd3" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 1.58653
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_15996_18517#" 9.52407
-cap "3_OTA_0.3rd_3_OTA_0.vd3" "3_OTA_0.OTA_vref_0.vb" 136.282
-cap "a_21048_25880#" "a_21048_27042#" 8341.85
-cap "a_15996_18517#" "a_15996_17227#" 154.705
-cap "a_18046_7223#" "ua[2]" 1681.31
-cap "3_OTA_0.3rd_3_OTA_0.vd4" "a_21048_27042#" 1208.85
-cap "a_22654_21988#" "3_OTA_0.OTA_vref_0.vb" 541.253
-cap "a_21048_27042#" "3_OTA_0.OTA_stage1_0.vd1" 199.552
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" "VDPWR" 11398.7
-cap "3_OTA_0.OTA_vref_0.vb" "VDPWR" 434.712
-cap "a_15996_19807#" "a_15996_18517#" 154.516
-cap "a_12378_15906#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 2298.43
-cap "3_OTA_0.OTA_stage1_0.vd2" "ua[3]" 575.386
-cap "a_12378_15906#" "3_OTA_0.OTA_vref_0.vb" 28.1088
-cap "ua[4]" "a_18046_7223#" 440.838
-cap "a_16084_20007#" "a_15996_21097#" 100.61
-cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" "a_6631_5681#" 11.6105
-cap "a_16084_17427#" "VDPWR" 34.2922
-cap "a_15996_21097#" "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 2.32903
-cap "ua[5]" "a_6631_4391#" 0.303823
-cap "a_16084_17427#" "a_12378_15906#" 0.0328649
-cap "a_21048_25880#" "3_OTA_0.OTA_vref_0.vb" 37.8468
-cap "3_OTA_0.3rd_3_OTA_0.vd4" "3_OTA_0.OTA_vref_0.vb" 1.05651
-cap "a_21048_27042#" "ua[0]" 56.3426
-cap "a_16084_20007#" "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 0.0662055
-cap "3_OTA_0.OTA_stage1_0.vd1" "3_OTA_0.OTA_vref_0.vb" 246.6
-cap "a_3537_27009#" "3_OTA_0.OTA_vref_0.vb" 443.825
-cap "a_15996_21097#" "a_15996_19807#" 154.422
-cap "ua[2]" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 36.575
-cap "a_6631_3101#" "ua[5]" 1653.1
-cap "3_OTA_0.OTA_stage1_0.vd2" "3_OTA_0.3rd_3_OTA_0.vd3" 6266.07
-cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" "a_6631_4391#" 334.532
-cap "ua[2]" "3_OTA_0.OTA_vref_0.vb" 408.082
+cap "a_21048_25880#" "3_OTA_0.OTA_stage1_0.vd1" 10.9679
+cap "ua[2]" "3_OTA_0.OTA_stage1_0.vd1" 137.87
+cap "3_OTA_0.OTA_vref_0.vb" "a_12378_15906#" 28.1088
+cap "3_OTA_0.3rd_3_OTA_0.vd3" "a_22654_21988#" 1972.54
+cap "a_6631_4391#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" 10.7603
+cap "a_6719_4333#" "a_3013_4521#" 0.0644326
+cap "a_6631_5681#" "a_6719_6913#" 97.6079
 cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_15996_17227#" 32.6193
-cap "a_6631_4391#" "VDPWR" 335.621
-cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 9255.27
-cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "VDPWR" 504.763
-cap "a_6719_5623#" "a_6631_4391#" 98.7719
-cap "a_3013_4521#" "a_6631_4391#" 2.1686
-cap "a_3013_4521#" "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 17151
-cap "a_16084_20007#" "a_15996_19807#" 1530.05
-cap "a_6719_5623#" "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 0.164831
-cap "a_15996_19807#" "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 7.17626
-cap "a_24889_22946#" "a_25461_23684#" 1.49104
-cap "a_12564_25551#" "3_OTA_0.3rd_3_OTA_0.vd3" 1209.38
-cap "3_OTA_0.OTA_stage1_0.vd2" "VDPWR" 23213.3
-cap "a_6631_3101#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 367.242
-cap "a_6719_6913#" "a_6631_5681#" 97.6079
-cap "a_6631_3101#" "VDPWR" 369.319
-cap "a_15996_18517#" "VDPWR" 318.981
-cap "a_3013_4521#" "a_6631_3101#" 1.60573
-cap "a_12378_15906#" "a_15996_18517#" 2.41062
-cap "a_12564_25551#" "VDPWR" 6187.65
-cap "a_18046_7223#" "a_18163_10306#" 17.0337
-cap "a_15996_21097#" "3_OTA_0.3rd_3_OTA_0.vd3" 1.34652
-cap "3_OTA_0.OTA_stage1_0.vd2" "3_OTA_0.3rd_3_OTA_0.vd4" 1011.7
-cap "3_OTA_0.OTA_stage1_0.vd2" "3_OTA_0.OTA_stage1_0.vd1" 9520.54
-cap "ua[5]" "a_6719_4333#" 36.3843
-cap "a_3537_27009#" "3_OTA_0.OTA_stage1_0.vd2" 17.0337
-cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" "a_6631_4391#" 10.7603
-cap "a_25461_23684#" "3_OTA_0.3rd_3_OTA_0.vd3" 0.066749
-cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 16257
-cap "3_OTA_0.OTA_stage1_0.vd2" "ua[2]" 1064.5
-cap "a_15996_21097#" "VDPWR" 368.035
-cap "ua[1]" "ua[3]" 784.618
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" "3_OTA_0.OTA_vref_0.vb1" 6.42227
-cap "a_15996_21097#" "a_12378_15906#" 2.3886
-cap "a_12564_25551#" "3_OTA_0.3rd_3_OTA_0.vd4" 1213.41
-cap "a_22654_21988#" "a_25461_23684#" 16.9744
-cap "a_12564_25551#" "3_OTA_0.OTA_stage1_0.vd1" 5595.77
-cap "a_6719_4333#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 8.03715
-cap "a_25461_23684#" "VDPWR" 836.592
+cap "3_OTA_0.3rd_3_OTA_0.vd3" "VDPWR" 4645.42
+cap "a_16084_20007#" "3_OTA_0.OTA_vref_0.vb1" 38.035
+cap "a_21048_25880#" "3_OTA_0.OTA_vref_0.vb1" 5.33682
+cap "a_25461_23684#" "a_21048_27042#" 19.9143
+cap "3_OTA_0.3rd_3_OTA_0.vd3" "3_OTA_0.3rd_3_OTA_0.vd4" 9518.96
 cap "a_6719_4333#" "VDPWR" 34.4547
-cap "a_16084_20007#" "VDPWR" 34.4547
-cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "VDPWR" 512.021
+cap "a_6631_5681#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 340.876
+cap "a_6719_4333#" "a_6631_3101#" 100.61
+cap "a_12378_15906#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" 4935.49
+cap "a_24889_22946#" "ua[0]" 36.8959
+cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" "a_3013_4521#" 4936.41
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" "a_15996_18517#" 341.152
+cap "ua[2]" "ua[4]" 328.127
+cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_6719_6913#" 2.79265
+cap "a_16084_20007#" "a_15996_19807#" 1530.05
+cap "ua[4]" "a_18046_7223#" 440.838
+cap "a_6719_6913#" "a_6719_5623#" 36.3535
+cap "a_21048_25880#" "a_22654_21988#" 485.586
+cap "VDPWR" "a_16084_20007#" 34.4547
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_12378_15906#" 17151
+cap "a_16084_17427#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" 37.9942
+cap "VDPWR" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" 30.8077
+cap "a_15996_17227#" "a_12378_15906#" 2.43929
+cap "ua[3]" "3_OTA_0.OTA_stage1_0.vd2" 575.386
+cap "VDPWR" "a_21048_25880#" 11960.1
+cap "VDPWR" "ua[2]" 298.348
+cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 9255.27
+cap "ua[3]" "a_3537_27009#" 1474.82
+cap "ua[3]" "ua[5]" 76.108
+cap "a_21048_25880#" "3_OTA_0.3rd_3_OTA_0.vd4" 637.694
+cap "VDPWR" "a_18046_7223#" 0.564228
+cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" "a_6719_5623#" 8.14316
+cap "a_18163_10306#" "ua[3]" 575.386
+cap "a_16084_17427#" "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 3.41936
+cap "3_OTA_0.3rd_3_OTA_0.vd3" "a_21048_27042#" 689.023
+cap "ua[3]" "3_OTA_0.OTA_vref_0.vb" 618.087
+cap "ua[4]" "ua[1]" 200.778
+cap "a_16084_17427#" "a_15996_17227#" 1537.65
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" "3_OTA_0.OTA_vref_0.vb" 233.485
+cap "3_OTA_0.3rd_3_OTA_0.vd3" "3_OTA_0.OTA_stage1_0.vd2" 6266.07
+cap "a_3013_4521#" "a_6631_6971#" 2.69608
+cap "a_15996_19807#" "a_15996_21097#" 154.422
+cap "VDPWR" "ua[1]" 2538.78
+cap "a_16084_20007#" "a_15996_18517#" 0.103799
+cap "3_OTA_0.OTA_stage1_0.vd1" "a_22654_21988#" 6.98444
+cap "a_6719_4333#" "ua[5]" 36.3843
+cap "VDPWR" "a_15996_21097#" 368.035
+cap "a_6631_4391#" "a_3013_4521#" 2.1686
+cap "a_24889_22946#" "a_25461_23684#" 1.49104
+cap "3_OTA_0.3rd_3_OTA_0.vd3" "3_OTA_0.OTA_vref_0.vb" 125.2
+cap "VDPWR" "3_OTA_0.OTA_stage1_0.vd1" 8443.54
+cap "VDPWR" "a_6631_6971#" 324.581
+cap "3_OTA_0.3rd_3_OTA_0.vd4" "a_15996_21097#" 0.0209919
+cap "3_OTA_0.OTA_stage1_0.vd1" "3_OTA_0.3rd_3_OTA_0.vd4" 15765.7
+cap "a_16084_17427#" "a_12378_15906#" 0.0328649
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" 2206.74
+cap "a_21048_25880#" "a_21048_27042#" 8457.66
+cap "VDPWR" "a_6631_4391#" 335.621
+cap "a_15996_19807#" "3_OTA_0.OTA_vref_0.vb1" 106.848
+cap "a_6719_4333#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 8.03715
+cap "a_6631_4391#" "a_6631_3101#" 154.422
+cap "a_25461_23684#" "ua[0]" 159.655
+cap "ua[2]" "3_OTA_0.OTA_stage1_0.vd2" 1064.5
+cap "VDPWR" "3_OTA_0.OTA_vref_0.vb1" 8322.21
+cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" "a_6719_6913#" 37.9921
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 9256.97
+cap "ua[2]" "a_3537_27009#" 1680.92
+cap "3_OTA_0.3rd_3_OTA_0.vd4" "3_OTA_0.OTA_vref_0.vb1" 226.739
+cap "a_16084_20007#" "3_OTA_0.OTA_vref_0.vb" 36.3843
+cap "a_18163_10306#" "ua[2]" 1064.5
+cap "a_15996_17227#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 336.05
+cap "a_21048_25880#" "3_OTA_0.OTA_vref_0.vb" 37.0135
+cap "a_18163_10306#" "a_18046_7223#" 17.0337
+cap "ua[2]" "3_OTA_0.OTA_vref_0.vb" 408.082
+cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 2206.93
+cap "a_6631_3101#" "a_3013_4521#" 1.60573
+cap "VDPWR" "a_15996_19807#" 335.707
+cap "VDPWR" "a_22654_21988#" 101.608
+cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_6631_5681#" 6.38998
+cap "3_OTA_0.3rd_3_OTA_0.vd4" "a_22654_21988#" 1932.02
+cap "a_6631_5681#" "a_6719_5623#" 1537.81
+cap "3_OTA_0.OTA_stage1_0.vd1" "a_21048_27042#" 195.698
+cap "VDPWR" "a_6631_3101#" 369.319
+cap "VDPWR" "3_OTA_0.3rd_3_OTA_0.vd4" 4417.84
+cap "a_16084_20007#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" 1.51032
+cap "3_OTA_0.OTA_vref_0.vb1" "a_15996_18517#" 1613.73
+cap "a_18163_10306#" "ua[1]" 6958.96
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" "a_12378_15906#" 2298.43
+cap "3_OTA_0.OTA_stage1_0.vd2" "3_OTA_0.OTA_stage1_0.vd1" 9520.54
+cap "3_OTA_0.OTA_stage1_0.vd1" "a_3537_27009#" 118.468
+cap "a_12564_25551#" "3_OTA_0.3rd_3_OTA_0.vd3" 1209.38
+cap "a_6719_6913#" "a_6631_6971#" 1537.65
+cap "3_OTA_0.OTA_vref_0.vb" "a_15996_21097#" 1672.98
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_16084_20007#" 0.0662055
+cap "3_OTA_0.OTA_stage1_0.vd1" "3_OTA_0.OTA_vref_0.vb" 237.308
+cap "a_6631_4391#" "ua[5]" 0.303823
+cap "a_16084_17427#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 8.04893
+cap "a_15996_19807#" "a_15996_18517#" 154.516
+cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_6719_5623#" 0.164831
+cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" "a_6631_6971#" 335.671
+cap "VDPWR" "a_15996_18517#" 318.981
+cap "a_6631_4391#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 334.532
+cap "a_22654_21988#" "a_21048_27042#" 1222.25
+cap "3_OTA_0.OTA_vref_0.vb" "3_OTA_0.OTA_vref_0.vb1" 111.837
+cap "a_6719_4333#" "a_6631_5681#" 0.103799
+cap "a_21048_25880#" "ua[0]" 0.00383238
+cap "ua[5]" "a_3013_4521#" 0.0644326
+cap "VDPWR" "a_21048_27042#" 12114
+cap "a_6719_6913#" "a_3013_4521#" 0.0753636
+cap "3_OTA_0.3rd_3_OTA_0.vd4" "a_21048_27042#" 1834.22
 cap "a_16084_20007#" "a_12378_15906#" 0.0295381
-cap "a_6719_5623#" "a_6719_4333#" 36.3535
-cap "a_3013_4521#" "a_6719_4333#" 0.0644326
-cap "ua[5]" "ua[3]" 76.108
-cap "a_12378_15906#" "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 17151
-cap "a_15996_17227#" "VDPWR" 327.8
-cap "a_6631_6971#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 335.671
-cap "a_15996_21097#" "3_OTA_0.3rd_3_OTA_0.vd4" 0.0209919
-cap "a_6631_6971#" "VDPWR" 324.581
-cap "a_12378_15906#" "a_15996_17227#" 2.43929
-cap "3_OTA_0.OTA_vref_0.vb1" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 62.5935
+cap "VDPWR" "3_OTA_0.OTA_stage1_0.vd2" 23213.3
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_15996_21097#" 2.32903
+cap "a_15996_19807#" "3_OTA_0.OTA_vref_0.vb" 0.303823
+cap "VDPWR" "a_3537_27009#" 0.564228
+cap "VDPWR" "ua[5]" 311.78
+cap "3_OTA_0.OTA_stage1_0.vd2" "3_OTA_0.3rd_3_OTA_0.vd4" 1011.7
+cap "VDPWR" "a_6719_6913#" 34.2922
+cap "a_6631_3101#" "ua[5]" 1653.1
+cap "3_OTA_0.OTA_vref_0.vb" "a_22654_21988#" 1483.36
+cap "3_OTA_0.3rd_3_OTA_0.vd3" "a_25461_23684#" 0.112313
+cap "a_24889_22946#" "3_OTA_0.OTA_stage1_0.vd1" 26334
+cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" "a_3013_4521#" 2298.43
+cap "a_18163_10306#" "VDPWR" 19299.7
+cap "3_OTA_0.OTA_vref_0.vb1" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" 6.42227
+cap "a_6631_5681#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" 11.6105
+cap "VDPWR" "3_OTA_0.OTA_vref_0.vb" 434.712
+cap "a_6719_4333#" "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 0.158017
+cap "3_OTA_0.3rd_3_OTA_0.vd4" "3_OTA_0.OTA_vref_0.vb" 5.66648
+cap "a_6719_4333#" "a_6719_5623#" 36.3535
+cap "VDPWR" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 11377.9
+cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" "a_6631_3101#" 367.242
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "3_OTA_0.OTA_vref_0.vb1" 0.615402
+cap "a_15996_17227#" "3_OTA_0.OTA_vref_0.vb1" 34.2287
+cap "3_OTA_0.OTA_stage1_0.vd1" "ua[0]" 367.637
+cap "a_15996_19807#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" 11.3153
+cap "a_12564_25551#" "3_OTA_0.OTA_stage1_0.vd1" 5595.77
+cap "3_OTA_0.3rd_3_OTA_0.vd3" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 1.58653
+cap "a_12378_15906#" "a_15996_21097#" 2.3886
+cap "VDPWR" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" 30.2239
+cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" 16257
+cap "a_21048_25880#" "a_25461_23684#" 61.0254
+cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" "a_6719_5623#" 1.6185
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_15996_19807#" 7.17626
+cap "a_24889_22946#" "a_22654_21988#" 18.5848
+cap "a_12564_25551#" "3_OTA_0.OTA_vref_0.vb1" 3373.17
+cap "a_24889_22946#" "VDPWR" 307.957
+cap "VDPWR" "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" 512.021
+cap "a_6631_5681#" "a_6631_6971#" 154.705
+cap "VDPWR" "a_15996_17227#" 327.8
+cap "a_12378_15906#" "3_OTA_0.OTA_vref_0.vb1" 0.229994
+cap "3_OTA_0.OTA_vref_0.vb" "a_21048_27042#" 23.9906
+cap "ua[2]" "ua[3]" 5690.43
+cap "3_OTA_0.OTA_stage1_0.vd2" "a_3537_27009#" 17.0337
+cap "a_6631_5681#" "a_6631_4391#" 154.516
+cap "a_16084_20007#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 8.03715
+cap "ua[3]" "a_18046_7223#" 1474.82
+cap "a_22654_21988#" "ua[0]" 4.16765
+cap "ua[2]" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" 36.575
+cap "3_OTA_0.OTA_stage1_0.vd2" "3_OTA_0.OTA_vref_0.vb" 9.05628
+cap "a_15996_18517#" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" 10.9908
+cap "3_OTA_0.OTA_vref_0.vb" "a_3537_27009#" 443.825
+cap "a_16084_17427#" "3_OTA_0.OTA_vref_0.vb1" 56.2354
+cap "VDPWR" "ua[0]" 3176.09
+cap "a_12564_25551#" "VDPWR" 6187.65
+cap "a_15996_19807#" "a_12378_15906#" 4.72909
+cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_6631_6971#" 24.2921
+cap "a_25461_23684#" "3_OTA_0.OTA_stage1_0.vd1" 11.9925
+cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" "ua[5]" 174.409
+cap "3_OTA_0.3rd_3_OTA_0.vd3" "a_21048_25880#" 1539.15
+cap "a_12564_25551#" "3_OTA_0.3rd_3_OTA_0.vd4" 1213.41
+cap "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" "a_6719_6913#" 8.04893
+cap "a_6719_5623#" "a_6631_6971#" 0.103799
+cap "a_6631_5681#" "a_3013_4521#" 1.64578
+cap "ua[3]" "ua[1]" 784.618
+cap "a_6719_4333#" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0" 1.29346
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_15996_18517#" 9.52407
+cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_6631_4391#" 5.85433
+cap "a_15996_17227#" "a_15996_18517#" 154.705
+cap "a_6631_4391#" "a_6719_5623#" 98.7719
+cap "ua[3]" "3_OTA_0.OTA_stage1_0.vd1" 784.618
+cap "a_6631_5681#" "VDPWR" 318.904
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" "a_15996_21097#" 368.863
+cap "VDPWR" "a_16084_17427#" 34.2922
+cap "3_OTA_0.OTA_vref_0.vb" "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0" 0.432071
+cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_3013_4521#" 17151
+cap "3_OTA_0.3rd_3_OTA_0.vd3" "a_15996_21097#" 1.34652
+cap "a_6719_5623#" "a_3013_4521#" 0.0576186
+cap "a_25461_23684#" "a_22654_21988#" 16.9744
+cap "ua[2]" "a_18046_7223#" 1681.31
+cap "a_12378_15906#" "a_15996_18517#" 2.41062
+cap "ua[0]" "a_21048_27042#" 56.3426
+cap "3_OTA_0.3rd_3_OTA_0.vd3" "3_OTA_0.OTA_stage1_0.vd1" 1228.86
+cap "a_24889_22946#" "3_OTA_0.OTA_vref_0.vb" 22.4181
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "3_OTA_0.OTA_vref_0.vb" 6.31503
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" "3_OTA_0.OTA_vref_0.vb1" 62.5935
+cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "VDPWR" 504.763
+cap "VDPWR" "a_25461_23684#" 836.592
+cap "BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter" "a_6631_3101#" 0.506949
+cap "VDPWR" "a_6719_5623#" 34.4932
+cap "ua[3]" "ua[4]" 734.728
+cap "a_25461_23684#" "3_OTA_0.3rd_3_OTA_0.vd4" 0.0115345
+cap "a_12564_25551#" "3_OTA_0.OTA_stage1_0.vd2" 5419.65
+cap "a_16084_17427#" "a_15996_18517#" 97.5924
+cap "a_6719_4333#" "a_6631_4391#" 1530.05
+cap "3_OTA_0.3rd_3_OTA_0.vd3" "3_OTA_0.OTA_vref_0.vb1" 316.815
+cap "ua[2]" "ua[1]" 138.779
+cap "3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr" "a_15996_19807#" 334.808
+cap "VDPWR" "ua[3]" 335.831
+cap "a_16084_20007#" "a_15996_21097#" 100.61
 device csubckt sky130_fd_pr__cap_mim_m3_1 24443 18992 24444 18993 w=3400 l=3400 "None" "a_24889_22946#" 13280 0 "3_OTA_0.OTA_stage1_0.vd1" 0 20975924,56592
 device csubckt sky130_fd_pr__cap_mim_m3_1 16604 28966 16605 28967 w=2000 l=2000 "None" "3_OTA_0.3rd_3_OTA_0.vd4" 7680 0 "3_OTA_0.OTA_stage1_0.vd1" 0 20975924,56592
 device msubckt sky130_fd_pr__pfet_01v8_lvt 7506 3036 7507 3037 l=400 w=200 "VDPWR" "BGR_BJT_vref_0.BGR_BJT_stage2_0.vr" 800 0 "ua[5]" 200 11600,516 "VDPWR" 200 11600,516

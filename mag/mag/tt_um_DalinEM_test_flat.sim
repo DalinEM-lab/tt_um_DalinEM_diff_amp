@@ -219,41 +219,41 @@ x 3_OTA_0.3rd_3_OTA_0.vd3 3_OTA_0.3rd_3_OTA_0.vd4 VGND VGND s=17400,716 d=8700,3
 x a_6631_3101# ua[5] a_6719_4333# VGND s=5800,258 d=5800,258 l=200 w=200 x=6719 y=4133 sky130_fd_pr__nfet_01v8_lvt
 x BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0 a_3013_4521# VGND s=23200,858 d=23200,858 l=200 w=800 x=4582 y=5037 sky130_fd_pr__nfet_01v8_lvt
 C a_3013_4521# BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter 17.2
-C a_12378_15906# 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0 4.9
-C 3_OTA_0.OTA_stage1_0.vd2 3_OTA_0.OTA_stage1_0.vd1 9.5
-C 3_OTA_0.OTA_stage1_0.vd1 VDPWR 8.4
-C ua[1] VDPWR 2.5
-C a_12378_15906# 3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter 17.2
-C 3_OTA_0.3rd_3_OTA_0.vd4 3_OTA_0.OTA_stage1_0.vd1 15.8
-C 3_OTA_0.OTA_stage1_0.vd2 VDPWR 23.2
-C VDPWR a_21048_27042# 12.1
-C a_12378_15906# 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr 2.3
-C BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0 BGR_BJT_vref_0.BGR_BJT_stage2_0.vr 2.2
-C VDPWR 3_OTA_0.OTA_vref_0.vb1 8.3
-C a_24889_22946# 3_OTA_0.OTA_stage1_0.vd1 26.3
-C a_12564_25551# 3_OTA_0.OTA_stage1_0.vd1 5.6
-C 3_OTA_0.OTA_stage1_0.vd2 a_12564_25551# 5.4
-C 3_OTA_0.3rd_3_OTA_0.vd4 VDPWR 4.4
-C a_12564_25551# 3_OTA_0.OTA_vref_0.vb1 3.4
-C a_3013_4521# BGR_BJT_vref_0.BGR_BJT_stage2_0.vr 2.3
-C a_21048_25880# a_21048_27042# 8.3
+C VDPWR 3_OTA_0.OTA_stage1_0.vd1 8.4
 C ua[1] a_18163_10306# 7.0
-C a_12564_25551# VDPWR 6.2
-C a_21048_25880# VDPWR 11.9
-C a_3013_4521# BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0 4.9
-C VDPWR 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr 11.4
-C ua[2] ua[3] 5.7
-C 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0 3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter 16.3
-C BGR_BJT_vref_0.BGR_BJT_stage2_0.vr BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter 9.3
-C VDPWR a_18163_10306# 19.3
-C 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr 2.2
-C BGR_BJT_vref_0.BGR_BJT_stage2_0.vr VDPWR 11.4
-C 3_OTA_0.OTA_stage1_0.vd2 3_OTA_0.3rd_3_OTA_0.vd3 6.3
-C BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0 BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter 16.3
-C 3_OTA_0.3rd_3_OTA_0.vd3 VDPWR 4.6
-C VDPWR ua[0] 3.2
+C a_12564_25551# 3_OTA_0.OTA_stage1_0.vd1 5.6
+C a_24889_22946# 3_OTA_0.OTA_stage1_0.vd1 26.3
 C 3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr 9.3
+C BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0 BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter 16.3
 C 3_OTA_0.3rd_3_OTA_0.vd3 3_OTA_0.3rd_3_OTA_0.vd4 9.5
+C 3_OTA_0.OTA_stage1_0.vd2 VDPWR 23.2
+C a_12378_15906# 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr 2.3
+C 3_OTA_0.OTA_vref_0.vb1 VDPWR 8.3
+C a_12564_25551# 3_OTA_0.OTA_stage1_0.vd2 5.4
+C a_12564_25551# 3_OTA_0.OTA_vref_0.vb1 3.4
+C VDPWR a_18163_10306# 19.3
+C 3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter a_12378_15906# 17.2
+C a_21048_25880# a_21048_27042# 8.5
+C 3_OTA_0.OTA_stage1_0.vd2 3_OTA_0.OTA_stage1_0.vd1 9.5
+C BGR_BJT_vref_0.BGR_BJT_stage2_0.vr BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter 9.3
+C VDPWR 3_OTA_0.3rd_3_OTA_0.vd3 4.6
+C VDPWR 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr 11.4
+C ua[1] VDPWR 2.5
+C ua[3] ua[2] 5.7
+C a_3013_4521# BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0 4.9
+C VDPWR BGR_BJT_vref_0.BGR_BJT_stage2_0.vr 11.4
+C VDPWR a_21048_27042# 12.1
+C 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vr 2.2
+C VDPWR 3_OTA_0.3rd_3_OTA_0.vd4 4.4
+C a_3013_4521# BGR_BJT_vref_0.BGR_BJT_stage2_0.vr 2.3
+C VDPWR a_21048_25880# 12.0
+C 3_OTA_0.OTA_vref_0.OTA_vref_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Emitter 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0 16.3
+C 3_OTA_0.OTA_stage1_0.vd1 3_OTA_0.3rd_3_OTA_0.vd4 15.8
+C 3_OTA_0.OTA_stage1_0.vd2 3_OTA_0.3rd_3_OTA_0.vd3 6.3
+C 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vref0 a_12378_15906# 4.9
+C VDPWR ua[0] 3.2
+C a_12564_25551# VDPWR 6.2
+C BGR_BJT_vref_0.BGR_BJT_stage2_0.vref0 BGR_BJT_vref_0.BGR_BJT_stage2_0.vr 2.2
 C ua[4]0 8.9
 R ua[4] 847
 = ua[4] diff_final_v0_0.vb
@@ -270,16 +270,20 @@ R ua[0] 2664
 = ua[0] 3_OTA_0.vo3
 C ua[3]0 47.1
 R ua[3] 8169
+= ua[3] diff_final_v0_0.vin_n
 = ua[3] 3_OTA_0.OTA_stage1_0.vin_n
 = ua[3] 3_OTA_0.vin_n
-= ua[3] diff_final_v0_0.vin_n
 C ua[2]0 46.3
 R ua[2] 8169
+= ua[2] diff_final_v0_0.vin_p
 = ua[2] 3_OTA_0.OTA_stage1_0.vin_p
 = ua[2] 3_OTA_0.vin_p
-= ua[2] diff_final_v0_0.vin_p
-C VDPWR0 323.4
+C VDPWR0 323.8
 R VDPWR 482854
+= VDPWR BGR_BJT_vref_0.BGR_BJT_stage1_0.vcc
+= VDPWR BGR_BJT_vref_0.BGR_BJT_stage2_0.vcc
+= VDPWR BGR_BJT_vref_0.vcc
+= VDPWR diff_final_v0_0.vcc
 = VDPWR 3_OTA_0.2nd_3_OTA_0.vcc
 = VDPWR 3_OTA_0.3rd_3_OTA_0.vcc
 = VDPWR 3_OTA_0.OTA_stage1_0.vcc
@@ -287,11 +291,13 @@ R VDPWR 482854
 = VDPWR 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vcc
 = VDPWR 3_OTA_0.OTA_vref_0.vcc
 = VDPWR 3_OTA_0.vcc
-= VDPWR BGR_BJT_vref_0.BGR_BJT_stage1_0.vcc
-= VDPWR BGR_BJT_vref_0.BGR_BJT_stage2_0.vcc
-= VDPWR BGR_BJT_vref_0.vcc
-= VDPWR diff_final_v0_0.vcc
 R VGND 854858
+= VGND BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Base
+= VGND BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Collector
+= VGND BGR_BJT_vref_0.BGR_BJT_stage1_0.vss
+= VGND BGR_BJT_vref_0.BGR_BJT_stage2_0.vss
+= VGND BGR_BJT_vref_0.vss
+= VGND diff_final_v0_0.vss
 = VGND 3_OTA_0.2nd_3_OTA_0.vss
 = VGND 3_OTA_0.3rd_3_OTA_0.vss
 = VGND 3_OTA_0.OTA_stage1_0.vss
@@ -301,12 +307,6 @@ R VGND 854858
 = VGND 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vss
 = VGND 3_OTA_0.OTA_vref_0.vss
 = VGND 3_OTA_0.vss
-= VGND BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Base
-= VGND BGR_BJT_vref_0.BGR_BJT_stage1_0.sky130_fd_pr__rf_pnp_05v5_W3p40L3p40_0.Collector
-= VGND BGR_BJT_vref_0.BGR_BJT_stage1_0.vss
-= VGND BGR_BJT_vref_0.BGR_BJT_stage2_0.vss
-= VGND BGR_BJT_vref_0.vss
-= VGND diff_final_v0_0.vss
 C a_18046_7223#0 3.5
 R a_18046_7223# 7910
 C a_6631_3101#0 3.7
@@ -356,26 +356,26 @@ R a_25321_22946# 5943
 C a_24889_22946#0 2.6
 R a_24889_22946# 189
 R a_25461_23684# 3982
-C a_22654_21988#0 5.8
+C a_22654_21988#0 5.4
 R a_22654_21988# 12673
-C a_21048_25880#0 8.9
-R a_21048_25880# 15827
-C a_21048_27042#0 9.2
-R a_21048_27042# 15826
+C a_21048_25880#0 8.3
+R a_21048_25880# 15807
+C a_21048_27042#0 8.9
+R a_21048_27042# 15806
 C 3_OTA_0.OTA_vref_0.vb10 6.7
 R 3_OTA_0.OTA_vref_0.vb1 4619
 = 3_OTA_0.OTA_vref_0.vb1 3_OTA_0.2nd_3_OTA_0.vb1
 = 3_OTA_0.OTA_vref_0.vb1 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vb1
-C 3_OTA_0.3rd_3_OTA_0.vd30 48.6
+C 3_OTA_0.3rd_3_OTA_0.vd30 48.5
 R 3_OTA_0.3rd_3_OTA_0.vd3 49327
 = 3_OTA_0.3rd_3_OTA_0.vd3 3_OTA_0.2nd_3_OTA_0.vd3
 C a_12564_25551#0 7.4
 R a_12564_25551# 63761
 C 3_OTA_0.3rd_3_OTA_0.vd40 17.8
-R 3_OTA_0.3rd_3_OTA_0.vd4 39880
+R 3_OTA_0.3rd_3_OTA_0.vd4 39872
 = 3_OTA_0.3rd_3_OTA_0.vd4 3_OTA_0.2nd_3_OTA_0.vd4
-C 3_OTA_0.OTA_vref_0.vb0 18.3
-R 3_OTA_0.OTA_vref_0.vb 4934
+C 3_OTA_0.OTA_vref_0.vb0 19.1
+R 3_OTA_0.OTA_vref_0.vb 4935
 = 3_OTA_0.OTA_vref_0.vb 3_OTA_0.3rd_3_OTA_0.vb
 = 3_OTA_0.OTA_vref_0.vb 3_OTA_0.OTA_stage1_0.vb
 = 3_OTA_0.OTA_vref_0.vb 3_OTA_0.OTA_vref_0.OTA_vref_stage2_0.vb

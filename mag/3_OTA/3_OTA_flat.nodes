@@ -19,11 +19,11 @@ a_11847_n1701# 11847 -1700 p
 a_9040_n3397# 9040 -3396 ndif
 a_7434_495# 7434 495 pdif
 a_7434_1657# 7434 1657 pdif
-2nd_3_OTA_0.vb1 2470 -6667 ndif
-2nd_3_OTA_0.vd3 -1487 166 pdif
+OTA_vref_0.vb1 2470 -6667 ndif
+3rd_3_OTA_0.vd3 -1487 166 pdif
 a_n1050_166# -1049 166 pdif
-2nd_3_OTA_0.vd4 -1487 4143 pdif
-OTA_vref_0.vb -10164 624 p
+3rd_3_OTA_0.vd4 -1487 4143 pdif
+3rd_3_OTA_0.vb -10164 624 p
 a_n10077_1624# -10076 1624 ndif
-2nd_3_OTA_0.vd1 -9959 4219 pdif
-2nd_3_OTA_0.vd2 -9959 4707 pdif
+3rd_3_OTA_0.vd1 -9959 4219 pdif
+OTA_stage1_0.vd2 -9959 4707 pdif
